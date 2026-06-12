@@ -35,6 +35,17 @@ $env:UPDATE_TOKEN="change-me"
 
 `.github/workflows/update-calendar.yml` 已配置每天北京时间 12:00 自动运行。
 
+## 新建 GitHub 仓库并推送
+
+当前目录已经是 Git 仓库。由于本机没有安装 `gh` 命令行，自动创建 GitHub 项目需要你先在 GitHub 网页中新建一个空仓库，然后运行：
+
+```powershell
+git remote add origin https://github.com/<your-name>/<repo-name>.git
+git push -u origin main
+```
+
+第一次推送后，GitHub Actions 会自动生成 `public/worldcup-2026.ics` 和 `public/matches.json`。
+
 在 GitHub 仓库里启用 Pages：
 
 1. 打开 `Settings -> Pages`
