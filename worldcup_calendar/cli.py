@@ -12,6 +12,7 @@ from urllib.parse import parse_qs, urlparse
 from .ics import render_calendar
 from .models import Match
 from .sources import fetch_matches
+from .team_names import display_team_name
 
 DEFAULT_OUTPUT = Path("public/worldcup-2026.ics")
 DEFAULT_JSON = Path("public/matches.json")
@@ -136,4 +137,7 @@ def serve_calendar(
 def _match_dict(match: Match) -> dict[str, object]:
     data = asdict(match)
     data["starts_at_beijing"] = match.starts_at_beijing.isoformat()
+    data["home_display"] = display_team_name(match.home)
+    data["away_display"] = display_team_name(match.away)
+    data["title_display"] = match.title
     return data

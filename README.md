@@ -21,8 +21,8 @@ Public ICS calendar for the 2026 FIFA World Cup. Match times are converted to Be
 每场比赛会生成一个日历事件，包含：
 
 - 比赛时间：北京时间 `Asia/Shanghai`
-- 比赛标题：参赛队伍
-- 完赛后标题：参赛队伍和比分，例如 `Mexico 2-0 South Africa`
+- 比赛标题：参赛队伍，格式为 `中文（English）`
+- 完赛后标题：参赛队伍和比分，例如 `墨西哥（Mexico） 2-0 南非（South Africa）`
 - 描述信息：阶段/小组、比赛状态、比赛场地、数据来源
 - 完赛后描述：进球队员和进球时间，取决于公开数据源是否已经更新
 - 地点信息：球场和城市
@@ -35,6 +35,25 @@ public/matches.json
 ```
 
 `worldcup-2026.ics` 用于日历订阅，`matches.json` 用于查看结构化赛程数据或调试。
+
+### 队名显示格式
+
+日历事件标题会使用中文加英文原名的格式：
+
+```text
+墨西哥（Mexico） vs 南非（South Africa）
+墨西哥（Mexico） 2-0 南非（South Africa）
+```
+
+淘汰赛占位队伍也会转换为中文说明：
+
+```text
+A组第一名（Winner Group A）
+A组第二名（Runner-up Group A）
+A组/B组/C组第三名（3rd Group A/B/C）
+```
+
+`matches.json` 会保留原始英文队名，同时增加 `home_display`、`away_display` 和 `title_display` 字段。
 
 ### 数据来源
 
@@ -111,6 +130,17 @@ http://your-server:8080/worldcup-2026.ics
 - 支持手动运行 `workflow_dispatch`
 - 生成并提交 `public/worldcup-2026.ics` 和 `public/matches.json`
 
+自动更新流程如下：
+
+1. GitHub Actions 按定时任务启动。
+2. 拉取仓库最新代码。
+3. 设置 Python 3.12 环境。
+4. 运行 `python -m worldcup_calendar update`。
+5. 程序重新抓取公开赛程页面并生成 ICS/JSON。
+6. 如果文件内容发生变化，工作流会自动提交到 `main` 分支。
+
+正常情况下不需要每天手动处理。你只需要一次性启用 GitHub Pages，并把 `.ics` 地址添加到日历应用。之后赛程、比分和进球信息会随每天更新自动同步。
+
 ### GitHub Pages 发布
 
 推送到 GitHub 后，可以通过 GitHub Pages 提供公开订阅地址：
@@ -186,8 +216,8 @@ All kickoff times are converted to Beijing time (`Asia/Shanghai`). The repositor
 Each match is rendered as one calendar event with:
 
 - Kickoff time in Beijing time
-- Match teams
-- Score in the event title when available
+- Match teams in `Chinese（English）` format
+- Score in the event title when available, for example `墨西哥（Mexico） 2-0 南非（South Africa）`
 - Stage/group and match status
 - Venue and city
 - Source URL
@@ -201,6 +231,25 @@ public/matches.json
 ```
 
 Use `worldcup-2026.ics` for calendar subscription. Use `matches.json` for structured data inspection or debugging.
+
+### Team Name Format
+
+Calendar event summaries use Chinese names with the original English names in parentheses:
+
+```text
+墨西哥（Mexico） vs 南非（South Africa）
+墨西哥（Mexico） 2-0 南非（South Africa）
+```
+
+Knockout placeholders are also localized:
+
+```text
+A组第一名（Winner Group A）
+A组第二名（Runner-up Group A）
+A组/B组/C组第三名（3rd Group A/B/C）
+```
+
+`matches.json` keeps the raw English names and adds `home_display`, `away_display`, and `title_display` fields.
 
 ### Data Source
 
@@ -272,6 +321,17 @@ The workflow in `.github/workflows/update-calendar.yml`:
 - Equals 12:00 Beijing time
 - Supports manual dispatch
 - Regenerates and commits `public/worldcup-2026.ics` and `public/matches.json`
+
+Update flow:
+
+1. GitHub Actions starts on schedule.
+2. It checks out the latest repository code.
+3. It sets up Python 3.12.
+4. It runs `python -m worldcup_calendar update`.
+5. The script fetches the public schedule source and regenerates ICS/JSON files.
+6. If generated files changed, the workflow commits them back to `main`.
+
+You do not need daily manual work. Enable GitHub Pages once and subscribe to the `.ics` URL once. After that, scores and goal information update automatically when the source data changes and the workflow runs.
 
 ### Publish with GitHub Pages
 

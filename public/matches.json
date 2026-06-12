@@ -25,7 +25,10 @@
         "note": ""
       }
     ],
-    "raw_title": "Mexico v South Africa"
+    "raw_title": "Mexico v South Africa",
+    "home_display": "墨西哥（Mexico）",
+    "away_display": "南非（South Africa）",
+    "title_display": "墨西哥（Mexico） 2-0 南非（South Africa）"
   },
   {
     "match_id": "X202606121000-SouthKorea-CzechRepubli-002",
@@ -51,15 +54,12 @@
         "player": "Oh Hyeon-gyu",
         "minute": "80'",
         "note": ""
-      },
-      {
-        "team": "Czech Republic",
-        "player": "Krejčí",
-        "minute": "59'",
-        "note": ""
       }
     ],
-    "raw_title": "South Korea v Czech Republic"
+    "raw_title": "South Korea v Czech Republic",
+    "home_display": "韩国（South Korea）",
+    "away_display": "捷克（Czech Republic）",
+    "title_display": "韩国（South Korea） 2-1 捷克（Czech Republic）"
   },
   {
     "match_id": "M003",
@@ -74,7 +74,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Canada v Bosnia and Herzegovina"
+    "raw_title": "Canada v Bosnia and Herzegovina",
+    "home_display": "加拿大（Canada）",
+    "away_display": "波黑（Bosnia and Herzegovina）",
+    "title_display": "加拿大（Canada） vs 波黑（Bosnia and Herzegovina）"
   },
   {
     "match_id": "M004",
@@ -89,7 +92,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "United States v Paraguay"
+    "raw_title": "United States v Paraguay",
+    "home_display": "美国（United States）",
+    "away_display": "巴拉圭（Paraguay）",
+    "title_display": "美国（United States） vs 巴拉圭（Paraguay）"
   },
   {
     "match_id": "M008",
@@ -104,7 +110,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Qatar v Switzerland"
+    "raw_title": "Qatar v Switzerland",
+    "home_display": "卡塔尔（Qatar）",
+    "away_display": "瑞士（Switzerland）",
+    "title_display": "卡塔尔（Qatar） vs 瑞士（Switzerland）"
   },
   {
     "match_id": "M007",
@@ -119,7 +128,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Brazil v Morocco"
+    "raw_title": "Brazil v Morocco",
+    "home_display": "巴西（Brazil）",
+    "away_display": "摩洛哥（Morocco）",
+    "title_display": "巴西（Brazil） vs 摩洛哥（Morocco）"
   },
   {
     "match_id": "M005",
@@ -134,7 +146,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Haiti v Scotland"
+    "raw_title": "Haiti v Scotland",
+    "home_display": "海地（Haiti）",
+    "away_display": "苏格兰（Scotland）",
+    "title_display": "海地（Haiti） vs 苏格兰（Scotland）"
   },
   {
     "match_id": "M006",
@@ -149,7 +164,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Australia v Turkey"
+    "raw_title": "Australia v Turkey",
+    "home_display": "澳大利亚（Australia）",
+    "away_display": "土耳其（Turkey）",
+    "title_display": "澳大利亚（Australia） vs 土耳其（Turkey）"
   },
   {
     "match_id": "M010",
@@ -164,7 +182,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Germany v Curaçao"
+    "raw_title": "Germany v Curaçao",
+    "home_display": "德国（Germany）",
+    "away_display": "库拉索（Curaçao）",
+    "title_display": "德国（Germany） vs 库拉索（Curaçao）"
   },
   {
     "match_id": "M011",
@@ -179,7 +200,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Netherlands v Japan"
+    "raw_title": "Netherlands v Japan",
+    "home_display": "荷兰（Netherlands）",
+    "away_display": "日本（Japan）",
+    "title_display": "荷兰（Netherlands） vs 日本（Japan）"
   },
   {
     "match_id": "M009",
@@ -194,7 +218,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Ivory Coast v Ecuador"
+    "raw_title": "Ivory Coast v Ecuador",
+    "home_display": "科特迪瓦（Ivory Coast）",
+    "away_display": "厄瓜多尔（Ecuador）",
+    "title_display": "科特迪瓦（Ivory Coast） vs 厄瓜多尔（Ecuador）"
   },
   {
     "match_id": "M012",
@@ -209,7 +236,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Sweden v Tunisia"
+    "raw_title": "Sweden v Tunisia",
+    "home_display": "瑞典（Sweden）",
+    "away_display": "突尼斯（Tunisia）",
+    "title_display": "瑞典（Sweden） vs 突尼斯（Tunisia）"
   },
   {
     "match_id": "M014",
@@ -224,7 +254,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Spain v Cape Verde"
+    "raw_title": "Spain v Cape Verde",
+    "home_display": "西班牙（Spain）",
+    "away_display": "佛得角（Cape Verde）",
+    "title_display": "西班牙（Spain） vs 佛得角（Cape Verde）"
   },
   {
     "match_id": "M016",
@@ -239,7 +272,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Belgium v Egypt"
+    "raw_title": "Belgium v Egypt",
+    "home_display": "比利时（Belgium）",
+    "away_display": "埃及（Egypt）",
+    "title_display": "比利时（Belgium） vs 埃及（Egypt）"
   },
   {
     "match_id": "M013",
@@ -254,7 +290,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Saudi Arabia v Uruguay"
+    "raw_title": "Saudi Arabia v Uruguay",
+    "home_display": "沙特阿拉伯（Saudi Arabia）",
+    "away_display": "乌拉圭（Uruguay）",
+    "title_display": "沙特阿拉伯（Saudi Arabia） vs 乌拉圭（Uruguay）"
   },
   {
     "match_id": "M015",
@@ -269,7 +308,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Iran v New Zealand"
+    "raw_title": "Iran v New Zealand",
+    "home_display": "伊朗（Iran）",
+    "away_display": "新西兰（New Zealand）",
+    "title_display": "伊朗（Iran） vs 新西兰（New Zealand）"
   },
   {
     "match_id": "M017",
@@ -284,7 +326,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "France v Senegal"
+    "raw_title": "France v Senegal",
+    "home_display": "法国（France）",
+    "away_display": "塞内加尔（Senegal）",
+    "title_display": "法国（France） vs 塞内加尔（Senegal）"
   },
   {
     "match_id": "M018",
@@ -299,7 +344,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Iraq v Norway"
+    "raw_title": "Iraq v Norway",
+    "home_display": "伊拉克（Iraq）",
+    "away_display": "挪威（Norway）",
+    "title_display": "伊拉克（Iraq） vs 挪威（Norway）"
   },
   {
     "match_id": "M019",
@@ -314,7 +362,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Argentina v Algeria"
+    "raw_title": "Argentina v Algeria",
+    "home_display": "阿根廷（Argentina）",
+    "away_display": "阿尔及利亚（Algeria）",
+    "title_display": "阿根廷（Argentina） vs 阿尔及利亚（Algeria）"
   },
   {
     "match_id": "M020",
@@ -329,7 +380,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Austria v Jordan"
+    "raw_title": "Austria v Jordan",
+    "home_display": "奥地利（Austria）",
+    "away_display": "约旦（Jordan）",
+    "title_display": "奥地利（Austria） vs 约旦（Jordan）"
   },
   {
     "match_id": "M023",
@@ -344,7 +398,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Portugal v DR Congo"
+    "raw_title": "Portugal v DR Congo",
+    "home_display": "葡萄牙（Portugal）",
+    "away_display": "刚果民主共和国（DR Congo）",
+    "title_display": "葡萄牙（Portugal） vs 刚果民主共和国（DR Congo）"
   },
   {
     "match_id": "M022",
@@ -359,7 +416,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "England v Croatia"
+    "raw_title": "England v Croatia",
+    "home_display": "英格兰（England）",
+    "away_display": "克罗地亚（Croatia）",
+    "title_display": "英格兰（England） vs 克罗地亚（Croatia）"
   },
   {
     "match_id": "M021",
@@ -374,7 +434,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Ghana v Panama"
+    "raw_title": "Ghana v Panama",
+    "home_display": "加纳（Ghana）",
+    "away_display": "巴拿马（Panama）",
+    "title_display": "加纳（Ghana） vs 巴拿马（Panama）"
   },
   {
     "match_id": "M024",
@@ -389,7 +452,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Uzbekistan v Colombia"
+    "raw_title": "Uzbekistan v Colombia",
+    "home_display": "乌兹别克斯坦（Uzbekistan）",
+    "away_display": "哥伦比亚（Colombia）",
+    "title_display": "乌兹别克斯坦（Uzbekistan） vs 哥伦比亚（Colombia）"
   },
   {
     "match_id": "M025",
@@ -404,7 +470,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Czech Republic v South Africa"
+    "raw_title": "Czech Republic v South Africa",
+    "home_display": "捷克（Czech Republic）",
+    "away_display": "南非（South Africa）",
+    "title_display": "捷克（Czech Republic） vs 南非（South Africa）"
   },
   {
     "match_id": "M026",
@@ -419,7 +488,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Switzerland v Bosnia and Herzegovina"
+    "raw_title": "Switzerland v Bosnia and Herzegovina",
+    "home_display": "瑞士（Switzerland）",
+    "away_display": "波黑（Bosnia and Herzegovina）",
+    "title_display": "瑞士（Switzerland） vs 波黑（Bosnia and Herzegovina）"
   },
   {
     "match_id": "M027",
@@ -434,7 +506,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Canada v Qatar"
+    "raw_title": "Canada v Qatar",
+    "home_display": "加拿大（Canada）",
+    "away_display": "卡塔尔（Qatar）",
+    "title_display": "加拿大（Canada） vs 卡塔尔（Qatar）"
   },
   {
     "match_id": "M028",
@@ -449,7 +524,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Mexico v South Korea"
+    "raw_title": "Mexico v South Korea",
+    "home_display": "墨西哥（Mexico）",
+    "away_display": "韩国（South Korea）",
+    "title_display": "墨西哥（Mexico） vs 韩国（South Korea）"
   },
   {
     "match_id": "M032",
@@ -464,7 +542,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "United States v Australia"
+    "raw_title": "United States v Australia",
+    "home_display": "美国（United States）",
+    "away_display": "澳大利亚（Australia）",
+    "title_display": "美国（United States） vs 澳大利亚（Australia）"
   },
   {
     "match_id": "M030",
@@ -479,7 +560,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Scotland v Morocco"
+    "raw_title": "Scotland v Morocco",
+    "home_display": "苏格兰（Scotland）",
+    "away_display": "摩洛哥（Morocco）",
+    "title_display": "苏格兰（Scotland） vs 摩洛哥（Morocco）"
   },
   {
     "match_id": "M029",
@@ -494,7 +578,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Brazil v Haiti"
+    "raw_title": "Brazil v Haiti",
+    "home_display": "巴西（Brazil）",
+    "away_display": "海地（Haiti）",
+    "title_display": "巴西（Brazil） vs 海地（Haiti）"
   },
   {
     "match_id": "M031",
@@ -509,7 +596,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Turkey v Paraguay"
+    "raw_title": "Turkey v Paraguay",
+    "home_display": "土耳其（Turkey）",
+    "away_display": "巴拉圭（Paraguay）",
+    "title_display": "土耳其（Turkey） vs 巴拉圭（Paraguay）"
   },
   {
     "match_id": "M035",
@@ -524,7 +614,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Netherlands v Sweden"
+    "raw_title": "Netherlands v Sweden",
+    "home_display": "荷兰（Netherlands）",
+    "away_display": "瑞典（Sweden）",
+    "title_display": "荷兰（Netherlands） vs 瑞典（Sweden）"
   },
   {
     "match_id": "M033",
@@ -539,7 +632,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Germany v Ivory Coast"
+    "raw_title": "Germany v Ivory Coast",
+    "home_display": "德国（Germany）",
+    "away_display": "科特迪瓦（Ivory Coast）",
+    "title_display": "德国（Germany） vs 科特迪瓦（Ivory Coast）"
   },
   {
     "match_id": "M034",
@@ -554,7 +650,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Ecuador v Curaçao"
+    "raw_title": "Ecuador v Curaçao",
+    "home_display": "厄瓜多尔（Ecuador）",
+    "away_display": "库拉索（Curaçao）",
+    "title_display": "厄瓜多尔（Ecuador） vs 库拉索（Curaçao）"
   },
   {
     "match_id": "M036",
@@ -569,7 +668,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Tunisia v Japan"
+    "raw_title": "Tunisia v Japan",
+    "home_display": "突尼斯（Tunisia）",
+    "away_display": "日本（Japan）",
+    "title_display": "突尼斯（Tunisia） vs 日本（Japan）"
   },
   {
     "match_id": "M038",
@@ -584,7 +686,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Spain v Saudi Arabia"
+    "raw_title": "Spain v Saudi Arabia",
+    "home_display": "西班牙（Spain）",
+    "away_display": "沙特阿拉伯（Saudi Arabia）",
+    "title_display": "西班牙（Spain） vs 沙特阿拉伯（Saudi Arabia）"
   },
   {
     "match_id": "M039",
@@ -599,7 +704,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Belgium v Iran"
+    "raw_title": "Belgium v Iran",
+    "home_display": "比利时（Belgium）",
+    "away_display": "伊朗（Iran）",
+    "title_display": "比利时（Belgium） vs 伊朗（Iran）"
   },
   {
     "match_id": "M037",
@@ -614,7 +722,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Uruguay v Cape Verde"
+    "raw_title": "Uruguay v Cape Verde",
+    "home_display": "乌拉圭（Uruguay）",
+    "away_display": "佛得角（Cape Verde）",
+    "title_display": "乌拉圭（Uruguay） vs 佛得角（Cape Verde）"
   },
   {
     "match_id": "M040",
@@ -629,7 +740,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "New Zealand v Egypt"
+    "raw_title": "New Zealand v Egypt",
+    "home_display": "新西兰（New Zealand）",
+    "away_display": "埃及（Egypt）",
+    "title_display": "新西兰（New Zealand） vs 埃及（Egypt）"
   },
   {
     "match_id": "M043",
@@ -644,7 +758,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Argentina v Austria"
+    "raw_title": "Argentina v Austria",
+    "home_display": "阿根廷（Argentina）",
+    "away_display": "奥地利（Austria）",
+    "title_display": "阿根廷（Argentina） vs 奥地利（Austria）"
   },
   {
     "match_id": "M042",
@@ -659,7 +776,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "France v Iraq"
+    "raw_title": "France v Iraq",
+    "home_display": "法国（France）",
+    "away_display": "伊拉克（Iraq）",
+    "title_display": "法国（France） vs 伊拉克（Iraq）"
   },
   {
     "match_id": "M041",
@@ -674,7 +794,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Norway v Senegal"
+    "raw_title": "Norway v Senegal",
+    "home_display": "挪威（Norway）",
+    "away_display": "塞内加尔（Senegal）",
+    "title_display": "挪威（Norway） vs 塞内加尔（Senegal）"
   },
   {
     "match_id": "M044",
@@ -689,7 +812,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Jordan v Algeria"
+    "raw_title": "Jordan v Algeria",
+    "home_display": "约旦（Jordan）",
+    "away_display": "阿尔及利亚（Algeria）",
+    "title_display": "约旦（Jordan） vs 阿尔及利亚（Algeria）"
   },
   {
     "match_id": "M047",
@@ -704,7 +830,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Portugal v Uzbekistan"
+    "raw_title": "Portugal v Uzbekistan",
+    "home_display": "葡萄牙（Portugal）",
+    "away_display": "乌兹别克斯坦（Uzbekistan）",
+    "title_display": "葡萄牙（Portugal） vs 乌兹别克斯坦（Uzbekistan）"
   },
   {
     "match_id": "M045",
@@ -719,7 +848,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "England v Ghana"
+    "raw_title": "England v Ghana",
+    "home_display": "英格兰（England）",
+    "away_display": "加纳（Ghana）",
+    "title_display": "英格兰（England） vs 加纳（Ghana）"
   },
   {
     "match_id": "M046",
@@ -734,7 +866,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Panama v Croatia"
+    "raw_title": "Panama v Croatia",
+    "home_display": "巴拿马（Panama）",
+    "away_display": "克罗地亚（Croatia）",
+    "title_display": "巴拿马（Panama） vs 克罗地亚（Croatia）"
   },
   {
     "match_id": "M048",
@@ -749,7 +884,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Colombia v DR Congo"
+    "raw_title": "Colombia v DR Congo",
+    "home_display": "哥伦比亚（Colombia）",
+    "away_display": "刚果民主共和国（DR Congo）",
+    "title_display": "哥伦比亚（Colombia） vs 刚果民主共和国（DR Congo）"
   },
   {
     "match_id": "M051",
@@ -764,7 +902,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Switzerland v Canada"
+    "raw_title": "Switzerland v Canada",
+    "home_display": "瑞士（Switzerland）",
+    "away_display": "加拿大（Canada）",
+    "title_display": "瑞士（Switzerland） vs 加拿大（Canada）"
   },
   {
     "match_id": "M052",
@@ -779,7 +920,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Bosnia and Herzegovina v Qatar"
+    "raw_title": "Bosnia and Herzegovina v Qatar",
+    "home_display": "波黑（Bosnia and Herzegovina）",
+    "away_display": "卡塔尔（Qatar）",
+    "title_display": "波黑（Bosnia and Herzegovina） vs 卡塔尔（Qatar）"
   },
   {
     "match_id": "M049",
@@ -794,7 +938,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Scotland v Brazil"
+    "raw_title": "Scotland v Brazil",
+    "home_display": "苏格兰（Scotland）",
+    "away_display": "巴西（Brazil）",
+    "title_display": "苏格兰（Scotland） vs 巴西（Brazil）"
   },
   {
     "match_id": "M050",
@@ -809,7 +956,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Morocco v Haiti"
+    "raw_title": "Morocco v Haiti",
+    "home_display": "摩洛哥（Morocco）",
+    "away_display": "海地（Haiti）",
+    "title_display": "摩洛哥（Morocco） vs 海地（Haiti）"
   },
   {
     "match_id": "M053",
@@ -824,7 +974,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Czech Republic v Mexico"
+    "raw_title": "Czech Republic v Mexico",
+    "home_display": "捷克（Czech Republic）",
+    "away_display": "墨西哥（Mexico）",
+    "title_display": "捷克（Czech Republic） vs 墨西哥（Mexico）"
   },
   {
     "match_id": "M054",
@@ -839,7 +992,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "South Africa v South Korea"
+    "raw_title": "South Africa v South Korea",
+    "home_display": "南非（South Africa）",
+    "away_display": "韩国（South Korea）",
+    "title_display": "南非（South Africa） vs 韩国（South Korea）"
   },
   {
     "match_id": "M055",
@@ -854,7 +1010,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Curaçao v Ivory Coast"
+    "raw_title": "Curaçao v Ivory Coast",
+    "home_display": "库拉索（Curaçao）",
+    "away_display": "科特迪瓦（Ivory Coast）",
+    "title_display": "库拉索（Curaçao） vs 科特迪瓦（Ivory Coast）"
   },
   {
     "match_id": "M056",
@@ -869,7 +1028,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Ecuador v Germany"
+    "raw_title": "Ecuador v Germany",
+    "home_display": "厄瓜多尔（Ecuador）",
+    "away_display": "德国（Germany）",
+    "title_display": "厄瓜多尔（Ecuador） vs 德国（Germany）"
   },
   {
     "match_id": "M057",
@@ -884,7 +1046,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Japan v Sweden"
+    "raw_title": "Japan v Sweden",
+    "home_display": "日本（Japan）",
+    "away_display": "瑞典（Sweden）",
+    "title_display": "日本（Japan） vs 瑞典（Sweden）"
   },
   {
     "match_id": "M058",
@@ -899,7 +1064,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Tunisia v Netherlands"
+    "raw_title": "Tunisia v Netherlands",
+    "home_display": "突尼斯（Tunisia）",
+    "away_display": "荷兰（Netherlands）",
+    "title_display": "突尼斯（Tunisia） vs 荷兰（Netherlands）"
   },
   {
     "match_id": "M059",
@@ -914,7 +1082,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Turkey v United States"
+    "raw_title": "Turkey v United States",
+    "home_display": "土耳其（Turkey）",
+    "away_display": "美国（United States）",
+    "title_display": "土耳其（Turkey） vs 美国（United States）"
   },
   {
     "match_id": "M060",
@@ -929,7 +1100,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Paraguay v Australia"
+    "raw_title": "Paraguay v Australia",
+    "home_display": "巴拉圭（Paraguay）",
+    "away_display": "澳大利亚（Australia）",
+    "title_display": "巴拉圭（Paraguay） vs 澳大利亚（Australia）"
   },
   {
     "match_id": "M061",
@@ -944,7 +1118,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Norway v France"
+    "raw_title": "Norway v France",
+    "home_display": "挪威（Norway）",
+    "away_display": "法国（France）",
+    "title_display": "挪威（Norway） vs 法国（France）"
   },
   {
     "match_id": "M062",
@@ -959,7 +1136,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Senegal v Iraq"
+    "raw_title": "Senegal v Iraq",
+    "home_display": "塞内加尔（Senegal）",
+    "away_display": "伊拉克（Iraq）",
+    "title_display": "塞内加尔（Senegal） vs 伊拉克（Iraq）"
   },
   {
     "match_id": "M065",
@@ -974,7 +1154,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Cape Verde v Saudi Arabia"
+    "raw_title": "Cape Verde v Saudi Arabia",
+    "home_display": "佛得角（Cape Verde）",
+    "away_display": "沙特阿拉伯（Saudi Arabia）",
+    "title_display": "佛得角（Cape Verde） vs 沙特阿拉伯（Saudi Arabia）"
   },
   {
     "match_id": "M066",
@@ -989,7 +1172,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Uruguay v Spain"
+    "raw_title": "Uruguay v Spain",
+    "home_display": "乌拉圭（Uruguay）",
+    "away_display": "西班牙（Spain）",
+    "title_display": "乌拉圭（Uruguay） vs 西班牙（Spain）"
   },
   {
     "match_id": "M063",
@@ -1004,7 +1190,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Egypt v Iran"
+    "raw_title": "Egypt v Iran",
+    "home_display": "埃及（Egypt）",
+    "away_display": "伊朗（Iran）",
+    "title_display": "埃及（Egypt） vs 伊朗（Iran）"
   },
   {
     "match_id": "M064",
@@ -1019,7 +1208,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "New Zealand v Belgium"
+    "raw_title": "New Zealand v Belgium",
+    "home_display": "新西兰（New Zealand）",
+    "away_display": "比利时（Belgium）",
+    "title_display": "新西兰（New Zealand） vs 比利时（Belgium）"
   },
   {
     "match_id": "M067",
@@ -1034,7 +1226,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Panama v England"
+    "raw_title": "Panama v England",
+    "home_display": "巴拿马（Panama）",
+    "away_display": "英格兰（England）",
+    "title_display": "巴拿马（Panama） vs 英格兰（England）"
   },
   {
     "match_id": "M068",
@@ -1049,7 +1244,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Croatia v Ghana"
+    "raw_title": "Croatia v Ghana",
+    "home_display": "克罗地亚（Croatia）",
+    "away_display": "加纳（Ghana）",
+    "title_display": "克罗地亚（Croatia） vs 加纳（Ghana）"
   },
   {
     "match_id": "M071",
@@ -1064,7 +1262,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Colombia v Portugal"
+    "raw_title": "Colombia v Portugal",
+    "home_display": "哥伦比亚（Colombia）",
+    "away_display": "葡萄牙（Portugal）",
+    "title_display": "哥伦比亚（Colombia） vs 葡萄牙（Portugal）"
   },
   {
     "match_id": "M072",
@@ -1079,7 +1280,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "DR Congo v Uzbekistan"
+    "raw_title": "DR Congo v Uzbekistan",
+    "home_display": "刚果民主共和国（DR Congo）",
+    "away_display": "乌兹别克斯坦（Uzbekistan）",
+    "title_display": "刚果民主共和国（DR Congo） vs 乌兹别克斯坦（Uzbekistan）"
   },
   {
     "match_id": "M069",
@@ -1094,7 +1298,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Algeria v Austria"
+    "raw_title": "Algeria v Austria",
+    "home_display": "阿尔及利亚（Algeria）",
+    "away_display": "奥地利（Austria）",
+    "title_display": "阿尔及利亚（Algeria） vs 奥地利（Austria）"
   },
   {
     "match_id": "M070",
@@ -1109,7 +1316,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Jordan v Argentina"
+    "raw_title": "Jordan v Argentina",
+    "home_display": "约旦（Jordan）",
+    "away_display": "阿根廷（Argentina）",
+    "title_display": "约旦（Jordan） vs 阿根廷（Argentina）"
   },
   {
     "match_id": "M073",
@@ -1124,7 +1334,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Runner-up Group A v Runner-up Group B"
+    "raw_title": "Runner-up Group A v Runner-up Group B",
+    "home_display": "A组第二名（Runner-up Group A）",
+    "away_display": "B组第二名（Runner-up Group B）",
+    "title_display": "A组第二名（Runner-up Group A） vs B组第二名（Runner-up Group B）"
   },
   {
     "match_id": "M076",
@@ -1139,7 +1352,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group C v Runner-up Group F"
+    "raw_title": "Winner Group C v Runner-up Group F",
+    "home_display": "C组第一名（Winner Group C）",
+    "away_display": "F组第二名（Runner-up Group F）",
+    "title_display": "C组第一名（Winner Group C） vs F组第二名（Runner-up Group F）"
   },
   {
     "match_id": "M074",
@@ -1154,7 +1370,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group E v 3rd Group A/B/C/D/F"
+    "raw_title": "Winner Group E v 3rd Group A/B/C/D/F",
+    "home_display": "E组第一名（Winner Group E）",
+    "away_display": "A组/B组/C组/D组/F组第三名（3rd Group A/B/C/D/F）",
+    "title_display": "E组第一名（Winner Group E） vs A组/B组/C组/D组/F组第三名（3rd Group A/B/C/D/F）"
   },
   {
     "match_id": "M075",
@@ -1169,7 +1388,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group F v Runner-up Group C"
+    "raw_title": "Winner Group F v Runner-up Group C",
+    "home_display": "F组第一名（Winner Group F）",
+    "away_display": "C组第二名（Runner-up Group C）",
+    "title_display": "F组第一名（Winner Group F） vs C组第二名（Runner-up Group C）"
   },
   {
     "match_id": "M078",
@@ -1184,7 +1406,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Runner-up Group E v Runner-up Group I"
+    "raw_title": "Runner-up Group E v Runner-up Group I",
+    "home_display": "E组第二名（Runner-up Group E）",
+    "away_display": "I组第二名（Runner-up Group I）",
+    "title_display": "E组第二名（Runner-up Group E） vs I组第二名（Runner-up Group I）"
   },
   {
     "match_id": "M077",
@@ -1199,7 +1424,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group I v 3rd Group C/D/F/G/H"
+    "raw_title": "Winner Group I v 3rd Group C/D/F/G/H",
+    "home_display": "I组第一名（Winner Group I）",
+    "away_display": "C组/D组/F组/G组/H组第三名（3rd Group C/D/F/G/H）",
+    "title_display": "I组第一名（Winner Group I） vs C组/D组/F组/G组/H组第三名（3rd Group C/D/F/G/H）"
   },
   {
     "match_id": "M079",
@@ -1214,7 +1442,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group A v 3rd Group C/E/F/H/I"
+    "raw_title": "Winner Group A v 3rd Group C/E/F/H/I",
+    "home_display": "A组第一名（Winner Group A）",
+    "away_display": "C组/E组/F组/H组/I组第三名（3rd Group C/E/F/H/I）",
+    "title_display": "A组第一名（Winner Group A） vs C组/E组/F组/H组/I组第三名（3rd Group C/E/F/H/I）"
   },
   {
     "match_id": "M080",
@@ -1229,7 +1460,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group L v 3rd Group E/H/I/J/K"
+    "raw_title": "Winner Group L v 3rd Group E/H/I/J/K",
+    "home_display": "L组第一名（Winner Group L）",
+    "away_display": "E组/H组/I组/J组/K组第三名（3rd Group E/H/I/J/K）",
+    "title_display": "L组第一名（Winner Group L） vs E组/H组/I组/J组/K组第三名（3rd Group E/H/I/J/K）"
   },
   {
     "match_id": "M082",
@@ -1244,7 +1478,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group G v 3rd Group A/E/H/I/J"
+    "raw_title": "Winner Group G v 3rd Group A/E/H/I/J",
+    "home_display": "G组第一名（Winner Group G）",
+    "away_display": "A组/E组/H组/I组/J组第三名（3rd Group A/E/H/I/J）",
+    "title_display": "G组第一名（Winner Group G） vs A组/E组/H组/I组/J组第三名（3rd Group A/E/H/I/J）"
   },
   {
     "match_id": "M081",
@@ -1259,7 +1496,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group D v 3rd Group B/E/F/I/J"
+    "raw_title": "Winner Group D v 3rd Group B/E/F/I/J",
+    "home_display": "D组第一名（Winner Group D）",
+    "away_display": "B组/E组/F组/I组/J组第三名（3rd Group B/E/F/I/J）",
+    "title_display": "D组第一名（Winner Group D） vs B组/E组/F组/I组/J组第三名（3rd Group B/E/F/I/J）"
   },
   {
     "match_id": "M084",
@@ -1274,7 +1514,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group H v Runner-up Group J"
+    "raw_title": "Winner Group H v Runner-up Group J",
+    "home_display": "H组第一名（Winner Group H）",
+    "away_display": "J组第二名（Runner-up Group J）",
+    "title_display": "H组第一名（Winner Group H） vs J组第二名（Runner-up Group J）"
   },
   {
     "match_id": "M083",
@@ -1289,7 +1532,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Runner-up Group K v Runner-up Group L"
+    "raw_title": "Runner-up Group K v Runner-up Group L",
+    "home_display": "K组第二名（Runner-up Group K）",
+    "away_display": "L组第二名（Runner-up Group L）",
+    "title_display": "K组第二名（Runner-up Group K） vs L组第二名（Runner-up Group L）"
   },
   {
     "match_id": "M085",
@@ -1304,7 +1550,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group B v 3rd Group E/F/G/I/J"
+    "raw_title": "Winner Group B v 3rd Group E/F/G/I/J",
+    "home_display": "B组第一名（Winner Group B）",
+    "away_display": "E组/F组/G组/I组/J组第三名（3rd Group E/F/G/I/J）",
+    "title_display": "B组第一名（Winner Group B） vs E组/F组/G组/I组/J组第三名（3rd Group E/F/G/I/J）"
   },
   {
     "match_id": "M088",
@@ -1319,7 +1568,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Runner-up Group D v Runner-up Group G"
+    "raw_title": "Runner-up Group D v Runner-up Group G",
+    "home_display": "D组第二名（Runner-up Group D）",
+    "away_display": "G组第二名（Runner-up Group G）",
+    "title_display": "D组第二名（Runner-up Group D） vs G组第二名（Runner-up Group G）"
   },
   {
     "match_id": "M086",
@@ -1334,7 +1586,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group J v Runner-up Group H"
+    "raw_title": "Winner Group J v Runner-up Group H",
+    "home_display": "J组第一名（Winner Group J）",
+    "away_display": "H组第二名（Runner-up Group H）",
+    "title_display": "J组第一名（Winner Group J） vs H组第二名（Runner-up Group H）"
   },
   {
     "match_id": "M087",
@@ -1349,7 +1604,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group K v 3rd Group D/E/I/J/L"
+    "raw_title": "Winner Group K v 3rd Group D/E/I/J/L",
+    "home_display": "K组第一名（Winner Group K）",
+    "away_display": "D组/E组/I组/J组/L组第三名（3rd Group D/E/I/J/L）",
+    "title_display": "K组第一名（Winner Group K） vs D组/E组/I组/J组/L组第三名（3rd Group D/E/I/J/L）"
   },
   {
     "match_id": "M090",
@@ -1364,7 +1622,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M089",
@@ -1379,7 +1640,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M091",
@@ -1394,7 +1658,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M092",
@@ -1409,7 +1676,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M093",
@@ -1424,7 +1694,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M094",
@@ -1439,7 +1712,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M095",
@@ -1454,7 +1730,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M096",
@@ -1469,7 +1748,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M097",
@@ -1484,7 +1766,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M098",
@@ -1499,7 +1784,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M099",
@@ -1514,7 +1802,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M100",
@@ -1529,7 +1820,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M101",
@@ -1544,7 +1838,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M102",
@@ -1559,7 +1856,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   },
   {
     "match_id": "M103",
@@ -1574,7 +1874,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Loser v Loser"
+    "raw_title": "Loser v Loser",
+    "home_display": "负者（Loser）",
+    "away_display": "负者（Loser）",
+    "title_display": "负者（Loser） vs 负者（Loser）"
   },
   {
     "match_id": "M104",
@@ -1589,6 +1892,9 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner"
+    "raw_title": "Winner v Winner",
+    "home_display": "胜者（Winner）",
+    "away_display": "胜者（Winner）",
+    "title_display": "胜者（Winner） vs 胜者（Winner）"
   }
 ]

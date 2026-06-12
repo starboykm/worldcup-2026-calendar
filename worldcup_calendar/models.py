@@ -3,6 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from datetime import datetime
 
+from .team_names import display_team_name
+
 
 @dataclass
 class Goal:
@@ -30,9 +32,11 @@ class Match:
 
     @property
     def title(self) -> str:
+        home = display_team_name(self.home)
+        away = display_team_name(self.away)
         if self.home_score is not None and self.away_score is not None:
-            return f"{self.home} {self.home_score}-{self.away_score} {self.away}"
-        return f"{self.home} vs {self.away}"
+            return f"{home} {self.home_score}-{self.away_score} {away}"
+        return f"{home} vs {away}"
 
     @property
     def location(self) -> str:

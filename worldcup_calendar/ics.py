@@ -3,6 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timedelta, timezone
 
 from .models import Match
+from .team_names import display_team_name
 
 BEIJING_TZID = "Asia/Shanghai"
 
@@ -51,7 +52,9 @@ def _description(match: Match) -> str:
         parts.append("进球:")
         for goal in match.goals:
             note = f" ({goal.note})" if goal.note else ""
-            parts.append(f"- {goal.team}: {goal.player} {goal.minute}{note}")
+            team = display_team_name(goal.team) if goal.team else ""
+            team_prefix = f"{team}: " if team else ""
+            parts.append(f"- {team_prefix}{goal.player} {goal.minute}{note}")
     if match.source_url:
         parts.append(f"来源: {match.source_url}")
     return "\n".join(parts)
