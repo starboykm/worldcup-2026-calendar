@@ -4,7 +4,7 @@
 
 Public ICS calendar for the 2026 FIFA World Cup. Match times are converted to Beijing time (`Asia/Shanghai`). The calendar includes teams, kickoff time, venue, scores when available, and goal details when available from the source.
 
-订阅文件：`public/worldcup-2026.ics`
+订阅文件：`docs/worldcup-2026.ics`
 
 ---
 
@@ -30,8 +30,8 @@ Public ICS calendar for the 2026 FIFA World Cup. Match times are converted to Be
 ### 输出文件
 
 ```text
-public/worldcup-2026.ics
-public/matches.json
+docs/worldcup-2026.ics
+docs/matches.json
 ```
 
 `worldcup-2026.ics` 用于日历订阅，`matches.json` 用于查看结构化赛程数据或调试。
@@ -128,7 +128,7 @@ http://your-server:8080/worldcup-2026.ics
 - 每天 UTC 04:00 运行
 - 对应北京时间每天 12:00
 - 支持手动运行 `workflow_dispatch`
-- 生成并提交 `public/worldcup-2026.ics` 和 `public/matches.json`
+- 生成并提交 `docs/worldcup-2026.ics` 和 `docs/matches.json`
 
 自动更新流程如下：
 
@@ -149,7 +149,7 @@ http://your-server:8080/worldcup-2026.ics
 2. 进入 `Settings -> Pages`
 3. Source 选择 `Deploy from a branch`
 4. Branch 选择 `main`
-5. Folder 选择 `/public`
+5. Folder 选择 `/docs`
 6. 保存
 
 启用后，ICS 地址通常为：
@@ -226,8 +226,8 @@ Each match is rendered as one calendar event with:
 ### Output Files
 
 ```text
-public/worldcup-2026.ics
-public/matches.json
+docs/worldcup-2026.ics
+docs/matches.json
 ```
 
 Use `worldcup-2026.ics` for calendar subscription. Use `matches.json` for structured data inspection or debugging.
@@ -320,7 +320,7 @@ The workflow in `.github/workflows/update-calendar.yml`:
 - Runs daily at UTC 04:00
 - Equals 12:00 Beijing time
 - Supports manual dispatch
-- Regenerates and commits `public/worldcup-2026.ics` and `public/matches.json`
+- Regenerates and commits `docs/worldcup-2026.ics` and `docs/matches.json`
 
 Update flow:
 
@@ -339,7 +339,7 @@ You do not need daily manual work. Enable GitHub Pages once and subscribe to the
 2. Go to `Settings -> Pages`
 3. Choose `Deploy from a branch`
 4. Select branch `main`
-5. Select folder `/public`
+5. Select folder `/docs`
 6. Save
 
 The ICS URL should look like:

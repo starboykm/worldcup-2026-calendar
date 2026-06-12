@@ -13,7 +13,7 @@ on:
       output:
         description: "ICS output path"
         required: false
-        default: "public/worldcup-2026.ics"
+        default: "docs/worldcup-2026.ics"
 
 permissions:
   contents: write
@@ -41,4 +41,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update World Cup calendar"
-          file_pattern: "public/worldcup-2026.ics public/matches.json"
+          file_pattern: "docs/worldcup-2026.ics docs/matches.json"

@@ -14,8 +14,8 @@ from .models import Match
 from .sources import fetch_matches
 from .team_names import display_team_name
 
-DEFAULT_OUTPUT = Path("public/worldcup-2026.ics")
-DEFAULT_JSON = Path("public/matches.json")
+DEFAULT_OUTPUT = Path("docs/worldcup-2026.ics")
+DEFAULT_JSON = Path("docs/matches.json")
 DEFAULT_OVERRIDES = Path("data/overrides.json")
 
 
