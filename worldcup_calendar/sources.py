@@ -165,7 +165,7 @@ def _parse_match_box(full_html: str, box_item: tuple[int, str], source_url: str,
     if not home or not away:
         return None
 
-    match_id = _match_id(text, fallback_index)
+    match_id = _match_id(text, fallback_index, home, away, starts_at)
     stage = _stage_name(full_html[:start_index])
     venue, city = _venue(box, text)
     home_score, away_score = _score(text)
@@ -331,11 +331,13 @@ def _offset_hours(time_match: re.Match[str]) -> int:
     return TZ_OFFSETS.get(abbr, -4)
 
 
-def _match_id(text: str, fallback_index: int) -> str:
+def _match_id(text: str, fallback_index: int, home: str, away: str, starts_at: datetime) -> str:
     match = MATCH_ID_RE.search(text)
     if match:
         return f"M{int(match.group('number')):03d}"
-    return f"M{fallback_index:03d}"
+    home_slug = re.sub(r"[^A-Za-z0-9]+", "", home)[:12] or "home"
+    away_slug = re.sub(r"[^A-Za-z0-9]+", "", away)[:12] or "away"
+    return f"X{starts_at:%Y%m%d%H%M}-{home_slug}-{away_slug}-{fallback_index:03d}"
 
 
 def _stage_name(html_before_box: str) -> str:
