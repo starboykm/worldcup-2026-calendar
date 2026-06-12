@@ -1,0 +1,42 @@
+name: Update calendar
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+    inputs:
+      source_url:
+        description: "Optional HTML or JSON source URL"
+        required: false
+      output:
+        description: "ICS output path"
+        required: false
+        default: "public/worldcup-2026.ics"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Generate ICS
+        run: |
+          args=()
+          if [ -n "${{ github.event.inputs.source_url }}" ]; then
+            args+=(--source-url "${{ github.event.inputs.source_url }}")
+          fi
+          if [ -n "${{ github.event.inputs.output }}" ]; then
+            args+=(--output "${{ github.event.inputs.output }}")
+          fi
+          python -m worldcup_calendar update "${args[@]}"
+      - name: Commit updated calendar
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update World Cup calendar"
+          file_pattern: "public/worldcup-2026.ics public/matches.json"
