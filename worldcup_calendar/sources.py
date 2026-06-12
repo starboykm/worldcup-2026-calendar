@@ -7,7 +7,7 @@ from html import unescape
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
-from urllib.request import Request, urlopen
+from urllib.request import ProxyHandler, Request, build_opener, urlopen
 
 from .models import Goal, Match
 
@@ -111,9 +111,32 @@ def _fetch_wikipedia_page(url: str) -> list[Match]:
 
 def _download(url: str) -> tuple[str, str]:
     request = Request(url, headers={"User-Agent": "worldcup-2026-calendar/0.1"})
-    with urlopen(request, timeout=30) as response:
-        charset = response.headers.get_content_charset() or "utf-8"
-        return response.read().decode(charset, errors="replace"), response.headers.get("content-type", "")
+    errors: list[str] = []
+
+    for proxy in [None, *_local_proxy_candidates()]:
+        try:
+            if proxy:
+                opener = build_opener(ProxyHandler({"http": proxy, "https": proxy}))
+                response = opener.open(request, timeout=30)
+            else:
+                response = urlopen(request, timeout=30)
+            with response:
+                charset = response.headers.get_content_charset() or "utf-8"
+                return response.read().decode(charset, errors="replace"), response.headers.get("content-type", "")
+        except Exception as exc:
+            label = proxy or "direct"
+            errors.append(f"{label}: {exc}")
+    raise SourceError("; ".join(errors))
+
+
+def _local_proxy_candidates() -> list[str]:
+    return [
+        "http://127.0.0.1:7070",
+        "http://127.0.0.1:7890",
+        "http://127.0.0.1:7897",
+        "http://127.0.0.1:10809",
+        "http://127.0.0.1:8080",
+    ]
 
 
 def _parse_wikipedia_html(html: str, source_url: str) -> list[Match]:
@@ -129,25 +152,34 @@ def _parse_wikipedia_html(html: str, source_url: str) -> list[Match]:
 
 def _candidate_boxes(html: str) -> list[tuple[int, str]]:
     boxes: list[tuple[int, str]] = []
-    patterns = [
-        re.compile(r"<table\b(?=[^>]*class=[\"'][^\"']*(?:footballbox|vevent)[^\"']*[\"'])[\s\S]*?</table>", re.IGNORECASE),
-        re.compile(r"<div\b(?=[^>]*class=[\"'][^\"']*(?:footballbox|vevent)[^\"']*[\"'])[\s\S]*?</div>", re.IGNORECASE),
-    ]
-    seen: set[tuple[int, int]] = set()
-    for pattern in patterns:
-        for match in pattern.finditer(html):
-            key = (match.start(), match.end())
-            if key in seen:
-                continue
-            text = _html_text(match.group(0))
-            if "2026" not in text or not _parse_datetime_from_text(text):
-                continue
-            if not (_summary_text(match.group(0)) or TITLE_SPLIT_RE.search(text)):
-                continue
-            seen.add(key)
-            boxes.append((match.start(), match.group(0)))
+    marker = re.compile(r"<div\b(?=[^>]*class=[\"'][^\"']*(?:footballbox|vevent)[^\"']*[\"'])", re.IGNORECASE)
+    for match in marker.finditer(html):
+        start = match.start()
+        fragment = _balanced_div(html, start)
+        if not fragment:
+            continue
+        text = _html_text(fragment)
+        if "2026" not in text or not _parse_datetime_from_text(text):
+            continue
+        if not (_summary_text(fragment) or TITLE_SPLIT_RE.search(text)):
+            continue
+        boxes.append((start, fragment))
     boxes.sort(key=lambda item: item[0])
     return boxes
+
+
+def _balanced_div(html: str, start: int) -> str:
+    tag_re = re.compile(r"</?div\b[^>]*>", re.IGNORECASE)
+    depth = 0
+    for match in tag_re.finditer(html, start):
+        token = match.group(0)
+        if token.startswith("</"):
+            depth -= 1
+            if depth == 0:
+                return html[start : match.end()]
+        else:
+            depth += 1
+    return ""
 
 
 def _parse_match_box(full_html: str, box_item: tuple[int, str], source_url: str, fallback_index: int) -> Match | None:
@@ -165,10 +197,10 @@ def _parse_match_box(full_html: str, box_item: tuple[int, str], source_url: str,
     if not home or not away:
         return None
 
-    match_id = _match_id(text, fallback_index, home, away, starts_at)
+    match_id = _match_id(text, fallback_index, home, away, starts_at, box)
     stage = _stage_name(full_html[:start_index])
     venue, city = _venue(box, text)
-    home_score, away_score = _score(text)
+    home_score, away_score = _score(box, text)
     status = "completed" if home_score is not None and away_score is not None else "scheduled"
 
     return Match(
@@ -183,7 +215,7 @@ def _parse_match_box(full_html: str, box_item: tuple[int, str], source_url: str,
         status=status,
         home_score=home_score,
         away_score=away_score,
-        goals=_goals(text, home, away),
+        goals=_goals(text, home, away, box),
         raw_title=title,
     )
 
@@ -237,6 +269,11 @@ def _parse_json_matches(payload: Any, source_url: str) -> list[Match]:
 
 
 def _summary_text(html: str) -> str:
+    home = _class_text(html, "fhome")
+    away = _class_text(html, "faway")
+    if home and away:
+        return f"{home} v {away}"
+
     for pattern in [
         r"<[^>]+class=[\"'][^\"']*summary[^\"']*[\"'][^>]*>(?P<value>[\s\S]*?)</[^>]+>",
         r"<(?:th|caption)\b[^>]*>(?P<value>[\s\S]*?)</(?:th|caption)>",
@@ -279,6 +316,8 @@ def _structured_datetime(html: str) -> datetime | None:
     if not match:
         return None
     raw = unescape(match.group("title") or _html_text(match.group("text")))
+    if "T" not in raw and not TIME_RE.search(raw):
+        return None
     return _parse_json_datetime(raw)
 
 
@@ -331,8 +370,9 @@ def _offset_hours(time_match: re.Match[str]) -> int:
     return TZ_OFFSETS.get(abbr, -4)
 
 
-def _match_id(text: str, fallback_index: int, home: str, away: str, starts_at: datetime) -> str:
-    match = MATCH_ID_RE.search(text)
+def _match_id(text: str, fallback_index: int, home: str, away: str, starts_at: datetime, html: str = "") -> str:
+    score_text = _html_text(_class_html(html, "fscore")) if html else ""
+    match = MATCH_ID_RE.search(score_text) or MATCH_ID_RE.search(text)
     if match:
         return f"M{int(match.group('number')):03d}"
     home_slug = re.sub(r"[^A-Za-z0-9]+", "", home)[:12] or "home"
@@ -353,6 +393,9 @@ def _venue(html: str, text: str) -> tuple[str, str]:
     match = re.search(r"<[^>]+class=[\"'][^\"']*location[^\"']*[\"'][^>]*>(?P<value>[\s\S]*?)</[^>]+>", html, re.IGNORECASE)
     if match:
         return _split_location(_clean_text(_html_text(match.group("value"))))
+    match = re.search(r"<span\b(?=[^>]*itemprop=[\"']name address[\"'])[^>]*>(?P<value>[\s\S]*?)</span>", html, re.IGNORECASE)
+    if match:
+        return _split_location(_clean_text(_html_text(match.group("value"))))
 
     for line in text.splitlines():
         line = _clean_text(line)
@@ -369,9 +412,14 @@ def _split_location(value: str) -> tuple[str, str]:
     return value, ""
 
 
-def _score(text: str) -> tuple[int | None, int | None]:
+def _score(html: str, text: str) -> tuple[int | None, int | None]:
+    score_text = _clean_text(_html_text(_class_html(html, "fscore")))
+    match = SCORE_RE.search(score_text)
+    if match:
+        return int(match.group("home")), int(match.group("away"))
+
     for line in text.splitlines():
-        if any(word in line.lower() for word in ["penalties", "aggregate"]):
+        if any(word in line.lower() for word in ["penalties", "aggregate", "utc", "june", "july"]):
             continue
         match = SCORE_RE.search(line)
         if match:
@@ -379,8 +427,16 @@ def _score(text: str) -> tuple[int | None, int | None]:
     return None, None
 
 
-def _goals(text: str, home: str, away: str) -> list[Goal]:
+def _goals(text: str, home: str, away: str, html: str | None = None) -> list[Goal]:
     goals: list[Goal] = []
+    if html:
+        for team, class_name in [(home, "fhgoal"), (away, "fagoal")]:
+            cell = _class_html(html, class_name)
+            for player, minute in _goal_pairs_from_html(cell):
+                goals.append(Goal(team=team, player=player, minute=minute))
+        if goals:
+            return goals[:20]
+
     for line in text.splitlines():
         clean = _clean_text(line)
         if not clean or "Report" in clean:
@@ -391,6 +447,35 @@ def _goals(text: str, home: str, away: str) -> list[Goal]:
                 continue
             goals.append(Goal(team="", player=player, minute=_clean_text(match.group("minute"))))
     return goals[:20]
+
+
+def _class_text(html: str, class_name: str) -> str:
+    value = _class_html(html, class_name)
+    if not value:
+        return ""
+    text = _html_text(value)
+    text = re.sub(r"\bMatch\s+\d+\b", "", text, flags=re.IGNORECASE)
+    text = SCORE_RE.sub("", text)
+    return _clean_text(text)
+
+
+def _class_html(html: str, class_name: str) -> str:
+    match = re.search(
+        rf"<(?P<tag>td|th|div)\b(?=[^>]*class=[\"'][^\"']*\b{re.escape(class_name)}\b[^\"']*[\"'])[^>]*>(?P<value>[\s\S]*?)</(?P=tag)>",
+        html,
+        re.IGNORECASE,
+    )
+    return match.group("value") if match else ""
+
+
+def _goal_pairs_from_html(html: str) -> list[tuple[str, str]]:
+    goals: list[tuple[str, str]] = []
+    for item in re.findall(r"<li\b[^>]*>([\s\S]*?)</li>", html, re.IGNORECASE):
+        player_match = re.search(r"<a\b[^>]*>(?P<player>[\s\S]*?)</a>", item, re.IGNORECASE)
+        minute_match = re.search(r"<span\b[^>]*class=[\"']fb-goal[\"'][^>]*>[\s\S]*?<span>(?P<minute>[^<]+)</span>", item, re.IGNORECASE)
+        if player_match and minute_match:
+            goals.append((_clean_text(_html_text(player_match.group("player"))), _clean_text(unescape(minute_match.group("minute")))))
+    return goals
 
 
 def _dedupe(matches: list[Match]) -> list[Match]:

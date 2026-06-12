@@ -17,6 +17,14 @@ python -m venv .venv
 .\.venv\Scripts\python -m worldcup_calendar update
 ```
 
+如果直连无法访问外网，程序会自动尝试常见本地代理端口，包括 FlClash 常用的 `http://127.0.0.1:7070`。也可以手动指定：
+
+```powershell
+$env:HTTPS_PROXY="http://127.0.0.1:7070"
+$env:HTTP_PROXY="http://127.0.0.1:7070"
+.\.venv\Scripts\python -m worldcup_calendar update
+```
+
 ## 启动可更新服务
 
 ```powershell
