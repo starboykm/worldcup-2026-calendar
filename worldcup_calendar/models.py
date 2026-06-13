@@ -12,6 +12,7 @@ class Goal:
     player: str
     minute: str
     note: str = ""
+    player_zh: str = ""
 
 
 @dataclass

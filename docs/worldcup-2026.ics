@@ -15,1214 +15,1066 @@ TZNAME:CST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:x202606120300-mexico-southafrica-001@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+UID:m001@worldcup-2026-calendar
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260612T030000
 DTEND;TZID=Asia/Shanghai:20260612T050000
 SUMMARY:墨西哥（Mexico） 2-0 南非（South Africa）
 LOCATION:Estadio Azteca\, Mexico City
-DESCRIPTION:阶段: Group A\n状态: 已完赛\n场地: Estadio Azteca\, Me
- xico City\n进球:\n- 墨西哥（Mexico）: Quiñones 9'\n- 墨西哥（M
- exico）: Jiménez 67'\n来源: https://en.wikipedia.org/wiki/2026_FIFA_Wo
- rld_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 已完赛\n场地: Estadio Azteca\, Me
+ xico City\n进球:\n- 墨西哥（Mexico）: 胡利安·基尼奥内斯（
+ Julián Quiñones） 9'\n- 墨西哥（Mexico）: 劳尔·希门尼斯（R
+ aúl Jiménez） 67'
 END:VEVENT
 BEGIN:VEVENT
-UID:x202606121000-southkorea-czechrepubli-002@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+UID:m002@worldcup-2026-calendar
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260612T100000
 DTEND;TZID=Asia/Shanghai:20260612T120000
 SUMMARY:韩国（South Korea） 2-1 捷克（Czech Republic）
 LOCATION:Estadio Akron\, Zapopan
-DESCRIPTION:阶段: Group A\n状态: 已完赛\n场地: Estadio Akron\, Zap
- opan\n进球:\n- 韩国（South Korea）: Hwang In-beom 67'\n- 韩国（So
- uth Korea）: Oh Hyeon-gyu 80'\n来源: https://en.wikipedia.org/wiki/2026
- _FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 已完赛\n场地: Estadio Akron\, Zap
+ opan\n进球:\n- 韩国（South Korea）: 黄仁范（Hwang In-beom） 67'
+ \n- 韩国（South Korea）: 吴贤揆（Oh Hyeon-gyu） 80'\n- 捷克（C
+ zech Republic）: 拉迪斯拉夫·克雷伊奇（Ladislav Krejčí） 59'
 END:VEVENT
 BEGIN:VEVENT
-UID:x202606130300-canada-bosniaandher-001@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+UID:m003@worldcup-2026-calendar
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260613T030000
 DTEND;TZID=Asia/Shanghai:20260613T050000
 SUMMARY:加拿大（Canada） 1-1 波黑（Bosnia and Herzegovina）
 LOCATION:BMO Field\, Toronto
 DESCRIPTION:阶段: Matches\n状态: 已完赛\n场地: BMO Field\, Toronto
- \n进球:\n- 加拿大（Canada）: Larin 78'\n- 波黑（Bosnia and Herze
- govina）: Lukić 21'\n来源: https://en.wikipedia.org/wiki/2026_FIFA_Wor
- ld_Cup_Group_B
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B
+ \n进球:\n- 加拿大（Canada）: 凯尔·拉林（Cyle Larin） 78'\n- 
+ 波黑（Bosnia and Herzegovina）: 约沃·卢基奇（Jovo Lukić） 21'
 END:VEVENT
 BEGIN:VEVENT
-UID:x202606130300-canada-bosniaandher-007@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260613T030000
-DTEND;TZID=Asia/Shanghai:20260613T050000
-SUMMARY:加拿大（Canada） 1-1 波黑（Bosnia and Herzegovina）
-LOCATION:BMO Field\, Toronto
-DESCRIPTION:阶段: Group B\n状态: 已完赛\n场地: BMO Field\, Toronto
- \n进球:\n- 加拿大（Canada）: Larin 78'\n- 波黑（Bosnia and Herze
- govina）: Lukić 21'\n来源: https://en.wikipedia.org/wiki/2026_FIFA_Wor
- ld_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-END:VEVENT
-BEGIN:VEVENT
-UID:x202606130600-unitedstates-paraguay-001@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+UID:m004@worldcup-2026-calendar
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260613T060000
 DTEND;TZID=Asia/Shanghai:20260613T080000
 SUMMARY:美国（United States） 4-1 巴拉圭（Paraguay）
 LOCATION:SoFi Stadium\, Inglewood
 DESCRIPTION:阶段: Matches\n状态: 已完赛\n场地: SoFi Stadium\, Ingl
- ewood\n进球:\n- 美国（United States）: Balogun 31'\n- 美国（Unite
- d States）: Reyna 90+8'\n- 巴拉圭（Paraguay）: Maurício 73'\n来源
- : https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D
-END:VEVENT
-BEGIN:VEVENT
-UID:x202606130900-unitedstates-paraguay-019@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260613T090000
-DTEND;TZID=Asia/Shanghai:20260613T110000
-SUMMARY:美国（United States） 4-1 巴拉圭（Paraguay）
-LOCATION:SoFi Stadium\, Inglewood
-DESCRIPTION:阶段: Group D\n状态: 已完赛\n场地: SoFi Stadium\, Ingl
- ewood\n进球:\n- 美国（United States）: Balogun 31'\n- 美国（Unite
- d States）: Reyna 90+8'\n- 巴拉圭（Paraguay）: Maurício 73'\n来源
- : https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ ewood\n进球:\n- 美国（United States）: 达米安·博瓦迪利亚（
+ Damián Bobadilla） 7' (o.g.) (乌龙球)\n- 美国（United States）: 
+ 福拉林·巴洛贡（Folarin Balogun） 31'\n- 美国（United States）
+ : 福拉林·巴洛贡（Folarin Balogun） 45+5'\n- 美国（United State
+ s）: 乔瓦尼·雷纳（Giovanni Reyna） 90+8'\n- 巴拉圭（Paraguay
+ ）: 毛里西奥（Maurício） 73'
 END:VEVENT
 BEGIN:VEVENT
 UID:m008@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260614T030000
 DTEND;TZID=Asia/Shanghai:20260614T050000
 SUMMARY:卡塔尔（Qatar） vs 瑞士（Switzerland）
 LOCATION:Levi's Stadium\, Santa Clara
-DESCRIPTION:阶段: Group B\n状态: 未完赛\n场地: Levi's Stadium\, Sa
- nta Clara\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Levi's Stadium\, Sa
+ nta Clara
 END:VEVENT
 BEGIN:VEVENT
 UID:m007@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260614T060000
 DTEND;TZID=Asia/Shanghai:20260614T080000
 SUMMARY:巴西（Brazil） vs 摩洛哥（Morocco）
 LOCATION:MetLife Stadium\, East Rutherford
-DESCRIPTION:阶段: Group C\n状态: 未完赛\n场地: MetLife Stadium\, E
- ast Rutherford\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: MetLife Stadium\, E
+ ast Rutherford
 END:VEVENT
 BEGIN:VEVENT
 UID:m005@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260614T090000
 DTEND;TZID=Asia/Shanghai:20260614T110000
 SUMMARY:海地（Haiti） vs 苏格兰（Scotland）
 LOCATION:Gillette Stadium\, Foxborough
-DESCRIPTION:阶段: Group C\n状态: 未完赛\n场地: Gillette Stadium\, 
- Foxborough\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Gillette Stadium\, 
+ Foxborough
 END:VEVENT
 BEGIN:VEVENT
 UID:m006@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260614T120000
-DTEND;TZID=Asia/Shanghai:20260614T140000
+DTSTAMP:20260613T141133Z
+DTSTART;TZID=Asia/Shanghai:20260614T090000
+DTEND;TZID=Asia/Shanghai:20260614T110000
 SUMMARY:澳大利亚（Australia） vs 土耳其（Turkey）
 LOCATION:BC Place\, Vancouver
-DESCRIPTION:阶段: Group D\n状态: 未完赛\n场地: BC Place\, Vancouve
- r\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: BC Place\, Vancouve
+ r
 END:VEVENT
 BEGIN:VEVENT
 UID:m010@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260615T010000
 DTEND;TZID=Asia/Shanghai:20260615T030000
 SUMMARY:德国（Germany） vs 库拉索（Curaçao）
 LOCATION:NRG Stadium\, Houston
-DESCRIPTION:阶段: Group E\n状态: 未完赛\n场地: NRG Stadium\, Houst
- on\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: NRG Stadium\, Houst
+ on
 END:VEVENT
 BEGIN:VEVENT
 UID:m011@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260615T040000
 DTEND;TZID=Asia/Shanghai:20260615T060000
 SUMMARY:荷兰（Netherlands） vs 日本（Japan）
 LOCATION:AT&T Stadium\, Arlington
-DESCRIPTION:阶段: Group F\n状态: 未完赛\n场地: AT&T Stadium\, Arli
- ngton\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: AT&T Stadium\, Arli
+ ngton
 END:VEVENT
 BEGIN:VEVENT
 UID:m009@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260615T070000
 DTEND;TZID=Asia/Shanghai:20260615T090000
 SUMMARY:科特迪瓦（Ivory Coast） vs 厄瓜多尔（Ecuador）
 LOCATION:Lincoln Financial Field\, Philadelphia
-DESCRIPTION:阶段: Group E\n状态: 未完赛\n场地: Lincoln Financial F
- ield\, Philadelphia\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World
- _Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Lincoln Financial F
+ ield\, Philadelphia
 END:VEVENT
 BEGIN:VEVENT
 UID:m012@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260615T100000
 DTEND;TZID=Asia/Shanghai:20260615T120000
 SUMMARY:瑞典（Sweden） vs 突尼斯（Tunisia）
 LOCATION:Estadio BBVA\, Guadalupe
-DESCRIPTION:阶段: Group F\n状态: 未完赛\n场地: Estadio BBVA\, Guad
- alupe\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Estadio BBVA\, Guad
+ alupe
 END:VEVENT
 BEGIN:VEVENT
 UID:m014@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260616T000000
 DTEND;TZID=Asia/Shanghai:20260616T020000
 SUMMARY:西班牙（Spain） vs 佛得角（Cape Verde）
 LOCATION:Mercedes-Benz Stadium\, Atlanta
-DESCRIPTION:阶段: Group H\n状态: 未完赛\n场地: Mercedes-Benz Stadi
- um\, Atlanta\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Mercedes-Benz Stadi
+ um\, Atlanta
 END:VEVENT
 BEGIN:VEVENT
 UID:m016@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260616T030000
-DTEND;TZID=Asia/Shanghai:20260616T050000
+DTSTAMP:20260613T141133Z
+DTSTART;TZID=Asia/Shanghai:20260616T000000
+DTEND;TZID=Asia/Shanghai:20260616T020000
 SUMMARY:比利时（Belgium） vs 埃及（Egypt）
 LOCATION:Lumen Field\, Seattle
-DESCRIPTION:阶段: Group G\n状态: 未完赛\n场地: Lumen Field\, Seatt
- le\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Lumen Field\, Seatt
+ le
 END:VEVENT
 BEGIN:VEVENT
 UID:m013@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260616T060000
 DTEND;TZID=Asia/Shanghai:20260616T080000
 SUMMARY:沙特阿拉伯（Saudi Arabia） vs 乌拉圭（Uruguay）
 LOCATION:Hard Rock Stadium\, Miami Gardens
-DESCRIPTION:阶段: Group H\n状态: 未完赛\n场地: Hard Rock Stadium\,
-  Miami Gardens\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Hard Rock Stadium\,
+  Miami Gardens
 END:VEVENT
 BEGIN:VEVENT
 UID:m015@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260616T090000
-DTEND;TZID=Asia/Shanghai:20260616T110000
+DTSTAMP:20260613T141133Z
+DTSTART;TZID=Asia/Shanghai:20260616T060000
+DTEND;TZID=Asia/Shanghai:20260616T080000
 SUMMARY:伊朗（Iran） vs 新西兰（New Zealand）
 LOCATION:SoFi Stadium\, Inglewood
-DESCRIPTION:阶段: Group G\n状态: 未完赛\n场地: SoFi Stadium\, Ingl
- ewood\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: SoFi Stadium\, Ingl
+ ewood
 END:VEVENT
 BEGIN:VEVENT
 UID:m017@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260617T030000
 DTEND;TZID=Asia/Shanghai:20260617T050000
 SUMMARY:法国（France） vs 塞内加尔（Senegal）
 LOCATION:MetLife Stadium\, East Rutherford
-DESCRIPTION:阶段: Group I\n状态: 未完赛\n场地: MetLife Stadium\, E
- ast Rutherford\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: MetLife Stadium\, E
+ ast Rutherford
 END:VEVENT
 BEGIN:VEVENT
 UID:m018@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260617T060000
 DTEND;TZID=Asia/Shanghai:20260617T080000
 SUMMARY:伊拉克（Iraq） vs 挪威（Norway）
 LOCATION:Gillette Stadium\, Foxborough
-DESCRIPTION:阶段: Group I\n状态: 未完赛\n场地: Gillette Stadium\, 
- Foxborough\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Gillette Stadium\, 
+ Foxborough
 END:VEVENT
 BEGIN:VEVENT
 UID:m019@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260617T090000
 DTEND;TZID=Asia/Shanghai:20260617T110000
 SUMMARY:阿根廷（Argentina） vs 阿尔及利亚（Algeria）
 LOCATION:Arrowhead Stadium\, Kansas City
-DESCRIPTION:阶段: Group J\n状态: 未完赛\n场地: Arrowhead Stadium\,
-  Kansas City\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Arrowhead Stadium\,
+  Kansas City
 END:VEVENT
 BEGIN:VEVENT
 UID:m020@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260617T120000
 DTEND;TZID=Asia/Shanghai:20260617T140000
 SUMMARY:奥地利（Austria） vs 约旦（Jordan）
 LOCATION:Levi's Stadium\, Santa Clara
-DESCRIPTION:阶段: Group J\n状态: 未完赛\n场地: Levi's Stadium\, Sa
- nta Clara\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Levi's Stadium\, Sa
+ nta Clara
 END:VEVENT
 BEGIN:VEVENT
 UID:m023@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260618T010000
 DTEND;TZID=Asia/Shanghai:20260618T030000
 SUMMARY:葡萄牙（Portugal） vs 刚果民主共和国（DR Congo）
 LOCATION:NRG Stadium\, Houston
-DESCRIPTION:阶段: Group K\n状态: 未完赛\n场地: NRG Stadium\, Houst
- on\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: NRG Stadium\, Houst
+ on
 END:VEVENT
 BEGIN:VEVENT
 UID:m022@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260618T040000
 DTEND;TZID=Asia/Shanghai:20260618T060000
 SUMMARY:英格兰（England） vs 克罗地亚（Croatia）
 LOCATION:AT&T Stadium\, Arlington
-DESCRIPTION:阶段: Group L\n状态: 未完赛\n场地: AT&T Stadium\, Arli
- ngton\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: AT&T Stadium\, Arli
+ ngton
 END:VEVENT
 BEGIN:VEVENT
 UID:m021@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260618T070000
 DTEND;TZID=Asia/Shanghai:20260618T090000
 SUMMARY:加纳（Ghana） vs 巴拿马（Panama）
 LOCATION:BMO Field\, Toronto
-DESCRIPTION:阶段: Group L\n状态: 未完赛\n场地: BMO Field\, Toronto
- \n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: BMO Field\, Toronto
 END:VEVENT
 BEGIN:VEVENT
 UID:m024@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260618T100000
 DTEND;TZID=Asia/Shanghai:20260618T120000
 SUMMARY:乌兹别克斯坦（Uzbekistan） vs 哥伦比亚（Colombia）
 LOCATION:Estadio Azteca\, Mexico City
-DESCRIPTION:阶段: Group K\n状态: 未完赛\n场地: Estadio Azteca\, Me
- xico City\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Estadio Azteca\, Me
+ xico City
 END:VEVENT
 BEGIN:VEVENT
 UID:m025@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260619T000000
 DTEND;TZID=Asia/Shanghai:20260619T020000
 SUMMARY:捷克（Czech Republic） vs 南非（South Africa）
 LOCATION:Mercedes-Benz Stadium\, Atlanta
-DESCRIPTION:阶段: Group A\n状态: 未完赛\n场地: Mercedes-Benz Stadi
- um\, Atlanta\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Mercedes-Benz Stadi
+ um\, Atlanta
 END:VEVENT
 BEGIN:VEVENT
 UID:m026@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260619T030000
 DTEND;TZID=Asia/Shanghai:20260619T050000
 SUMMARY:瑞士（Switzerland） vs 波黑（Bosnia and Herzegovina）
 LOCATION:SoFi Stadium\, Inglewood
-DESCRIPTION:阶段: Group B\n状态: 未完赛\n场地: SoFi Stadium\, Ingl
- ewood\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: SoFi Stadium\, Ingl
+ ewood
 END:VEVENT
 BEGIN:VEVENT
 UID:m027@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260619T060000
 DTEND;TZID=Asia/Shanghai:20260619T080000
 SUMMARY:加拿大（Canada） vs 卡塔尔（Qatar）
 LOCATION:BC Place\, Vancouver
-DESCRIPTION:阶段: Group B\n状态: 未完赛\n场地: BC Place\, Vancouve
- r\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: BC Place\, Vancouve
+ r
 END:VEVENT
 BEGIN:VEVENT
 UID:m028@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260619T090000
 DTEND;TZID=Asia/Shanghai:20260619T110000
 SUMMARY:墨西哥（Mexico） vs 韩国（South Korea）
 LOCATION:Estadio Akron\, Zapopan
-DESCRIPTION:阶段: Group A\n状态: 未完赛\n场地: Estadio Akron\, Zap
- opan\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Estadio Akron\, Zap
+ opan
 END:VEVENT
 BEGIN:VEVENT
 UID:m032@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260620T030000
-DTEND;TZID=Asia/Shanghai:20260620T050000
+DTSTAMP:20260613T141133Z
+DTSTART;TZID=Asia/Shanghai:20260620T000000
+DTEND;TZID=Asia/Shanghai:20260620T020000
 SUMMARY:美国（United States） vs 澳大利亚（Australia）
 LOCATION:Lumen Field\, Seattle
-DESCRIPTION:阶段: Group D\n状态: 未完赛\n场地: Lumen Field\, Seatt
- le\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Lumen Field\, Seatt
+ le
 END:VEVENT
 BEGIN:VEVENT
 UID:m030@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260620T060000
 DTEND;TZID=Asia/Shanghai:20260620T080000
 SUMMARY:苏格兰（Scotland） vs 摩洛哥（Morocco）
 LOCATION:Gillette Stadium\, Foxborough
-DESCRIPTION:阶段: Group C\n状态: 未完赛\n场地: Gillette Stadium\, 
- Foxborough\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Gillette Stadium\, 
+ Foxborough
+END:VEVENT
+BEGIN:VEVENT
+UID:m031@worldcup-2026-calendar
+DTSTAMP:20260613T141133Z
+DTSTART;TZID=Asia/Shanghai:20260620T080000
+DTEND;TZID=Asia/Shanghai:20260620T100000
+SUMMARY:土耳其（Turkey） vs 巴拉圭（Paraguay）
+LOCATION:Levi's Stadium\, Santa Clara
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Levi's Stadium\, Sa
+ nta Clara
 END:VEVENT
 BEGIN:VEVENT
 UID:m029@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260620T083000
 DTEND;TZID=Asia/Shanghai:20260620T103000
 SUMMARY:巴西（Brazil） vs 海地（Haiti）
 LOCATION:Lincoln Financial Field\, Philadelphia
-DESCRIPTION:阶段: Group C\n状态: 未完赛\n场地: Lincoln Financial F
- ield\, Philadelphia\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World
- _Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-END:VEVENT
-BEGIN:VEVENT
-UID:m031@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260620T110000
-DTEND;TZID=Asia/Shanghai:20260620T130000
-SUMMARY:土耳其（Turkey） vs 巴拉圭（Paraguay）
-LOCATION:Levi's Stadium\, Santa Clara
-DESCRIPTION:阶段: Group D\n状态: 未完赛\n场地: Levi's Stadium\, Sa
- nta Clara\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Lincoln Financial F
+ ield\, Philadelphia
 END:VEVENT
 BEGIN:VEVENT
 UID:m035@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260621T010000
 DTEND;TZID=Asia/Shanghai:20260621T030000
 SUMMARY:荷兰（Netherlands） vs 瑞典（Sweden）
 LOCATION:NRG Stadium\, Houston
-DESCRIPTION:阶段: Group F\n状态: 未完赛\n场地: NRG Stadium\, Houst
- on\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: NRG Stadium\, Houst
+ on
 END:VEVENT
 BEGIN:VEVENT
 UID:m033@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260621T040000
 DTEND;TZID=Asia/Shanghai:20260621T060000
 SUMMARY:德国（Germany） vs 科特迪瓦（Ivory Coast）
 LOCATION:BMO Field\, Toronto
-DESCRIPTION:阶段: Group E\n状态: 未完赛\n场地: BMO Field\, Toronto
- \n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: BMO Field\, Toronto
 END:VEVENT
 BEGIN:VEVENT
 UID:m034@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260621T080000
 DTEND;TZID=Asia/Shanghai:20260621T100000
 SUMMARY:厄瓜多尔（Ecuador） vs 库拉索（Curaçao）
 LOCATION:Arrowhead Stadium\, Kansas City
-DESCRIPTION:阶段: Group E\n状态: 未完赛\n场地: Arrowhead Stadium\,
-  Kansas City\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Arrowhead Stadium\,
+  Kansas City
 END:VEVENT
 BEGIN:VEVENT
 UID:m036@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260621T120000
 DTEND;TZID=Asia/Shanghai:20260621T140000
 SUMMARY:突尼斯（Tunisia） vs 日本（Japan）
 LOCATION:Estadio BBVA\, Guadalupe
-DESCRIPTION:阶段: Group F\n状态: 未完赛\n场地: Estadio BBVA\, Guad
- alupe\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Estadio BBVA\, Guad
+ alupe
 END:VEVENT
 BEGIN:VEVENT
 UID:m038@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260622T000000
 DTEND;TZID=Asia/Shanghai:20260622T020000
 SUMMARY:西班牙（Spain） vs 沙特阿拉伯（Saudi Arabia）
 LOCATION:Mercedes-Benz Stadium\, Atlanta
-DESCRIPTION:阶段: Group H\n状态: 未完赛\n场地: Mercedes-Benz Stadi
- um\, Atlanta\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Mercedes-Benz Stadi
+ um\, Atlanta
 END:VEVENT
 BEGIN:VEVENT
 UID:m039@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260622T030000
-DTEND;TZID=Asia/Shanghai:20260622T050000
+DTSTAMP:20260613T141133Z
+DTSTART;TZID=Asia/Shanghai:20260622T000000
+DTEND;TZID=Asia/Shanghai:20260622T020000
 SUMMARY:比利时（Belgium） vs 伊朗（Iran）
 LOCATION:SoFi Stadium\, Inglewood
-DESCRIPTION:阶段: Group G\n状态: 未完赛\n场地: SoFi Stadium\, Ingl
- ewood\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: SoFi Stadium\, Ingl
+ ewood
 END:VEVENT
 BEGIN:VEVENT
 UID:m037@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260622T060000
 DTEND;TZID=Asia/Shanghai:20260622T080000
 SUMMARY:乌拉圭（Uruguay） vs 佛得角（Cape Verde）
 LOCATION:Hard Rock Stadium\, Miami Gardens
-DESCRIPTION:阶段: Group H\n状态: 未完赛\n场地: Hard Rock Stadium\,
-  Miami Gardens\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Hard Rock Stadium\,
+  Miami Gardens
 END:VEVENT
 BEGIN:VEVENT
 UID:m040@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260622T090000
-DTEND;TZID=Asia/Shanghai:20260622T110000
+DTSTAMP:20260613T141133Z
+DTSTART;TZID=Asia/Shanghai:20260622T060000
+DTEND;TZID=Asia/Shanghai:20260622T080000
 SUMMARY:新西兰（New Zealand） vs 埃及（Egypt）
 LOCATION:BC Place\, Vancouver
-DESCRIPTION:阶段: Group G\n状态: 未完赛\n场地: BC Place\, Vancouve
- r\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: BC Place\, Vancouve
+ r
 END:VEVENT
 BEGIN:VEVENT
 UID:m043@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260623T010000
 DTEND;TZID=Asia/Shanghai:20260623T030000
 SUMMARY:阿根廷（Argentina） vs 奥地利（Austria）
 LOCATION:AT&T Stadium\, Arlington
-DESCRIPTION:阶段: Group J\n状态: 未完赛\n场地: AT&T Stadium\, Arli
- ngton\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: AT&T Stadium\, Arli
+ ngton
 END:VEVENT
 BEGIN:VEVENT
 UID:m042@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260623T050000
 DTEND;TZID=Asia/Shanghai:20260623T070000
 SUMMARY:法国（France） vs 伊拉克（Iraq）
 LOCATION:Lincoln Financial Field\, Philadelphia
-DESCRIPTION:阶段: Group I\n状态: 未完赛\n场地: Lincoln Financial F
- ield\, Philadelphia\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World
- _Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Lincoln Financial F
+ ield\, Philadelphia
 END:VEVENT
 BEGIN:VEVENT
 UID:m041@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260623T080000
 DTEND;TZID=Asia/Shanghai:20260623T100000
 SUMMARY:挪威（Norway） vs 塞内加尔（Senegal）
 LOCATION:MetLife Stadium\, East Rutherford
-DESCRIPTION:阶段: Group I\n状态: 未完赛\n场地: MetLife Stadium\, E
- ast Rutherford\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: MetLife Stadium\, E
+ ast Rutherford
 END:VEVENT
 BEGIN:VEVENT
 UID:m044@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260623T110000
 DTEND;TZID=Asia/Shanghai:20260623T130000
 SUMMARY:约旦（Jordan） vs 阿尔及利亚（Algeria）
 LOCATION:Levi's Stadium\, Santa Clara
-DESCRIPTION:阶段: Group J\n状态: 未完赛\n场地: Levi's Stadium\, Sa
- nta Clara\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Levi's Stadium\, Sa
+ nta Clara
 END:VEVENT
 BEGIN:VEVENT
 UID:m047@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260624T010000
 DTEND;TZID=Asia/Shanghai:20260624T030000
 SUMMARY:葡萄牙（Portugal） vs 乌兹别克斯坦（Uzbekistan）
 LOCATION:NRG Stadium\, Houston
-DESCRIPTION:阶段: Group K\n状态: 未完赛\n场地: NRG Stadium\, Houst
- on\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: NRG Stadium\, Houst
+ on
 END:VEVENT
 BEGIN:VEVENT
 UID:m045@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260624T040000
 DTEND;TZID=Asia/Shanghai:20260624T060000
 SUMMARY:英格兰（England） vs 加纳（Ghana）
 LOCATION:Gillette Stadium\, Foxborough
-DESCRIPTION:阶段: Group L\n状态: 未完赛\n场地: Gillette Stadium\, 
- Foxborough\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Gillette Stadium\, 
+ Foxborough
 END:VEVENT
 BEGIN:VEVENT
 UID:m046@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260624T070000
 DTEND;TZID=Asia/Shanghai:20260624T090000
 SUMMARY:巴拿马（Panama） vs 克罗地亚（Croatia）
 LOCATION:BMO Field\, Toronto
-DESCRIPTION:阶段: Group L\n状态: 未完赛\n场地: BMO Field\, Toronto
- \n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: BMO Field\, Toronto
 END:VEVENT
 BEGIN:VEVENT
 UID:m048@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260624T100000
 DTEND;TZID=Asia/Shanghai:20260624T120000
 SUMMARY:哥伦比亚（Colombia） vs 刚果民主共和国（DR Congo）
 LOCATION:Estadio Akron\, Zapopan
-DESCRIPTION:阶段: Group K\n状态: 未完赛\n场地: Estadio Akron\, Zap
- opan\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Estadio Akron\, Zap
+ opan
 END:VEVENT
 BEGIN:VEVENT
 UID:m051@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260625T030000
 DTEND;TZID=Asia/Shanghai:20260625T050000
 SUMMARY:瑞士（Switzerland） vs 加拿大（Canada）
 LOCATION:BC Place\, Vancouver
-DESCRIPTION:阶段: Group B\n状态: 未完赛\n场地: BC Place\, Vancouve
- r\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: BC Place\, Vancouve
+ r
 END:VEVENT
 BEGIN:VEVENT
 UID:m052@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260625T030000
 DTEND;TZID=Asia/Shanghai:20260625T050000
 SUMMARY:波黑（Bosnia and Herzegovina） vs 卡塔尔（Qatar）
 LOCATION:Lumen Field\, Seattle
-DESCRIPTION:阶段: Group B\n状态: 未完赛\n场地: Lumen Field\, Seatt
- le\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Lumen Field\, Seatt
+ le
 END:VEVENT
 BEGIN:VEVENT
 UID:m049@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260625T060000
 DTEND;TZID=Asia/Shanghai:20260625T080000
 SUMMARY:苏格兰（Scotland） vs 巴西（Brazil）
 LOCATION:Hard Rock Stadium\, Miami Gardens
-DESCRIPTION:阶段: Group C\n状态: 未完赛\n场地: Hard Rock Stadium\,
-  Miami Gardens\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Hard Rock Stadium\,
+  Miami Gardens
 END:VEVENT
 BEGIN:VEVENT
 UID:m050@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260625T060000
 DTEND;TZID=Asia/Shanghai:20260625T080000
 SUMMARY:摩洛哥（Morocco） vs 海地（Haiti）
 LOCATION:Mercedes-Benz Stadium\, Atlanta
-DESCRIPTION:阶段: Group C\n状态: 未完赛\n场地: Mercedes-Benz Stadi
- um\, Atlanta\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Mercedes-Benz Stadi
+ um\, Atlanta
 END:VEVENT
 BEGIN:VEVENT
 UID:m053@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260625T090000
 DTEND;TZID=Asia/Shanghai:20260625T110000
 SUMMARY:捷克（Czech Republic） vs 墨西哥（Mexico）
 LOCATION:Estadio Azteca\, Mexico City
-DESCRIPTION:阶段: Group A\n状态: 未完赛\n场地: Estadio Azteca\, Me
- xico City\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Estadio Azteca\, Me
+ xico City
 END:VEVENT
 BEGIN:VEVENT
 UID:m054@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260625T090000
 DTEND;TZID=Asia/Shanghai:20260625T110000
 SUMMARY:南非（South Africa） vs 韩国（South Korea）
 LOCATION:Estadio BBVA\, Guadalupe
-DESCRIPTION:阶段: Group A\n状态: 未完赛\n场地: Estadio BBVA\, Guad
- alupe\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Estadio BBVA\, Guad
+ alupe
 END:VEVENT
 BEGIN:VEVENT
 UID:m055@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260626T040000
 DTEND;TZID=Asia/Shanghai:20260626T060000
 SUMMARY:库拉索（Curaçao） vs 科特迪瓦（Ivory Coast）
 LOCATION:Lincoln Financial Field\, Philadelphia
-DESCRIPTION:阶段: Group E\n状态: 未完赛\n场地: Lincoln Financial F
- ield\, Philadelphia\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World
- _Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Lincoln Financial F
+ ield\, Philadelphia
 END:VEVENT
 BEGIN:VEVENT
 UID:m056@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260626T040000
 DTEND;TZID=Asia/Shanghai:20260626T060000
 SUMMARY:厄瓜多尔（Ecuador） vs 德国（Germany）
 LOCATION:MetLife Stadium\, East Rutherford
-DESCRIPTION:阶段: Group E\n状态: 未完赛\n场地: MetLife Stadium\, E
- ast Rutherford\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: MetLife Stadium\, E
+ ast Rutherford
 END:VEVENT
 BEGIN:VEVENT
 UID:m057@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260626T070000
 DTEND;TZID=Asia/Shanghai:20260626T090000
 SUMMARY:日本（Japan） vs 瑞典（Sweden）
 LOCATION:AT&T Stadium\, Arlington
-DESCRIPTION:阶段: Group F\n状态: 未完赛\n场地: AT&T Stadium\, Arli
- ngton\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: AT&T Stadium\, Arli
+ ngton
 END:VEVENT
 BEGIN:VEVENT
 UID:m058@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260626T070000
 DTEND;TZID=Asia/Shanghai:20260626T090000
 SUMMARY:突尼斯（Tunisia） vs 荷兰（Netherlands）
 LOCATION:Arrowhead Stadium\, Kansas City
-DESCRIPTION:阶段: Group F\n状态: 未完赛\n场地: Arrowhead Stadium\,
-  Kansas City\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Arrowhead Stadium\,
+  Kansas City
 END:VEVENT
 BEGIN:VEVENT
 UID:m059@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260626T100000
-DTEND;TZID=Asia/Shanghai:20260626T120000
+DTSTAMP:20260613T141133Z
+DTSTART;TZID=Asia/Shanghai:20260626T070000
+DTEND;TZID=Asia/Shanghai:20260626T090000
 SUMMARY:土耳其（Turkey） vs 美国（United States）
 LOCATION:SoFi Stadium\, Inglewood
-DESCRIPTION:阶段: Group D\n状态: 未完赛\n场地: SoFi Stadium\, Ingl
- ewood\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: SoFi Stadium\, Ingl
+ ewood
 END:VEVENT
 BEGIN:VEVENT
 UID:m060@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260626T100000
-DTEND;TZID=Asia/Shanghai:20260626T120000
+DTSTAMP:20260613T141133Z
+DTSTART;TZID=Asia/Shanghai:20260626T070000
+DTEND;TZID=Asia/Shanghai:20260626T090000
 SUMMARY:巴拉圭（Paraguay） vs 澳大利亚（Australia）
 LOCATION:Levi's Stadium\, Santa Clara
-DESCRIPTION:阶段: Group D\n状态: 未完赛\n场地: Levi's Stadium\, Sa
- nta Clara\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Levi's Stadium\, Sa
+ nta Clara
 END:VEVENT
 BEGIN:VEVENT
 UID:m061@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260627T030000
 DTEND;TZID=Asia/Shanghai:20260627T050000
 SUMMARY:挪威（Norway） vs 法国（France）
 LOCATION:Gillette Stadium\, Foxborough
-DESCRIPTION:阶段: Group I\n状态: 未完赛\n场地: Gillette Stadium\, 
- Foxborough\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Gillette Stadium\, 
+ Foxborough
 END:VEVENT
 BEGIN:VEVENT
 UID:m062@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260627T030000
 DTEND;TZID=Asia/Shanghai:20260627T050000
 SUMMARY:塞内加尔（Senegal） vs 伊拉克（Iraq）
 LOCATION:BMO Field\, Toronto
-DESCRIPTION:阶段: Group I\n状态: 未完赛\n场地: BMO Field\, Toronto
- \n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: BMO Field\, Toronto
+END:VEVENT
+BEGIN:VEVENT
+UID:m063@worldcup-2026-calendar
+DTSTAMP:20260613T141133Z
+DTSTART;TZID=Asia/Shanghai:20260627T080000
+DTEND;TZID=Asia/Shanghai:20260627T100000
+SUMMARY:埃及（Egypt） vs 伊朗（Iran）
+LOCATION:Lumen Field\, Seattle
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Lumen Field\, Seatt
+ le
+END:VEVENT
+BEGIN:VEVENT
+UID:m064@worldcup-2026-calendar
+DTSTAMP:20260613T141133Z
+DTSTART;TZID=Asia/Shanghai:20260627T080000
+DTEND;TZID=Asia/Shanghai:20260627T100000
+SUMMARY:新西兰（New Zealand） vs 比利时（Belgium）
+LOCATION:BC Place\, Vancouver
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: BC Place\, Vancouve
+ r
 END:VEVENT
 BEGIN:VEVENT
 UID:m065@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260627T080000
 DTEND;TZID=Asia/Shanghai:20260627T100000
 SUMMARY:佛得角（Cape Verde） vs 沙特阿拉伯（Saudi Arabia）
 LOCATION:NRG Stadium\, Houston
-DESCRIPTION:阶段: Group H\n状态: 未完赛\n场地: NRG Stadium\, Houst
- on\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: NRG Stadium\, Houst
+ on
 END:VEVENT
 BEGIN:VEVENT
 UID:m066@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260627T080000
 DTEND;TZID=Asia/Shanghai:20260627T100000
 SUMMARY:乌拉圭（Uruguay） vs 西班牙（Spain）
 LOCATION:Estadio Akron\, Zapopan
-DESCRIPTION:阶段: Group H\n状态: 未完赛\n场地: Estadio Akron\, Zap
- opan\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-END:VEVENT
-BEGIN:VEVENT
-UID:m063@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260627T110000
-DTEND;TZID=Asia/Shanghai:20260627T130000
-SUMMARY:埃及（Egypt） vs 伊朗（Iran）
-LOCATION:Lumen Field\, Seattle
-DESCRIPTION:阶段: Group G\n状态: 未完赛\n场地: Lumen Field\, Seatt
- le\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-END:VEVENT
-BEGIN:VEVENT
-UID:m064@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
-DTSTART;TZID=Asia/Shanghai:20260627T110000
-DTEND;TZID=Asia/Shanghai:20260627T130000
-SUMMARY:新西兰（New Zealand） vs 比利时（Belgium）
-LOCATION:BC Place\, Vancouver
-DESCRIPTION:阶段: Group G\n状态: 未完赛\n场地: BC Place\, Vancouve
- r\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Estadio Akron\, Zap
+ opan
 END:VEVENT
 BEGIN:VEVENT
 UID:m067@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260628T050000
 DTEND;TZID=Asia/Shanghai:20260628T070000
 SUMMARY:巴拿马（Panama） vs 英格兰（England）
 LOCATION:MetLife Stadium\, East Rutherford
-DESCRIPTION:阶段: Group L\n状态: 未完赛\n场地: MetLife Stadium\, E
- ast Rutherford\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: MetLife Stadium\, E
+ ast Rutherford
 END:VEVENT
 BEGIN:VEVENT
 UID:m068@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260628T050000
 DTEND;TZID=Asia/Shanghai:20260628T070000
 SUMMARY:克罗地亚（Croatia） vs 加纳（Ghana）
 LOCATION:Lincoln Financial Field\, Philadelphia
-DESCRIPTION:阶段: Group L\n状态: 未完赛\n场地: Lincoln Financial F
- ield\, Philadelphia\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World
- _Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Lincoln Financial F
+ ield\, Philadelphia
 END:VEVENT
 BEGIN:VEVENT
 UID:m071@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260628T073000
 DTEND;TZID=Asia/Shanghai:20260628T093000
 SUMMARY:哥伦比亚（Colombia） vs 葡萄牙（Portugal）
 LOCATION:Hard Rock Stadium\, Miami Gardens
-DESCRIPTION:阶段: Group K\n状态: 未完赛\n场地: Hard Rock Stadium\,
-  Miami Gardens\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Hard Rock Stadium\,
+  Miami Gardens
 END:VEVENT
 BEGIN:VEVENT
 UID:m072@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260628T073000
 DTEND;TZID=Asia/Shanghai:20260628T093000
 SUMMARY:刚果民主共和国（DR Congo） vs 乌兹别克斯坦（Uzbekis
  tan）
 LOCATION:Mercedes-Benz Stadium\, Atlanta
-DESCRIPTION:阶段: Group K\n状态: 未完赛\n场地: Mercedes-Benz Stadi
- um\, Atlanta\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Mercedes-Benz Stadi
+ um\, Atlanta
 END:VEVENT
 BEGIN:VEVENT
 UID:m069@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260628T100000
 DTEND;TZID=Asia/Shanghai:20260628T120000
 SUMMARY:阿尔及利亚（Algeria） vs 奥地利（Austria）
 LOCATION:Arrowhead Stadium\, Kansas City
-DESCRIPTION:阶段: Group J\n状态: 未完赛\n场地: Arrowhead Stadium\,
-  Kansas City\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: Arrowhead Stadium\,
+  Kansas City
 END:VEVENT
 BEGIN:VEVENT
 UID:m070@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260628T100000
 DTEND;TZID=Asia/Shanghai:20260628T120000
 SUMMARY:约旦（Jordan） vs 阿根廷（Argentina）
 LOCATION:AT&T Stadium\, Arlington
-DESCRIPTION:阶段: Group J\n状态: 未完赛\n场地: AT&T Stadium\, Arli
- ngton\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+DESCRIPTION:阶段: Matches\n状态: 未完赛\n场地: AT&T Stadium\, Arli
+ ngton
 END:VEVENT
 BEGIN:VEVENT
 UID:m073@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260629T030000
 DTEND;TZID=Asia/Shanghai:20260629T050000
 SUMMARY:A组第二名（Runner-up Group A） vs B组第二名（Runner-up G
  roup B）
 LOCATION:SoFi Stadium\, Inglewood
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: SoFi Stadium\, 
- Inglewood\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ Inglewood
 END:VEVENT
 BEGIN:VEVENT
 UID:m076@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260630T010000
 DTEND;TZID=Asia/Shanghai:20260630T030000
 SUMMARY:C组第一名（Winner Group C） vs F组第二名（Runner-up Grou
  p F）
 LOCATION:NRG Stadium\, Houston
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: NRG Stadium\, H
- ouston\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ ouston
 END:VEVENT
 BEGIN:VEVENT
 UID:m074@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260630T043000
 DTEND;TZID=Asia/Shanghai:20260630T063000
 SUMMARY:E组第一名（Winner Group E） vs A组/B组/C组/D组/F组第三
  名（3rd Group A/B/C/D/F）
 LOCATION:Gillette Stadium\, Foxborough
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: Gillette Stadiu
- m\, Foxborough\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ m\, Foxborough
 END:VEVENT
 BEGIN:VEVENT
 UID:m075@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260630T090000
 DTEND;TZID=Asia/Shanghai:20260630T110000
 SUMMARY:F组第一名（Winner Group F） vs C组第二名（Runner-up Grou
  p C）
 LOCATION:Estadio BBVA\, Guadalupe
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: Estadio BBVA\, 
- Guadalupe\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ Guadalupe
 END:VEVENT
 BEGIN:VEVENT
 UID:m078@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260701T010000
 DTEND;TZID=Asia/Shanghai:20260701T030000
 SUMMARY:E组第二名（Runner-up Group E） vs I组第二名（Runner-up G
  roup I）
 LOCATION:AT&T Stadium\, Arlington
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: AT&T Stadium\, 
- Arlington\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ Arlington
 END:VEVENT
 BEGIN:VEVENT
 UID:m077@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260701T050000
 DTEND;TZID=Asia/Shanghai:20260701T070000
 SUMMARY:I组第一名（Winner Group I） vs C组/D组/F组/G组/H组第三
  名（3rd Group C/D/F/G/H）
 LOCATION:MetLife Stadium\, East Rutherford
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: MetLife Stadium
- \, East Rutherford\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_
- Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ \, East Rutherford
 END:VEVENT
 BEGIN:VEVENT
 UID:m079@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260701T090000
 DTEND;TZID=Asia/Shanghai:20260701T110000
 SUMMARY:A组第一名（Winner Group A） vs C组/E组/F组/H组/I组第三
  名（3rd Group C/E/F/H/I）
 LOCATION:Estadio Azteca\, Mexico City
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: Estadio Azteca\
- , Mexico City\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ , Mexico City
 END:VEVENT
 BEGIN:VEVENT
 UID:m080@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260702T000000
 DTEND;TZID=Asia/Shanghai:20260702T020000
 SUMMARY:L组第一名（Winner Group L） vs E组/H组/I组/J组/K组第三
  名（3rd Group E/H/I/J/K）
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: Mercedes-Benz S
- tadium\, Atlanta\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cu
- p
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ tadium\, Atlanta
 END:VEVENT
 BEGIN:VEVENT
 UID:m082@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260702T040000
 DTEND;TZID=Asia/Shanghai:20260702T060000
 SUMMARY:G组第一名（Winner Group G） vs A组/E组/H组/I组/J组第三
  名（3rd Group A/E/H/I/J）
 LOCATION:Lumen Field\, Seattle
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: Lumen Field\, S
- eattle\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ eattle
 END:VEVENT
 BEGIN:VEVENT
 UID:m081@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260702T080000
 DTEND;TZID=Asia/Shanghai:20260702T100000
 SUMMARY:D组第一名（Winner Group D） vs B组/E组/F组/I组/J组第三
  名（3rd Group B/E/F/I/J）
 LOCATION:Levi's Stadium\, Santa Clara
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: Levi's Stadium\
- , Santa Clara\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ , Santa Clara
 END:VEVENT
 BEGIN:VEVENT
 UID:m084@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260703T030000
 DTEND;TZID=Asia/Shanghai:20260703T050000
 SUMMARY:H组第一名（Winner Group H） vs J组第二名（Runner-up Grou
  p J）
 LOCATION:SoFi Stadium\, Inglewood
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: SoFi Stadium\, 
- Inglewood\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ Inglewood
 END:VEVENT
 BEGIN:VEVENT
 UID:m083@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260703T070000
 DTEND;TZID=Asia/Shanghai:20260703T090000
 SUMMARY:K组第二名（Runner-up Group K） vs L组第二名（Runner-up G
  roup L）
 LOCATION:BMO Field\, Toronto
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: BMO Field\, Tor
- onto\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ onto
 END:VEVENT
 BEGIN:VEVENT
 UID:m085@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260703T110000
 DTEND;TZID=Asia/Shanghai:20260703T130000
 SUMMARY:B组第一名（Winner Group B） vs E组/F组/G组/I组/J组第三
  名（3rd Group E/F/G/I/J）
 LOCATION:BC Place\, Vancouver
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: BC Place\, Vanc
- ouver\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ ouver
 END:VEVENT
 BEGIN:VEVENT
 UID:m088@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260704T020000
 DTEND;TZID=Asia/Shanghai:20260704T040000
 SUMMARY:D组第二名（Runner-up Group D） vs G组第二名（Runner-up G
  roup G）
 LOCATION:AT&T Stadium\, Arlington
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: AT&T Stadium\, 
- Arlington\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ Arlington
 END:VEVENT
 BEGIN:VEVENT
 UID:m086@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260704T060000
 DTEND;TZID=Asia/Shanghai:20260704T080000
 SUMMARY:J组第一名（Winner Group J） vs H组第二名（Runner-up Grou
  p H）
 LOCATION:Hard Rock Stadium\, Miami Gardens
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: Hard Rock Stadi
- um\, Miami Gardens\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_
- Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ um\, Miami Gardens
 END:VEVENT
 BEGIN:VEVENT
 UID:m087@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260704T093000
 DTEND;TZID=Asia/Shanghai:20260704T113000
 SUMMARY:K组第一名（Winner Group K） vs D组/E组/I组/J组/L组第三
  名（3rd Group D/E/I/J/L）
 LOCATION:Arrowhead Stadium\, Kansas City
 DESCRIPTION:阶段: Round of 32\n状态: 未完赛\n场地: Arrowhead Stadi
- um\, Kansas City\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cu
- p
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ um\, Kansas City
 END:VEVENT
 BEGIN:VEVENT
 UID:m090@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260705T010000
 DTEND;TZID=Asia/Shanghai:20260705T030000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:NRG Stadium\, Houston
 DESCRIPTION:阶段: Round of 16\n状态: 未完赛\n场地: NRG Stadium\, H
- ouston\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ ouston
 END:VEVENT
 BEGIN:VEVENT
 UID:m089@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260705T050000
 DTEND;TZID=Asia/Shanghai:20260705T070000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:Lincoln Financial Field\, Philadelphia
 DESCRIPTION:阶段: Round of 16\n状态: 未完赛\n场地: Lincoln Financi
- al Field\, Philadelphia\n来源: https://en.wikipedia.org/wiki/2026_FIFA_W
- orld_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ al Field\, Philadelphia
 END:VEVENT
 BEGIN:VEVENT
 UID:m091@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260706T040000
 DTEND;TZID=Asia/Shanghai:20260706T060000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:MetLife Stadium\, East Rutherford
 DESCRIPTION:阶段: Round of 16\n状态: 未完赛\n场地: MetLife Stadium
- \, East Rutherford\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_
- Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ \, East Rutherford
 END:VEVENT
 BEGIN:VEVENT
 UID:m092@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260706T080000
 DTEND;TZID=Asia/Shanghai:20260706T100000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:Estadio Azteca\, Mexico City
 DESCRIPTION:阶段: Round of 16\n状态: 未完赛\n场地: Estadio Azteca\
- , Mexico City\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ , Mexico City
 END:VEVENT
 BEGIN:VEVENT
 UID:m093@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260707T030000
 DTEND;TZID=Asia/Shanghai:20260707T050000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:AT&T Stadium\, Arlington
 DESCRIPTION:阶段: Round of 16\n状态: 未完赛\n场地: AT&T Stadium\, 
- Arlington\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ Arlington
 END:VEVENT
 BEGIN:VEVENT
 UID:m094@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260707T080000
 DTEND;TZID=Asia/Shanghai:20260707T100000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:Lumen Field\, Seattle
 DESCRIPTION:阶段: Round of 16\n状态: 未完赛\n场地: Lumen Field\, S
- eattle\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ eattle
 END:VEVENT
 BEGIN:VEVENT
 UID:m095@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260708T000000
 DTEND;TZID=Asia/Shanghai:20260708T020000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 DESCRIPTION:阶段: Round of 16\n状态: 未完赛\n场地: Mercedes-Benz S
- tadium\, Atlanta\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cu
- p
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ tadium\, Atlanta
 END:VEVENT
 BEGIN:VEVENT
 UID:m096@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260708T040000
 DTEND;TZID=Asia/Shanghai:20260708T060000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:BC Place\, Vancouver
 DESCRIPTION:阶段: Round of 16\n状态: 未完赛\n场地: BC Place\, Vanc
- ouver\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ ouver
 END:VEVENT
 BEGIN:VEVENT
 UID:m097@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260710T040000
 DTEND;TZID=Asia/Shanghai:20260710T060000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:Gillette Stadium\, Foxborough
 DESCRIPTION:阶段: Quarterfinals\n状态: 未完赛\n场地: Gillette Stad
- ium\, Foxborough\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cu
- p
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ ium\, Foxborough
 END:VEVENT
 BEGIN:VEVENT
 UID:m098@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260711T030000
 DTEND;TZID=Asia/Shanghai:20260711T050000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:SoFi Stadium\, Inglewood
 DESCRIPTION:阶段: Quarterfinals\n状态: 未完赛\n场地: SoFi Stadium\
- , Inglewood\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ , Inglewood
 END:VEVENT
 BEGIN:VEVENT
 UID:m099@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260712T050000
 DTEND;TZID=Asia/Shanghai:20260712T070000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:Hard Rock Stadium\, Miami Gardens
 DESCRIPTION:阶段: Quarterfinals\n状态: 未完赛\n场地: Hard Rock Sta
- dium\, Miami Gardens\n来源: https://en.wikipedia.org/wiki/2026_FIFA_Worl
- d_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ dium\, Miami Gardens
 END:VEVENT
 BEGIN:VEVENT
 UID:m100@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260712T090000
 DTEND;TZID=Asia/Shanghai:20260712T110000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:Arrowhead Stadium\, Kansas City
 DESCRIPTION:阶段: Quarterfinals\n状态: 未完赛\n场地: Arrowhead Sta
- dium\, Kansas City\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_
- Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ dium\, Kansas City
 END:VEVENT
 BEGIN:VEVENT
 UID:m101@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260715T030000
 DTEND;TZID=Asia/Shanghai:20260715T050000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:AT&T Stadium\, Arlington
 DESCRIPTION:阶段: Semifinals\n状态: 未完赛\n场地: AT&T Stadium\, A
- rlington\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ rlington
 END:VEVENT
 BEGIN:VEVENT
 UID:m102@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260716T030000
 DTEND;TZID=Asia/Shanghai:20260716T050000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 DESCRIPTION:阶段: Semifinals\n状态: 未完赛\n场地: Mercedes-Benz St
- adium\, Atlanta\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ adium\, Atlanta
 END:VEVENT
 BEGIN:VEVENT
 UID:m103@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260719T050000
 DTEND;TZID=Asia/Shanghai:20260719T070000
 SUMMARY:负者（Loser） vs 负者（Loser）
 LOCATION:Hard Rock Stadium\, Miami Gardens
 DESCRIPTION:阶段: Match for third place\n状态: 未完赛\n场地: Hard 
- Rock Stadium\, Miami Gardens\n来源: https://en.wikipedia.org/wiki/2026_F
- IFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ Rock Stadium\, Miami Gardens
 END:VEVENT
 BEGIN:VEVENT
 UID:m104@worldcup-2026-calendar
-DTSTAMP:20260613T074117Z
+DTSTAMP:20260613T141133Z
 DTSTART;TZID=Asia/Shanghai:20260720T030000
 DTEND;TZID=Asia/Shanghai:20260720T050000
 SUMMARY:胜者（Winner） vs 胜者（Winner）
 LOCATION:MetLife Stadium\, East Rutherford
 DESCRIPTION:阶段: Final\n状态: 未完赛\n场地: MetLife Stadium\, Eas
- t Rutherford\n来源: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
-URL:https://en.wikipedia.org/wiki/2026_FIFA_World_Cup
+ t Rutherford
 END:VEVENT
 END:VCALENDAR

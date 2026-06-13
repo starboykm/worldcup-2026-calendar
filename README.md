@@ -23,8 +23,8 @@ Public ICS calendar for the 2026 FIFA World Cup. Match times are converted to Be
 - 比赛时间：北京时间 `Asia/Shanghai`
 - 比赛标题：参赛队伍，格式为 `中文（English）`
 - 完赛后标题：参赛队伍和比分，例如 `墨西哥（Mexico） 2-0 南非（South Africa）`
-- 描述信息：阶段/小组、比赛状态、比赛场地、数据来源
-- 完赛后描述：进球队员和进球时间，取决于公开数据源是否已经更新
+- 描述信息：阶段/小组、比赛状态、比赛场地
+- 完赛后描述：两队进球队员和进球时间，进球队员尽量显示为 `中文（English）`
 - 地点信息：球场和城市
 
 ### 输出文件
@@ -128,11 +128,12 @@ http://your-server:8080/worldcup-2026.ics
 - 每天 UTC 04:00 运行
 - 对应北京时间每天 12:00
 - 支持手动运行 `workflow_dispatch`
+- 不会在每次代码推送时自动运行，避免非中午时间生成新的日历文件
 - 生成并提交 `docs/worldcup-2026.ics` 和 `docs/matches.json`
 
 自动更新流程如下：
 
-1. GitHub Actions 按定时任务启动。
+1. GitHub Actions 按定时任务启动，或由你在 Actions 页面手动启动。
 2. 拉取仓库最新代码。
 3. 设置 Python 3.12 环境。
 4. 运行 `python -m worldcup_calendar update`。
@@ -220,8 +221,8 @@ Each match is rendered as one calendar event with:
 - Score in the event title when available, for example `墨西哥（Mexico） 2-0 南非（South Africa）`
 - Stage/group and match status
 - Venue and city
-- Source URL
-- Goal scorers and goal minutes when available from the public source
+- Goal scorers for both teams and goal minutes when available from the public source
+- Goal scorers are displayed as `Chinese（English）` when a Chinese name is available
 
 ### Output Files
 
@@ -320,11 +321,12 @@ The workflow in `.github/workflows/update-calendar.yml`:
 - Runs daily at UTC 04:00
 - Equals 12:00 Beijing time
 - Supports manual dispatch
+- Does not run on every code push, so updates stay aligned with the noon schedule unless triggered manually
 - Regenerates and commits `docs/worldcup-2026.ics` and `docs/matches.json`
 
 Update flow:
 
-1. GitHub Actions starts on schedule.
+1. GitHub Actions starts on schedule or from a manual dispatch.
 2. It checks out the latest repository code.
 3. It sets up Python 3.12.
 4. It runs `python -m worldcup_calendar update`.

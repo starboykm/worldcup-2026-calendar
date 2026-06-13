@@ -6,10 +6,11 @@ from datetime import datetime, timedelta, timezone
 from html import unescape
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 from urllib.request import ProxyHandler, Request, build_opener, urlopen
 
 from .models import Goal, Match
+from .team_names import PLAYER_TRANSLATIONS
 
 WIKIPEDIA_BASE = "https://en.wikipedia.org/wiki"
 DEFAULT_PAGES = [
@@ -60,6 +61,7 @@ TITLE_SPLIT_RE = re.compile(r"\s+(?:v|vs\.?|versus)\s+", re.IGNORECASE)
 GOAL_RE = re.compile(r"(?P<player>[A-Z][^;\n\[]+?)\s+(?P<minute>\d{1,3}(?:\+\d{1,2})?'(?:\s*\([^)]*\))?)")
 TAG_RE = re.compile(r"<[^>]+>")
 SCRIPT_STYLE_RE = re.compile(r"<(script|style)\b.*?</\1>", re.IGNORECASE | re.DOTALL)
+PLAYER_TRANSLATION_CACHE: dict[str, str] = {}
 
 
 class SourceError(RuntimeError):
@@ -81,6 +83,7 @@ def fetch_matches(source_url: str | None = None, overrides_path: Path | None = N
         if not matches and errors:
             raise SourceError("; ".join(errors))
 
+    _normalize_match_ids(matches)
     matches = _dedupe(matches)
     if overrides_path:
         _apply_overrides(matches, overrides_path)
@@ -259,6 +262,7 @@ def _parse_json_matches(payload: Any, source_url: str) -> list[Match]:
                         player=str(goal.get("player") or ""),
                         minute=str(goal.get("minute") or ""),
                         note=str(goal.get("note") or ""),
+                        player_zh=str(goal.get("player_zh") or ""),
                     )
                     for goal in row.get("goals", [])
                     if isinstance(goal, dict)
@@ -432,8 +436,8 @@ def _goals(text: str, home: str, away: str, html: str | None = None) -> list[Goa
     if html:
         for team, class_name in [(home, "fhgoal"), (away, "fagoal")]:
             cell = _class_html(html, class_name)
-            for player, minute in _goal_pairs_from_html(cell):
-                goals.append(Goal(team=team, player=player, minute=minute))
+            for player, minute, player_zh, note in _goal_pairs_from_html(cell):
+                goals.append(Goal(team=team, player=player, minute=minute, note=note, player_zh=player_zh))
         if goals:
             return goals[:20]
 
@@ -468,23 +472,183 @@ def _class_html(html: str, class_name: str) -> str:
     return match.group("value") if match else ""
 
 
-def _goal_pairs_from_html(html: str) -> list[tuple[str, str]]:
-    goals: list[tuple[str, str]] = []
-    for item in re.findall(r"<li\b[^>]*>([\s\S]*?)</li>", html, re.IGNORECASE):
-        player_match = re.search(r"<a\b[^>]*>(?P<player>[\s\S]*?)</a>", item, re.IGNORECASE)
-        minute_match = re.search(r"<span\b[^>]*class=[\"']fb-goal[\"'][^>]*>[\s\S]*?<span>(?P<minute>[^<]+)</span>", item, re.IGNORECASE)
-        if player_match and minute_match:
-            goals.append((_clean_text(_html_text(player_match.group("player"))), _clean_text(unescape(minute_match.group("minute")))))
+def _goal_pairs_from_html(html: str) -> list[tuple[str, str, str, str]]:
+    goals: list[tuple[str, str, str, str]] = []
+    if not html:
+        return goals
+
+    items = re.findall(r"<li\b[^>]*>([\s\S]*?)</li>", html, re.IGNORECASE) or [html]
+    for item in items:
+        player, href = _player_from_goal_item(item)
+        minutes = _goal_minutes(item)
+        if player and minutes:
+            player_zh = _player_translation(player, href)
+            note = _goal_note(item)
+            for minute in minutes:
+                goals.append((
+                    player,
+                    minute,
+                    player_zh,
+                    note,
+                ))
     return goals
+
+
+def _goal_minutes(html: str) -> list[str]:
+    minutes: list[str] = []
+    for minute_html in re.findall(r"<span>(?P<minute>\d{1,3}(?:\+\d{1,2})?'[\s\S]*?)</span>", html, re.IGNORECASE):
+        minute = _clean_text(_html_text(minute_html))
+        minute = minute.replace("( o.g. )", "(o.g.)")
+        if minute:
+            minutes.append(minute)
+    return minutes
+
+
+def _player_from_goal_item(html: str) -> tuple[str, str]:
+    link_match = re.search(r"<a\b(?P<attrs>[^>]*)>(?P<text>[\s\S]*?)</a>", html, re.IGNORECASE)
+    if not link_match:
+        return "", ""
+    attrs = link_match.group("attrs")
+    title = _attr(attrs, "title")
+    href = _attr(attrs, "href")
+    raw_name = title or _html_text(link_match.group("text"))
+    return _clean_player_name(unescape(raw_name)), unescape(href)
+
+
+def _goal_note(html: str) -> str:
+    note_translations = {
+        "Own goal": "乌龙球",
+        "Penalty scored": "点球",
+    }
+    notes = []
+    for title in re.findall(r"<span\b[^>]*title=[\"'](?P<title>[^\"']+)[\"']", html, re.IGNORECASE):
+        note = _clean_text(unescape(title))
+        if note and note.lower() != "goal":
+            notes.append(note_translations.get(note, note))
+    return ", ".join(dict.fromkeys(notes))
+
+
+def _player_translation(player: str, href: str) -> str:
+    if player in PLAYER_TRANSLATION_CACHE:
+        return PLAYER_TRANSLATION_CACHE[player]
+    if player in PLAYER_TRANSLATIONS:
+        PLAYER_TRANSLATION_CACHE[player] = PLAYER_TRANSLATIONS[player]
+        return PLAYER_TRANSLATIONS[player]
+    if not href.startswith("/wiki/"):
+        PLAYER_TRANSLATION_CACHE[player] = ""
+        return ""
+
+    page_title = unquote(href.removeprefix("/wiki/").split("#", 1)[0]).replace("_", " ")
+    api_url = (
+        "https://en.wikipedia.org/w/api.php?action=query&prop=langlinks"
+        f"&titles={quote(page_title, safe='')}&lllang=zh&format=json"
+    )
+    try:
+        payload = json.loads(_download(api_url)[0])
+        pages = payload.get("query", {}).get("pages", {})
+        for page in pages.values():
+            for link in page.get("langlinks", []):
+                translated = _clean_player_name(str(link.get("*") or ""))
+                if translated:
+                    PLAYER_TRANSLATION_CACHE[player] = translated
+                    return translated
+    except Exception:
+        pass
+
+    PLAYER_TRANSLATION_CACHE[player] = ""
+    return ""
+
+
+def _clean_player_name(value: str) -> str:
+    value = re.sub(r"\s*\([^)]*\)\s*$", "", value)
+    return _clean_text(value)
+
+
+def _attr(attrs: str, name: str) -> str:
+    match = re.search(rf"\b{re.escape(name)}=[\"'](?P<value>[^\"']*)[\"']", attrs, re.IGNORECASE)
+    return match.group("value") if match else ""
 
 
 def _dedupe(matches: list[Match]) -> list[Match]:
     by_id: dict[str, Match] = {}
     for match in matches:
         existing = by_id.get(match.match_id)
-        if not existing or (match.status == "completed" and existing.status != "completed"):
+        if not existing or _is_better_match_record(match, existing):
             by_id[match.match_id] = match
     return list(by_id.values())
+
+
+def _is_better_match_record(candidate: Match, existing: Match) -> bool:
+    if candidate.status == "completed" and existing.status != "completed":
+        return True
+    if candidate.status != existing.status:
+        return False
+    if len(candidate.goals) > len(existing.goals):
+        return True
+    return _is_specific_source(candidate.source_url) and not _is_specific_source(existing.source_url)
+
+
+def _is_specific_source(source_url: str) -> bool:
+    return bool(source_url) and not source_url.rstrip("/").endswith("/2026_FIFA_World_Cup")
+
+
+def _normalize_match_ids(matches: list[Match]) -> None:
+    canonical_by_signature = {
+        _match_signature(match): match.match_id
+        for match in matches
+        if not match.match_id.startswith("X")
+    }
+    team_ids: dict[tuple[str, str], set[str]] = {}
+    for match in matches:
+        if match.match_id.startswith("X"):
+            continue
+        team_ids.setdefault(_team_signature(match), set()).add(match.match_id)
+    canonical_by_teams = {
+        teams: next(iter(ids))
+        for teams, ids in team_ids.items()
+        if len(ids) == 1
+    }
+    unique_signatures: list[tuple[object, ...]] = []
+    seen_signatures: set[tuple[object, ...]] = set()
+    for match in sorted(matches, key=lambda item: (item.starts_at_beijing, item.home, item.away, item.match_id)):
+        signature = _match_signature(match)
+        if signature not in seen_signatures:
+            unique_signatures.append(signature)
+            seen_signatures.add(signature)
+    ordinal_by_signature = {
+        signature: f"M{index:03d}"
+        for index, signature in enumerate(unique_signatures, start=1)
+    }
+    ordinal_by_teams: dict[tuple[str, str], str] = {}
+    for signature in unique_signatures:
+        for match in matches:
+            if _match_signature(match) == signature and _is_concrete_team_pair(match):
+                ordinal_by_teams.setdefault(_team_signature(match), ordinal_by_signature[signature])
+                break
+
+    for match in matches:
+        if not match.match_id.startswith("X"):
+            continue
+        signature = _match_signature(match)
+        match.match_id = (
+            canonical_by_signature.get(signature)
+            or canonical_by_teams.get(_team_signature(match))
+            or ordinal_by_teams.get(_team_signature(match))
+            or ordinal_by_signature[signature]
+        )
+
+
+def _match_signature(match: Match) -> tuple[object, ...]:
+    return (match.starts_at_beijing, match.home, match.away)
+
+
+def _team_signature(match: Match) -> tuple[str, str]:
+    return (match.home, match.away)
+
+
+def _is_concrete_team_pair(match: Match) -> bool:
+    placeholders = ("Winner", "Loser", "Runner-up", "3rd ")
+    return not match.home.startswith(placeholders) and not match.away.startswith(placeholders)
 
 
 def _apply_overrides(matches: list[Match], overrides_path: Path) -> None:
@@ -514,6 +678,7 @@ def _apply_overrides(matches: list[Match], overrides_path: Path) -> None:
                     player=str(goal.get("player") or ""),
                     minute=str(goal.get("minute") or ""),
                     note=str(goal.get("note") or ""),
+                    player_zh=str(goal.get("player_zh") or ""),
                 )
                 for goal in values["goals"]
                 if isinstance(goal, dict)

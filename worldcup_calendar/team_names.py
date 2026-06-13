@@ -51,6 +51,20 @@ TEAM_TRANSLATIONS = {
     "Uzbekistan": "乌兹别克斯坦",
 }
 
+PLAYER_TRANSLATIONS = {
+    "Cyle Larin": "凯尔·拉林",
+    "Damián Bobadilla": "达米安·博瓦迪利亚",
+    "Folarin Balogun": "福拉林·巴洛贡",
+    "Giovanni Reyna": "乔瓦尼·雷纳",
+    "Hwang In-beom": "黄仁范",
+    "Jovo Lukić": "约沃·卢基奇",
+    "Julián Quiñones": "胡利安·基尼奥内斯",
+    "Ladislav Krejčí": "拉迪斯拉夫·克雷伊奇",
+    "Maurício": "毛里西奥",
+    "Oh Hyeon-gyu": "吴贤揆",
+    "Raúl Jiménez": "劳尔·希门尼斯",
+}
+
 GROUP_TRANSLATIONS = {
     "A": "A组",
     "B": "B组",
@@ -72,6 +86,13 @@ def display_team_name(name: str) -> str:
     if not chinese:
         return name
     return f"{chinese}（{name}）"
+
+
+def display_player_name(name: str, chinese: str = "") -> str:
+    translated = chinese or PLAYER_TRANSLATIONS.get(name, "")
+    if not translated:
+        return name
+    return f"{translated}（{name}）"
 
 
 def _translate_placeholder(name: str) -> str | None:

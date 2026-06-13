@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timedelta, timezone
 
 from .models import Match
-from .team_names import display_team_name
+from .team_names import display_player_name, display_team_name
 
 BEIJING_TZID = "Asia/Shanghai"
 
@@ -54,9 +54,8 @@ def _description(match: Match) -> str:
             note = f" ({goal.note})" if goal.note else ""
             team = display_team_name(goal.team) if goal.team else ""
             team_prefix = f"{team}: " if team else ""
-            parts.append(f"- {team_prefix}{goal.player} {goal.minute}{note}")
-    if match.source_url:
-        parts.append(f"来源: {match.source_url}")
+            player = display_player_name(goal.player, goal.player_zh)
+            parts.append(f"- {team_prefix}{player} {goal.minute}{note}")
     return "\n".join(parts)
 
 
@@ -102,9 +101,6 @@ def render_calendar(matches: list[Match]) -> str:
                 lines.append(folded)
         for folded in _line("DESCRIPTION", _escape(_description(match))):
             lines.append(folded)
-        if match.source_url:
-            for folded in _line("URL", _escape(match.source_url)):
-                lines.append(folded)
         lines.append("END:VEVENT")
 
     lines.append("END:VCALENDAR")
