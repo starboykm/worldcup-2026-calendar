@@ -62,7 +62,38 @@
     "title_display": "韩国（South Korea） 2-1 捷克（Czech Republic）"
   },
   {
-    "match_id": "M003",
+    "match_id": "X202606130300-Canada-BosniaandHer-001",
+    "stage": "Matches",
+    "home": "Canada",
+    "away": "Bosnia and Herzegovina",
+    "starts_at_beijing": "2026-06-13T03:00:00",
+    "venue": "BMO Field",
+    "city": "Toronto",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Canada",
+        "player": "Larin",
+        "minute": "78'",
+        "note": ""
+      },
+      {
+        "team": "Bosnia and Herzegovina",
+        "player": "Lukić",
+        "minute": "21'",
+        "note": ""
+      }
+    ],
+    "raw_title": "Canada v Bosnia and Herzegovina",
+    "home_display": "加拿大（Canada）",
+    "away_display": "波黑（Bosnia and Herzegovina）",
+    "title_display": "加拿大（Canada） 1-1 波黑（Bosnia and Herzegovina）"
+  },
+  {
+    "match_id": "X202606130300-Canada-BosniaandHer-007",
     "stage": "Group B",
     "home": "Canada",
     "away": "Bosnia and Herzegovina",
@@ -70,17 +101,67 @@
     "venue": "BMO Field",
     "city": "Toronto",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Canada",
+        "player": "Larin",
+        "minute": "78'",
+        "note": ""
+      },
+      {
+        "team": "Bosnia and Herzegovina",
+        "player": "Lukić",
+        "minute": "21'",
+        "note": ""
+      }
+    ],
     "raw_title": "Canada v Bosnia and Herzegovina",
     "home_display": "加拿大（Canada）",
     "away_display": "波黑（Bosnia and Herzegovina）",
-    "title_display": "加拿大（Canada） vs 波黑（Bosnia and Herzegovina）"
+    "title_display": "加拿大（Canada） 1-1 波黑（Bosnia and Herzegovina）"
   },
   {
-    "match_id": "M004",
+    "match_id": "X202606130600-UnitedStates-Paraguay-001",
+    "stage": "Matches",
+    "home": "United States",
+    "away": "Paraguay",
+    "starts_at_beijing": "2026-06-13T06:00:00",
+    "venue": "SoFi Stadium",
+    "city": "Inglewood",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D",
+    "status": "completed",
+    "home_score": 4,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "United States",
+        "player": "Balogun",
+        "minute": "31'",
+        "note": ""
+      },
+      {
+        "team": "United States",
+        "player": "Reyna",
+        "minute": "90+8'",
+        "note": ""
+      },
+      {
+        "team": "Paraguay",
+        "player": "Maurício",
+        "minute": "73'",
+        "note": ""
+      }
+    ],
+    "raw_title": "United States v Paraguay",
+    "home_display": "美国（United States）",
+    "away_display": "巴拉圭（Paraguay）",
+    "title_display": "美国（United States） 4-1 巴拉圭（Paraguay）"
+  },
+  {
+    "match_id": "X202606130900-UnitedStates-Paraguay-019",
     "stage": "Group D",
     "home": "United States",
     "away": "Paraguay",
@@ -88,14 +169,33 @@
     "venue": "SoFi Stadium",
     "city": "Inglewood",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 4,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "United States",
+        "player": "Balogun",
+        "minute": "31'",
+        "note": ""
+      },
+      {
+        "team": "United States",
+        "player": "Reyna",
+        "minute": "90+8'",
+        "note": ""
+      },
+      {
+        "team": "Paraguay",
+        "player": "Maurício",
+        "minute": "73'",
+        "note": ""
+      }
+    ],
     "raw_title": "United States v Paraguay",
     "home_display": "美国（United States）",
     "away_display": "巴拉圭（Paraguay）",
-    "title_display": "美国（United States） vs 巴拉圭（Paraguay）"
+    "title_display": "美国（United States） 4-1 巴拉圭（Paraguay）"
   },
   {
     "match_id": "M008",
