@@ -395,14 +395,47 @@
     "venue": "AT&T Stadium",
     "city": "Arlington",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "Netherlands",
+        "player": "Virgil van Dijk",
+        "minute": "51'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Virgil van Dijk"
+      },
+      {
+        "team": "Netherlands",
+        "player": "Crysencio Summerville",
+        "minute": "64'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Crysencio Summerville"
+      },
+      {
+        "team": "Japan",
+        "player": "Keito Nakamura",
+        "minute": "57'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Keito Nakamura"
+      },
+      {
+        "team": "Japan",
+        "player": "Daichi Kamada",
+        "minute": "88'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Daichi Kamada"
+      }
+    ],
     "raw_title": "Netherlands v Japan",
     "home_display": "荷兰（Netherlands）",
     "away_display": "日本（Japan）",
-    "title_display": "荷兰（Netherlands） vs 日本（Japan）"
+    "title_display": "荷兰（Netherlands） 2-2 日本（Japan）"
   },
   {
     "match_id": "M009",
