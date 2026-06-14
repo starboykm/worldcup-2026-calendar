@@ -250,14 +250,23 @@
     "venue": "Gillette Stadium",
     "city": "Foxborough",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Scotland",
+        "player": "John McGinn",
+        "minute": "28'",
+        "note": "",
+        "player_zh": "約翰·麥金",
+        "player_display": "約翰·麥金（John McGinn）"
+      }
+    ],
     "raw_title": "Haiti v Scotland",
     "home_display": "海地（Haiti）",
     "away_display": "苏格兰（Scotland）",
-    "title_display": "海地（Haiti） vs 苏格兰（Scotland）"
+    "title_display": "海地（Haiti） 0-1 苏格兰（Scotland）"
   },
   {
     "match_id": "M006",
@@ -268,14 +277,31 @@
     "venue": "BC Place",
     "city": "Vancouver",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Australia",
+        "player": "Nestory Irankunda",
+        "minute": "27'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Nestory Irankunda"
+      },
+      {
+        "team": "Australia",
+        "player": "Connor Metcalfe",
+        "minute": "75'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Connor Metcalfe"
+      }
+    ],
     "raw_title": "Australia v Turkey",
     "home_display": "澳大利亚（Australia）",
     "away_display": "土耳其（Turkey）",
-    "title_display": "澳大利亚（Australia） vs 土耳其（Turkey）"
+    "title_display": "澳大利亚（Australia） 2-0 土耳其（Turkey）"
   },
   {
     "match_id": "M010",
