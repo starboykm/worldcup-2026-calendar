@@ -312,14 +312,79 @@
     "venue": "NRG Stadium",
     "city": "Houston",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 7,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Germany",
+        "player": "Felix Nmecha",
+        "minute": "6'",
+        "note": "",
+        "player_zh": "費利克斯·恩梅查",
+        "player_display": "費利克斯·恩梅查（Felix Nmecha）"
+      },
+      {
+        "team": "Germany",
+        "player": "Nico Schlotterbeck",
+        "minute": "38'",
+        "note": "",
+        "player_zh": "尼科·施洛特貝克",
+        "player_display": "尼科·施洛特貝克（Nico Schlotterbeck）"
+      },
+      {
+        "team": "Germany",
+        "player": "Kai Havertz",
+        "minute": "45+5' ( pen. )",
+        "note": "",
+        "player_zh": "凯·哈弗茨",
+        "player_display": "凯·哈弗茨（Kai Havertz）"
+      },
+      {
+        "team": "Germany",
+        "player": "Kai Havertz",
+        "minute": "88'",
+        "note": "",
+        "player_zh": "凯·哈弗茨",
+        "player_display": "凯·哈弗茨（Kai Havertz）"
+      },
+      {
+        "team": "Germany",
+        "player": "Jamal Musiala",
+        "minute": "47'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Jamal Musiala"
+      },
+      {
+        "team": "Germany",
+        "player": "Nathaniel Brown",
+        "minute": "68'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Nathaniel Brown"
+      },
+      {
+        "team": "Germany",
+        "player": "Deniz Undav",
+        "minute": "78'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Deniz Undav"
+      },
+      {
+        "team": "Curaçao",
+        "player": "Livano Comenencia",
+        "minute": "21'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Livano Comenencia"
+      }
+    ],
     "raw_title": "Germany v Curaçao",
     "home_display": "德国（Germany）",
     "away_display": "库拉索（Curaçao）",
-    "title_display": "德国（Germany） vs 库拉索（Curaçao）"
+    "title_display": "德国（Germany） 7-1 库拉索（Curaçao）"
   },
   {
     "match_id": "M011",
