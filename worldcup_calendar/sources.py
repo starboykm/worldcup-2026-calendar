@@ -62,13 +62,21 @@ GOAL_RE = re.compile(r"(?P<player>[A-Z][^;\n\[]+?)\s+(?P<minute>\d{1,3}(?:\+\d{1
 TAG_RE = re.compile(r"<[^>]+>")
 SCRIPT_STYLE_RE = re.compile(r"<(script|style)\b.*?</\1>", re.IGNORECASE | re.DOTALL)
 PLAYER_TRANSLATION_CACHE: dict[str, str] = {}
+GROUP_STAGE_RE = re.compile(r"^Group (?P<group>[A-L])$")
+WINNER_GROUP_RE = re.compile(r"^Winner Group (?P<group>[A-L])$")
+RUNNER_UP_GROUP_RE = re.compile(r"^Runner-up Group (?P<group>[A-L])$")
+THIRD_GROUP_RE = re.compile(r"^3rd Group (?P<groups>[A-L](?:/[A-L])*)$")
 
 
 class SourceError(RuntimeError):
     pass
 
 
-def fetch_matches(source_url: str | None = None, overrides_path: Path | None = None) -> list[Match]:
+def fetch_matches(
+    source_url: str | None = None,
+    overrides_path: Path | None = None,
+    previous_matches_path: Path | None = None,
+) -> list[Match]:
     if source_url:
         matches = _fetch_single_source(source_url)
     else:
@@ -83,10 +91,12 @@ def fetch_matches(source_url: str | None = None, overrides_path: Path | None = N
         if not matches and errors:
             raise SourceError("; ".join(errors))
 
-    _normalize_match_ids(matches)
+    previous_ids = _load_previous_match_ids(previous_matches_path)
+    _normalize_match_ids(matches, previous_ids)
     matches = _dedupe(matches)
     if overrides_path:
         _apply_overrides(matches, overrides_path)
+    _resolve_knockout_placeholders(matches)
     matches.sort(key=lambda item: (item.starts_at_beijing, item.match_id))
     if not matches:
         raise SourceError("No matches were parsed from the configured source.")
@@ -592,7 +602,79 @@ def _is_specific_source(source_url: str) -> bool:
     return bool(source_url) and not source_url.rstrip("/").endswith("/2026_FIFA_World_Cup")
 
 
-def _normalize_match_ids(matches: list[Match]) -> None:
+def _is_main_worldcup_source(source_url: str) -> bool:
+    return bool(source_url) and source_url.rstrip("/").endswith("/2026_FIFA_World_Cup")
+
+
+def _main_source_fallback_id(match: Match) -> str:
+    if not _is_main_worldcup_source(match.source_url):
+        return ""
+    fallback_number = _x_fallback_number(match.match_id)
+    return f"M{fallback_number:03d}" if fallback_number else ""
+
+
+def _x_fallback_number(match_id: str) -> int | None:
+    match = re.search(r"-(?P<number>\d{3})$", match_id)
+    if not match:
+        return None
+    number = int(match.group("number"))
+    return number if 1 <= number <= 104 else None
+
+
+def _load_previous_match_ids(path: Path | None) -> dict[str, dict[tuple[str, ...], str]]:
+    empty: dict[str, dict[tuple[str, ...], str]] = {"exact": {}, "teams": {}, "slot": {}}
+    if not path or not path.exists():
+        return empty
+    try:
+        rows = json.loads(path.read_text(encoding="utf-8-sig"))
+    except Exception:
+        return empty
+    if not isinstance(rows, list):
+        return empty
+
+    exact: dict[tuple[str, ...], str] = {}
+    teams_seen: dict[tuple[str, ...], set[str]] = {}
+    slot_seen: dict[tuple[str, ...], set[str]] = {}
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        match_id = str(row.get("match_id") or "")
+        start = str(row.get("starts_at_beijing") or "")
+        home = str(row.get("home") or "")
+        away = str(row.get("away") or "")
+        stage = str(row.get("stage") or "")
+        venue = str(row.get("venue") or "")
+        city = str(row.get("city") or "")
+        if not match_id or not start or not home or not away:
+            continue
+        exact[(start, home, away)] = match_id
+        teams_seen.setdefault((home, away), set()).add(match_id)
+        slot_seen.setdefault((start, stage, venue, city), set()).add(match_id)
+
+    teams = {key: next(iter(ids)) for key, ids in teams_seen.items() if len(ids) == 1}
+    slot = {key: next(iter(ids)) for key, ids in slot_seen.items() if len(ids) == 1}
+    return {"exact": exact, "teams": teams, "slot": slot}
+
+
+def _historical_match_id(match: Match, previous_ids: dict[str, dict[tuple[str, ...], str]]) -> str:
+    start = match.starts_at_beijing.isoformat()
+    return (
+        previous_ids["exact"].get((start, match.home, match.away))
+        or previous_ids["teams"].get((match.home, match.away))
+        or previous_ids["slot"].get((start, match.stage, match.venue, match.city))
+        or ""
+    )
+
+
+def _normalize_match_ids(matches: list[Match], previous_ids: dict[str, dict[tuple[str, ...], str]] | None = None) -> None:
+    previous_ids = previous_ids or {"exact": {}, "teams": {}, "slot": {}}
+    for match in matches:
+        if not match.match_id.startswith("X"):
+            continue
+        historical_id = _historical_match_id(match, previous_ids)
+        if historical_id:
+            match.match_id = historical_id
+
     canonical_by_signature = {
         _match_signature(match): match.match_id
         for match in matches
@@ -600,7 +682,7 @@ def _normalize_match_ids(matches: list[Match]) -> None:
     }
     team_ids: dict[tuple[str, str], set[str]] = {}
     for match in matches:
-        if match.match_id.startswith("X"):
+        if match.match_id.startswith("X") or not _is_completed(match):
             continue
         team_ids.setdefault(_team_signature(match), set()).add(match.match_id)
     canonical_by_teams = {
@@ -632,8 +714,9 @@ def _normalize_match_ids(matches: list[Match]) -> None:
         signature = _match_signature(match)
         match.match_id = (
             canonical_by_signature.get(signature)
-            or canonical_by_teams.get(_team_signature(match))
+            or (canonical_by_teams.get(_team_signature(match)) if _is_completed(match) else None)
             or ordinal_by_teams.get(_team_signature(match))
+            or _main_source_fallback_id(match)
             or ordinal_by_signature[signature]
         )
 
@@ -649,6 +732,125 @@ def _team_signature(match: Match) -> tuple[str, str]:
 def _is_concrete_team_pair(match: Match) -> bool:
     placeholders = ("Winner", "Loser", "Runner-up", "3rd ")
     return not match.home.startswith(placeholders) and not match.away.startswith(placeholders)
+
+
+def _is_completed(match: Match) -> bool:
+    return match.home_score is not None and match.away_score is not None
+
+
+def _resolve_knockout_placeholders(matches: list[Match]) -> None:
+    rankings, third_entries = _completed_group_rankings(matches)
+    if not rankings:
+        return
+    qualified_thirds = _definite_qualified_third_groups(third_entries, expected_groups=len(rankings))
+
+    for match in matches:
+        if _group_letter(match.stage):
+            continue
+        match.home = _resolve_placeholder_team(match.home, rankings, qualified_thirds)
+        match.away = _resolve_placeholder_team(match.away, rankings, qualified_thirds)
+
+
+def _resolve_placeholder_team(
+    value: str,
+    rankings: dict[str, dict[int, str]],
+    qualified_thirds: set[str],
+) -> str:
+    winner = WINNER_GROUP_RE.match(value)
+    if winner:
+        return rankings.get(winner.group("group"), {}).get(1) or value
+
+    runner_up = RUNNER_UP_GROUP_RE.match(value)
+    if runner_up:
+        return rankings.get(runner_up.group("group"), {}).get(2) or value
+
+    third = THIRD_GROUP_RE.match(value)
+    if third:
+        groups = third.group("groups").split("/")
+        possible_groups = [
+            group
+            for group in groups
+            if group in qualified_thirds and rankings.get(group, {}).get(3)
+        ]
+        if len(possible_groups) == 1:
+            return rankings[possible_groups[0]][3]
+    return value
+
+
+def _completed_group_rankings(matches: list[Match]) -> tuple[dict[str, dict[int, str]], list[tuple[str, str, tuple[int, int, int]]]]:
+    group_matches: dict[str, list[Match]] = {}
+    for match in matches:
+        group = _group_letter(match.stage)
+        if group:
+            group_matches.setdefault(group, []).append(match)
+
+    rankings: dict[str, dict[int, str]] = {}
+    third_entries: list[tuple[str, str, tuple[int, int, int]]] = []
+    for group, rows in group_matches.items():
+        if len(rows) < 6 or any(match.home_score is None or match.away_score is None for match in rows):
+            continue
+        ranked = _rank_completed_group(rows)
+        if not ranked:
+            continue
+        rankings[group] = {position: team for position, team, _ in ranked if position <= 3}
+        third = next((entry for entry in ranked if entry[0] == 3), None)
+        if third:
+            _, team, sort_key = third
+            third_entries.append((group, team, sort_key))
+    return rankings, third_entries
+
+
+def _rank_completed_group(matches: list[Match]) -> list[tuple[int, str, tuple[int, int, int]]]:
+    stats: dict[str, dict[str, int]] = {}
+    for match in matches:
+        if match.home_score is None or match.away_score is None:
+            return []
+        for team in [match.home, match.away]:
+            stats.setdefault(team, {"points": 0, "gf": 0, "ga": 0})
+        stats[match.home]["gf"] += match.home_score
+        stats[match.home]["ga"] += match.away_score
+        stats[match.away]["gf"] += match.away_score
+        stats[match.away]["ga"] += match.home_score
+        if match.home_score > match.away_score:
+            stats[match.home]["points"] += 3
+        elif match.home_score < match.away_score:
+            stats[match.away]["points"] += 3
+        else:
+            stats[match.home]["points"] += 1
+            stats[match.away]["points"] += 1
+
+    rows = [
+        (team, (values["points"], values["gf"] - values["ga"], values["gf"]))
+        for team, values in stats.items()
+    ]
+    rows.sort(key=lambda item: item[1], reverse=True)
+
+    ranked: list[tuple[int, str, tuple[int, int, int]]] = []
+    for index, (team, sort_key) in enumerate(rows, start=1):
+        previous_key = rows[index - 2][1] if index > 1 else None
+        next_key = rows[index][1] if index < len(rows) else None
+        if sort_key in {previous_key, next_key}:
+            continue
+        ranked.append((index, team, sort_key))
+    return ranked
+
+
+def _definite_qualified_third_groups(third_entries: list[tuple[str, str, tuple[int, int, int]]], expected_groups: int) -> set[str]:
+    if expected_groups < 12 or len(third_entries) < 12:
+        return set()
+    third_entries.sort(key=lambda item: item[2], reverse=True)
+    cutoff_key = third_entries[7][2]
+    next_key = third_entries[8][2] if len(third_entries) > 8 else None
+    return {
+        group
+        for group, _, sort_key in third_entries[:8]
+        if sort_key != cutoff_key or next_key != cutoff_key
+    }
+
+
+def _group_letter(stage: str) -> str:
+    match = GROUP_STAGE_RE.match(stage)
+    return match.group("group") if match else ""
 
 
 def _apply_overrides(matches: list[Match], overrides_path: Path) -> None:

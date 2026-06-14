@@ -51,7 +51,7 @@ def generate(
     json_output: Path = DEFAULT_JSON,
     overrides: Path = DEFAULT_OVERRIDES,
 ) -> list[Match]:
-    matches = fetch_matches(source_url=source_url, overrides_path=overrides)
+    matches = fetch_matches(source_url=source_url, overrides_path=overrides, previous_matches_path=json_output)
     output.parent.mkdir(parents=True, exist_ok=True)
     json_output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(render_calendar(matches), encoding="utf-8", newline="")

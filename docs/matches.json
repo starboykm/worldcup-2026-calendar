@@ -180,14 +180,31 @@
     "venue": "Levi's Stadium",
     "city": "Santa Clara",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Qatar",
+        "player": "Miro Muheim",
+        "minute": "90+4' (o.g.)",
+        "note": "乌龙球",
+        "player_zh": "",
+        "player_display": "Miro Muheim"
+      },
+      {
+        "team": "Switzerland",
+        "player": "Breel Embolo",
+        "minute": "17' ( pen. )",
+        "note": "",
+        "player_zh": "布雷尔·恩博洛",
+        "player_display": "布雷尔·恩博洛（Breel Embolo）"
+      }
+    ],
     "raw_title": "Qatar v Switzerland",
     "home_display": "卡塔尔（Qatar）",
     "away_display": "瑞士（Switzerland）",
-    "title_display": "卡塔尔（Qatar） vs 瑞士（Switzerland）"
+    "title_display": "卡塔尔（Qatar） 1-1 瑞士（Switzerland）"
   },
   {
     "match_id": "M007",
@@ -198,14 +215,31 @@
     "venue": "MetLife Stadium",
     "city": "East Rutherford",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Brazil",
+        "player": "Vinícius Júnior",
+        "minute": "32'",
+        "note": "",
+        "player_zh": "维尼修斯·儒尼奥尔",
+        "player_display": "维尼修斯·儒尼奥尔（Vinícius Júnior）"
+      },
+      {
+        "team": "Morocco",
+        "player": "Ismael Saibari",
+        "minute": "21'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ismael Saibari"
+      }
+    ],
     "raw_title": "Brazil v Morocco",
     "home_display": "巴西（Brazil）",
     "away_display": "摩洛哥（Morocco）",
-    "title_display": "巴西（Brazil） vs 摩洛哥（Morocco）"
+    "title_display": "巴西（Brazil） 1-1 摩洛哥（Morocco）"
   },
   {
     "match_id": "M005",
