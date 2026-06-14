@@ -1,6 +1,6 @@
 # 2026 FIFA World Cup Beijing-Time Calendar
 
-[中文](#中文说明) | [English](#english)
+[中文](#中文说明) | [日本語](#日本語) | [English](#english)
 
 Public `.ics` calendar for the 2026 FIFA World Cup. Match times use Beijing time (`Asia/Shanghai`).
 
@@ -75,6 +75,45 @@ python -m worldcup_calendar serve --host 0.0.0.0 --port 8080
 Google Calendar -> 其他日历 -> 通过网址添加 -> 填入 GitHub Pages 的 `.ics` 地址。
 
 Google 会缓存外部 ICS，因此更新可能不会立刻显示。
+
+## 日本語
+
+このプロジェクトは、2026 FIFA ワールドカップの日程を購読用 `.ics` カレンダーとして生成します。試合時間は北京時間（`Asia/Shanghai`）です。
+
+### 内容
+
+- 全 104 試合
+- 北京時間のキックオフ時刻
+- チーム名は `中国語（English）` 形式
+- 試合終了後はタイトルにスコアを表示
+- 説明欄にラウンド、状態、会場、両チームの得点情報を表示
+- 得点者名は可能な範囲で `中国語（English）` 形式
+- グループステージ終了後、`Winner Group A` / `Runner-up Group A` などの決勝トーナメント枠は、データソースまたはローカル順位計算により実際のチーム名へ更新
+
+### ファイル
+
+```text
+docs/worldcup-2026.ics
+docs/matches.json
+```
+
+### 更新
+
+GitHub Actions は UTC 04:00、北京時間 12:00 に毎日実行されます。Actions ページから手動実行もできます。
+
+### 公開
+
+GitHub Pages で branch `main`、folder `/docs` を選択してください。その後、次の URL をカレンダーに追加します。
+
+```text
+https://starboykm.github.io/worldcup-2026-calendar/worldcup-2026.ics
+```
+
+### ローカル生成
+
+```powershell
+python -m worldcup_calendar update
+```
 
 ## English
 

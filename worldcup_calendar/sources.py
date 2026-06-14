@@ -202,7 +202,8 @@ def _parse_match_box(full_html: str, box_item: tuple[int, str], source_url: str,
     if not title:
         return None
 
-    starts_at = _structured_datetime(box) or _parse_datetime_from_text(text)
+    venue, city = _venue(box, text)
+    starts_at = _structured_datetime(box) or _parse_datetime_from_text(text, default_offset_hours=_offset_for_location(venue, city))
     if not starts_at:
         return None
 
@@ -212,7 +213,6 @@ def _parse_match_box(full_html: str, box_item: tuple[int, str], source_url: str,
 
     match_id = _match_id(text, fallback_index, home, away, starts_at, box)
     stage = _stage_name(full_html[:start_index])
-    venue, city = _venue(box, text)
     home_score, away_score = _score(box, text)
     status = "completed" if home_score is not None and away_score is not None else "scheduled"
 
@@ -335,7 +335,7 @@ def _structured_datetime(html: str) -> datetime | None:
     return _parse_json_datetime(raw)
 
 
-def _parse_datetime_from_text(text: str) -> datetime | None:
+def _parse_datetime_from_text(text: str, default_offset_hours: int = -4) -> datetime | None:
     date_match = None
     for pattern in DATE_PATTERNS:
         date_match = pattern.search(text)
@@ -356,7 +356,7 @@ def _parse_datetime_from_text(text: str) -> datetime | None:
     if ampm.startswith("a") and hour == 12:
         hour = 0
 
-    offset_hours = _offset_hours(time_match)
+    offset_hours = _offset_hours(time_match, default_offset_hours)
     local = datetime(year, month, day, hour, minute, tzinfo=timezone(timedelta(hours=offset_hours)))
     return local.astimezone(timezone(timedelta(hours=8))).replace(tzinfo=None)
 
@@ -375,13 +375,72 @@ def _parse_json_datetime(value: str) -> datetime | None:
     return parsed.astimezone(timezone(timedelta(hours=8))).replace(tzinfo=None)
 
 
-def _offset_hours(time_match: re.Match[str]) -> int:
+def _offset_hours(time_match: re.Match[str], default_offset_hours: int = -4) -> int:
     if time_match.group("utc_hour"):
         sign = time_match.group("utc_sign")
         hours = int(time_match.group("utc_hour"))
         return hours if sign == "+" else -hours
     abbr = (time_match.group("abbr") or "").upper()
-    return TZ_OFFSETS.get(abbr, -4)
+    return TZ_OFFSETS.get(abbr, default_offset_hours)
+
+
+def _offset_for_location(venue: str, city: str) -> int:
+    value = f"{venue} {city}".lower()
+    pacific = [
+        "bc place",
+        "vancouver",
+        "lumen field",
+        "seattle",
+        "levi's stadium",
+        "santa clara",
+        "sofi stadium",
+        "inglewood",
+    ]
+    mountain = [
+        "empower field",
+        "denver",
+    ]
+    central = [
+        "nrg stadium",
+        "houston",
+        "at&t stadium",
+        "arlington",
+        "arrowhead stadium",
+        "kansas city",
+    ]
+    mexico_central = [
+        "estadio azteca",
+        "mexico city",
+        "estadio akron",
+        "zapopan",
+        "estadio bbva",
+        "guadalupe",
+    ]
+    eastern = [
+        "bmo field",
+        "toronto",
+        "metlife stadium",
+        "east rutherford",
+        "gillette stadium",
+        "foxborough",
+        "lincoln financial field",
+        "philadelphia",
+        "mercedes-benz stadium",
+        "atlanta",
+        "hard rock stadium",
+        "miami gardens",
+    ]
+    if any(item in value for item in pacific):
+        return -7
+    if any(item in value for item in mountain):
+        return -6
+    if any(item in value for item in central):
+        return -5
+    if any(item in value for item in mexico_central):
+        return -6
+    if any(item in value for item in eastern):
+        return -4
+    return -4
 
 
 def _match_id(text: str, fallback_index: int, home: str, away: str, starts_at: datetime, html: str = "") -> str:
