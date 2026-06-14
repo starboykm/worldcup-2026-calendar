@@ -57,6 +57,10 @@ GitHub Actions 已配置：
 python -m worldcup_calendar update
 ```
 
+### 发行版本
+
+推送 `v*` 标签时，GitHub Actions 会自动创建 Release，并附带当前 `worldcup-2026.ics` 和 `matches.json`。
+
 ### 服务器部署
 
 ```powershell
@@ -116,6 +120,10 @@ https://starboykm.github.io/worldcup-2026-calendar/worldcup-2026.ics
 python -m worldcup_calendar update
 ```
 
+### リリース
+
+`v*` タグをプッシュすると、GitHub Actions が Release を作成し、現在の `worldcup-2026.ics` と `matches.json` を添付します。
+
 ## English
 
 This project generates a public `.ics` calendar for the 2026 FIFA World Cup.
@@ -154,6 +162,10 @@ https://starboykm.github.io/worldcup-2026-calendar/worldcup-2026.ics
 ```powershell
 python -m worldcup_calendar update
 ```
+
+### Releases
+
+When a `v*` tag is pushed, GitHub Actions creates a Release and attaches the current `worldcup-2026.ics` and `matches.json` files.
 
 ### Server
 
