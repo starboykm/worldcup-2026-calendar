@@ -2,7 +2,10 @@ name: Update calendar
 
 on:
   schedule:
+    # Daily baseline update: 12:00 Beijing time.
     - cron: "0 4 * * *"
+    # Tournament quick update cadence: every 3 hours in Beijing time.
+    - cron: "0 1,7,10,13,16,19,22 * * *"
   workflow_dispatch:
     inputs:
       source_url:
@@ -16,16 +19,48 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-calendar
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - name: Decide update cadence
+        id: cadence
+        run: |
+          should_run=false
+          reason="outside tournament quick-update window"
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            should_run=true
+            reason="manual update"
+          elif [ "${{ github.event.schedule }}" = "0 4 * * *" ]; then
+            should_run=true
+            reason="daily Beijing noon update"
+          else
+            bjt_date="$(TZ=Asia/Shanghai date +%Y%m%d)"
+            if [ "$bjt_date" -ge 20260612 ] && [ "$bjt_date" -le 20260720 ]; then
+              should_run=true
+              reason="World Cup quick update window"
+            fi
+          fi
+
+          echo "should_run=$should_run" >> "$GITHUB_OUTPUT"
+          echo "reason=$reason" >> "$GITHUB_OUTPUT"
+          echo "$reason"
+
       - uses: actions/checkout@v4
+        if: steps.cadence.outputs.should_run == 'true'
       - uses: actions/setup-python@v5
+        if: steps.cadence.outputs.should_run == 'true'
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+        if: steps.cadence.outputs.should_run == 'true'
       - name: Generate ICS
+        if: steps.cadence.outputs.should_run == 'true'
         run: |
           args=()
           if [ -n "${{ github.event.inputs.source_url }}" ]; then
@@ -36,6 +71,7 @@ jobs:
           fi
           python -m worldcup_calendar update "${args[@]}"
       - name: Commit updated calendar
+        if: steps.cadence.outputs.should_run == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update World Cup calendar"

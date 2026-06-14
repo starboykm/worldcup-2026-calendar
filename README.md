@@ -35,12 +35,13 @@ docs/matches.json
 
 GitHub Actions 已配置：
 
-- 每天 UTC 04:00 运行
-- 对应北京时间每天 12:00
+- 平时每天 UTC 04:00 运行一次，对应北京时间每天 12:00
+- 世界杯比赛期间（北京时间 2026-06-12 至 2026-07-20）每 3 小时轻量检查一次
 - 可在 GitHub Actions 页面手动运行
-- 只更新 `docs/worldcup-2026.ics` 和 `docs/matches.json`
+- 每次都覆盖更新同一个 `docs/worldcup-2026.ics` 和 `docs/matches.json`
+- 只有文件内容真的变化时才会提交到 GitHub
 
-日常不需要手动处理。启用 GitHub Pages 并订阅 `.ics` 地址后，比分、进球和淘汰赛球队会随每日更新同步。
+日常不需要手动处理。启用 GitHub Pages 并订阅 `.ics` 地址后，比分、进球和淘汰赛球队会随自动更新同步。
 
 ### GitHub Pages
 
@@ -74,7 +75,7 @@ python -m worldcup_calendar serve --host 0.0.0.0 --port 8080
 
 Google Calendar -> 其他日历 -> 通过网址添加 -> 填入 GitHub Pages 的 `.ics` 地址。
 
-Google 会缓存外部 ICS，因此更新可能不会立刻显示。
+Google 会缓存外部 ICS，因此 GitHub 上的 `.ics` 更新后，Google 日历里可能不会立刻显示。需要更及时同步时，可使用 Apps Script 类工具把 ICS 内容定时写入一个 Google 日历。
 
 ## 日本語
 
@@ -99,7 +100,7 @@ docs/matches.json
 
 ### 更新
 
-GitHub Actions は UTC 04:00、北京時間 12:00 に毎日実行されます。Actions ページから手動実行もできます。
+GitHub Actions は通常 UTC 04:00（北京時間 12:00）に毎日実行されます。ワールドカップ期間中（北京時間 2026-06-12 から 2026-07-20 まで）は 3 時間ごとに軽量チェックを行い、内容が変わった場合だけ GitHub に反映します。Actions ページから手動実行もできます。
 
 ### 公開
 
@@ -138,7 +139,7 @@ docs/matches.json
 
 ### Updates
 
-GitHub Actions runs daily at UTC 04:00, which is 12:00 Beijing time. It can also be triggered manually from the Actions page.
+GitHub Actions normally runs daily at UTC 04:00, which is 12:00 Beijing time. During the World Cup window, from 2026-06-12 to 2026-07-20 in Beijing time, it also performs a lightweight check every 3 hours and commits only when the generated files change. It can also be triggered manually from the Actions page.
 
 ### Publish
 
