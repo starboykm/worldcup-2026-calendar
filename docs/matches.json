@@ -402,7 +402,7 @@
       {
         "team": "Netherlands",
         "player": "Virgil van Dijk",
-        "minute": "51'",
+        "minute": "50'",
         "note": "",
         "player_zh": "维吉尔·范戴克",
         "player_display": "维吉尔·范戴克（Virgil van Dijk）"
@@ -446,14 +446,23 @@
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Ivory Coast",
+        "player": "Amad Diallo",
+        "minute": "90'",
+        "note": "",
+        "player_zh": "阿马德·迪亚洛",
+        "player_display": "阿马德·迪亚洛（Amad Diallo）"
+      }
+    ],
     "raw_title": "Ivory Coast v Ecuador",
     "home_display": "科特迪瓦（Ivory Coast，世界排名第33）",
     "away_display": "厄瓜多尔（Ecuador，世界排名第23）",
-    "title_display": "科特迪瓦（Ivory Coast，世界排名第33） vs 厄瓜多尔（Ecuador，世界排名第23）"
+    "title_display": "科特迪瓦（Ivory Coast，世界排名第33） 1-0 厄瓜多尔（Ecuador，世界排名第23）"
   },
   {
     "match_id": "M012",
@@ -464,14 +473,63 @@
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 5,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Sweden",
+        "player": "Yasin Ayari",
+        "minute": "7'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Yasin Ayari"
+      },
+      {
+        "team": "Sweden",
+        "player": "Yasin Ayari",
+        "minute": "90+6'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Yasin Ayari"
+      },
+      {
+        "team": "Sweden",
+        "player": "Alexander Isak",
+        "minute": "30'",
+        "note": "",
+        "player_zh": "亞歷山大·伊沙克",
+        "player_display": "亞歷山大·伊沙克（Alexander Isak）"
+      },
+      {
+        "team": "Sweden",
+        "player": "Viktor Gyökeres",
+        "minute": "59'",
+        "note": "",
+        "player_zh": "維克托·哲凱賴什",
+        "player_display": "維克托·哲凱賴什（Viktor Gyökeres）"
+      },
+      {
+        "team": "Sweden",
+        "player": "Mattias Svanberg",
+        "minute": "84'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Mattias Svanberg"
+      },
+      {
+        "team": "Tunisia",
+        "player": "Omar Rekik",
+        "minute": "43'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Omar Rekik"
+      }
+    ],
     "raw_title": "Sweden v Tunisia",
     "home_display": "瑞典（Sweden，世界排名第38）",
     "away_display": "突尼斯（Tunisia，世界排名第45）",
-    "title_display": "瑞典（Sweden，世界排名第38） vs 突尼斯（Tunisia，世界排名第45）"
+    "title_display": "瑞典（Sweden，世界排名第38） 5-1 突尼斯（Tunisia，世界排名第45）"
   },
   {
     "match_id": "M014",
