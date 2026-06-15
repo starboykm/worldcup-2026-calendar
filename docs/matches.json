@@ -558,14 +558,31 @@
     "venue": "Lumen Field",
     "city": "Seattle",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Belgium",
+        "player": "Mohamed Hany",
+        "minute": "66' (o.g.)",
+        "note": "乌龙球",
+        "player_zh": "",
+        "player_display": "Mohamed Hany"
+      },
+      {
+        "team": "Egypt",
+        "player": "Emam Ashour",
+        "minute": "19'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Emam Ashour"
+      }
+    ],
     "raw_title": "Belgium v Egypt",
     "home_display": "比利时（Belgium，世界排名第9）",
     "away_display": "埃及（Egypt，世界排名第29）",
-    "title_display": "比利时（Belgium，世界排名第9） vs 埃及（Egypt，世界排名第29）"
+    "title_display": "比利时（Belgium，世界排名第9） 1-1 埃及（Egypt，世界排名第29）"
   },
   {
     "match_id": "M013",
