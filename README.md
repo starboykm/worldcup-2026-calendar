@@ -18,7 +18,7 @@ https://starboykm.github.io/worldcup-2026-calendar/worldcup-2026.ics
 
 - 全部 104 场比赛
 - 北京时间开球时间
-- 队名格式：`中文（English）`
+- 队名格式：`中文（English，世界排名第N）`
 - 完赛后标题显示比分
 - 描述中显示阶段、状态、场地和两队进球信息
 - 进球队员尽量显示为 `中文（English）`
@@ -37,6 +37,7 @@ GitHub Actions 已配置：
 
 - 平时每天 UTC 04:00 运行一次，对应北京时间每天 12:00
 - 世界杯比赛期间（北京时间 2026-06-12 至 2026-07-20）每 3 小时轻量检查一次
+- 世界杯结束后（北京时间 2026-07-20 之后）自动定时更新停止
 - 可在 GitHub Actions 页面手动运行
 - 每次都覆盖更新同一个 `docs/worldcup-2026.ics` 和 `docs/matches.json`
 - 只有文件内容真的变化时才会提交到 GitHub
@@ -89,7 +90,7 @@ Google 会缓存外部 ICS，因此 GitHub 上的 `.ics` 更新后，Google 日�
 
 - 全 104 試合
 - 北京時間のキックオフ時刻
-- チーム名は `中国語（English）` 形式
+- チーム名は `中国語（English，世界排名第N）` 形式
 - 試合終了後はタイトルにスコアを表示
 - 説明欄にラウンド、状態、会場、両チームの得点情報を表示
 - 得点者名は可能な範囲で `中国語（English）` 形式
@@ -104,7 +105,7 @@ docs/matches.json
 
 ### 更新
 
-GitHub Actions は通常 UTC 04:00（北京時間 12:00）に毎日実行されます。ワールドカップ期間中（北京時間 2026-06-12 から 2026-07-20 まで）は 3 時間ごとに軽量チェックを行い、内容が変わった場合だけ GitHub に反映します。Actions ページから手動実行もできます。
+GitHub Actions は通常 UTC 04:00（北京時間 12:00）に毎日実行されます。ワールドカップ期間中（北京時間 2026-06-12 から 2026-07-20 まで）は 3 時間ごとに軽量チェックを行い、内容が変わった場合だけ GitHub に反映します。大会終了後（北京時間 2026-07-20 後）は自動定期更新を停止します。Actions ページから手動実行もできます。
 
 ### 公開
 
@@ -132,7 +133,7 @@ This project generates a public `.ics` calendar for the 2026 FIFA World Cup.
 
 - All 104 matches
 - Kickoff times in Beijing time
-- Team names as `Chinese（English）`
+- Team names as `Chinese（English，世界排名第N）`
 - Scores in event titles after matches finish
 - Venue, match status, and goal details in descriptions
 - Goal scorers shown as `Chinese（English）` when available
@@ -147,7 +148,7 @@ docs/matches.json
 
 ### Updates
 
-GitHub Actions normally runs daily at UTC 04:00, which is 12:00 Beijing time. During the World Cup window, from 2026-06-12 to 2026-07-20 in Beijing time, it also performs a lightweight check every 3 hours and commits only when the generated files change. It can also be triggered manually from the Actions page.
+GitHub Actions normally runs daily at UTC 04:00, which is 12:00 Beijing time. During the World Cup window, from 2026-06-12 to 2026-07-20 in Beijing time, it also performs a lightweight check every 3 hours and commits only when the generated files change. After 2026-07-20 Beijing time, scheduled automatic updates stop. It can still be triggered manually from the Actions page.
 
 ### Publish
 

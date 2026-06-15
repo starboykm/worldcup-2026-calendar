@@ -30,9 +30,9 @@
       }
     ],
     "raw_title": "Mexico v South Africa",
-    "home_display": "墨西哥（Mexico）",
-    "away_display": "南非（South Africa）",
-    "title_display": "墨西哥（Mexico） 2-0 南非（South Africa）"
+    "home_display": "墨西哥（Mexico，世界排名第14）",
+    "away_display": "南非（South Africa，世界排名第60）",
+    "title_display": "墨西哥（Mexico，世界排名第14） 2-0 南非（South Africa，世界排名第60）"
   },
   {
     "match_id": "M002",
@@ -73,9 +73,9 @@
       }
     ],
     "raw_title": "South Korea v Czech Republic",
-    "home_display": "韩国（South Korea）",
-    "away_display": "捷克（Czech Republic）",
-    "title_display": "韩国（South Korea） 2-1 捷克（Czech Republic）"
+    "home_display": "韩国（South Korea，世界排名第25）",
+    "away_display": "捷克（Czech Republic，世界排名第40）",
+    "title_display": "韩国（South Korea，世界排名第25） 2-1 捷克（Czech Republic，世界排名第40）"
   },
   {
     "match_id": "M003",
@@ -108,9 +108,9 @@
       }
     ],
     "raw_title": "Canada v Bosnia and Herzegovina",
-    "home_display": "加拿大（Canada）",
-    "away_display": "波黑（Bosnia and Herzegovina）",
-    "title_display": "加拿大（Canada） 1-1 波黑（Bosnia and Herzegovina）"
+    "home_display": "加拿大（Canada，世界排名第30）",
+    "away_display": "波黑（Bosnia and Herzegovina，世界排名第64）",
+    "title_display": "加拿大（Canada，世界排名第30） 1-1 波黑（Bosnia and Herzegovina，世界排名第64）"
   },
   {
     "match_id": "M004",
@@ -167,9 +167,9 @@
       }
     ],
     "raw_title": "United States v Paraguay",
-    "home_display": "美国（United States）",
-    "away_display": "巴拉圭（Paraguay）",
-    "title_display": "美国（United States） 4-1 巴拉圭（Paraguay）"
+    "home_display": "美国（United States，世界排名第17）",
+    "away_display": "巴拉圭（Paraguay，世界排名第41）",
+    "title_display": "美国（United States，世界排名第17） 4-1 巴拉圭（Paraguay，世界排名第41）"
   },
   {
     "match_id": "M008",
@@ -202,9 +202,9 @@
       }
     ],
     "raw_title": "Qatar v Switzerland",
-    "home_display": "卡塔尔（Qatar）",
-    "away_display": "瑞士（Switzerland）",
-    "title_display": "卡塔尔（Qatar） 1-1 瑞士（Switzerland）"
+    "home_display": "卡塔尔（Qatar，世界排名第56）",
+    "away_display": "瑞士（Switzerland，世界排名第19）",
+    "title_display": "卡塔尔（Qatar，世界排名第56） 1-1 瑞士（Switzerland，世界排名第19）"
   },
   {
     "match_id": "M007",
@@ -237,9 +237,9 @@
       }
     ],
     "raw_title": "Brazil v Morocco",
-    "home_display": "巴西（Brazil）",
-    "away_display": "摩洛哥（Morocco）",
-    "title_display": "巴西（Brazil） 1-1 摩洛哥（Morocco）"
+    "home_display": "巴西（Brazil，世界排名第6）",
+    "away_display": "摩洛哥（Morocco，世界排名第7）",
+    "title_display": "巴西（Brazil，世界排名第6） 1-1 摩洛哥（Morocco，世界排名第7）"
   },
   {
     "match_id": "M005",
@@ -264,9 +264,9 @@
       }
     ],
     "raw_title": "Haiti v Scotland",
-    "home_display": "海地（Haiti）",
-    "away_display": "苏格兰（Scotland）",
-    "title_display": "海地（Haiti） 0-1 苏格兰（Scotland）"
+    "home_display": "海地（Haiti，世界排名第83）",
+    "away_display": "苏格兰（Scotland，世界排名第42）",
+    "title_display": "海地（Haiti，世界排名第83） 0-1 苏格兰（Scotland，世界排名第42）"
   },
   {
     "match_id": "M006",
@@ -299,9 +299,9 @@
       }
     ],
     "raw_title": "Australia v Turkey",
-    "home_display": "澳大利亚（Australia）",
-    "away_display": "土耳其（Turkey）",
-    "title_display": "澳大利亚（Australia） 2-0 土耳其（Turkey）"
+    "home_display": "澳大利亚（Australia，世界排名第27）",
+    "away_display": "土耳其（Turkey，世界排名第22）",
+    "title_display": "澳大利亚（Australia，世界排名第27） 2-0 土耳其（Turkey，世界排名第22）"
   },
   {
     "match_id": "M010",
@@ -382,9 +382,9 @@
       }
     ],
     "raw_title": "Germany v Curaçao",
-    "home_display": "德国（Germany）",
-    "away_display": "库拉索（Curaçao）",
-    "title_display": "德国（Germany） 7-1 库拉索（Curaçao）"
+    "home_display": "德国（Germany，世界排名第10）",
+    "away_display": "库拉索（Curaçao，世界排名第82）",
+    "title_display": "德国（Germany，世界排名第10） 7-1 库拉索（Curaçao，世界排名第82）"
   },
   {
     "match_id": "M011",
@@ -433,9 +433,9 @@
       }
     ],
     "raw_title": "Netherlands v Japan",
-    "home_display": "荷兰（Netherlands）",
-    "away_display": "日本（Japan）",
-    "title_display": "荷兰（Netherlands） 2-2 日本（Japan）"
+    "home_display": "荷兰（Netherlands，世界排名第8）",
+    "away_display": "日本（Japan，世界排名第18）",
+    "title_display": "荷兰（Netherlands，世界排名第8） 2-2 日本（Japan，世界排名第18）"
   },
   {
     "match_id": "M009",
@@ -451,9 +451,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Ivory Coast v Ecuador",
-    "home_display": "科特迪瓦（Ivory Coast）",
-    "away_display": "厄瓜多尔（Ecuador）",
-    "title_display": "科特迪瓦（Ivory Coast） vs 厄瓜多尔（Ecuador）"
+    "home_display": "科特迪瓦（Ivory Coast，世界排名第33）",
+    "away_display": "厄瓜多尔（Ecuador，世界排名第23）",
+    "title_display": "科特迪瓦（Ivory Coast，世界排名第33） vs 厄瓜多尔（Ecuador，世界排名第23）"
   },
   {
     "match_id": "M012",
@@ -469,9 +469,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Sweden v Tunisia",
-    "home_display": "瑞典（Sweden）",
-    "away_display": "突尼斯（Tunisia）",
-    "title_display": "瑞典（Sweden） vs 突尼斯（Tunisia）"
+    "home_display": "瑞典（Sweden，世界排名第38）",
+    "away_display": "突尼斯（Tunisia，世界排名第45）",
+    "title_display": "瑞典（Sweden，世界排名第38） vs 突尼斯（Tunisia，世界排名第45）"
   },
   {
     "match_id": "M014",
@@ -487,9 +487,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Spain v Cape Verde",
-    "home_display": "西班牙（Spain）",
-    "away_display": "佛得角（Cape Verde）",
-    "title_display": "西班牙（Spain） vs 佛得角（Cape Verde）"
+    "home_display": "西班牙（Spain，世界排名第2）",
+    "away_display": "佛得角（Cape Verde，世界排名第67）",
+    "title_display": "西班牙（Spain，世界排名第2） vs 佛得角（Cape Verde，世界排名第67）"
   },
   {
     "match_id": "M016",
@@ -505,9 +505,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Belgium v Egypt",
-    "home_display": "比利时（Belgium）",
-    "away_display": "埃及（Egypt）",
-    "title_display": "比利时（Belgium） vs 埃及（Egypt）"
+    "home_display": "比利时（Belgium，世界排名第9）",
+    "away_display": "埃及（Egypt，世界排名第29）",
+    "title_display": "比利时（Belgium，世界排名第9） vs 埃及（Egypt，世界排名第29）"
   },
   {
     "match_id": "M013",
@@ -523,9 +523,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Saudi Arabia v Uruguay",
-    "home_display": "沙特阿拉伯（Saudi Arabia）",
-    "away_display": "乌拉圭（Uruguay）",
-    "title_display": "沙特阿拉伯（Saudi Arabia） vs 乌拉圭（Uruguay）"
+    "home_display": "沙特阿拉伯（Saudi Arabia，世界排名第61）",
+    "away_display": "乌拉圭（Uruguay，世界排名第16）",
+    "title_display": "沙特阿拉伯（Saudi Arabia，世界排名第61） vs 乌拉圭（Uruguay，世界排名第16）"
   },
   {
     "match_id": "M015",
@@ -541,9 +541,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Iran v New Zealand",
-    "home_display": "伊朗（Iran）",
-    "away_display": "新西兰（New Zealand）",
-    "title_display": "伊朗（Iran） vs 新西兰（New Zealand）"
+    "home_display": "伊朗（Iran，世界排名第20）",
+    "away_display": "新西兰（New Zealand，世界排名第85）",
+    "title_display": "伊朗（Iran，世界排名第20） vs 新西兰（New Zealand，世界排名第85）"
   },
   {
     "match_id": "M017",
@@ -559,9 +559,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "France v Senegal",
-    "home_display": "法国（France）",
-    "away_display": "塞内加尔（Senegal）",
-    "title_display": "法国（France） vs 塞内加尔（Senegal）"
+    "home_display": "法国（France，世界排名第3）",
+    "away_display": "塞内加尔（Senegal，世界排名第15）",
+    "title_display": "法国（France，世界排名第3） vs 塞内加尔（Senegal，世界排名第15）"
   },
   {
     "match_id": "M018",
@@ -577,9 +577,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Iraq v Norway",
-    "home_display": "伊拉克（Iraq）",
-    "away_display": "挪威（Norway）",
-    "title_display": "伊拉克（Iraq） vs 挪威（Norway）"
+    "home_display": "伊拉克（Iraq，世界排名第57）",
+    "away_display": "挪威（Norway，世界排名第31）",
+    "title_display": "伊拉克（Iraq，世界排名第57） vs 挪威（Norway，世界排名第31）"
   },
   {
     "match_id": "M019",
@@ -595,9 +595,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Argentina v Algeria",
-    "home_display": "阿根廷（Argentina）",
-    "away_display": "阿尔及利亚（Algeria）",
-    "title_display": "阿根廷（Argentina） vs 阿尔及利亚（Algeria）"
+    "home_display": "阿根廷（Argentina，世界排名第1）",
+    "away_display": "阿尔及利亚（Algeria，世界排名第28）",
+    "title_display": "阿根廷（Argentina，世界排名第1） vs 阿尔及利亚（Algeria，世界排名第28）"
   },
   {
     "match_id": "M020",
@@ -613,9 +613,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Austria v Jordan",
-    "home_display": "奥地利（Austria）",
-    "away_display": "约旦（Jordan）",
-    "title_display": "奥地利（Austria） vs 约旦（Jordan）"
+    "home_display": "奥地利（Austria，世界排名第24）",
+    "away_display": "约旦（Jordan，世界排名第63）",
+    "title_display": "奥地利（Austria，世界排名第24） vs 约旦（Jordan，世界排名第63）"
   },
   {
     "match_id": "M023",
@@ -631,9 +631,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Portugal v DR Congo",
-    "home_display": "葡萄牙（Portugal）",
-    "away_display": "刚果民主共和国（DR Congo）",
-    "title_display": "葡萄牙（Portugal） vs 刚果民主共和国（DR Congo）"
+    "home_display": "葡萄牙（Portugal，世界排名第5）",
+    "away_display": "刚果民主共和国（DR Congo，世界排名第46）",
+    "title_display": "葡萄牙（Portugal，世界排名第5） vs 刚果民主共和国（DR Congo，世界排名第46）"
   },
   {
     "match_id": "M022",
@@ -649,9 +649,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "England v Croatia",
-    "home_display": "英格兰（England）",
-    "away_display": "克罗地亚（Croatia）",
-    "title_display": "英格兰（England） vs 克罗地亚（Croatia）"
+    "home_display": "英格兰（England，世界排名第4）",
+    "away_display": "克罗地亚（Croatia，世界排名第11）",
+    "title_display": "英格兰（England，世界排名第4） vs 克罗地亚（Croatia，世界排名第11）"
   },
   {
     "match_id": "M021",
@@ -667,9 +667,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Ghana v Panama",
-    "home_display": "加纳（Ghana）",
-    "away_display": "巴拿马（Panama）",
-    "title_display": "加纳（Ghana） vs 巴拿马（Panama）"
+    "home_display": "加纳（Ghana，世界排名第73）",
+    "away_display": "巴拿马（Panama，世界排名第34）",
+    "title_display": "加纳（Ghana，世界排名第73） vs 巴拿马（Panama，世界排名第34）"
   },
   {
     "match_id": "M024",
@@ -685,9 +685,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Uzbekistan v Colombia",
-    "home_display": "乌兹别克斯坦（Uzbekistan）",
-    "away_display": "哥伦比亚（Colombia）",
-    "title_display": "乌兹别克斯坦（Uzbekistan） vs 哥伦比亚（Colombia）"
+    "home_display": "乌兹别克斯坦（Uzbekistan，世界排名第50）",
+    "away_display": "哥伦比亚（Colombia，世界排名第13）",
+    "title_display": "乌兹别克斯坦（Uzbekistan，世界排名第50） vs 哥伦比亚（Colombia，世界排名第13）"
   },
   {
     "match_id": "M025",
@@ -703,9 +703,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Czech Republic v South Africa",
-    "home_display": "捷克（Czech Republic）",
-    "away_display": "南非（South Africa）",
-    "title_display": "捷克（Czech Republic） vs 南非（South Africa）"
+    "home_display": "捷克（Czech Republic，世界排名第40）",
+    "away_display": "南非（South Africa，世界排名第60）",
+    "title_display": "捷克（Czech Republic，世界排名第40） vs 南非（South Africa，世界排名第60）"
   },
   {
     "match_id": "M026",
@@ -721,9 +721,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Switzerland v Bosnia and Herzegovina",
-    "home_display": "瑞士（Switzerland）",
-    "away_display": "波黑（Bosnia and Herzegovina）",
-    "title_display": "瑞士（Switzerland） vs 波黑（Bosnia and Herzegovina）"
+    "home_display": "瑞士（Switzerland，世界排名第19）",
+    "away_display": "波黑（Bosnia and Herzegovina，世界排名第64）",
+    "title_display": "瑞士（Switzerland，世界排名第19） vs 波黑（Bosnia and Herzegovina，世界排名第64）"
   },
   {
     "match_id": "M027",
@@ -739,9 +739,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Canada v Qatar",
-    "home_display": "加拿大（Canada）",
-    "away_display": "卡塔尔（Qatar）",
-    "title_display": "加拿大（Canada） vs 卡塔尔（Qatar）"
+    "home_display": "加拿大（Canada，世界排名第30）",
+    "away_display": "卡塔尔（Qatar，世界排名第56）",
+    "title_display": "加拿大（Canada，世界排名第30） vs 卡塔尔（Qatar，世界排名第56）"
   },
   {
     "match_id": "M028",
@@ -757,9 +757,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Mexico v South Korea",
-    "home_display": "墨西哥（Mexico）",
-    "away_display": "韩国（South Korea）",
-    "title_display": "墨西哥（Mexico） vs 韩国（South Korea）"
+    "home_display": "墨西哥（Mexico，世界排名第14）",
+    "away_display": "韩国（South Korea，世界排名第25）",
+    "title_display": "墨西哥（Mexico，世界排名第14） vs 韩国（South Korea，世界排名第25）"
   },
   {
     "match_id": "M032",
@@ -775,9 +775,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "United States v Australia",
-    "home_display": "美国（United States）",
-    "away_display": "澳大利亚（Australia）",
-    "title_display": "美国（United States） vs 澳大利亚（Australia）"
+    "home_display": "美国（United States，世界排名第17）",
+    "away_display": "澳大利亚（Australia，世界排名第27）",
+    "title_display": "美国（United States，世界排名第17） vs 澳大利亚（Australia，世界排名第27）"
   },
   {
     "match_id": "M030",
@@ -793,9 +793,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Scotland v Morocco",
-    "home_display": "苏格兰（Scotland）",
-    "away_display": "摩洛哥（Morocco）",
-    "title_display": "苏格兰（Scotland） vs 摩洛哥（Morocco）"
+    "home_display": "苏格兰（Scotland，世界排名第42）",
+    "away_display": "摩洛哥（Morocco，世界排名第7）",
+    "title_display": "苏格兰（Scotland，世界排名第42） vs 摩洛哥（Morocco，世界排名第7）"
   },
   {
     "match_id": "M029",
@@ -811,9 +811,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Brazil v Haiti",
-    "home_display": "巴西（Brazil）",
-    "away_display": "海地（Haiti）",
-    "title_display": "巴西（Brazil） vs 海地（Haiti）"
+    "home_display": "巴西（Brazil，世界排名第6）",
+    "away_display": "海地（Haiti，世界排名第83）",
+    "title_display": "巴西（Brazil，世界排名第6） vs 海地（Haiti，世界排名第83）"
   },
   {
     "match_id": "M031",
@@ -829,9 +829,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Turkey v Paraguay",
-    "home_display": "土耳其（Turkey）",
-    "away_display": "巴拉圭（Paraguay）",
-    "title_display": "土耳其（Turkey） vs 巴拉圭（Paraguay）"
+    "home_display": "土耳其（Turkey，世界排名第22）",
+    "away_display": "巴拉圭（Paraguay，世界排名第41）",
+    "title_display": "土耳其（Turkey，世界排名第22） vs 巴拉圭（Paraguay，世界排名第41）"
   },
   {
     "match_id": "M035",
@@ -847,9 +847,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Netherlands v Sweden",
-    "home_display": "荷兰（Netherlands）",
-    "away_display": "瑞典（Sweden）",
-    "title_display": "荷兰（Netherlands） vs 瑞典（Sweden）"
+    "home_display": "荷兰（Netherlands，世界排名第8）",
+    "away_display": "瑞典（Sweden，世界排名第38）",
+    "title_display": "荷兰（Netherlands，世界排名第8） vs 瑞典（Sweden，世界排名第38）"
   },
   {
     "match_id": "M033",
@@ -865,9 +865,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Germany v Ivory Coast",
-    "home_display": "德国（Germany）",
-    "away_display": "科特迪瓦（Ivory Coast）",
-    "title_display": "德国（Germany） vs 科特迪瓦（Ivory Coast）"
+    "home_display": "德国（Germany，世界排名第10）",
+    "away_display": "科特迪瓦（Ivory Coast，世界排名第33）",
+    "title_display": "德国（Germany，世界排名第10） vs 科特迪瓦（Ivory Coast，世界排名第33）"
   },
   {
     "match_id": "M034",
@@ -883,9 +883,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Ecuador v Curaçao",
-    "home_display": "厄瓜多尔（Ecuador）",
-    "away_display": "库拉索（Curaçao）",
-    "title_display": "厄瓜多尔（Ecuador） vs 库拉索（Curaçao）"
+    "home_display": "厄瓜多尔（Ecuador，世界排名第23）",
+    "away_display": "库拉索（Curaçao，世界排名第82）",
+    "title_display": "厄瓜多尔（Ecuador，世界排名第23） vs 库拉索（Curaçao，世界排名第82）"
   },
   {
     "match_id": "M036",
@@ -901,9 +901,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Tunisia v Japan",
-    "home_display": "突尼斯（Tunisia）",
-    "away_display": "日本（Japan）",
-    "title_display": "突尼斯（Tunisia） vs 日本（Japan）"
+    "home_display": "突尼斯（Tunisia，世界排名第45）",
+    "away_display": "日本（Japan，世界排名第18）",
+    "title_display": "突尼斯（Tunisia，世界排名第45） vs 日本（Japan，世界排名第18）"
   },
   {
     "match_id": "M038",
@@ -919,9 +919,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Spain v Saudi Arabia",
-    "home_display": "西班牙（Spain）",
-    "away_display": "沙特阿拉伯（Saudi Arabia）",
-    "title_display": "西班牙（Spain） vs 沙特阿拉伯（Saudi Arabia）"
+    "home_display": "西班牙（Spain，世界排名第2）",
+    "away_display": "沙特阿拉伯（Saudi Arabia，世界排名第61）",
+    "title_display": "西班牙（Spain，世界排名第2） vs 沙特阿拉伯（Saudi Arabia，世界排名第61）"
   },
   {
     "match_id": "M039",
@@ -937,9 +937,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Belgium v Iran",
-    "home_display": "比利时（Belgium）",
-    "away_display": "伊朗（Iran）",
-    "title_display": "比利时（Belgium） vs 伊朗（Iran）"
+    "home_display": "比利时（Belgium，世界排名第9）",
+    "away_display": "伊朗（Iran，世界排名第20）",
+    "title_display": "比利时（Belgium，世界排名第9） vs 伊朗（Iran，世界排名第20）"
   },
   {
     "match_id": "M037",
@@ -955,9 +955,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Uruguay v Cape Verde",
-    "home_display": "乌拉圭（Uruguay）",
-    "away_display": "佛得角（Cape Verde）",
-    "title_display": "乌拉圭（Uruguay） vs 佛得角（Cape Verde）"
+    "home_display": "乌拉圭（Uruguay，世界排名第16）",
+    "away_display": "佛得角（Cape Verde，世界排名第67）",
+    "title_display": "乌拉圭（Uruguay，世界排名第16） vs 佛得角（Cape Verde，世界排名第67）"
   },
   {
     "match_id": "M040",
@@ -973,9 +973,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "New Zealand v Egypt",
-    "home_display": "新西兰（New Zealand）",
-    "away_display": "埃及（Egypt）",
-    "title_display": "新西兰（New Zealand） vs 埃及（Egypt）"
+    "home_display": "新西兰（New Zealand，世界排名第85）",
+    "away_display": "埃及（Egypt，世界排名第29）",
+    "title_display": "新西兰（New Zealand，世界排名第85） vs 埃及（Egypt，世界排名第29）"
   },
   {
     "match_id": "M043",
@@ -991,9 +991,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Argentina v Austria",
-    "home_display": "阿根廷（Argentina）",
-    "away_display": "奥地利（Austria）",
-    "title_display": "阿根廷（Argentina） vs 奥地利（Austria）"
+    "home_display": "阿根廷（Argentina，世界排名第1）",
+    "away_display": "奥地利（Austria，世界排名第24）",
+    "title_display": "阿根廷（Argentina，世界排名第1） vs 奥地利（Austria，世界排名第24）"
   },
   {
     "match_id": "M042",
@@ -1009,9 +1009,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "France v Iraq",
-    "home_display": "法国（France）",
-    "away_display": "伊拉克（Iraq）",
-    "title_display": "法国（France） vs 伊拉克（Iraq）"
+    "home_display": "法国（France，世界排名第3）",
+    "away_display": "伊拉克（Iraq，世界排名第57）",
+    "title_display": "法国（France，世界排名第3） vs 伊拉克（Iraq，世界排名第57）"
   },
   {
     "match_id": "M041",
@@ -1027,9 +1027,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Norway v Senegal",
-    "home_display": "挪威（Norway）",
-    "away_display": "塞内加尔（Senegal）",
-    "title_display": "挪威（Norway） vs 塞内加尔（Senegal）"
+    "home_display": "挪威（Norway，世界排名第31）",
+    "away_display": "塞内加尔（Senegal，世界排名第15）",
+    "title_display": "挪威（Norway，世界排名第31） vs 塞内加尔（Senegal，世界排名第15）"
   },
   {
     "match_id": "M044",
@@ -1045,9 +1045,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Jordan v Algeria",
-    "home_display": "约旦（Jordan）",
-    "away_display": "阿尔及利亚（Algeria）",
-    "title_display": "约旦（Jordan） vs 阿尔及利亚（Algeria）"
+    "home_display": "约旦（Jordan，世界排名第63）",
+    "away_display": "阿尔及利亚（Algeria，世界排名第28）",
+    "title_display": "约旦（Jordan，世界排名第63） vs 阿尔及利亚（Algeria，世界排名第28）"
   },
   {
     "match_id": "M047",
@@ -1063,9 +1063,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Portugal v Uzbekistan",
-    "home_display": "葡萄牙（Portugal）",
-    "away_display": "乌兹别克斯坦（Uzbekistan）",
-    "title_display": "葡萄牙（Portugal） vs 乌兹别克斯坦（Uzbekistan）"
+    "home_display": "葡萄牙（Portugal，世界排名第5）",
+    "away_display": "乌兹别克斯坦（Uzbekistan，世界排名第50）",
+    "title_display": "葡萄牙（Portugal，世界排名第5） vs 乌兹别克斯坦（Uzbekistan，世界排名第50）"
   },
   {
     "match_id": "M045",
@@ -1081,9 +1081,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "England v Ghana",
-    "home_display": "英格兰（England）",
-    "away_display": "加纳（Ghana）",
-    "title_display": "英格兰（England） vs 加纳（Ghana）"
+    "home_display": "英格兰（England，世界排名第4）",
+    "away_display": "加纳（Ghana，世界排名第73）",
+    "title_display": "英格兰（England，世界排名第4） vs 加纳（Ghana，世界排名第73）"
   },
   {
     "match_id": "M046",
@@ -1099,9 +1099,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Panama v Croatia",
-    "home_display": "巴拿马（Panama）",
-    "away_display": "克罗地亚（Croatia）",
-    "title_display": "巴拿马（Panama） vs 克罗地亚（Croatia）"
+    "home_display": "巴拿马（Panama，世界排名第34）",
+    "away_display": "克罗地亚（Croatia，世界排名第11）",
+    "title_display": "巴拿马（Panama，世界排名第34） vs 克罗地亚（Croatia，世界排名第11）"
   },
   {
     "match_id": "M048",
@@ -1117,9 +1117,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Colombia v DR Congo",
-    "home_display": "哥伦比亚（Colombia）",
-    "away_display": "刚果民主共和国（DR Congo）",
-    "title_display": "哥伦比亚（Colombia） vs 刚果民主共和国（DR Congo）"
+    "home_display": "哥伦比亚（Colombia，世界排名第13）",
+    "away_display": "刚果民主共和国（DR Congo，世界排名第46）",
+    "title_display": "哥伦比亚（Colombia，世界排名第13） vs 刚果民主共和国（DR Congo，世界排名第46）"
   },
   {
     "match_id": "M051",
@@ -1135,9 +1135,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Switzerland v Canada",
-    "home_display": "瑞士（Switzerland）",
-    "away_display": "加拿大（Canada）",
-    "title_display": "瑞士（Switzerland） vs 加拿大（Canada）"
+    "home_display": "瑞士（Switzerland，世界排名第19）",
+    "away_display": "加拿大（Canada，世界排名第30）",
+    "title_display": "瑞士（Switzerland，世界排名第19） vs 加拿大（Canada，世界排名第30）"
   },
   {
     "match_id": "M052",
@@ -1153,9 +1153,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Bosnia and Herzegovina v Qatar",
-    "home_display": "波黑（Bosnia and Herzegovina）",
-    "away_display": "卡塔尔（Qatar）",
-    "title_display": "波黑（Bosnia and Herzegovina） vs 卡塔尔（Qatar）"
+    "home_display": "波黑（Bosnia and Herzegovina，世界排名第64）",
+    "away_display": "卡塔尔（Qatar，世界排名第56）",
+    "title_display": "波黑（Bosnia and Herzegovina，世界排名第64） vs 卡塔尔（Qatar，世界排名第56）"
   },
   {
     "match_id": "M049",
@@ -1171,9 +1171,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Scotland v Brazil",
-    "home_display": "苏格兰（Scotland）",
-    "away_display": "巴西（Brazil）",
-    "title_display": "苏格兰（Scotland） vs 巴西（Brazil）"
+    "home_display": "苏格兰（Scotland，世界排名第42）",
+    "away_display": "巴西（Brazil，世界排名第6）",
+    "title_display": "苏格兰（Scotland，世界排名第42） vs 巴西（Brazil，世界排名第6）"
   },
   {
     "match_id": "M050",
@@ -1189,9 +1189,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Morocco v Haiti",
-    "home_display": "摩洛哥（Morocco）",
-    "away_display": "海地（Haiti）",
-    "title_display": "摩洛哥（Morocco） vs 海地（Haiti）"
+    "home_display": "摩洛哥（Morocco，世界排名第7）",
+    "away_display": "海地（Haiti，世界排名第83）",
+    "title_display": "摩洛哥（Morocco，世界排名第7） vs 海地（Haiti，世界排名第83）"
   },
   {
     "match_id": "M053",
@@ -1207,9 +1207,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Czech Republic v Mexico",
-    "home_display": "捷克（Czech Republic）",
-    "away_display": "墨西哥（Mexico）",
-    "title_display": "捷克（Czech Republic） vs 墨西哥（Mexico）"
+    "home_display": "捷克（Czech Republic，世界排名第40）",
+    "away_display": "墨西哥（Mexico，世界排名第14）",
+    "title_display": "捷克（Czech Republic，世界排名第40） vs 墨西哥（Mexico，世界排名第14）"
   },
   {
     "match_id": "M054",
@@ -1225,9 +1225,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "South Africa v South Korea",
-    "home_display": "南非（South Africa）",
-    "away_display": "韩国（South Korea）",
-    "title_display": "南非（South Africa） vs 韩国（South Korea）"
+    "home_display": "南非（South Africa，世界排名第60）",
+    "away_display": "韩国（South Korea，世界排名第25）",
+    "title_display": "南非（South Africa，世界排名第60） vs 韩国（South Korea，世界排名第25）"
   },
   {
     "match_id": "M055",
@@ -1243,9 +1243,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Curaçao v Ivory Coast",
-    "home_display": "库拉索（Curaçao）",
-    "away_display": "科特迪瓦（Ivory Coast）",
-    "title_display": "库拉索（Curaçao） vs 科特迪瓦（Ivory Coast）"
+    "home_display": "库拉索（Curaçao，世界排名第82）",
+    "away_display": "科特迪瓦（Ivory Coast，世界排名第33）",
+    "title_display": "库拉索（Curaçao，世界排名第82） vs 科特迪瓦（Ivory Coast，世界排名第33）"
   },
   {
     "match_id": "M056",
@@ -1261,9 +1261,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Ecuador v Germany",
-    "home_display": "厄瓜多尔（Ecuador）",
-    "away_display": "德国（Germany）",
-    "title_display": "厄瓜多尔（Ecuador） vs 德国（Germany）"
+    "home_display": "厄瓜多尔（Ecuador，世界排名第23）",
+    "away_display": "德国（Germany，世界排名第10）",
+    "title_display": "厄瓜多尔（Ecuador，世界排名第23） vs 德国（Germany，世界排名第10）"
   },
   {
     "match_id": "M057",
@@ -1279,9 +1279,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Japan v Sweden",
-    "home_display": "日本（Japan）",
-    "away_display": "瑞典（Sweden）",
-    "title_display": "日本（Japan） vs 瑞典（Sweden）"
+    "home_display": "日本（Japan，世界排名第18）",
+    "away_display": "瑞典（Sweden，世界排名第38）",
+    "title_display": "日本（Japan，世界排名第18） vs 瑞典（Sweden，世界排名第38）"
   },
   {
     "match_id": "M058",
@@ -1297,9 +1297,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Tunisia v Netherlands",
-    "home_display": "突尼斯（Tunisia）",
-    "away_display": "荷兰（Netherlands）",
-    "title_display": "突尼斯（Tunisia） vs 荷兰（Netherlands）"
+    "home_display": "突尼斯（Tunisia，世界排名第45）",
+    "away_display": "荷兰（Netherlands，世界排名第8）",
+    "title_display": "突尼斯（Tunisia，世界排名第45） vs 荷兰（Netherlands，世界排名第8）"
   },
   {
     "match_id": "M059",
@@ -1315,9 +1315,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Turkey v United States",
-    "home_display": "土耳其（Turkey）",
-    "away_display": "美国（United States）",
-    "title_display": "土耳其（Turkey） vs 美国（United States）"
+    "home_display": "土耳其（Turkey，世界排名第22）",
+    "away_display": "美国（United States，世界排名第17）",
+    "title_display": "土耳其（Turkey，世界排名第22） vs 美国（United States，世界排名第17）"
   },
   {
     "match_id": "M060",
@@ -1333,9 +1333,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Paraguay v Australia",
-    "home_display": "巴拉圭（Paraguay）",
-    "away_display": "澳大利亚（Australia）",
-    "title_display": "巴拉圭（Paraguay） vs 澳大利亚（Australia）"
+    "home_display": "巴拉圭（Paraguay，世界排名第41）",
+    "away_display": "澳大利亚（Australia，世界排名第27）",
+    "title_display": "巴拉圭（Paraguay，世界排名第41） vs 澳大利亚（Australia，世界排名第27）"
   },
   {
     "match_id": "M061",
@@ -1351,9 +1351,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Norway v France",
-    "home_display": "挪威（Norway）",
-    "away_display": "法国（France）",
-    "title_display": "挪威（Norway） vs 法国（France）"
+    "home_display": "挪威（Norway，世界排名第31）",
+    "away_display": "法国（France，世界排名第3）",
+    "title_display": "挪威（Norway，世界排名第31） vs 法国（France，世界排名第3）"
   },
   {
     "match_id": "M062",
@@ -1369,9 +1369,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Senegal v Iraq",
-    "home_display": "塞内加尔（Senegal）",
-    "away_display": "伊拉克（Iraq）",
-    "title_display": "塞内加尔（Senegal） vs 伊拉克（Iraq）"
+    "home_display": "塞内加尔（Senegal，世界排名第15）",
+    "away_display": "伊拉克（Iraq，世界排名第57）",
+    "title_display": "塞内加尔（Senegal，世界排名第15） vs 伊拉克（Iraq，世界排名第57）"
   },
   {
     "match_id": "M065",
@@ -1387,9 +1387,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Cape Verde v Saudi Arabia",
-    "home_display": "佛得角（Cape Verde）",
-    "away_display": "沙特阿拉伯（Saudi Arabia）",
-    "title_display": "佛得角（Cape Verde） vs 沙特阿拉伯（Saudi Arabia）"
+    "home_display": "佛得角（Cape Verde，世界排名第67）",
+    "away_display": "沙特阿拉伯（Saudi Arabia，世界排名第61）",
+    "title_display": "佛得角（Cape Verde，世界排名第67） vs 沙特阿拉伯（Saudi Arabia，世界排名第61）"
   },
   {
     "match_id": "M066",
@@ -1405,9 +1405,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Uruguay v Spain",
-    "home_display": "乌拉圭（Uruguay）",
-    "away_display": "西班牙（Spain）",
-    "title_display": "乌拉圭（Uruguay） vs 西班牙（Spain）"
+    "home_display": "乌拉圭（Uruguay，世界排名第16）",
+    "away_display": "西班牙（Spain，世界排名第2）",
+    "title_display": "乌拉圭（Uruguay，世界排名第16） vs 西班牙（Spain，世界排名第2）"
   },
   {
     "match_id": "M063",
@@ -1423,9 +1423,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Egypt v Iran",
-    "home_display": "埃及（Egypt）",
-    "away_display": "伊朗（Iran）",
-    "title_display": "埃及（Egypt） vs 伊朗（Iran）"
+    "home_display": "埃及（Egypt，世界排名第29）",
+    "away_display": "伊朗（Iran，世界排名第20）",
+    "title_display": "埃及（Egypt，世界排名第29） vs 伊朗（Iran，世界排名第20）"
   },
   {
     "match_id": "M064",
@@ -1441,9 +1441,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "New Zealand v Belgium",
-    "home_display": "新西兰（New Zealand）",
-    "away_display": "比利时（Belgium）",
-    "title_display": "新西兰（New Zealand） vs 比利时（Belgium）"
+    "home_display": "新西兰（New Zealand，世界排名第85）",
+    "away_display": "比利时（Belgium，世界排名第9）",
+    "title_display": "新西兰（New Zealand，世界排名第85） vs 比利时（Belgium，世界排名第9）"
   },
   {
     "match_id": "M067",
@@ -1459,9 +1459,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Panama v England",
-    "home_display": "巴拿马（Panama）",
-    "away_display": "英格兰（England）",
-    "title_display": "巴拿马（Panama） vs 英格兰（England）"
+    "home_display": "巴拿马（Panama，世界排名第34）",
+    "away_display": "英格兰（England，世界排名第4）",
+    "title_display": "巴拿马（Panama，世界排名第34） vs 英格兰（England，世界排名第4）"
   },
   {
     "match_id": "M068",
@@ -1477,9 +1477,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Croatia v Ghana",
-    "home_display": "克罗地亚（Croatia）",
-    "away_display": "加纳（Ghana）",
-    "title_display": "克罗地亚（Croatia） vs 加纳（Ghana）"
+    "home_display": "克罗地亚（Croatia，世界排名第11）",
+    "away_display": "加纳（Ghana，世界排名第73）",
+    "title_display": "克罗地亚（Croatia，世界排名第11） vs 加纳（Ghana，世界排名第73）"
   },
   {
     "match_id": "M071",
@@ -1495,9 +1495,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Colombia v Portugal",
-    "home_display": "哥伦比亚（Colombia）",
-    "away_display": "葡萄牙（Portugal）",
-    "title_display": "哥伦比亚（Colombia） vs 葡萄牙（Portugal）"
+    "home_display": "哥伦比亚（Colombia，世界排名第13）",
+    "away_display": "葡萄牙（Portugal，世界排名第5）",
+    "title_display": "哥伦比亚（Colombia，世界排名第13） vs 葡萄牙（Portugal，世界排名第5）"
   },
   {
     "match_id": "M072",
@@ -1513,9 +1513,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "DR Congo v Uzbekistan",
-    "home_display": "刚果民主共和国（DR Congo）",
-    "away_display": "乌兹别克斯坦（Uzbekistan）",
-    "title_display": "刚果民主共和国（DR Congo） vs 乌兹别克斯坦（Uzbekistan）"
+    "home_display": "刚果民主共和国（DR Congo，世界排名第46）",
+    "away_display": "乌兹别克斯坦（Uzbekistan，世界排名第50）",
+    "title_display": "刚果民主共和国（DR Congo，世界排名第46） vs 乌兹别克斯坦（Uzbekistan，世界排名第50）"
   },
   {
     "match_id": "M069",
@@ -1531,9 +1531,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Algeria v Austria",
-    "home_display": "阿尔及利亚（Algeria）",
-    "away_display": "奥地利（Austria）",
-    "title_display": "阿尔及利亚（Algeria） vs 奥地利（Austria）"
+    "home_display": "阿尔及利亚（Algeria，世界排名第28）",
+    "away_display": "奥地利（Austria，世界排名第24）",
+    "title_display": "阿尔及利亚（Algeria，世界排名第28） vs 奥地利（Austria，世界排名第24）"
   },
   {
     "match_id": "M070",
@@ -1549,9 +1549,9 @@
     "away_score": null,
     "goals": [],
     "raw_title": "Jordan v Argentina",
-    "home_display": "约旦（Jordan）",
-    "away_display": "阿根廷（Argentina）",
-    "title_display": "约旦（Jordan） vs 阿根廷（Argentina）"
+    "home_display": "约旦（Jordan，世界排名第63）",
+    "away_display": "阿根廷（Argentina，世界排名第1）",
+    "title_display": "约旦（Jordan，世界排名第63） vs 阿根廷（Argentina，世界排名第1）"
   },
   {
     "match_id": "M073",

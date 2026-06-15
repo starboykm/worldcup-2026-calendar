@@ -36,12 +36,14 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             should_run=true
             reason="manual update"
-          elif [ "${{ github.event.schedule }}" = "0 4 * * *" ]; then
-            should_run=true
-            reason="daily Beijing noon update"
           else
             bjt_date="$(TZ=Asia/Shanghai date +%Y%m%d)"
-            if [ "$bjt_date" -ge 20260612 ] && [ "$bjt_date" -le 20260720 ]; then
+            if [ "$bjt_date" -gt 20260720 ]; then
+              reason="World Cup finished; automatic updates stopped"
+            elif [ "${{ github.event.schedule }}" = "0 4 * * *" ]; then
+              should_run=true
+              reason="daily Beijing noon update"
+            elif [ "$bjt_date" -ge 20260612 ]; then
               should_run=true
               reason="World Cup quick update window"
             fi
