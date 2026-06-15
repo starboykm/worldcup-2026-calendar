@@ -52,7 +52,7 @@ def _description(match: Match) -> str:
         parts.append("进球:")
         for goal in match.goals:
             note = f" ({goal.note})" if goal.note else ""
-            team = display_team_name(goal.team) if goal.team else ""
+            team = display_team_name(goal.team, include_ranking=False) if goal.team else ""
             team_prefix = f"{team}: " if team else ""
             player = display_player_name(goal.player, goal.player_zh)
             parts.append(f"- {team_prefix}{player} {goal.minute}{note}")

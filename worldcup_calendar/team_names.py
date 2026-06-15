@@ -103,17 +103,32 @@ TEAM_RANKINGS = {
 }
 
 PLAYER_TRANSLATIONS = {
+    "Crysencio Summerville": "克里森西奥·萨默维尔",
+    "Connor Metcalfe": "康纳·梅特卡夫",
     "Cyle Larin": "凯尔·拉林",
+    "Daichi Kamada": "镰田大地",
     "Damián Bobadilla": "达米安·博瓦迪利亚",
+    "Deniz Undav": "德尼兹·翁达夫",
+    "Felix Nmecha": "费利克斯·恩梅查",
     "Folarin Balogun": "福拉林·巴洛贡",
     "Giovanni Reyna": "乔瓦尼·雷纳",
     "Hwang In-beom": "黄仁范",
+    "Ismael Saibari": "伊斯梅尔·赛巴里",
+    "Jamal Musiala": "贾马尔·穆西亚拉",
+    "John McGinn": "约翰·麦金",
     "Jovo Lukić": "约沃·卢基奇",
     "Julián Quiñones": "胡利安·基尼奥内斯",
+    "Keito Nakamura": "中村敬斗",
     "Ladislav Krejčí": "拉迪斯拉夫·克雷伊奇",
+    "Livano Comenencia": "利瓦诺·科梅嫩西亚",
     "Maurício": "毛里西奥",
+    "Miro Muheim": "米罗·穆海姆",
+    "Nathaniel Brown": "纳撒尼尔·布朗",
+    "Nestory Irankunda": "内斯托里·伊兰昆达",
+    "Nico Schlotterbeck": "尼科·施洛特贝克",
     "Oh Hyeon-gyu": "吴贤揆",
     "Raúl Jiménez": "劳尔·希门尼斯",
+    "Virgil van Dijk": "维吉尔·范戴克",
 }
 
 GROUP_TRANSLATIONS = {
@@ -132,12 +147,12 @@ GROUP_TRANSLATIONS = {
 }
 
 
-def display_team_name(name: str) -> str:
+def display_team_name(name: str, include_ranking: bool = True) -> str:
     chinese = _translate_placeholder(name) or TEAM_TRANSLATIONS.get(name)
     if not chinese:
         return name
     ranking = TEAM_RANKINGS.get(name)
-    if ranking is None:
+    if ranking is None or not include_ranking:
         return f"{chinese}（{name}）"
     return f"{chinese}（{name}，世界排名第{ranking}）"
 

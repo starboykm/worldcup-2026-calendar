@@ -189,8 +189,8 @@
         "player": "Miro Muheim",
         "minute": "90+4' (o.g.)",
         "note": "乌龙球",
-        "player_zh": "",
-        "player_display": "Miro Muheim"
+        "player_zh": "米罗·穆海姆",
+        "player_display": "米罗·穆海姆（Miro Muheim）"
       },
       {
         "team": "Switzerland",
@@ -232,8 +232,8 @@
         "player": "Ismael Saibari",
         "minute": "21'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ismael Saibari"
+        "player_zh": "伊斯梅尔·赛巴里",
+        "player_display": "伊斯梅尔·赛巴里（Ismael Saibari）"
       }
     ],
     "raw_title": "Brazil v Morocco",
@@ -259,8 +259,8 @@
         "player": "John McGinn",
         "minute": "28'",
         "note": "",
-        "player_zh": "約翰·麥金",
-        "player_display": "約翰·麥金（John McGinn）"
+        "player_zh": "约翰·麦金",
+        "player_display": "约翰·麦金（John McGinn）"
       }
     ],
     "raw_title": "Haiti v Scotland",
@@ -286,16 +286,16 @@
         "player": "Nestory Irankunda",
         "minute": "27'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Nestory Irankunda"
+        "player_zh": "内斯托里·伊兰昆达",
+        "player_display": "内斯托里·伊兰昆达（Nestory Irankunda）"
       },
       {
         "team": "Australia",
         "player": "Connor Metcalfe",
         "minute": "75'",
         "note": "",
-        "player_zh": "康納·梅特卡夫",
-        "player_display": "康納·梅特卡夫（Connor Metcalfe）"
+        "player_zh": "康纳·梅特卡夫",
+        "player_display": "康纳·梅特卡夫（Connor Metcalfe）"
       }
     ],
     "raw_title": "Australia v Turkey",
@@ -321,16 +321,16 @@
         "player": "Felix Nmecha",
         "minute": "6'",
         "note": "",
-        "player_zh": "費利克斯·恩梅查",
-        "player_display": "費利克斯·恩梅查（Felix Nmecha）"
+        "player_zh": "费利克斯·恩梅查",
+        "player_display": "费利克斯·恩梅查（Felix Nmecha）"
       },
       {
         "team": "Germany",
         "player": "Nico Schlotterbeck",
         "minute": "38'",
         "note": "",
-        "player_zh": "尼科·施洛特貝克",
-        "player_display": "尼科·施洛特貝克（Nico Schlotterbeck）"
+        "player_zh": "尼科·施洛特贝克",
+        "player_display": "尼科·施洛特贝克（Nico Schlotterbeck）"
       },
       {
         "team": "Germany",
@@ -353,32 +353,32 @@
         "player": "Jamal Musiala",
         "minute": "47'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Jamal Musiala"
+        "player_zh": "贾马尔·穆西亚拉",
+        "player_display": "贾马尔·穆西亚拉（Jamal Musiala）"
       },
       {
         "team": "Germany",
         "player": "Nathaniel Brown",
         "minute": "68'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Nathaniel Brown"
+        "player_zh": "纳撒尼尔·布朗",
+        "player_display": "纳撒尼尔·布朗（Nathaniel Brown）"
       },
       {
         "team": "Germany",
         "player": "Deniz Undav",
         "minute": "78'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Deniz Undav"
+        "player_zh": "德尼兹·翁达夫",
+        "player_display": "德尼兹·翁达夫（Deniz Undav）"
       },
       {
         "team": "Curaçao",
         "player": "Livano Comenencia",
         "minute": "21'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Livano Comenencia"
+        "player_zh": "利瓦诺·科梅嫩西亚",
+        "player_display": "利瓦诺·科梅嫩西亚（Livano Comenencia）"
       }
     ],
     "raw_title": "Germany v Curaçao",
@@ -404,32 +404,32 @@
         "player": "Virgil van Dijk",
         "minute": "51'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Virgil van Dijk"
+        "player_zh": "维吉尔·范戴克",
+        "player_display": "维吉尔·范戴克（Virgil van Dijk）"
       },
       {
         "team": "Netherlands",
         "player": "Crysencio Summerville",
         "minute": "64'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Crysencio Summerville"
+        "player_zh": "克里森西奥·萨默维尔",
+        "player_display": "克里森西奥·萨默维尔（Crysencio Summerville）"
       },
       {
         "team": "Japan",
         "player": "Keito Nakamura",
         "minute": "57'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Keito Nakamura"
+        "player_zh": "中村敬斗",
+        "player_display": "中村敬斗（Keito Nakamura）"
       },
       {
         "team": "Japan",
         "player": "Daichi Kamada",
         "minute": "88'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Daichi Kamada"
+        "player_zh": "镰田大地",
+        "player_display": "镰田大地（Daichi Kamada）"
       }
     ],
     "raw_title": "Netherlands v Japan",

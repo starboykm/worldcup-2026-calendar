@@ -12,7 +12,7 @@ from urllib.parse import parse_qs, urlparse
 from .ics import render_calendar
 from .models import Match
 from .sources import fetch_matches
-from .team_names import display_player_name, display_team_name
+from .team_names import PLAYER_TRANSLATIONS, display_player_name, display_team_name
 
 DEFAULT_OUTPUT = Path("docs/worldcup-2026.ics")
 DEFAULT_JSON = Path("docs/matches.json")
@@ -140,7 +140,8 @@ def _match_dict(match: Match) -> dict[str, object]:
     data["goals"] = [
         {
             **goal,
-            "player_display": display_player_name(str(goal.get("player") or ""), str(goal.get("player_zh") or "")),
+            "player_zh": _goal_player_zh(goal),
+            "player_display": display_player_name(str(goal.get("player") or ""), _goal_player_zh(goal)),
         }
         for goal in data["goals"]
         if isinstance(goal, dict)
@@ -149,3 +150,8 @@ def _match_dict(match: Match) -> dict[str, object]:
     data["away_display"] = display_team_name(match.away)
     data["title_display"] = match.title
     return data
+
+
+def _goal_player_zh(goal: dict[str, object]) -> str:
+    player = str(goal.get("player") or "")
+    return str(PLAYER_TRANSLATIONS.get(player) or goal.get("player_zh") or "")
