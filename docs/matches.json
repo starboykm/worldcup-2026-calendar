@@ -679,14 +679,47 @@
     "venue": "MetLife Stadium",
     "city": "East Rutherford",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "France",
+        "player": "Kylian Mbappé",
+        "minute": "66'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
+      },
+      {
+        "team": "France",
+        "player": "Kylian Mbappé",
+        "minute": "90+6'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
+      },
+      {
+        "team": "France",
+        "player": "Bradley Barcola",
+        "minute": "82'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Bradley Barcola"
+      },
+      {
+        "team": "Senegal",
+        "player": "Ibrahim Mbaye",
+        "minute": "90+5'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ibrahim Mbaye"
+      }
+    ],
     "raw_title": "France v Senegal",
     "home_display": "法国（France，世界排名第3）",
     "away_display": "塞内加尔（Senegal，世界排名第15）",
-    "title_display": "法国（France，世界排名第3） vs 塞内加尔（Senegal，世界排名第15）"
+    "title_display": "法国（France，世界排名第3） 3-1 塞内加尔（Senegal，世界排名第15）"
   },
   {
     "match_id": "M018",
