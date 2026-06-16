@@ -593,14 +593,31 @@
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Saudi Arabia",
+        "player": "Abdulelah Al-Amri",
+        "minute": "41'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Abdulelah Al-Amri"
+      },
+      {
+        "team": "Uruguay",
+        "player": "Maximiliano Araújo",
+        "minute": "80'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Maximiliano Araújo"
+      }
+    ],
     "raw_title": "Saudi Arabia v Uruguay",
     "home_display": "沙特阿拉伯（Saudi Arabia，世界排名第61）",
     "away_display": "乌拉圭（Uruguay，世界排名第16）",
-    "title_display": "沙特阿拉伯（Saudi Arabia，世界排名第61） vs 乌拉圭（Uruguay，世界排名第16）"
+    "title_display": "沙特阿拉伯（Saudi Arabia，世界排名第61） 1-1 乌拉圭（Uruguay，世界排名第16）"
   },
   {
     "match_id": "M015",
@@ -611,14 +628,47 @@
     "venue": "SoFi Stadium",
     "city": "Inglewood",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "Iran",
+        "player": "Ramin Rezaeian",
+        "minute": "32'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ramin Rezaeian"
+      },
+      {
+        "team": "Iran",
+        "player": "Mohammad Mohebi",
+        "minute": "64'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Mohammad Mohebi"
+      },
+      {
+        "team": "New Zealand",
+        "player": "Elijah Just",
+        "minute": "7'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Elijah Just"
+      },
+      {
+        "team": "New Zealand",
+        "player": "Elijah Just",
+        "minute": "54'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Elijah Just"
+      }
+    ],
     "raw_title": "Iran v New Zealand",
     "home_display": "伊朗（Iran，世界排名第20）",
     "away_display": "新西兰（New Zealand，世界排名第85）",
-    "title_display": "伊朗（Iran，世界排名第20） vs 新西兰（New Zealand，世界排名第85）"
+    "title_display": "伊朗（Iran，世界排名第20） 2-2 新西兰（New Zealand，世界排名第85）"
   },
   {
     "match_id": "M017",
