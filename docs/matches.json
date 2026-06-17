@@ -883,14 +883,31 @@
     "venue": "NRG Stadium",
     "city": "Houston",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Portugal",
+        "player": "João Neves",
+        "minute": "6'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "João Neves"
+      },
+      {
+        "team": "DR Congo",
+        "player": "Yoane Wissa",
+        "minute": "45+5'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Yoane Wissa"
+      }
+    ],
     "raw_title": "Portugal v DR Congo",
     "home_display": "葡萄牙（Portugal，世界排名第5）",
     "away_display": "刚果民主共和国（DR Congo，世界排名第46）",
-    "title_display": "葡萄牙（Portugal，世界排名第5） vs 刚果民主共和国（DR Congo，世界排名第46）"
+    "title_display": "葡萄牙（Portugal，世界排名第5） 1-1 刚果民主共和国（DR Congo，世界排名第46）"
   },
   {
     "match_id": "M022",
