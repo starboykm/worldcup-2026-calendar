@@ -918,14 +918,63 @@
     "venue": "AT&T Stadium",
     "city": "Arlington",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 4,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "England",
+        "player": "Harry Kane",
+        "minute": "12' ( pen. )",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Harry Kane"
+      },
+      {
+        "team": "England",
+        "player": "Harry Kane",
+        "minute": "42'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Harry Kane"
+      },
+      {
+        "team": "England",
+        "player": "Jude Bellingham",
+        "minute": "47'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Jude Bellingham"
+      },
+      {
+        "team": "England",
+        "player": "Marcus Rashford",
+        "minute": "85'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Marcus Rashford"
+      },
+      {
+        "team": "Croatia",
+        "player": "Martin Baturina",
+        "minute": "36'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Martin Baturina"
+      },
+      {
+        "team": "Croatia",
+        "player": "Petar Musa",
+        "minute": "45+5'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Petar Musa"
+      }
+    ],
     "raw_title": "England v Croatia",
     "home_display": "英格兰（England，世界排名第4）",
     "away_display": "克罗地亚（Croatia，世界排名第11）",
-    "title_display": "英格兰（England，世界排名第4） vs 克罗地亚（Croatia，世界排名第11）"
+    "title_display": "英格兰（England，世界排名第4） 4-2 克罗地亚（Croatia，世界排名第11）"
   },
   {
     "match_id": "M021",
