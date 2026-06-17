@@ -730,14 +730,55 @@
     "venue": "Gillette Stadium",
     "city": "Foxborough",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 4,
+    "goals": [
+      {
+        "team": "Iraq",
+        "player": "Aymen Hussein",
+        "minute": "39'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Aymen Hussein"
+      },
+      {
+        "team": "Norway",
+        "player": "Erling Haaland",
+        "minute": "29'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Erling Haaland"
+      },
+      {
+        "team": "Norway",
+        "player": "Erling Haaland",
+        "minute": "43'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Erling Haaland"
+      },
+      {
+        "team": "Norway",
+        "player": "Leo Østigård",
+        "minute": "76'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Leo Østigård"
+      },
+      {
+        "team": "Norway",
+        "player": "Aymen Hussein",
+        "minute": "90+6' (o.g.)",
+        "note": "乌龙球",
+        "player_zh": "",
+        "player_display": "Aymen Hussein"
+      }
+    ],
     "raw_title": "Iraq v Norway",
     "home_display": "伊拉克（Iraq，世界排名第57）",
     "away_display": "挪威（Norway，世界排名第31）",
-    "title_display": "伊拉克（Iraq，世界排名第57） vs 挪威（Norway，世界排名第31）"
+    "title_display": "伊拉克（Iraq，世界排名第57） 1-4 挪威（Norway，世界排名第31）"
   },
   {
     "match_id": "M019",
@@ -748,14 +789,39 @@
     "venue": "Arrowhead Stadium",
     "city": "Kansas City",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Argentina",
+        "player": "Lionel Messi",
+        "minute": "17'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Lionel Messi"
+      },
+      {
+        "team": "Argentina",
+        "player": "Lionel Messi",
+        "minute": "60'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Lionel Messi"
+      },
+      {
+        "team": "Argentina",
+        "player": "Lionel Messi",
+        "minute": "76'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Lionel Messi"
+      }
+    ],
     "raw_title": "Argentina v Algeria",
     "home_display": "阿根廷（Argentina，世界排名第1）",
     "away_display": "阿尔及利亚（Algeria，世界排名第28）",
-    "title_display": "阿根廷（Argentina，世界排名第1） vs 阿尔及利亚（Algeria，世界排名第28）"
+    "title_display": "阿根廷（Argentina，世界排名第1） 3-0 阿尔及利亚（Algeria，世界排名第28）"
   },
   {
     "match_id": "M020",
@@ -766,14 +832,47 @@
     "venue": "Levi's Stadium",
     "city": "Santa Clara",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Austria",
+        "player": "Romano Schmid",
+        "minute": "21'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Romano Schmid"
+      },
+      {
+        "team": "Austria",
+        "player": "Yazan Al-Arab",
+        "minute": "77' (o.g.)",
+        "note": "乌龙球",
+        "player_zh": "",
+        "player_display": "Yazan Al-Arab"
+      },
+      {
+        "team": "Austria",
+        "player": "Marko Arnautović",
+        "minute": "90+12' ( pen. )",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Marko Arnautović"
+      },
+      {
+        "team": "Jordan",
+        "player": "Ali Olwan",
+        "minute": "50'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ali Olwan"
+      }
+    ],
     "raw_title": "Austria v Jordan",
     "home_display": "奥地利（Austria，世界排名第24）",
     "away_display": "约旦（Jordan，世界排名第63）",
-    "title_display": "奥地利（Austria，世界排名第24） vs 约旦（Jordan，世界排名第63）"
+    "title_display": "奥地利（Austria，世界排名第24） 3-1 约旦（Jordan，世界排名第63）"
   },
   {
     "match_id": "M023",
