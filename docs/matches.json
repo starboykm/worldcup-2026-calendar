@@ -498,24 +498,24 @@
         "player": "Alexander Isak",
         "minute": "30'",
         "note": "",
-        "player_zh": "亞歷山大·伊沙克",
-        "player_display": "亞歷山大·伊沙克（Alexander Isak）"
+        "player_zh": "",
+        "player_display": "Alexander Isak"
       },
       {
         "team": "Sweden",
         "player": "Viktor Gyökeres",
         "minute": "59'",
         "note": "",
-        "player_zh": "維克托·哲凱賴什",
-        "player_display": "維克托·哲凱賴什（Viktor Gyökeres）"
+        "player_zh": "",
+        "player_display": "Viktor Gyökeres"
       },
       {
         "team": "Sweden",
         "player": "Mattias Svanberg",
         "minute": "84'",
         "note": "",
-        "player_zh": "马蒂亚斯·斯万贝里",
-        "player_display": "马蒂亚斯·斯万贝里（Mattias Svanberg）"
+        "player_zh": "",
+        "player_display": "Mattias Svanberg"
       },
       {
         "team": "Tunisia",
@@ -1063,14 +1063,31 @@
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Czech Republic",
+        "player": "Michal Sadílek",
+        "minute": "6'",
+        "note": "",
+        "player_zh": "米哈爾·薩迪萊克",
+        "player_display": "米哈爾·薩迪萊克（Michal Sadílek）"
+      },
+      {
+        "team": "South Africa",
+        "player": "Teboho Mokoena",
+        "minute": "83' ( pen. )",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Teboho Mokoena"
+      }
+    ],
     "raw_title": "Czech Republic v South Africa",
     "home_display": "捷克（Czech Republic，世界排名第40）",
     "away_display": "南非（South Africa，世界排名第60）",
-    "title_display": "捷克（Czech Republic，世界排名第40） vs 南非（South Africa，世界排名第60）"
+    "title_display": "捷克（Czech Republic，世界排名第40） 1-1 南非（South Africa，世界排名第60）"
   },
   {
     "match_id": "M026",
@@ -1081,14 +1098,55 @@
     "venue": "SoFi Stadium",
     "city": "Inglewood",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 4,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Switzerland",
+        "player": "Johan Manzambi",
+        "minute": "74'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Johan Manzambi"
+      },
+      {
+        "team": "Switzerland",
+        "player": "Johan Manzambi",
+        "minute": "90'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Johan Manzambi"
+      },
+      {
+        "team": "Switzerland",
+        "player": "Rubén Vargas",
+        "minute": "84'",
+        "note": "",
+        "player_zh": "鲁文·巴尔加斯",
+        "player_display": "鲁文·巴尔加斯（Rubén Vargas）"
+      },
+      {
+        "team": "Switzerland",
+        "player": "Granit Xhaka",
+        "minute": "90+7' ( pen. )",
+        "note": "",
+        "player_zh": "格拉尼特·扎卡",
+        "player_display": "格拉尼特·扎卡（Granit Xhaka）"
+      },
+      {
+        "team": "Bosnia and Herzegovina",
+        "player": "Ermin Mahmić",
+        "minute": "90+3'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ermin Mahmić"
+      }
+    ],
     "raw_title": "Switzerland v Bosnia and Herzegovina",
     "home_display": "瑞士（Switzerland，世界排名第19）",
     "away_display": "波黑（Bosnia and Herzegovina，世界排名第64）",
-    "title_display": "瑞士（Switzerland，世界排名第19） vs 波黑（Bosnia and Herzegovina，世界排名第64）"
+    "title_display": "瑞士（Switzerland，世界排名第19） 4-1 波黑（Bosnia and Herzegovina，世界排名第64）"
   },
   {
     "match_id": "M027",
