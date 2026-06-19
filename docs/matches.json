@@ -1251,14 +1251,31 @@
     "venue": "Lumen Field",
     "city": "Seattle",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "United States",
+        "player": "Cameron Burgess",
+        "minute": "11' (o.g.)",
+        "note": "乌龙球",
+        "player_zh": "",
+        "player_display": "Cameron Burgess"
+      },
+      {
+        "team": "United States",
+        "player": "Alex Freeman",
+        "minute": "43'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Alex Freeman"
+      }
+    ],
     "raw_title": "United States v Australia",
     "home_display": "美国（United States，世界排名第17）",
     "away_display": "澳大利亚（Australia，世界排名第27）",
-    "title_display": "美国（United States，世界排名第17） vs 澳大利亚（Australia，世界排名第27）"
+    "title_display": "美国（United States，世界排名第17） 2-0 澳大利亚（Australia，世界排名第27）"
   },
   {
     "match_id": "M030",
