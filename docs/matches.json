@@ -224,8 +224,8 @@
         "player": "Vinícius Júnior",
         "minute": "32'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Vinícius Júnior"
+        "player_zh": "维尼修斯·儒尼奥尔",
+        "player_display": "维尼修斯·儒尼奥尔（Vinícius Júnior）"
       },
       {
         "team": "Morocco",
@@ -337,16 +337,16 @@
         "player": "Kai Havertz",
         "minute": "45+5' ( pen. )",
         "note": "",
-        "player_zh": "",
-        "player_display": "Kai Havertz"
+        "player_zh": "凯·哈弗茨",
+        "player_display": "凯·哈弗茨（Kai Havertz）"
       },
       {
         "team": "Germany",
         "player": "Kai Havertz",
         "minute": "88'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Kai Havertz"
+        "player_zh": "凯·哈弗茨",
+        "player_display": "凯·哈弗茨（Kai Havertz）"
       },
       {
         "team": "Germany",
@@ -602,16 +602,16 @@
         "player": "Abdulelah Al-Amri",
         "minute": "41'",
         "note": "",
-        "player_zh": "阿卜杜勒拉·阿姆里",
-        "player_display": "阿卜杜勒拉·阿姆里（Abdulelah Al-Amri）"
+        "player_zh": "",
+        "player_display": "Abdulelah Al-Amri"
       },
       {
         "team": "Uruguay",
         "player": "Maximiliano Araújo",
         "minute": "80'",
         "note": "",
-        "player_zh": "马克西米利亚诺·阿劳霍",
-        "player_display": "马克西米利亚诺·阿劳霍（Maximiliano Araújo）"
+        "player_zh": "",
+        "player_display": "Maximiliano Araújo"
       }
     ],
     "raw_title": "Saudi Arabia v Uruguay",
@@ -645,24 +645,24 @@
         "player": "Mohammad Mohebi",
         "minute": "64'",
         "note": "",
-        "player_zh": "穆罕默德·莫赫比",
-        "player_display": "穆罕默德·莫赫比（Mohammad Mohebi）"
+        "player_zh": "",
+        "player_display": "Mohammad Mohebi"
       },
       {
         "team": "New Zealand",
         "player": "Elijah Just",
         "minute": "7'",
         "note": "",
-        "player_zh": "以利亞·賈斯特",
-        "player_display": "以利亞·賈斯特（Elijah Just）"
+        "player_zh": "",
+        "player_display": "Elijah Just"
       },
       {
         "team": "New Zealand",
         "player": "Elijah Just",
         "minute": "54'",
         "note": "",
-        "player_zh": "以利亞·賈斯特",
-        "player_display": "以利亞·賈斯特（Elijah Just）"
+        "player_zh": "",
+        "player_display": "Elijah Just"
       }
     ],
     "raw_title": "Iran v New Zealand",
@@ -688,24 +688,24 @@
         "player": "Kylian Mbappé",
         "minute": "66'",
         "note": "",
-        "player_zh": "基利安·麥巴比",
-        "player_display": "基利安·麥巴比（Kylian Mbappé）"
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
       },
       {
         "team": "France",
         "player": "Kylian Mbappé",
         "minute": "90+6'",
         "note": "",
-        "player_zh": "基利安·麥巴比",
-        "player_display": "基利安·麥巴比（Kylian Mbappé）"
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
       },
       {
         "team": "France",
         "player": "Bradley Barcola",
         "minute": "82'",
         "note": "",
-        "player_zh": "巴特利·巴高拿",
-        "player_display": "巴特利·巴高拿（Bradley Barcola）"
+        "player_zh": "",
+        "player_display": "Bradley Barcola"
       },
       {
         "team": "Senegal",
@@ -739,40 +739,40 @@
         "player": "Aymen Hussein",
         "minute": "39'",
         "note": "",
-        "player_zh": "艾曼·胡辛",
-        "player_display": "艾曼·胡辛（Aymen Hussein）"
+        "player_zh": "",
+        "player_display": "Aymen Hussein"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "29'",
         "note": "",
-        "player_zh": "埃尔林·哈兰德",
-        "player_display": "埃尔林·哈兰德（Erling Haaland）"
+        "player_zh": "",
+        "player_display": "Erling Haaland"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "43'",
         "note": "",
-        "player_zh": "埃尔林·哈兰德",
-        "player_display": "埃尔林·哈兰德（Erling Haaland）"
+        "player_zh": "",
+        "player_display": "Erling Haaland"
       },
       {
         "team": "Norway",
         "player": "Leo Østigård",
         "minute": "76'",
         "note": "",
-        "player_zh": "莱奥·厄斯蒂高",
-        "player_display": "莱奥·厄斯蒂高（Leo Østigård）"
+        "player_zh": "",
+        "player_display": "Leo Østigård"
       },
       {
         "team": "Norway",
         "player": "Aymen Hussein",
         "minute": "90+6' (o.g.)",
         "note": "乌龙球",
-        "player_zh": "艾曼·胡辛",
-        "player_display": "艾曼·胡辛（Aymen Hussein）"
+        "player_zh": "",
+        "player_display": "Aymen Hussein"
       }
     ],
     "raw_title": "Iraq v Norway",
