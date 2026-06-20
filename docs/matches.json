@@ -402,7 +402,7 @@
       {
         "team": "Netherlands",
         "player": "Virgil van Dijk",
-        "minute": "50'",
+        "minute": "51'",
         "note": "",
         "player_zh": "维吉尔·范戴克",
         "player_display": "维吉尔·范戴克（Virgil van Dijk）"
@@ -1383,14 +1383,63 @@
     "venue": "NRG Stadium",
     "city": "Houston",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 5,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Netherlands",
+        "player": "Brian Brobbey",
+        "minute": "5'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Brian Brobbey"
+      },
+      {
+        "team": "Netherlands",
+        "player": "Brian Brobbey",
+        "minute": "17'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Brian Brobbey"
+      },
+      {
+        "team": "Netherlands",
+        "player": "Cody Gakpo",
+        "minute": "47'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Cody Gakpo"
+      },
+      {
+        "team": "Netherlands",
+        "player": "Cody Gakpo",
+        "minute": "54'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Cody Gakpo"
+      },
+      {
+        "team": "Netherlands",
+        "player": "Crysencio Summerville",
+        "minute": "89'",
+        "note": "",
+        "player_zh": "克里森西奥·萨默维尔",
+        "player_display": "克里森西奥·萨默维尔（Crysencio Summerville）"
+      },
+      {
+        "team": "Sweden",
+        "player": "Anthony Elanga",
+        "minute": "59'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Anthony Elanga"
+      }
+    ],
     "raw_title": "Netherlands v Sweden",
     "home_display": "荷兰（Netherlands，世界排名第8）",
     "away_display": "瑞典（Sweden，世界排名第38）",
-    "title_display": "荷兰（Netherlands，世界排名第8） vs 瑞典（Sweden，世界排名第38）"
+    "title_display": "荷兰（Netherlands，世界排名第8） 5-1 瑞典（Sweden，世界排名第38）"
   },
   {
     "match_id": "M033",
