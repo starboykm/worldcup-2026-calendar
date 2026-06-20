@@ -1450,14 +1450,39 @@
     "venue": "BMO Field",
     "city": "Toronto",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Germany",
+        "player": "Deniz Undav",
+        "minute": "68'",
+        "note": "",
+        "player_zh": "德尼兹·翁达夫",
+        "player_display": "德尼兹·翁达夫（Deniz Undav）"
+      },
+      {
+        "team": "Germany",
+        "player": "Deniz Undav",
+        "minute": "90+4'",
+        "note": "",
+        "player_zh": "德尼兹·翁达夫",
+        "player_display": "德尼兹·翁达夫（Deniz Undav）"
+      },
+      {
+        "team": "Ivory Coast",
+        "player": "Franck Kessié",
+        "minute": "30'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Franck Kessié"
+      }
+    ],
     "raw_title": "Germany v Ivory Coast",
     "home_display": "德国（Germany，世界排名第10）",
     "away_display": "科特迪瓦（Ivory Coast，世界排名第33）",
-    "title_display": "德国（Germany，世界排名第10） vs 科特迪瓦（Ivory Coast，世界排名第33）"
+    "title_display": "德国（Germany，世界排名第10） 2-1 科特迪瓦（Ivory Coast，世界排名第33）"
   },
   {
     "match_id": "M034",
