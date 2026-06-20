@@ -1286,14 +1286,23 @@
     "venue": "Gillette Stadium",
     "city": "Foxborough",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Morocco",
+        "player": "Ismael Saibari",
+        "minute": "2'",
+        "note": "",
+        "player_zh": "伊斯梅尔·赛巴里",
+        "player_display": "伊斯梅尔·赛巴里（Ismael Saibari）"
+      }
+    ],
     "raw_title": "Scotland v Morocco",
     "home_display": "苏格兰（Scotland，世界排名第42）",
     "away_display": "摩洛哥（Morocco，世界排名第7）",
-    "title_display": "苏格兰（Scotland，世界排名第42） vs 摩洛哥（Morocco，世界排名第7）"
+    "title_display": "苏格兰（Scotland，世界排名第42） 0-1 摩洛哥（Morocco，世界排名第7）"
   },
   {
     "match_id": "M029",
@@ -1304,14 +1313,39 @@
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Brazil",
+        "player": "Matheus Cunha",
+        "minute": "23'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Matheus Cunha"
+      },
+      {
+        "team": "Brazil",
+        "player": "Matheus Cunha",
+        "minute": "36'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Matheus Cunha"
+      },
+      {
+        "team": "Brazil",
+        "player": "Vinícius Júnior",
+        "minute": "45+3'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Vinícius Júnior"
+      }
+    ],
     "raw_title": "Brazil v Haiti",
     "home_display": "巴西（Brazil，世界排名第6）",
     "away_display": "海地（Haiti，世界排名第83）",
-    "title_display": "巴西（Brazil，世界排名第6） vs 海地（Haiti，世界排名第83）"
+    "title_display": "巴西（Brazil，世界排名第6） 3-0 海地（Haiti，世界排名第83）"
   },
   {
     "match_id": "M031",
@@ -1322,14 +1356,23 @@
     "venue": "Levi's Stadium",
     "city": "Santa Clara",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Paraguay",
+        "player": "Matías Galarza",
+        "minute": "2'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Matías Galarza"
+      }
+    ],
     "raw_title": "Turkey v Paraguay",
     "home_display": "土耳其（Turkey，世界排名第22）",
     "away_display": "巴拉圭（Paraguay，世界排名第41）",
-    "title_display": "土耳其（Turkey，世界排名第22） vs 巴拉圭（Paraguay，世界排名第41）"
+    "title_display": "土耳其（Turkey，世界排名第22） 0-1 巴拉圭（Paraguay，世界排名第41）"
   },
   {
     "match_id": "M035",
@@ -2216,7 +2259,7 @@
   {
     "match_id": "M081",
     "stage": "Round of 32",
-    "home": "Winner Group D",
+    "home": "United States",
     "away": "3rd Group B/E/F/I/J",
     "starts_at_beijing": "2026-07-02T08:00:00",
     "venue": "Levi's Stadium",
@@ -2226,10 +2269,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group D v 3rd Group B/E/F/I/J",
-    "home_display": "D组第一名（Winner Group D）",
+    "raw_title": "United States v 3rd Group B/E/F/I/J",
+    "home_display": "美国（United States，世界排名第17）",
     "away_display": "B组/E组/F组/I组/J组第三名（3rd Group B/E/F/I/J）",
-    "title_display": "D组第一名（Winner Group D） vs B组/E组/F组/I组/J组第三名（3rd Group B/E/F/I/J）"
+    "title_display": "美国（United States，世界排名第17） vs B组/E组/F组/I组/J组第三名（3rd Group B/E/F/I/J）"
   },
   {
     "match_id": "M084",
