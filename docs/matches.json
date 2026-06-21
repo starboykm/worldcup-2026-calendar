@@ -712,8 +712,8 @@
         "player": "Ibrahim Mbaye",
         "minute": "90+5'",
         "note": "",
-        "player_zh": "易卜拉欣·姆巴耶",
-        "player_display": "易卜拉欣·姆巴耶（Ibrahim Mbaye）"
+        "player_zh": "",
+        "player_display": "Ibrahim Mbaye"
       }
     ],
     "raw_title": "France v Senegal",
@@ -739,40 +739,40 @@
         "player": "Aymen Hussein",
         "minute": "39'",
         "note": "",
-        "player_zh": "艾曼·胡辛",
-        "player_display": "艾曼·胡辛（Aymen Hussein）"
+        "player_zh": "",
+        "player_display": "Aymen Hussein"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "29'",
         "note": "",
-        "player_zh": "埃尔林·哈兰德",
-        "player_display": "埃尔林·哈兰德（Erling Haaland）"
+        "player_zh": "",
+        "player_display": "Erling Haaland"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "43'",
         "note": "",
-        "player_zh": "埃尔林·哈兰德",
-        "player_display": "埃尔林·哈兰德（Erling Haaland）"
+        "player_zh": "",
+        "player_display": "Erling Haaland"
       },
       {
         "team": "Norway",
         "player": "Leo Østigård",
         "minute": "76'",
         "note": "",
-        "player_zh": "莱奥·厄斯蒂高",
-        "player_display": "莱奥·厄斯蒂高（Leo Østigård）"
+        "player_zh": "",
+        "player_display": "Leo Østigård"
       },
       {
         "team": "Norway",
         "player": "Aymen Hussein",
         "minute": "90+6' (o.g.)",
         "note": "乌龙球",
-        "player_zh": "艾曼·胡辛",
-        "player_display": "艾曼·胡辛（Aymen Hussein）"
+        "player_zh": "",
+        "player_display": "Aymen Hussein"
       }
     ],
     "raw_title": "Iraq v Norway",
@@ -798,24 +798,24 @@
         "player": "Lionel Messi",
         "minute": "17'",
         "note": "",
-        "player_zh": "利昂内尔·梅西",
-        "player_display": "利昂内尔·梅西（Lionel Messi）"
+        "player_zh": "",
+        "player_display": "Lionel Messi"
       },
       {
         "team": "Argentina",
         "player": "Lionel Messi",
         "minute": "60'",
         "note": "",
-        "player_zh": "利昂内尔·梅西",
-        "player_display": "利昂内尔·梅西（Lionel Messi）"
+        "player_zh": "",
+        "player_display": "Lionel Messi"
       },
       {
         "team": "Argentina",
         "player": "Lionel Messi",
         "minute": "76'",
         "note": "",
-        "player_zh": "利昂内尔·梅西",
-        "player_display": "利昂内尔·梅西（Lionel Messi）"
+        "player_zh": "",
+        "player_display": "Lionel Messi"
       }
     ],
     "raw_title": "Argentina v Algeria",
@@ -841,8 +841,8 @@
         "player": "Romano Schmid",
         "minute": "20'",
         "note": "",
-        "player_zh": "羅馬諾·施密德",
-        "player_display": "羅馬諾·施密德（Romano Schmid）"
+        "player_zh": "",
+        "player_display": "Romano Schmid"
       },
       {
         "team": "Austria",
@@ -857,8 +857,8 @@
         "player": "Marko Arnautović",
         "minute": "90+12' ( pen. )",
         "note": "",
-        "player_zh": "马尔科·阿瑙托维奇",
-        "player_display": "马尔科·阿瑙托维奇（Marko Arnautović）"
+        "player_zh": "",
+        "player_display": "Marko Arnautović"
       },
       {
         "team": "Jordan",
@@ -892,8 +892,8 @@
         "player": "João Neves",
         "minute": "6'",
         "note": "",
-        "player_zh": "祖奧·尼維斯",
-        "player_display": "祖奧·尼維斯（João Neves）"
+        "player_zh": "",
+        "player_display": "João Neves"
       },
       {
         "team": "DR Congo",
@@ -1562,14 +1562,47 @@
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 4,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Lamine Yamal",
+        "minute": "10'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Lamine Yamal"
+      },
+      {
+        "team": "Spain",
+        "player": "Mikel Oyarzabal",
+        "minute": "21'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Mikel Oyarzabal"
+      },
+      {
+        "team": "Spain",
+        "player": "Mikel Oyarzabal",
+        "minute": "24'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Mikel Oyarzabal"
+      },
+      {
+        "team": "Spain",
+        "player": "Hassan Al-Tambakti",
+        "minute": "49' (o.g.)",
+        "note": "乌龙球",
+        "player_zh": "",
+        "player_display": "Hassan Al-Tambakti"
+      }
+    ],
     "raw_title": "Spain v Saudi Arabia",
     "home_display": "西班牙（Spain，世界排名第2）",
     "away_display": "沙特阿拉伯（Saudi Arabia，世界排名第61）",
-    "title_display": "西班牙（Spain，世界排名第2） vs 沙特阿拉伯（Saudi Arabia，世界排名第61）"
+    "title_display": "西班牙（Spain，世界排名第2） 4-0 沙特阿拉伯（Saudi Arabia，世界排名第61）"
   },
   {
     "match_id": "M039",
@@ -2222,7 +2255,7 @@
   {
     "match_id": "M076",
     "stage": "Round of 32",
-    "home": "Brazil",
+    "home": "Winner Group C",
     "away": "Runner-up Group F",
     "starts_at_beijing": "2026-06-30T01:00:00",
     "venue": "NRG Stadium",
@@ -2232,10 +2265,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Brazil v Runner-up Group F",
-    "home_display": "巴西（Brazil，世界排名第6）",
+    "raw_title": "Winner Group C v Runner-up Group F",
+    "home_display": "C组第一名（Winner Group C）",
     "away_display": "F组第二名（Runner-up Group F）",
-    "title_display": "巴西（Brazil，世界排名第6） vs F组第二名（Runner-up Group F）"
+    "title_display": "C组第一名（Winner Group C） vs F组第二名（Runner-up Group F）"
   },
   {
     "match_id": "M074",
@@ -2420,7 +2453,7 @@
   {
     "match_id": "M085",
     "stage": "Round of 32",
-    "home": "Canada",
+    "home": "Winner Group B",
     "away": "3rd Group E/F/G/I/J",
     "starts_at_beijing": "2026-07-03T11:00:00",
     "venue": "BC Place",
@@ -2430,10 +2463,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Canada v 3rd Group E/F/G/I/J",
-    "home_display": "加拿大（Canada，世界排名第30）",
+    "raw_title": "Winner Group B v 3rd Group E/F/G/I/J",
+    "home_display": "B组第一名（Winner Group B）",
     "away_display": "E组/F组/G组/I组/J组第三名（3rd Group E/F/G/I/J）",
-    "title_display": "加拿大（Canada，世界排名第30） vs E组/F组/G组/I组/J组第三名（3rd Group E/F/G/I/J）"
+    "title_display": "B组第一名（Winner Group B） vs E组/F组/G组/I组/J组第三名（3rd Group E/F/G/I/J）"
   },
   {
     "match_id": "M088",
