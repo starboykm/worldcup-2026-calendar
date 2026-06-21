@@ -1493,14 +1493,14 @@
     "venue": "Arrowhead Stadium",
     "city": "Kansas City",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 0,
     "goals": [],
     "raw_title": "Ecuador v Curaçao",
     "home_display": "厄瓜多尔（Ecuador，世界排名第23）",
     "away_display": "库拉索（Curaçao，世界排名第82）",
-    "title_display": "厄瓜多尔（Ecuador，世界排名第23） vs 库拉索（Curaçao，世界排名第82）"
+    "title_display": "厄瓜多尔（Ecuador，世界排名第23） 0-0 库拉索（Curaçao，世界排名第82）"
   },
   {
     "match_id": "M036",
@@ -1511,14 +1511,47 @@
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 4,
+    "goals": [
+      {
+        "team": "Japan",
+        "player": "Daichi Kamada",
+        "minute": "4'",
+        "note": "",
+        "player_zh": "镰田大地",
+        "player_display": "镰田大地（Daichi Kamada）"
+      },
+      {
+        "team": "Japan",
+        "player": "Ayase Ueda",
+        "minute": "31'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ayase Ueda"
+      },
+      {
+        "team": "Japan",
+        "player": "Ayase Ueda",
+        "minute": "83'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ayase Ueda"
+      },
+      {
+        "team": "Japan",
+        "player": "Junya Itō",
+        "minute": "69'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Junya Itō"
+      }
+    ],
     "raw_title": "Tunisia v Japan",
     "home_display": "突尼斯（Tunisia，世界排名第45）",
     "away_display": "日本（Japan，世界排名第18）",
-    "title_display": "突尼斯（Tunisia，世界排名第45） vs 日本（Japan，世界排名第18）"
+    "title_display": "突尼斯（Tunisia，世界排名第45） 0-4 日本（Japan，世界排名第18）"
   },
   {
     "match_id": "M038",
@@ -2207,7 +2240,7 @@
   {
     "match_id": "M074",
     "stage": "Round of 32",
-    "home": "Winner Group E",
+    "home": "Germany",
     "away": "3rd Group A/B/C/D/F",
     "starts_at_beijing": "2026-06-30T04:30:00",
     "venue": "Gillette Stadium",
@@ -2217,10 +2250,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group E v 3rd Group A/B/C/D/F",
-    "home_display": "E组第一名（Winner Group E）",
+    "raw_title": "Germany v 3rd Group A/B/C/D/F",
+    "home_display": "德国（Germany，世界排名第10）",
     "away_display": "A组/B组/C组/D组/F组第三名（3rd Group A/B/C/D/F）",
-    "title_display": "E组第一名（Winner Group E） vs A组/B组/C组/D组/F组第三名（3rd Group A/B/C/D/F）"
+    "title_display": "德国（Germany，世界排名第10） vs A组/B组/C组/D组/F组第三名（3rd Group A/B/C/D/F）"
   },
   {
     "match_id": "M075",
