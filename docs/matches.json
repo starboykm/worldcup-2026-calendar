@@ -1631,14 +1631,47 @@
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "Uruguay",
+        "player": "Maximiliano Araújo",
+        "minute": "44'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Maximiliano Araújo"
+      },
+      {
+        "team": "Uruguay",
+        "player": "Agustín Canobbio",
+        "minute": "45+6'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Agustín Canobbio"
+      },
+      {
+        "team": "Cape Verde",
+        "player": "Kevin Pina",
+        "minute": "21'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Kevin Pina"
+      },
+      {
+        "team": "Cape Verde",
+        "player": "Hélio Varela",
+        "minute": "61'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Hélio Varela"
+      }
+    ],
     "raw_title": "Uruguay v Cape Verde",
     "home_display": "乌拉圭（Uruguay，世界排名第16）",
     "away_display": "佛得角（Cape Verde，世界排名第67）",
-    "title_display": "乌拉圭（Uruguay，世界排名第16） vs 佛得角（Cape Verde，世界排名第67）"
+    "title_display": "乌拉圭（Uruguay，世界排名第16） 2-2 佛得角（Cape Verde，世界排名第67）"
   },
   {
     "match_id": "M040",
@@ -1649,14 +1682,47 @@
     "venue": "BC Place",
     "city": "Vancouver",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 3,
+    "goals": [
+      {
+        "team": "New Zealand",
+        "player": "Finn Surman",
+        "minute": "15'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Finn Surman"
+      },
+      {
+        "team": "Egypt",
+        "player": "Mostafa Ziko",
+        "minute": "58'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Mostafa Ziko"
+      },
+      {
+        "team": "Egypt",
+        "player": "Mohamed Salah",
+        "minute": "67'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Mohamed Salah"
+      },
+      {
+        "team": "Egypt",
+        "player": "Trézéguet",
+        "minute": "82'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Trézéguet"
+      }
+    ],
     "raw_title": "New Zealand v Egypt",
     "home_display": "新西兰（New Zealand，世界排名第85）",
     "away_display": "埃及（Egypt，世界排名第29）",
-    "title_display": "新西兰（New Zealand，世界排名第85） vs 埃及（Egypt，世界排名第29）"
+    "title_display": "新西兰（New Zealand，世界排名第85） 1-3 埃及（Egypt，世界排名第29）"
   },
   {
     "match_id": "M043",
