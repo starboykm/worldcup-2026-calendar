@@ -1733,14 +1733,31 @@
     "venue": "AT&T Stadium",
     "city": "Arlington",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Argentina",
+        "player": "Lionel Messi",
+        "minute": "38'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Lionel Messi"
+      },
+      {
+        "team": "Argentina",
+        "player": "Lionel Messi",
+        "minute": "90+5'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Lionel Messi"
+      }
+    ],
     "raw_title": "Argentina v Austria",
     "home_display": "阿根廷（Argentina，世界排名第1）",
     "away_display": "奥地利（Austria，世界排名第24）",
-    "title_display": "阿根廷（Argentina，世界排名第1） vs 奥地利（Austria，世界排名第24）"
+    "title_display": "阿根廷（Argentina，世界排名第1） 2-0 奥地利（Austria，世界排名第24）"
   },
   {
     "match_id": "M042",
