@@ -1870,14 +1870,39 @@
     "venue": "Levi's Stadium",
     "city": "Santa Clara",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "Jordan",
+        "player": "Nizar Al-Rashdan",
+        "minute": "36'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Nizar Al-Rashdan"
+      },
+      {
+        "team": "Algeria",
+        "player": "Nadhir Benbouali",
+        "minute": "69'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Nadhir Benbouali"
+      },
+      {
+        "team": "Algeria",
+        "player": "Amine Gouiri",
+        "minute": "82'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Amine Gouiri"
+      }
+    ],
     "raw_title": "Jordan v Algeria",
     "home_display": "约旦（Jordan，世界排名第63）",
     "away_display": "阿尔及利亚（Algeria，世界排名第28）",
-    "title_display": "约旦（Jordan，世界排名第63） vs 阿尔及利亚（Algeria，世界排名第28）"
+    "title_display": "约旦（Jordan，世界排名第63） 1-2 阿尔及利亚（Algeria，世界排名第28）"
   },
   {
     "match_id": "M047",
