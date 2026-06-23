@@ -10,7 +10,7 @@ from urllib.parse import quote, unquote
 from urllib.request import ProxyHandler, Request, build_opener, urlopen
 
 from .models import Goal, Match
-from .team_names import PLAYER_TRANSLATIONS
+from .team_names import PLAYER_TRANSLATIONS, player_chinese_name
 
 WIKIPEDIA_BASE = "https://en.wikipedia.org/wiki"
 DEFAULT_PAGES = [
@@ -518,7 +518,14 @@ def _goals(text: str, home: str, away: str, html: str | None = None) -> list[Goa
             player = _clean_text(match.group("player")).strip("- ")
             if len(player) < 2 or player in {home, away}:
                 continue
-            goals.append(Goal(team="", player=player, minute=_clean_text(match.group("minute"))))
+            goals.append(
+                Goal(
+                    team="",
+                    player=player,
+                    minute=_clean_text(match.group("minute")),
+                    player_zh=player_chinese_name(player),
+                )
+            )
     return goals[:20]
 
 
@@ -603,6 +610,10 @@ def _player_translation(player: str, href: str) -> str:
     if player in PLAYER_TRANSLATIONS:
         PLAYER_TRANSLATION_CACHE[player] = PLAYER_TRANSLATIONS[player]
         return PLAYER_TRANSLATIONS[player]
+    normalized_translation = player_chinese_name(player)
+    if normalized_translation:
+        PLAYER_TRANSLATION_CACHE[player] = normalized_translation
+        return normalized_translation
     if not href.startswith("/wiki/"):
         PLAYER_TRANSLATION_CACHE[player] = ""
         return ""

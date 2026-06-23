@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import unicodedata
+
 TEAM_TRANSLATIONS = {
     "Algeria": "阿尔及利亚",
     "Argentina": "阿根廷",
@@ -157,11 +159,30 @@ def display_team_name(name: str, include_ranking: bool = True) -> str:
     return f"{chinese}（{name}，世界排名第{ranking}）"
 
 
+def player_chinese_name(name: str, chinese: str = "") -> str:
+    if chinese:
+        return chinese
+    if name in PLAYER_TRANSLATIONS:
+        return PLAYER_TRANSLATIONS[name]
+
+    normalized_name = _normalize_player_lookup(name)
+    for original, translated in PLAYER_TRANSLATIONS.items():
+        if _normalize_player_lookup(original) == normalized_name:
+            return translated
+    return ""
+
+
 def display_player_name(name: str, chinese: str = "") -> str:
-    translated = chinese or PLAYER_TRANSLATIONS.get(name, "")
+    translated = player_chinese_name(name, chinese)
     if not translated:
         return name
     return f"{translated}（{name}）"
+
+
+def _normalize_player_lookup(name: str) -> str:
+    normalized = unicodedata.normalize("NFKD", name)
+    without_marks = "".join(char for char in normalized if not unicodedata.combining(char))
+    return "".join(char.lower() for char in without_marks if char.isalnum())
 
 
 def _translate_placeholder(name: str) -> str | None:
