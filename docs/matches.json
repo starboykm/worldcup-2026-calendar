@@ -688,32 +688,32 @@
         "player": "Kylian Mbappé",
         "minute": "66'",
         "note": "",
-        "player_zh": "基利安·麥巴比",
-        "player_display": "基利安·麥巴比（Kylian Mbappé）"
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
       },
       {
         "team": "France",
         "player": "Kylian Mbappé",
         "minute": "90+6'",
         "note": "",
-        "player_zh": "基利安·麥巴比",
-        "player_display": "基利安·麥巴比（Kylian Mbappé）"
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
       },
       {
         "team": "France",
         "player": "Bradley Barcola",
         "minute": "82'",
         "note": "",
-        "player_zh": "巴特利·巴高拿",
-        "player_display": "巴特利·巴高拿（Bradley Barcola）"
+        "player_zh": "",
+        "player_display": "Bradley Barcola"
       },
       {
         "team": "Senegal",
         "player": "Ibrahim Mbaye",
         "minute": "90+5'",
         "note": "",
-        "player_zh": "易卜拉欣·姆巴耶",
-        "player_display": "易卜拉欣·姆巴耶（Ibrahim Mbaye）"
+        "player_zh": "",
+        "player_display": "Ibrahim Mbaye"
       }
     ],
     "raw_title": "France v Senegal",
@@ -739,24 +739,24 @@
         "player": "Aymen Hussein",
         "minute": "39'",
         "note": "",
-        "player_zh": "艾曼·胡辛",
-        "player_display": "艾曼·胡辛（Aymen Hussein）"
+        "player_zh": "",
+        "player_display": "Aymen Hussein"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "29'",
         "note": "",
-        "player_zh": "埃尔林·哈兰德",
-        "player_display": "埃尔林·哈兰德（Erling Haaland）"
+        "player_zh": "",
+        "player_display": "Erling Haaland"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "43'",
         "note": "",
-        "player_zh": "埃尔林·哈兰德",
-        "player_display": "埃尔林·哈兰德（Erling Haaland）"
+        "player_zh": "",
+        "player_display": "Erling Haaland"
       },
       {
         "team": "Norway",
@@ -771,8 +771,8 @@
         "player": "Aymen Hussein",
         "minute": "90+6' (o.g.)",
         "note": "乌龙球",
-        "player_zh": "艾曼·胡辛",
-        "player_display": "艾曼·胡辛（Aymen Hussein）"
+        "player_zh": "",
+        "player_display": "Aymen Hussein"
       }
     ],
     "raw_title": "Iraq v Norway",
@@ -1579,24 +1579,24 @@
         "player": "Mikel Oyarzabal",
         "minute": "21'",
         "note": "",
-        "player_zh": "米克尔·奥亚萨瓦尔",
-        "player_display": "米克尔·奥亚萨瓦尔（Mikel Oyarzabal）"
+        "player_zh": "",
+        "player_display": "Mikel Oyarzabal"
       },
       {
         "team": "Spain",
         "player": "Mikel Oyarzabal",
         "minute": "24'",
         "note": "",
-        "player_zh": "米克尔·奥亚萨瓦尔",
-        "player_display": "米克尔·奥亚萨瓦尔（Mikel Oyarzabal）"
+        "player_zh": "",
+        "player_display": "Mikel Oyarzabal"
       },
       {
         "team": "Spain",
         "player": "Hassan Al-Tambakti",
         "minute": "49' (o.g.)",
         "note": "乌龙球",
-        "player_zh": "哈桑·穆罕默德·坦巴克蒂",
-        "player_display": "哈桑·穆罕默德·坦巴克蒂（Hassan Al-Tambakti）"
+        "player_zh": "",
+        "player_display": "Hassan Al-Tambakti"
       }
     ],
     "raw_title": "Spain v Saudi Arabia",
@@ -1648,8 +1648,8 @@
         "player": "Agustín Canobbio",
         "minute": "45+6'",
         "note": "",
-        "player_zh": "阿古斯丁·卡诺比奥",
-        "player_display": "阿古斯丁·卡诺比奥（Agustín Canobbio）"
+        "player_zh": "",
+        "player_display": "Agustín Canobbio"
       },
       {
         "team": "Cape Verde",
@@ -1777,16 +1777,16 @@
         "player": "Kylian Mbappé",
         "minute": "14'",
         "note": "",
-        "player_zh": "基利安·麥巴比",
-        "player_display": "基利安·麥巴比（Kylian Mbappé）"
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
       },
       {
         "team": "France",
         "player": "Kylian Mbappé",
         "minute": "54'",
         "note": "",
-        "player_zh": "基利安·麥巴比",
-        "player_display": "基利安·麥巴比（Kylian Mbappé）"
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
       },
       {
         "team": "France",
@@ -1828,16 +1828,16 @@
         "player": "Erling Haaland",
         "minute": "48'",
         "note": "",
-        "player_zh": "埃尔林·哈兰德",
-        "player_display": "埃尔林·哈兰德（Erling Haaland）"
+        "player_zh": "",
+        "player_display": "Erling Haaland"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "58'",
         "note": "",
-        "player_zh": "埃尔林·哈兰德",
-        "player_display": "埃尔林·哈兰德（Erling Haaland）"
+        "player_zh": "",
+        "player_display": "Erling Haaland"
       },
       {
         "team": "Senegal",
@@ -1913,14 +1913,55 @@
     "venue": "NRG Stadium",
     "city": "Houston",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 5,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Portugal",
+        "player": "Cristiano Ronaldo",
+        "minute": "6'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Cristiano Ronaldo"
+      },
+      {
+        "team": "Portugal",
+        "player": "Cristiano Ronaldo",
+        "minute": "39'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Cristiano Ronaldo"
+      },
+      {
+        "team": "Portugal",
+        "player": "Nuno Mendes",
+        "minute": "17'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Nuno Mendes"
+      },
+      {
+        "team": "Portugal",
+        "player": "Abduvohid Nematov",
+        "minute": "60' (o.g.)",
+        "note": "乌龙球",
+        "player_zh": "",
+        "player_display": "Abduvohid Nematov"
+      },
+      {
+        "team": "Portugal",
+        "player": "Rafael Leão",
+        "minute": "87'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Rafael Leão"
+      }
+    ],
     "raw_title": "Portugal v Uzbekistan",
     "home_display": "葡萄牙（Portugal，世界排名第5）",
     "away_display": "乌兹别克斯坦（Uzbekistan，世界排名第50）",
-    "title_display": "葡萄牙（Portugal，世界排名第5） vs 乌兹别克斯坦（Uzbekistan，世界排名第50）"
+    "title_display": "葡萄牙（Portugal，世界排名第5） 5-0 乌兹别克斯坦（Uzbekistan，世界排名第50）"
   },
   {
     "match_id": "M045",
