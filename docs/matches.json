@@ -1972,14 +1972,14 @@
     "venue": "Gillette Stadium",
     "city": "Foxborough",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 0,
     "goals": [],
     "raw_title": "England v Ghana",
     "home_display": "英格兰（England，世界排名第4）",
     "away_display": "加纳（Ghana，世界排名第73）",
-    "title_display": "英格兰（England，世界排名第4） vs 加纳（Ghana，世界排名第73）"
+    "title_display": "英格兰（England，世界排名第4） 0-0 加纳（Ghana，世界排名第73）"
   },
   {
     "match_id": "M046",
