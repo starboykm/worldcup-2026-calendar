@@ -688,32 +688,32 @@
         "player": "Kylian Mbappé",
         "minute": "66'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Kylian Mbappé"
+        "player_zh": "基利安·麥巴比",
+        "player_display": "基利安·麥巴比（Kylian Mbappé）"
       },
       {
         "team": "France",
         "player": "Kylian Mbappé",
         "minute": "90+6'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Kylian Mbappé"
+        "player_zh": "基利安·麥巴比",
+        "player_display": "基利安·麥巴比（Kylian Mbappé）"
       },
       {
         "team": "France",
         "player": "Bradley Barcola",
         "minute": "82'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Bradley Barcola"
+        "player_zh": "巴特利·巴高拿",
+        "player_display": "巴特利·巴高拿（Bradley Barcola）"
       },
       {
         "team": "Senegal",
         "player": "Ibrahim Mbaye",
         "minute": "90+5'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ibrahim Mbaye"
+        "player_zh": "易卜拉欣·姆巴耶",
+        "player_display": "易卜拉欣·姆巴耶（Ibrahim Mbaye）"
       }
     ],
     "raw_title": "France v Senegal",
@@ -739,24 +739,24 @@
         "player": "Aymen Hussein",
         "minute": "39'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Aymen Hussein"
+        "player_zh": "艾曼·胡辛",
+        "player_display": "艾曼·胡辛（Aymen Hussein）"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "29'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Erling Haaland"
+        "player_zh": "埃尔林·哈兰德",
+        "player_display": "埃尔林·哈兰德（Erling Haaland）"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "43'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Erling Haaland"
+        "player_zh": "埃尔林·哈兰德",
+        "player_display": "埃尔林·哈兰德（Erling Haaland）"
       },
       {
         "team": "Norway",
@@ -771,8 +771,8 @@
         "player": "Aymen Hussein",
         "minute": "90+6' (o.g.)",
         "note": "乌龙球",
-        "player_zh": "",
-        "player_display": "Aymen Hussein"
+        "player_zh": "艾曼·胡辛",
+        "player_display": "艾曼·胡辛（Aymen Hussein）"
       }
     ],
     "raw_title": "Iraq v Norway",
@@ -927,40 +927,40 @@
         "player": "Harry Kane",
         "minute": "12' ( pen. )",
         "note": "",
-        "player_zh": "哈里·凱恩",
-        "player_display": "哈里·凱恩（Harry Kane）"
+        "player_zh": "",
+        "player_display": "Harry Kane"
       },
       {
         "team": "England",
         "player": "Harry Kane",
         "minute": "42'",
         "note": "",
-        "player_zh": "哈里·凱恩",
-        "player_display": "哈里·凱恩（Harry Kane）"
+        "player_zh": "",
+        "player_display": "Harry Kane"
       },
       {
         "team": "England",
         "player": "Jude Bellingham",
         "minute": "47'",
         "note": "",
-        "player_zh": "祖德·贝林厄姆",
-        "player_display": "祖德·贝林厄姆（Jude Bellingham）"
+        "player_zh": "",
+        "player_display": "Jude Bellingham"
       },
       {
         "team": "England",
         "player": "Marcus Rashford",
         "minute": "85'",
         "note": "",
-        "player_zh": "馬古斯·拉舒福特",
-        "player_display": "馬古斯·拉舒福特（Marcus Rashford）"
+        "player_zh": "",
+        "player_display": "Marcus Rashford"
       },
       {
         "team": "Croatia",
         "player": "Martin Baturina",
         "minute": "36'",
         "note": "",
-        "player_zh": "马丁·巴图里纳",
-        "player_display": "马丁·巴图里纳（Martin Baturina）"
+        "player_zh": "",
+        "player_display": "Martin Baturina"
       },
       {
         "team": "Croatia",
@@ -1579,24 +1579,24 @@
         "player": "Mikel Oyarzabal",
         "minute": "21'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Mikel Oyarzabal"
+        "player_zh": "米克尔·奥亚萨瓦尔",
+        "player_display": "米克尔·奥亚萨瓦尔（Mikel Oyarzabal）"
       },
       {
         "team": "Spain",
         "player": "Mikel Oyarzabal",
         "minute": "24'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Mikel Oyarzabal"
+        "player_zh": "米克尔·奥亚萨瓦尔",
+        "player_display": "米克尔·奥亚萨瓦尔（Mikel Oyarzabal）"
       },
       {
         "team": "Spain",
         "player": "Hassan Al-Tambakti",
         "minute": "49' (o.g.)",
         "note": "乌龙球",
-        "player_zh": "",
-        "player_display": "Hassan Al-Tambakti"
+        "player_zh": "哈桑·穆罕默德·坦巴克蒂",
+        "player_display": "哈桑·穆罕默德·坦巴克蒂（Hassan Al-Tambakti）"
       }
     ],
     "raw_title": "Spain v Saudi Arabia",
@@ -1648,8 +1648,8 @@
         "player": "Agustín Canobbio",
         "minute": "45+6'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Agustín Canobbio"
+        "player_zh": "阿古斯丁·卡诺比奥",
+        "player_display": "阿古斯丁·卡诺比奥（Agustín Canobbio）"
       },
       {
         "team": "Cape Verde",
@@ -1777,16 +1777,16 @@
         "player": "Kylian Mbappé",
         "minute": "14'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Kylian Mbappé"
+        "player_zh": "基利安·麥巴比",
+        "player_display": "基利安·麥巴比（Kylian Mbappé）"
       },
       {
         "team": "France",
         "player": "Kylian Mbappé",
         "minute": "54'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Kylian Mbappé"
+        "player_zh": "基利安·麥巴比",
+        "player_display": "基利安·麥巴比（Kylian Mbappé）"
       },
       {
         "team": "France",
@@ -1828,16 +1828,16 @@
         "player": "Erling Haaland",
         "minute": "48'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Erling Haaland"
+        "player_zh": "埃尔林·哈兰德",
+        "player_display": "埃尔林·哈兰德（Erling Haaland）"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "58'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Erling Haaland"
+        "player_zh": "埃尔林·哈兰德",
+        "player_display": "埃尔林·哈兰德（Erling Haaland）"
       },
       {
         "team": "Senegal",
