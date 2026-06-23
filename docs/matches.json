@@ -1768,14 +1768,39 @@
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "France",
+        "player": "Kylian Mbappé",
+        "minute": "14'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
+      },
+      {
+        "team": "France",
+        "player": "Kylian Mbappé",
+        "minute": "54'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "66'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ousmane Dembélé"
+      }
+    ],
     "raw_title": "France v Iraq",
     "home_display": "法国（France，世界排名第3）",
     "away_display": "伊拉克（Iraq，世界排名第57）",
-    "title_display": "法国（France，世界排名第3） vs 伊拉克（Iraq，世界排名第57）"
+    "title_display": "法国（France，世界排名第3） 3-0 伊拉克（Iraq，世界排名第57）"
   },
   {
     "match_id": "M041",
@@ -1786,14 +1811,55 @@
     "venue": "MetLife Stadium",
     "city": "East Rutherford",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "Norway",
+        "player": "Marcus Holmgren Pedersen",
+        "minute": "43'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Marcus Holmgren Pedersen"
+      },
+      {
+        "team": "Norway",
+        "player": "Erling Haaland",
+        "minute": "48'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Erling Haaland"
+      },
+      {
+        "team": "Norway",
+        "player": "Erling Haaland",
+        "minute": "58'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Erling Haaland"
+      },
+      {
+        "team": "Senegal",
+        "player": "Ismaïla Sarr",
+        "minute": "53'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ismaïla Sarr"
+      },
+      {
+        "team": "Senegal",
+        "player": "Ismaïla Sarr",
+        "minute": "90+3'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ismaïla Sarr"
+      }
+    ],
     "raw_title": "Norway v Senegal",
     "home_display": "挪威（Norway，世界排名第31）",
     "away_display": "塞内加尔（Senegal，世界排名第15）",
-    "title_display": "挪威（Norway，世界排名第31） vs 塞内加尔（Senegal，世界排名第15）"
+    "title_display": "挪威（Norway，世界排名第31） 3-2 塞内加尔（Senegal，世界排名第15）"
   },
   {
     "match_id": "M044",
@@ -2572,7 +2638,7 @@
   {
     "match_id": "M086",
     "stage": "Round of 32",
-    "home": "Winner Group J",
+    "home": "Argentina",
     "away": "Runner-up Group H",
     "starts_at_beijing": "2026-07-04T06:00:00",
     "venue": "Hard Rock Stadium",
@@ -2582,10 +2648,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group J v Runner-up Group H",
-    "home_display": "J组第一名（Winner Group J）",
+    "raw_title": "Argentina v Runner-up Group H",
+    "home_display": "阿根廷（Argentina，世界排名第1）",
     "away_display": "H组第二名（Runner-up Group H）",
-    "title_display": "J组第一名（Winner Group J） vs H组第二名（Runner-up Group H）"
+    "title_display": "阿根廷（Argentina，世界排名第1） vs H组第二名（Runner-up Group H）"
   },
   {
     "match_id": "M087",
