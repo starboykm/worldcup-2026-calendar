@@ -337,16 +337,16 @@
         "player": "Kai Havertz",
         "minute": "45+5' ( pen. )",
         "note": "",
-        "player_zh": "凯·哈弗茨",
-        "player_display": "凯·哈弗茨（Kai Havertz）"
+        "player_zh": "",
+        "player_display": "Kai Havertz"
       },
       {
         "team": "Germany",
         "player": "Kai Havertz",
         "minute": "88'",
         "note": "",
-        "player_zh": "凯·哈弗茨",
-        "player_display": "凯·哈弗茨（Kai Havertz）"
+        "player_zh": "",
+        "player_display": "Kai Havertz"
       },
       {
         "team": "Germany",
@@ -455,8 +455,8 @@
         "player": "Amad Diallo",
         "minute": "90'",
         "note": "",
-        "player_zh": "阿马德·迪亚洛",
-        "player_display": "阿马德·迪亚洛（Amad Diallo）"
+        "player_zh": "",
+        "player_display": "Amad Diallo"
       }
     ],
     "raw_title": "Ivory Coast v Ecuador",
@@ -498,24 +498,24 @@
         "player": "Alexander Isak",
         "minute": "30'",
         "note": "",
-        "player_zh": "亞歷山大·伊沙克",
-        "player_display": "亞歷山大·伊沙克（Alexander Isak）"
+        "player_zh": "",
+        "player_display": "Alexander Isak"
       },
       {
         "team": "Sweden",
         "player": "Viktor Gyökeres",
         "minute": "59'",
         "note": "",
-        "player_zh": "維克托·哲凱賴什",
-        "player_display": "維克托·哲凱賴什（Viktor Gyökeres）"
+        "player_zh": "",
+        "player_display": "Viktor Gyökeres"
       },
       {
         "team": "Sweden",
         "player": "Mattias Svanberg",
         "minute": "84'",
         "note": "",
-        "player_zh": "马蒂亚斯·斯万贝里",
-        "player_display": "马蒂亚斯·斯万贝里（Mattias Svanberg）"
+        "player_zh": "",
+        "player_display": "Mattias Svanberg"
       },
       {
         "team": "Tunisia",
@@ -1107,16 +1107,16 @@
         "player": "Johan Manzambi",
         "minute": "74'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Johan Manzambi"
+        "player_zh": "约翰·曼赞比",
+        "player_display": "约翰·曼赞比（Johan Manzambi）"
       },
       {
         "team": "Switzerland",
         "player": "Johan Manzambi",
         "minute": "90'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Johan Manzambi"
+        "player_zh": "约翰·曼赞比",
+        "player_display": "约翰·曼赞比（Johan Manzambi）"
       },
       {
         "team": "Switzerland",
@@ -1392,16 +1392,16 @@
         "player": "Brian Brobbey",
         "minute": "5'",
         "note": "",
-        "player_zh": "布赖恩·布罗比",
-        "player_display": "布赖恩·布罗比（Brian Brobbey）"
+        "player_zh": "",
+        "player_display": "Brian Brobbey"
       },
       {
         "team": "Netherlands",
         "player": "Brian Brobbey",
         "minute": "17'",
         "note": "",
-        "player_zh": "布赖恩·布罗比",
-        "player_display": "布赖恩·布罗比（Brian Brobbey）"
+        "player_zh": "",
+        "player_display": "Brian Brobbey"
       },
       {
         "team": "Netherlands",
@@ -1475,8 +1475,8 @@
         "player": "Franck Kessié",
         "minute": "30'",
         "note": "",
-        "player_zh": "弗兰克·凯西",
-        "player_display": "弗兰克·凯西（Franck Kessié）"
+        "player_zh": "",
+        "player_display": "Franck Kessié"
       }
     ],
     "raw_title": "Germany v Ivory Coast",
