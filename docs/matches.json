@@ -637,32 +637,32 @@
         "player": "Ramin Rezaeian",
         "minute": "32'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ramin Rezaeian"
+        "player_zh": "拉明·雷扎伊安",
+        "player_display": "拉明·雷扎伊安（Ramin Rezaeian）"
       },
       {
         "team": "Iran",
         "player": "Mohammad Mohebi",
         "minute": "64'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Mohammad Mohebi"
+        "player_zh": "穆罕默德·莫赫比",
+        "player_display": "穆罕默德·莫赫比（Mohammad Mohebi）"
       },
       {
         "team": "New Zealand",
         "player": "Elijah Just",
         "minute": "7'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Elijah Just"
+        "player_zh": "以利亞·賈斯特",
+        "player_display": "以利亞·賈斯特（Elijah Just）"
       },
       {
         "team": "New Zealand",
         "player": "Elijah Just",
         "minute": "54'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Elijah Just"
+        "player_zh": "以利亞·賈斯特",
+        "player_display": "以利亞·賈斯特（Elijah Just）"
       }
     ],
     "raw_title": "Iran v New Zealand",
@@ -1392,32 +1392,32 @@
         "player": "Brian Brobbey",
         "minute": "5'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Brian Brobbey"
+        "player_zh": "布赖恩·布罗比",
+        "player_display": "布赖恩·布罗比（Brian Brobbey）"
       },
       {
         "team": "Netherlands",
         "player": "Brian Brobbey",
         "minute": "17'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Brian Brobbey"
+        "player_zh": "布赖恩·布罗比",
+        "player_display": "布赖恩·布罗比（Brian Brobbey）"
       },
       {
         "team": "Netherlands",
         "player": "Cody Gakpo",
         "minute": "47'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Cody Gakpo"
+        "player_zh": "科迪·加克波",
+        "player_display": "科迪·加克波（Cody Gakpo）"
       },
       {
         "team": "Netherlands",
         "player": "Cody Gakpo",
         "minute": "54'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Cody Gakpo"
+        "player_zh": "科迪·加克波",
+        "player_display": "科迪·加克波（Cody Gakpo）"
       },
       {
         "team": "Netherlands",
@@ -1432,8 +1432,8 @@
         "player": "Anthony Elanga",
         "minute": "59'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Anthony Elanga"
+        "player_zh": "安东尼·埃兰加",
+        "player_display": "安东尼·埃兰加（Anthony Elanga）"
       }
     ],
     "raw_title": "Netherlands v Sweden",
@@ -1528,24 +1528,24 @@
         "player": "Ayase Ueda",
         "minute": "31'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ayase Ueda"
+        "player_zh": "上田綺世",
+        "player_display": "上田綺世（Ayase Ueda）"
       },
       {
         "team": "Japan",
         "player": "Ayase Ueda",
         "minute": "83'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ayase Ueda"
+        "player_zh": "上田綺世",
+        "player_display": "上田綺世（Ayase Ueda）"
       },
       {
         "team": "Japan",
         "player": "Junya Itō",
         "minute": "69'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Junya Itō"
+        "player_zh": "伊東純也",
+        "player_display": "伊東純也（Junya Itō）"
       }
     ],
     "raw_title": "Tunisia v Japan",
@@ -2044,14 +2044,39 @@
     "venue": "BC Place",
     "city": "Vancouver",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Switzerland",
+        "player": "Rubén Vargas",
+        "minute": "46'",
+        "note": "",
+        "player_zh": "鲁文·巴尔加斯",
+        "player_display": "鲁文·巴尔加斯（Rubén Vargas）"
+      },
+      {
+        "team": "Switzerland",
+        "player": "Johan Manzambi",
+        "minute": "57'",
+        "note": "",
+        "player_zh": "约翰·曼赞比",
+        "player_display": "约翰·曼赞比（Johan Manzambi）"
+      },
+      {
+        "team": "Canada",
+        "player": "Promise David",
+        "minute": "76'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Promise David"
+      }
+    ],
     "raw_title": "Switzerland v Canada",
     "home_display": "瑞士（Switzerland，世界排名第19）",
     "away_display": "加拿大（Canada，世界排名第30）",
-    "title_display": "瑞士（Switzerland，世界排名第19） vs 加拿大（Canada，世界排名第30）"
+    "title_display": "瑞士（Switzerland，世界排名第19） 2-1 加拿大（Canada，世界排名第30）"
   },
   {
     "match_id": "M052",
@@ -2062,14 +2087,47 @@
     "venue": "Lumen Field",
     "city": "Seattle",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Bosnia and Herzegovina",
+        "player": "Kerim Alajbegović",
+        "minute": "29'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Kerim Alajbegović"
+      },
+      {
+        "team": "Bosnia and Herzegovina",
+        "player": "Sultan Al-Brake",
+        "minute": "34' (o.g.)",
+        "note": "乌龙球",
+        "player_zh": "",
+        "player_display": "Sultan Al-Brake"
+      },
+      {
+        "team": "Bosnia and Herzegovina",
+        "player": "Ermin Mahmić",
+        "minute": "80'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ermin Mahmić"
+      },
+      {
+        "team": "Qatar",
+        "player": "Hassan Al-Haydos",
+        "minute": "42'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Hassan Al-Haydos"
+      }
+    ],
     "raw_title": "Bosnia and Herzegovina v Qatar",
     "home_display": "波黑（Bosnia and Herzegovina，世界排名第64）",
     "away_display": "卡塔尔（Qatar，世界排名第56）",
-    "title_display": "波黑（Bosnia and Herzegovina，世界排名第64） vs 卡塔尔（Qatar，世界排名第56）"
+    "title_display": "波黑（Bosnia and Herzegovina，世界排名第64） 3-1 卡塔尔（Qatar，世界排名第56）"
   },
   {
     "match_id": "M049",
@@ -2471,7 +2529,7 @@
     "match_id": "M073",
     "stage": "Round of 32",
     "home": "Runner-up Group A",
-    "away": "Runner-up Group B",
+    "away": "Canada",
     "starts_at_beijing": "2026-06-29T03:00:00",
     "venue": "SoFi Stadium",
     "city": "Inglewood",
@@ -2480,10 +2538,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Runner-up Group A v Runner-up Group B",
+    "raw_title": "Runner-up Group A v Canada",
     "home_display": "A组第二名（Runner-up Group A）",
-    "away_display": "B组第二名（Runner-up Group B）",
-    "title_display": "A组第二名（Runner-up Group A） vs B组第二名（Runner-up Group B）"
+    "away_display": "加拿大（Canada，世界排名第30）",
+    "title_display": "A组第二名（Runner-up Group A） vs 加拿大（Canada，世界排名第30）"
   },
   {
     "match_id": "M076",
@@ -2633,7 +2691,7 @@
     "match_id": "M081",
     "stage": "Round of 32",
     "home": "United States",
-    "away": "3rd Group B/E/F/I/J",
+    "away": "3rd Group B/E/I",
     "starts_at_beijing": "2026-07-02T08:00:00",
     "venue": "Levi's Stadium",
     "city": "Santa Clara",
@@ -2642,10 +2700,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "United States v 3rd Group B/E/F/I/J",
+    "raw_title": "United States v 3rd Group B/E/I",
     "home_display": "美国（United States，世界排名第17）",
-    "away_display": "B组/E组/F组/I组/J组第三名（3rd Group B/E/F/I/J）",
-    "title_display": "美国（United States，世界排名第17） vs B组/E组/F组/I组/J组第三名（3rd Group B/E/F/I/J）"
+    "away_display": "B组/E组/I组第三名（3rd Group B/E/I）",
+    "title_display": "美国（United States，世界排名第17） vs B组/E组/I组第三名（3rd Group B/E/I）"
   },
   {
     "match_id": "M084",
@@ -2686,7 +2744,7 @@
   {
     "match_id": "M085",
     "stage": "Round of 32",
-    "home": "Winner Group B",
+    "home": "Switzerland",
     "away": "3rd Group E/F/G/I/J",
     "starts_at_beijing": "2026-07-03T11:00:00",
     "venue": "BC Place",
@@ -2696,10 +2754,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group B v 3rd Group E/F/G/I/J",
-    "home_display": "B组第一名（Winner Group B）",
+    "raw_title": "Switzerland v 3rd Group E/F/G/I/J",
+    "home_display": "瑞士（Switzerland，世界排名第19）",
     "away_display": "E组/F组/G组/I组/J组第三名（3rd Group E/F/G/I/J）",
-    "title_display": "B组第一名（Winner Group B） vs E组/F组/G组/I组/J组第三名（3rd Group E/F/G/I/J）"
+    "title_display": "瑞士（Switzerland，世界排名第19） vs E组/F组/G组/I组/J组第三名（3rd Group E/F/G/I/J）"
   },
   {
     "match_id": "M088",
