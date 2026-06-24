@@ -1990,14 +1990,23 @@
     "venue": "BMO Field",
     "city": "Toronto",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Croatia",
+        "player": "Ante Budimir",
+        "minute": "54'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ante Budimir"
+      }
+    ],
     "raw_title": "Panama v Croatia",
     "home_display": "巴拿马（Panama，世界排名第34）",
     "away_display": "克罗地亚（Croatia，世界排名第11）",
-    "title_display": "巴拿马（Panama，世界排名第34） vs 克罗地亚（Croatia，世界排名第11）"
+    "title_display": "巴拿马（Panama，世界排名第34） 0-1 克罗地亚（Croatia，世界排名第11）"
   },
   {
     "match_id": "M048",
@@ -2008,14 +2017,23 @@
     "venue": "Estadio Akron",
     "city": "Zapopan",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Colombia",
+        "player": "Daniel Muñoz",
+        "minute": "76'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Daniel Muñoz"
+      }
+    ],
     "raw_title": "Colombia v DR Congo",
     "home_display": "哥伦比亚（Colombia，世界排名第13）",
     "away_display": "刚果民主共和国（DR Congo，世界排名第46）",
-    "title_display": "哥伦比亚（Colombia，世界排名第13） vs 刚果民主共和国（DR Congo，世界排名第46）"
+    "title_display": "哥伦比亚（Colombia，世界排名第13） 1-0 刚果民主共和国（DR Congo，世界排名第46）"
   },
   {
     "match_id": "M051",
