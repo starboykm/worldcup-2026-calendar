@@ -637,32 +637,32 @@
         "player": "Ramin Rezaeian",
         "minute": "32'",
         "note": "",
-        "player_zh": "拉明·雷扎伊安",
-        "player_display": "拉明·雷扎伊安（Ramin Rezaeian）"
+        "player_zh": "",
+        "player_display": "Ramin Rezaeian"
       },
       {
         "team": "Iran",
         "player": "Mohammad Mohebi",
         "minute": "64'",
         "note": "",
-        "player_zh": "穆罕默德·莫赫比",
-        "player_display": "穆罕默德·莫赫比（Mohammad Mohebi）"
+        "player_zh": "",
+        "player_display": "Mohammad Mohebi"
       },
       {
         "team": "New Zealand",
         "player": "Elijah Just",
         "minute": "7'",
         "note": "",
-        "player_zh": "以利亞·賈斯特",
-        "player_display": "以利亞·賈斯特（Elijah Just）"
+        "player_zh": "",
+        "player_display": "Elijah Just"
       },
       {
         "team": "New Zealand",
         "player": "Elijah Just",
         "minute": "54'",
         "note": "",
-        "player_zh": "以利亞·賈斯特",
-        "player_display": "以利亞·賈斯特（Elijah Just）"
+        "player_zh": "",
+        "player_display": "Elijah Just"
       }
     ],
     "raw_title": "Iran v New Zealand",
@@ -1174,32 +1174,32 @@
         "player": "Jonathan David",
         "minute": "29'",
         "note": "",
-        "player_zh": "乔纳森·戴维",
-        "player_display": "乔纳森·戴维（Jonathan David）"
+        "player_zh": "",
+        "player_display": "Jonathan David"
       },
       {
         "team": "Canada",
         "player": "Jonathan David",
         "minute": "45+3'",
         "note": "",
-        "player_zh": "乔纳森·戴维",
-        "player_display": "乔纳森·戴维（Jonathan David）"
+        "player_zh": "",
+        "player_display": "Jonathan David"
       },
       {
         "team": "Canada",
         "player": "Jonathan David",
         "minute": "90+2'",
         "note": "",
-        "player_zh": "乔纳森·戴维",
-        "player_display": "乔纳森·戴维（Jonathan David）"
+        "player_zh": "",
+        "player_display": "Jonathan David"
       },
       {
         "team": "Canada",
         "player": "Nathan Saliba",
         "minute": "64'",
         "note": "",
-        "player_zh": "內森·薩利巴",
-        "player_display": "內森·薩利巴（Nathan Saliba）"
+        "player_zh": "",
+        "player_display": "Nathan Saliba"
       },
       {
         "team": "Canada",
@@ -1392,32 +1392,32 @@
         "player": "Brian Brobbey",
         "minute": "5'",
         "note": "",
-        "player_zh": "布赖恩·布罗比",
-        "player_display": "布赖恩·布罗比（Brian Brobbey）"
+        "player_zh": "",
+        "player_display": "Brian Brobbey"
       },
       {
         "team": "Netherlands",
         "player": "Brian Brobbey",
         "minute": "17'",
         "note": "",
-        "player_zh": "布赖恩·布罗比",
-        "player_display": "布赖恩·布罗比（Brian Brobbey）"
+        "player_zh": "",
+        "player_display": "Brian Brobbey"
       },
       {
         "team": "Netherlands",
         "player": "Cody Gakpo",
         "minute": "47'",
         "note": "",
-        "player_zh": "科迪·加克波",
-        "player_display": "科迪·加克波（Cody Gakpo）"
+        "player_zh": "",
+        "player_display": "Cody Gakpo"
       },
       {
         "team": "Netherlands",
         "player": "Cody Gakpo",
         "minute": "54'",
         "note": "",
-        "player_zh": "科迪·加克波",
-        "player_display": "科迪·加克波（Cody Gakpo）"
+        "player_zh": "",
+        "player_display": "Cody Gakpo"
       },
       {
         "team": "Netherlands",
@@ -1432,8 +1432,8 @@
         "player": "Anthony Elanga",
         "minute": "59'",
         "note": "",
-        "player_zh": "安东尼·埃兰加",
-        "player_display": "安东尼·埃兰加（Anthony Elanga）"
+        "player_zh": "",
+        "player_display": "Anthony Elanga"
       }
     ],
     "raw_title": "Netherlands v Sweden",
@@ -1528,24 +1528,24 @@
         "player": "Ayase Ueda",
         "minute": "31'",
         "note": "",
-        "player_zh": "上田綺世",
-        "player_display": "上田綺世（Ayase Ueda）"
+        "player_zh": "",
+        "player_display": "Ayase Ueda"
       },
       {
         "team": "Japan",
         "player": "Ayase Ueda",
         "minute": "83'",
         "note": "",
-        "player_zh": "上田綺世",
-        "player_display": "上田綺世（Ayase Ueda）"
+        "player_zh": "",
+        "player_display": "Ayase Ueda"
       },
       {
         "team": "Japan",
         "player": "Junya Itō",
         "minute": "69'",
         "note": "",
-        "player_zh": "伊東純也",
-        "player_display": "伊東純也（Junya Itō）"
+        "player_zh": "",
+        "player_display": "Junya Itō"
       }
     ],
     "raw_title": "Tunisia v Japan",
@@ -2101,11 +2101,11 @@
       },
       {
         "team": "Bosnia and Herzegovina",
-        "player": "Sultan Al-Brake",
+        "player": "Mahmud Abunada",
         "minute": "34' (o.g.)",
         "note": "乌龙球",
         "player_zh": "",
-        "player_display": "Sultan Al-Brake"
+        "player_display": "Mahmud Abunada"
       },
       {
         "team": "Bosnia and Herzegovina",
@@ -2138,14 +2138,39 @@
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 3,
+    "goals": [
+      {
+        "team": "Brazil",
+        "player": "Vinícius Júnior",
+        "minute": "7'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Vinícius Júnior"
+      },
+      {
+        "team": "Brazil",
+        "player": "Vinícius Júnior",
+        "minute": "45+3'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Vinícius Júnior"
+      },
+      {
+        "team": "Brazil",
+        "player": "Matheus Cunha",
+        "minute": "60'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Matheus Cunha"
+      }
+    ],
     "raw_title": "Scotland v Brazil",
     "home_display": "苏格兰（Scotland，世界排名第42）",
     "away_display": "巴西（Brazil，世界排名第6）",
-    "title_display": "苏格兰（Scotland，世界排名第42） vs 巴西（Brazil，世界排名第6）"
+    "title_display": "苏格兰（Scotland，世界排名第42） 0-3 巴西（Brazil，世界排名第6）"
   },
   {
     "match_id": "M050",
@@ -2156,14 +2181,63 @@
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 4,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "Morocco",
+        "player": "Achraf Hakimi",
+        "minute": "39'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Achraf Hakimi"
+      },
+      {
+        "team": "Morocco",
+        "player": "Ismael Saibari",
+        "minute": "45+1'",
+        "note": "",
+        "player_zh": "伊斯梅尔·赛巴里",
+        "player_display": "伊斯梅尔·赛巴里（Ismael Saibari）"
+      },
+      {
+        "team": "Morocco",
+        "player": "Soufiane Rahimi",
+        "minute": "78'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Soufiane Rahimi"
+      },
+      {
+        "team": "Morocco",
+        "player": "Gessime Yassine",
+        "minute": "89'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Gessime Yassine"
+      },
+      {
+        "team": "Haiti",
+        "player": "Yassine Bounou",
+        "minute": "10' (o.g.)",
+        "note": "乌龙球",
+        "player_zh": "",
+        "player_display": "Yassine Bounou"
+      },
+      {
+        "team": "Haiti",
+        "player": "Wilson Isidor",
+        "minute": "43'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Wilson Isidor"
+      }
+    ],
     "raw_title": "Morocco v Haiti",
     "home_display": "摩洛哥（Morocco，世界排名第7）",
     "away_display": "海地（Haiti，世界排名第83）",
-    "title_display": "摩洛哥（Morocco，世界排名第7） vs 海地（Haiti，世界排名第83）"
+    "title_display": "摩洛哥（Morocco，世界排名第7） 4-2 海地（Haiti，世界排名第83）"
   },
   {
     "match_id": "M053",
@@ -2174,14 +2248,39 @@
     "venue": "Estadio Azteca",
     "city": "Mexico City",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 3,
+    "goals": [
+      {
+        "team": "Mexico",
+        "player": "Mateo Chávez",
+        "minute": "55'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Mateo Chávez"
+      },
+      {
+        "team": "Mexico",
+        "player": "Julián Quiñones",
+        "minute": "61'",
+        "note": "",
+        "player_zh": "胡利安·基尼奥内斯",
+        "player_display": "胡利安·基尼奥内斯（Julián Quiñones）"
+      },
+      {
+        "team": "Mexico",
+        "player": "Álvaro Fidalgo",
+        "minute": "90+4'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Álvaro Fidalgo"
+      }
+    ],
     "raw_title": "Czech Republic v Mexico",
     "home_display": "捷克（Czech Republic，世界排名第40）",
     "away_display": "墨西哥（Mexico，世界排名第14）",
-    "title_display": "捷克（Czech Republic，世界排名第40） vs 墨西哥（Mexico，世界排名第14）"
+    "title_display": "捷克（Czech Republic，世界排名第40） 0-3 墨西哥（Mexico，世界排名第14）"
   },
   {
     "match_id": "M054",
@@ -2192,14 +2291,23 @@
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "South Africa",
+        "player": "Thapelo Maseko",
+        "minute": "63'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Thapelo Maseko"
+      }
+    ],
     "raw_title": "South Africa v South Korea",
     "home_display": "南非（South Africa，世界排名第60）",
     "away_display": "韩国（South Korea，世界排名第25）",
-    "title_display": "南非（South Africa，世界排名第60） vs 韩国（South Korea，世界排名第25）"
+    "title_display": "南非（South Africa，世界排名第60） 1-0 韩国（South Korea，世界排名第25）"
   },
   {
     "match_id": "M055",
@@ -2528,7 +2636,7 @@
   {
     "match_id": "M073",
     "stage": "Round of 32",
-    "home": "Runner-up Group A",
+    "home": "South Africa",
     "away": "Canada",
     "starts_at_beijing": "2026-06-29T03:00:00",
     "venue": "SoFi Stadium",
@@ -2538,15 +2646,15 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Runner-up Group A v Canada",
-    "home_display": "A组第二名（Runner-up Group A）",
+    "raw_title": "South Africa v Canada",
+    "home_display": "南非（South Africa，世界排名第60）",
     "away_display": "加拿大（Canada，世界排名第30）",
-    "title_display": "A组第二名（Runner-up Group A） vs 加拿大（Canada，世界排名第30）"
+    "title_display": "南非（South Africa，世界排名第60） vs 加拿大（Canada，世界排名第30）"
   },
   {
     "match_id": "M076",
     "stage": "Round of 32",
-    "home": "Winner Group C",
+    "home": "Brazil",
     "away": "Runner-up Group F",
     "starts_at_beijing": "2026-06-30T01:00:00",
     "venue": "NRG Stadium",
@@ -2556,10 +2664,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group C v Runner-up Group F",
-    "home_display": "C组第一名（Winner Group C）",
+    "raw_title": "Brazil v Runner-up Group F",
+    "home_display": "巴西（Brazil，世界排名第6）",
     "away_display": "F组第二名（Runner-up Group F）",
-    "title_display": "C组第一名（Winner Group C） vs F组第二名（Runner-up Group F）"
+    "title_display": "巴西（Brazil，世界排名第6） vs F组第二名（Runner-up Group F）"
   },
   {
     "match_id": "M074",
@@ -2583,7 +2691,7 @@
     "match_id": "M075",
     "stage": "Round of 32",
     "home": "Winner Group F",
-    "away": "Runner-up Group C",
+    "away": "Morocco",
     "starts_at_beijing": "2026-06-30T09:00:00",
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
@@ -2592,10 +2700,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group F v Runner-up Group C",
+    "raw_title": "Winner Group F v Morocco",
     "home_display": "F组第一名（Winner Group F）",
-    "away_display": "C组第二名（Runner-up Group C）",
-    "title_display": "F组第一名（Winner Group F） vs C组第二名（Runner-up Group C）"
+    "away_display": "摩洛哥（Morocco，世界排名第7）",
+    "title_display": "F组第一名（Winner Group F） vs 摩洛哥（Morocco，世界排名第7）"
   },
   {
     "match_id": "M078",
@@ -2673,7 +2781,7 @@
     "match_id": "M082",
     "stage": "Round of 32",
     "home": "Winner Group G",
-    "away": "3rd Group A/E/H/I/J",
+    "away": "3rd Group A/H/I/J",
     "starts_at_beijing": "2026-07-02T04:00:00",
     "venue": "Lumen Field",
     "city": "Seattle",
@@ -2682,16 +2790,16 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group G v 3rd Group A/E/H/I/J",
+    "raw_title": "Winner Group G v 3rd Group A/H/I/J",
     "home_display": "G组第一名（Winner Group G）",
-    "away_display": "A组/E组/H组/I组/J组第三名（3rd Group A/E/H/I/J）",
-    "title_display": "G组第一名（Winner Group G） vs A组/E组/H组/I组/J组第三名（3rd Group A/E/H/I/J）"
+    "away_display": "A组/H组/I组/J组第三名（3rd Group A/H/I/J）",
+    "title_display": "G组第一名（Winner Group G） vs A组/H组/I组/J组第三名（3rd Group A/H/I/J）"
   },
   {
     "match_id": "M081",
     "stage": "Round of 32",
     "home": "United States",
-    "away": "3rd Group B/E/I",
+    "away": "3rd Group B/I",
     "starts_at_beijing": "2026-07-02T08:00:00",
     "venue": "Levi's Stadium",
     "city": "Santa Clara",
@@ -2700,10 +2808,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "United States v 3rd Group B/E/I",
+    "raw_title": "United States v 3rd Group B/I",
     "home_display": "美国（United States，世界排名第17）",
-    "away_display": "B组/E组/I组第三名（3rd Group B/E/I）",
-    "title_display": "美国（United States，世界排名第17） vs B组/E组/I组第三名（3rd Group B/E/I）"
+    "away_display": "B组/I组第三名（3rd Group B/I）",
+    "title_display": "美国（United States，世界排名第17） vs B组/I组第三名（3rd Group B/I）"
   },
   {
     "match_id": "M084",
