@@ -2318,14 +2318,31 @@
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "Ivory Coast",
+        "player": "Nicolas Pépé",
+        "minute": "7'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Nicolas Pépé"
+      },
+      {
+        "team": "Ivory Coast",
+        "player": "Nicolas Pépé",
+        "minute": "64'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Nicolas Pépé"
+      }
+    ],
     "raw_title": "Curaçao v Ivory Coast",
     "home_display": "库拉索（Curaçao，世界排名第82）",
     "away_display": "科特迪瓦（Ivory Coast，世界排名第33）",
-    "title_display": "库拉索（Curaçao，世界排名第82） vs 科特迪瓦（Ivory Coast，世界排名第33）"
+    "title_display": "库拉索（Curaçao，世界排名第82） 0-2 科特迪瓦（Ivory Coast，世界排名第33）"
   },
   {
     "match_id": "M056",
@@ -2336,14 +2353,39 @@
     "venue": "MetLife Stadium",
     "city": "East Rutherford",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Ecuador",
+        "player": "Nilson Angulo",
+        "minute": "9'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Nilson Angulo"
+      },
+      {
+        "team": "Ecuador",
+        "player": "Gonzalo Plata",
+        "minute": "77'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Gonzalo Plata"
+      },
+      {
+        "team": "Germany",
+        "player": "Leroy Sané",
+        "minute": "2'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Leroy Sané"
+      }
+    ],
     "raw_title": "Ecuador v Germany",
     "home_display": "厄瓜多尔（Ecuador，世界排名第23）",
     "away_display": "德国（Germany，世界排名第10）",
-    "title_display": "厄瓜多尔（Ecuador，世界排名第23） vs 德国（Germany，世界排名第10）"
+    "title_display": "厄瓜多尔（Ecuador，世界排名第23） 2-1 德国（Germany，世界排名第10）"
   },
   {
     "match_id": "M057",
@@ -2708,7 +2750,7 @@
   {
     "match_id": "M078",
     "stage": "Round of 32",
-    "home": "Runner-up Group E",
+    "home": "Ivory Coast",
     "away": "Runner-up Group I",
     "starts_at_beijing": "2026-07-01T01:00:00",
     "venue": "AT&T Stadium",
@@ -2718,10 +2760,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Runner-up Group E v Runner-up Group I",
-    "home_display": "E组第二名（Runner-up Group E）",
+    "raw_title": "Ivory Coast v Runner-up Group I",
+    "home_display": "科特迪瓦（Ivory Coast，世界排名第33）",
     "away_display": "I组第二名（Runner-up Group I）",
-    "title_display": "E组第二名（Runner-up Group E） vs I组第二名（Runner-up Group I）"
+    "title_display": "科特迪瓦（Ivory Coast，世界排名第33） vs I组第二名（Runner-up Group I）"
   },
   {
     "match_id": "M077",
@@ -2745,7 +2787,7 @@
     "match_id": "M079",
     "stage": "Round of 32",
     "home": "Mexico",
-    "away": "3rd Group C/E/F/H/I",
+    "away": "3rd Group C/E/H",
     "starts_at_beijing": "2026-07-01T09:00:00",
     "venue": "Estadio Azteca",
     "city": "Mexico City",
@@ -2754,16 +2796,16 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Mexico v 3rd Group C/E/F/H/I",
+    "raw_title": "Mexico v 3rd Group C/E/H",
     "home_display": "墨西哥（Mexico，世界排名第14）",
-    "away_display": "C组/E组/F组/H组/I组第三名（3rd Group C/E/F/H/I）",
-    "title_display": "墨西哥（Mexico，世界排名第14） vs C组/E组/F组/H组/I组第三名（3rd Group C/E/F/H/I）"
+    "away_display": "C组/E组/H组第三名（3rd Group C/E/H）",
+    "title_display": "墨西哥（Mexico，世界排名第14） vs C组/E组/H组第三名（3rd Group C/E/H）"
   },
   {
     "match_id": "M080",
     "stage": "Round of 32",
     "home": "Winner Group L",
-    "away": "3rd Group E/H/I/J/K",
+    "away": "3rd Group E/I/J/K",
     "starts_at_beijing": "2026-07-02T00:00:00",
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
@@ -2772,10 +2814,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group L v 3rd Group E/H/I/J/K",
+    "raw_title": "Winner Group L v 3rd Group E/I/J/K",
     "home_display": "L组第一名（Winner Group L）",
-    "away_display": "E组/H组/I组/J组/K组第三名（3rd Group E/H/I/J/K）",
-    "title_display": "L组第一名（Winner Group L） vs E组/H组/I组/J组/K组第三名（3rd Group E/H/I/J/K）"
+    "away_display": "E组/I组/J组/K组第三名（3rd Group E/I/J/K）",
+    "title_display": "L组第一名（Winner Group L） vs E组/I组/J组/K组第三名（3rd Group E/I/J/K）"
   },
   {
     "match_id": "M082",
