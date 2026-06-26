@@ -1174,32 +1174,32 @@
         "player": "Jonathan David",
         "minute": "29'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Jonathan David"
+        "player_zh": "乔纳森·戴维",
+        "player_display": "乔纳森·戴维（Jonathan David）"
       },
       {
         "team": "Canada",
         "player": "Jonathan David",
         "minute": "45+3'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Jonathan David"
+        "player_zh": "乔纳森·戴维",
+        "player_display": "乔纳森·戴维（Jonathan David）"
       },
       {
         "team": "Canada",
         "player": "Jonathan David",
         "minute": "90+2'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Jonathan David"
+        "player_zh": "乔纳森·戴维",
+        "player_display": "乔纳森·戴维（Jonathan David）"
       },
       {
         "team": "Canada",
         "player": "Nathan Saliba",
         "minute": "64'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Nathan Saliba"
+        "player_zh": "內森·薩利巴",
+        "player_display": "內森·薩利巴（Nathan Saliba）"
       },
       {
         "team": "Canada",
@@ -2069,8 +2069,8 @@
         "player": "Promise David",
         "minute": "76'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Promise David"
+        "player_zh": "普羅米斯·大衛",
+        "player_display": "普羅米斯·大衛（Promise David）"
       }
     ],
     "raw_title": "Switzerland v Canada",
@@ -2559,14 +2559,55 @@
     "venue": "Gillette Stadium",
     "city": "Foxborough",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 4,
+    "goals": [
+      {
+        "team": "Norway",
+        "player": "Thelo Aasgaard",
+        "minute": "21'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Thelo Aasgaard"
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "7'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ousmane Dembélé"
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "20'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ousmane Dembélé"
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "32'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ousmane Dembélé"
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "90+4'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ousmane Dembélé"
+      }
+    ],
     "raw_title": "Norway v France",
     "home_display": "挪威（Norway，世界排名第31）",
     "away_display": "法国（France，世界排名第3）",
-    "title_display": "挪威（Norway，世界排名第31） vs 法国（France，世界排名第3）"
+    "title_display": "挪威（Norway，世界排名第31） 1-4 法国（France，世界排名第3）"
   },
   {
     "match_id": "M062",
@@ -2577,14 +2618,55 @@
     "venue": "BMO Field",
     "city": "Toronto",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 5,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Senegal",
+        "player": "Habib Diarra",
+        "minute": "4'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Habib Diarra"
+      },
+      {
+        "team": "Senegal",
+        "player": "Ismaïla Sarr",
+        "minute": "56'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ismaïla Sarr"
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Gueye",
+        "minute": "59'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Pape Gueye"
+      },
+      {
+        "team": "Senegal",
+        "player": "Pape Gueye",
+        "minute": "71'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Pape Gueye"
+      },
+      {
+        "team": "Senegal",
+        "player": "Iliman Ndiaye",
+        "minute": "82'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Iliman Ndiaye"
+      }
+    ],
     "raw_title": "Senegal v Iraq",
     "home_display": "塞内加尔（Senegal，世界排名第15）",
     "away_display": "伊拉克（Iraq，世界排名第57）",
-    "title_display": "塞内加尔（Senegal，世界排名第15） vs 伊拉克（Iraq，世界排名第57）"
+    "title_display": "塞内加尔（Senegal，世界排名第15） 5-0 伊拉克（Iraq，世界排名第57）"
   },
   {
     "match_id": "M065",
@@ -2842,7 +2924,7 @@
     "match_id": "M078",
     "stage": "Round of 32",
     "home": "Ivory Coast",
-    "away": "Runner-up Group I",
+    "away": "Norway",
     "starts_at_beijing": "2026-07-01T01:00:00",
     "venue": "AT&T Stadium",
     "city": "Arlington",
@@ -2851,16 +2933,16 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Ivory Coast v Runner-up Group I",
+    "raw_title": "Ivory Coast v Norway",
     "home_display": "科特迪瓦（Ivory Coast，世界排名第33）",
-    "away_display": "I组第二名（Runner-up Group I）",
-    "title_display": "科特迪瓦（Ivory Coast，世界排名第33） vs I组第二名（Runner-up Group I）"
+    "away_display": "挪威（Norway，世界排名第31）",
+    "title_display": "科特迪瓦（Ivory Coast，世界排名第33） vs 挪威（Norway，世界排名第31）"
   },
   {
     "match_id": "M077",
     "stage": "Round of 32",
-    "home": "Winner Group I",
-    "away": "3rd Group D/F/G",
+    "home": "France",
+    "away": "3rd Group F/G",
     "starts_at_beijing": "2026-07-01T05:00:00",
     "venue": "MetLife Stadium",
     "city": "East Rutherford",
@@ -2869,10 +2951,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group I v 3rd Group D/F/G",
-    "home_display": "I组第一名（Winner Group I）",
-    "away_display": "D组/F组/G组第三名（3rd Group D/F/G）",
-    "title_display": "I组第一名（Winner Group I） vs D组/F组/G组第三名（3rd Group D/F/G）"
+    "raw_title": "France v 3rd Group F/G",
+    "home_display": "法国（France，世界排名第3）",
+    "away_display": "F组/G组第三名（3rd Group F/G）",
+    "title_display": "法国（France，世界排名第3） vs F组/G组第三名（3rd Group F/G）"
   },
   {
     "match_id": "M079",
@@ -2986,7 +3068,7 @@
     "match_id": "M085",
     "stage": "Round of 32",
     "home": "Switzerland",
-    "away": "3rd Group E/F/G/I/J",
+    "away": "3rd Group E/G/I/J",
     "starts_at_beijing": "2026-07-03T11:00:00",
     "venue": "BC Place",
     "city": "Vancouver",
@@ -2995,10 +3077,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Switzerland v 3rd Group E/F/G/I/J",
+    "raw_title": "Switzerland v 3rd Group E/G/I/J",
     "home_display": "瑞士（Switzerland，世界排名第19）",
-    "away_display": "E组/F组/G组/I组/J组第三名（3rd Group E/F/G/I/J）",
-    "title_display": "瑞士（Switzerland，世界排名第19） vs E组/F组/G组/I组/J组第三名（3rd Group E/F/G/I/J）"
+    "away_display": "E组/G组/I组/J组第三名（3rd Group E/G/I/J）",
+    "title_display": "瑞士（Switzerland，世界排名第19） vs E组/G组/I组/J组第三名（3rd Group E/G/I/J）"
   },
   {
     "match_id": "M088",
@@ -3040,7 +3122,7 @@
     "match_id": "M087",
     "stage": "Round of 32",
     "home": "Winner Group K",
-    "away": "3rd Group D/E/I/J/L",
+    "away": "3rd Group D/E/I/L",
     "starts_at_beijing": "2026-07-04T09:30:00",
     "venue": "Arrowhead Stadium",
     "city": "Kansas City",
@@ -3049,10 +3131,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group K v 3rd Group D/E/I/J/L",
+    "raw_title": "Winner Group K v 3rd Group D/E/I/L",
     "home_display": "K组第一名（Winner Group K）",
-    "away_display": "D组/E组/I组/J组/L组第三名（3rd Group D/E/I/J/L）",
-    "title_display": "K组第一名（Winner Group K） vs D组/E组/I组/J组/L组第三名（3rd Group D/E/I/J/L）"
+    "away_display": "D组/E组/I组/L组第三名（3rd Group D/E/I/L）",
+    "title_display": "K组第一名（Winner Group K） vs D组/E组/I组/L组第三名（3rd Group D/E/I/L）"
   },
   {
     "match_id": "M090",
