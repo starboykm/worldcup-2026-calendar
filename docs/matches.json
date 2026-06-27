@@ -1174,32 +1174,32 @@
         "player": "Jonathan David",
         "minute": "29'",
         "note": "",
-        "player_zh": "乔纳森·戴维",
-        "player_display": "乔纳森·戴维（Jonathan David）"
+        "player_zh": "",
+        "player_display": "Jonathan David"
       },
       {
         "team": "Canada",
         "player": "Jonathan David",
         "minute": "45+3'",
         "note": "",
-        "player_zh": "乔纳森·戴维",
-        "player_display": "乔纳森·戴维（Jonathan David）"
+        "player_zh": "",
+        "player_display": "Jonathan David"
       },
       {
         "team": "Canada",
         "player": "Jonathan David",
         "minute": "90+2'",
         "note": "",
-        "player_zh": "乔纳森·戴维",
-        "player_display": "乔纳森·戴维（Jonathan David）"
+        "player_zh": "",
+        "player_display": "Jonathan David"
       },
       {
         "team": "Canada",
         "player": "Nathan Saliba",
         "minute": "64'",
         "note": "",
-        "player_zh": "內森·薩利巴",
-        "player_display": "內森·薩利巴（Nathan Saliba）"
+        "player_zh": "",
+        "player_display": "Nathan Saliba"
       },
       {
         "team": "Canada",
@@ -2069,8 +2069,8 @@
         "player": "Promise David",
         "minute": "76'",
         "note": "",
-        "player_zh": "普羅米斯·大衛",
-        "player_display": "普羅米斯·大衛（Promise David）"
+        "player_zh": "",
+        "player_display": "Promise David"
       }
     ],
     "raw_title": "Switzerland v Canada",
@@ -2677,14 +2677,14 @@
     "venue": "NRG Stadium",
     "city": "Houston",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 0,
     "goals": [],
     "raw_title": "Cape Verde v Saudi Arabia",
     "home_display": "佛得角（Cape Verde，世界排名第67）",
     "away_display": "沙特阿拉伯（Saudi Arabia，世界排名第61）",
-    "title_display": "佛得角（Cape Verde，世界排名第67） vs 沙特阿拉伯（Saudi Arabia，世界排名第61）"
+    "title_display": "佛得角（Cape Verde，世界排名第67） 0-0 沙特阿拉伯（Saudi Arabia，世界排名第61）"
   },
   {
     "match_id": "M066",
@@ -2695,14 +2695,23 @@
     "venue": "Estadio Akron",
     "city": "Zapopan",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Álex Baena",
+        "minute": "42'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Álex Baena"
+      }
+    ],
     "raw_title": "Uruguay v Spain",
     "home_display": "乌拉圭（Uruguay，世界排名第16）",
     "away_display": "西班牙（Spain，世界排名第2）",
-    "title_display": "乌拉圭（Uruguay，世界排名第16） vs 西班牙（Spain，世界排名第2）"
+    "title_display": "乌拉圭（Uruguay，世界排名第16） 0-1 西班牙（Spain，世界排名第2）"
   },
   {
     "match_id": "M063",
@@ -2888,7 +2897,7 @@
     "match_id": "M074",
     "stage": "Round of 32",
     "home": "Germany",
-    "away": "3rd Group C/D/F",
+    "away": "Paraguay",
     "starts_at_beijing": "2026-06-30T04:30:00",
     "venue": "Gillette Stadium",
     "city": "Foxborough",
@@ -2897,10 +2906,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Germany v 3rd Group C/D/F",
+    "raw_title": "Germany v Paraguay",
     "home_display": "德国（Germany，世界排名第10）",
-    "away_display": "C组/D组/F组第三名（3rd Group C/D/F）",
-    "title_display": "德国（Germany，世界排名第10） vs C组/D组/F组第三名（3rd Group C/D/F）"
+    "away_display": "巴拉圭（Paraguay，世界排名第41）",
+    "title_display": "德国（Germany，世界排名第10） vs 巴拉圭（Paraguay，世界排名第41）"
   },
   {
     "match_id": "M075",
@@ -2942,7 +2951,7 @@
     "match_id": "M077",
     "stage": "Round of 32",
     "home": "France",
-    "away": "3rd Group F/G",
+    "away": "Sweden",
     "starts_at_beijing": "2026-07-01T05:00:00",
     "venue": "MetLife Stadium",
     "city": "East Rutherford",
@@ -2951,16 +2960,16 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "France v 3rd Group F/G",
+    "raw_title": "France v Sweden",
     "home_display": "法国（France，世界排名第3）",
-    "away_display": "F组/G组第三名（3rd Group F/G）",
-    "title_display": "法国（France，世界排名第3） vs F组/G组第三名（3rd Group F/G）"
+    "away_display": "瑞典（Sweden，世界排名第38）",
+    "title_display": "法国（France，世界排名第3） vs 瑞典（Sweden，世界排名第38）"
   },
   {
     "match_id": "M079",
     "stage": "Round of 32",
     "home": "Mexico",
-    "away": "3rd Group C/E/H",
+    "away": "3rd Group C/E",
     "starts_at_beijing": "2026-07-01T09:00:00",
     "venue": "Estadio Azteca",
     "city": "Mexico City",
@@ -2969,16 +2978,16 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Mexico v 3rd Group C/E/H",
+    "raw_title": "Mexico v 3rd Group C/E",
     "home_display": "墨西哥（Mexico，世界排名第14）",
-    "away_display": "C组/E组/H组第三名（3rd Group C/E/H）",
-    "title_display": "墨西哥（Mexico，世界排名第14） vs C组/E组/H组第三名（3rd Group C/E/H）"
+    "away_display": "C组/E组第三名（3rd Group C/E）",
+    "title_display": "墨西哥（Mexico，世界排名第14） vs C组/E组第三名（3rd Group C/E）"
   },
   {
     "match_id": "M080",
     "stage": "Round of 32",
     "home": "Winner Group L",
-    "away": "3rd Group E/I/J/K",
+    "away": "3rd Group I/J/K",
     "starts_at_beijing": "2026-07-02T00:00:00",
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
@@ -2987,16 +2996,16 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group L v 3rd Group E/I/J/K",
+    "raw_title": "Winner Group L v 3rd Group I/J/K",
     "home_display": "L组第一名（Winner Group L）",
-    "away_display": "E组/I组/J组/K组第三名（3rd Group E/I/J/K）",
-    "title_display": "L组第一名（Winner Group L） vs E组/I组/J组/K组第三名（3rd Group E/I/J/K）"
+    "away_display": "I组/J组/K组第三名（3rd Group I/J/K）",
+    "title_display": "L组第一名（Winner Group L） vs I组/J组/K组第三名（3rd Group I/J/K）"
   },
   {
     "match_id": "M082",
     "stage": "Round of 32",
     "home": "Winner Group G",
-    "away": "3rd Group A/H/I/J",
+    "away": "3rd Group A/I/J",
     "starts_at_beijing": "2026-07-02T04:00:00",
     "venue": "Lumen Field",
     "city": "Seattle",
@@ -3005,10 +3014,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group G v 3rd Group A/H/I/J",
+    "raw_title": "Winner Group G v 3rd Group A/I/J",
     "home_display": "G组第一名（Winner Group G）",
-    "away_display": "A组/H组/I组/J组第三名（3rd Group A/H/I/J）",
-    "title_display": "G组第一名（Winner Group G） vs A组/H组/I组/J组第三名（3rd Group A/H/I/J）"
+    "away_display": "A组/I组/J组第三名（3rd Group A/I/J）",
+    "title_display": "G组第一名（Winner Group G） vs A组/I组/J组第三名（3rd Group A/I/J）"
   },
   {
     "match_id": "M081",
@@ -3031,7 +3040,7 @@
   {
     "match_id": "M084",
     "stage": "Round of 32",
-    "home": "Winner Group H",
+    "home": "Spain",
     "away": "Runner-up Group J",
     "starts_at_beijing": "2026-07-03T03:00:00",
     "venue": "SoFi Stadium",
@@ -3041,10 +3050,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group H v Runner-up Group J",
-    "home_display": "H组第一名（Winner Group H）",
+    "raw_title": "Spain v Runner-up Group J",
+    "home_display": "西班牙（Spain，世界排名第2）",
     "away_display": "J组第二名（Runner-up Group J）",
-    "title_display": "H组第一名（Winner Group H） vs J组第二名（Runner-up Group J）"
+    "title_display": "西班牙（Spain，世界排名第2） vs J组第二名（Runner-up Group J）"
   },
   {
     "match_id": "M083",
@@ -3104,7 +3113,7 @@
     "match_id": "M086",
     "stage": "Round of 32",
     "home": "Argentina",
-    "away": "Runner-up Group H",
+    "away": "Cape Verde",
     "starts_at_beijing": "2026-07-04T06:00:00",
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
@@ -3113,16 +3122,16 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Argentina v Runner-up Group H",
+    "raw_title": "Argentina v Cape Verde",
     "home_display": "阿根廷（Argentina，世界排名第1）",
-    "away_display": "H组第二名（Runner-up Group H）",
-    "title_display": "阿根廷（Argentina，世界排名第1） vs H组第二名（Runner-up Group H）"
+    "away_display": "佛得角（Cape Verde，世界排名第67）",
+    "title_display": "阿根廷（Argentina，世界排名第1） vs 佛得角（Cape Verde，世界排名第67）"
   },
   {
     "match_id": "M087",
     "stage": "Round of 32",
     "home": "Winner Group K",
-    "away": "3rd Group D/E/I/L",
+    "away": "3rd Group E/I/L",
     "starts_at_beijing": "2026-07-04T09:30:00",
     "venue": "Arrowhead Stadium",
     "city": "Kansas City",
@@ -3131,10 +3140,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group K v 3rd Group D/E/I/L",
+    "raw_title": "Winner Group K v 3rd Group E/I/L",
     "home_display": "K组第一名（Winner Group K）",
-    "away_display": "D组/E组/I组/L组第三名（3rd Group D/E/I/L）",
-    "title_display": "K组第一名（Winner Group K） vs D组/E组/I组/L组第三名（3rd Group D/E/I/L）"
+    "away_display": "E组/I组/L组第三名（3rd Group E/I/L）",
+    "title_display": "K组第一名（Winner Group K） vs E组/I组/L组第三名（3rd Group E/I/L）"
   },
   {
     "match_id": "M090",
