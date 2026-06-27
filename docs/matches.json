@@ -2722,14 +2722,31 @@
     "venue": "Lumen Field",
     "city": "Seattle",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Egypt",
+        "player": "Mahmoud Saber",
+        "minute": "5'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Mahmoud Saber"
+      },
+      {
+        "team": "Iran",
+        "player": "Ramin Rezaeian",
+        "minute": "14'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ramin Rezaeian"
+      }
+    ],
     "raw_title": "Egypt v Iran",
     "home_display": "埃及（Egypt，世界排名第29）",
     "away_display": "伊朗（Iran，世界排名第20）",
-    "title_display": "埃及（Egypt，世界排名第29） vs 伊朗（Iran，世界排名第20）"
+    "title_display": "埃及（Egypt，世界排名第29） 1-1 伊朗（Iran，世界排名第20）"
   },
   {
     "match_id": "M064",
@@ -2740,14 +2757,63 @@
     "venue": "BC Place",
     "city": "Vancouver",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 5,
+    "goals": [
+      {
+        "team": "New Zealand",
+        "player": "Elijah Just",
+        "minute": "84'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Elijah Just"
+      },
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "28'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Leandro Trossard"
+      },
+      {
+        "team": "Belgium",
+        "player": "Leandro Trossard",
+        "minute": "50'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Leandro Trossard"
+      },
+      {
+        "team": "Belgium",
+        "player": "Kevin De Bruyne",
+        "minute": "66'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Kevin De Bruyne"
+      },
+      {
+        "team": "Belgium",
+        "player": "Romelu Lukaku",
+        "minute": "86'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Romelu Lukaku"
+      },
+      {
+        "team": "Belgium",
+        "player": "Alexis Saelemaekers",
+        "minute": "90+4'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Alexis Saelemaekers"
+      }
+    ],
     "raw_title": "New Zealand v Belgium",
     "home_display": "新西兰（New Zealand，世界排名第85）",
     "away_display": "比利时（Belgium，世界排名第9）",
-    "title_display": "新西兰（New Zealand，世界排名第85） vs 比利时（Belgium，世界排名第9）"
+    "title_display": "新西兰（New Zealand，世界排名第85） 1-5 比利时（Belgium，世界排名第9）"
   },
   {
     "match_id": "M067",
@@ -3004,7 +3070,7 @@
   {
     "match_id": "M082",
     "stage": "Round of 32",
-    "home": "Winner Group G",
+    "home": "Belgium",
     "away": "3rd Group A/I/J",
     "starts_at_beijing": "2026-07-02T04:00:00",
     "venue": "Lumen Field",
@@ -3014,10 +3080,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner Group G v 3rd Group A/I/J",
-    "home_display": "G组第一名（Winner Group G）",
+    "raw_title": "Belgium v 3rd Group A/I/J",
+    "home_display": "比利时（Belgium，世界排名第9）",
     "away_display": "A组/I组/J组第三名（3rd Group A/I/J）",
-    "title_display": "G组第一名（Winner Group G） vs A组/I组/J组第三名（3rd Group A/I/J）"
+    "title_display": "比利时（Belgium，世界排名第9） vs A组/I组/J组第三名（3rd Group A/I/J）"
   },
   {
     "match_id": "M081",
@@ -3077,7 +3143,7 @@
     "match_id": "M085",
     "stage": "Round of 32",
     "home": "Switzerland",
-    "away": "3rd Group E/G/I/J",
+    "away": "3rd Group G/J",
     "starts_at_beijing": "2026-07-03T11:00:00",
     "venue": "BC Place",
     "city": "Vancouver",
@@ -3086,16 +3152,16 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Switzerland v 3rd Group E/G/I/J",
+    "raw_title": "Switzerland v 3rd Group G/J",
     "home_display": "瑞士（Switzerland，世界排名第19）",
-    "away_display": "E组/G组/I组/J组第三名（3rd Group E/G/I/J）",
-    "title_display": "瑞士（Switzerland，世界排名第19） vs E组/G组/I组/J组第三名（3rd Group E/G/I/J）"
+    "away_display": "G组/J组第三名（3rd Group G/J）",
+    "title_display": "瑞士（Switzerland，世界排名第19） vs G组/J组第三名（3rd Group G/J）"
   },
   {
     "match_id": "M088",
     "stage": "Round of 32",
     "home": "Australia",
-    "away": "Runner-up Group G",
+    "away": "Egypt",
     "starts_at_beijing": "2026-07-04T02:00:00",
     "venue": "AT&T Stadium",
     "city": "Arlington",
@@ -3104,10 +3170,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Australia v Runner-up Group G",
+    "raw_title": "Australia v Egypt",
     "home_display": "澳大利亚（Australia，世界排名第27）",
-    "away_display": "G组第二名（Runner-up Group G）",
-    "title_display": "澳大利亚（Australia，世界排名第27） vs G组第二名（Runner-up Group G）"
+    "away_display": "埃及（Egypt，世界排名第29）",
+    "title_display": "澳大利亚（Australia，世界排名第27） vs 埃及（Egypt，世界排名第29）"
   },
   {
     "match_id": "M086",
