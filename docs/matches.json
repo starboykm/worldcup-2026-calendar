@@ -3089,14 +3089,23 @@
     "venue": "SoFi Stadium",
     "city": "Inglewood",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Canada",
+        "player": "Stephen Eustáquio",
+        "minute": "90+2'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Stephen Eustáquio"
+      }
+    ],
     "raw_title": "South Africa v Canada",
     "home_display": "南非（South Africa，世界排名第60）",
     "away_display": "加拿大（Canada，世界排名第30）",
-    "title_display": "南非（South Africa，世界排名第60） vs 加拿大（Canada，世界排名第30）"
+    "title_display": "南非（South Africa，世界排名第60） 0-1 加拿大（Canada，世界排名第30）"
   },
   {
     "match_id": "M076",
@@ -3371,7 +3380,7 @@
   {
     "match_id": "M090",
     "stage": "Round of 16",
-    "home": "Winner",
+    "home": "Canada",
     "away": "Winner",
     "starts_at_beijing": "2026-07-05T01:00:00",
     "venue": "NRG Stadium",
@@ -3381,10 +3390,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner",
-    "home_display": "胜者（Winner）",
+    "raw_title": "Canada v Winner",
+    "home_display": "加拿大（Canada，世界排名第30）",
     "away_display": "胜者（Winner）",
-    "title_display": "胜者（Winner） vs 胜者（Winner）"
+    "title_display": "加拿大（Canada，世界排名第30） vs 胜者（Winner）"
   },
   {
     "match_id": "M089",
