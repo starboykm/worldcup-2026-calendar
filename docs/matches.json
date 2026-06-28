@@ -388,13 +388,13 @@
   },
   {
     "match_id": "M011",
-    "stage": "Matches",
+    "stage": "Group F",
     "home": "Netherlands",
     "away": "Japan",
     "starts_at_beijing": "2026-06-15T04:00:00",
     "venue": "AT&T Stadium",
     "city": "Arlington",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
     "status": "completed",
     "home_score": 2,
     "away_score": 2,
@@ -466,13 +466,13 @@
   },
   {
     "match_id": "M012",
-    "stage": "Matches",
+    "stage": "Group F",
     "home": "Sweden",
     "away": "Tunisia",
     "starts_at_beijing": "2026-06-15T10:00:00",
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
     "status": "completed",
     "home_score": 5,
     "away_score": 1,
@@ -798,24 +798,24 @@
         "player": "Lionel Messi",
         "minute": "17'",
         "note": "",
-        "player_zh": "利昂内尔·梅西",
-        "player_display": "利昂内尔·梅西（Lionel Messi）"
+        "player_zh": "",
+        "player_display": "Lionel Messi"
       },
       {
         "team": "Argentina",
         "player": "Lionel Messi",
         "minute": "60'",
         "note": "",
-        "player_zh": "利昂内尔·梅西",
-        "player_display": "利昂内尔·梅西（Lionel Messi）"
+        "player_zh": "",
+        "player_display": "Lionel Messi"
       },
       {
         "team": "Argentina",
         "player": "Lionel Messi",
         "minute": "76'",
         "note": "",
-        "player_zh": "利昂内尔·梅西",
-        "player_display": "利昂内尔·梅西（Lionel Messi）"
+        "player_zh": "",
+        "player_display": "Lionel Messi"
       }
     ],
     "raw_title": "Argentina v Algeria",
@@ -841,8 +841,8 @@
         "player": "Romano Schmid",
         "minute": "20'",
         "note": "",
-        "player_zh": "羅馬諾·施密德",
-        "player_display": "羅馬諾·施密德（Romano Schmid）"
+        "player_zh": "",
+        "player_display": "Romano Schmid"
       },
       {
         "team": "Austria",
@@ -1037,8 +1037,8 @@
         "player": "Luis Díaz",
         "minute": "65'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Luis Díaz"
+        "player_zh": "路易斯·迪亚斯",
+        "player_display": "路易斯·迪亚斯（Luis Díaz）"
       },
       {
         "team": "Colombia",
@@ -1376,13 +1376,13 @@
   },
   {
     "match_id": "M035",
-    "stage": "Matches",
+    "stage": "Group F",
     "home": "Netherlands",
     "away": "Sweden",
     "starts_at_beijing": "2026-06-21T01:00:00",
     "venue": "NRG Stadium",
     "city": "Houston",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
     "status": "completed",
     "home_score": 5,
     "away_score": 1,
@@ -1504,13 +1504,13 @@
   },
   {
     "match_id": "M036",
-    "stage": "Matches",
+    "stage": "Group F",
     "home": "Tunisia",
     "away": "Japan",
     "starts_at_beijing": "2026-06-21T12:00:00",
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
     "status": "completed",
     "home_score": 0,
     "away_score": 4,
@@ -1742,16 +1742,16 @@
         "player": "Lionel Messi",
         "minute": "38'",
         "note": "",
-        "player_zh": "利昂内尔·梅西",
-        "player_display": "利昂内尔·梅西（Lionel Messi）"
+        "player_zh": "",
+        "player_display": "Lionel Messi"
       },
       {
         "team": "Argentina",
         "player": "Lionel Messi",
         "minute": "90+5'",
         "note": "",
-        "player_zh": "利昂内尔·梅西",
-        "player_display": "利昂内尔·梅西（Lionel Messi）"
+        "player_zh": "",
+        "player_display": "Lionel Messi"
       }
     ],
     "raw_title": "Argentina v Austria",
@@ -1954,8 +1954,8 @@
         "player": "Rafael Leão",
         "minute": "87'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Rafael Leão"
+        "player_zh": "拉斐尔·莱昂",
+        "player_display": "拉斐尔·莱昂（Rafael Leão）"
       }
     ],
     "raw_title": "Portugal v Uzbekistan",
@@ -2389,13 +2389,13 @@
   },
   {
     "match_id": "M057",
-    "stage": "Matches",
+    "stage": "Group F",
     "home": "Japan",
     "away": "Sweden",
     "starts_at_beijing": "2026-06-26T07:00:00",
     "venue": "AT&T Stadium",
     "city": "Arlington",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
     "status": "completed",
     "home_score": 1,
     "away_score": 1,
@@ -2424,13 +2424,13 @@
   },
   {
     "match_id": "M058",
-    "stage": "Matches",
+    "stage": "Group F",
     "home": "Tunisia",
     "away": "Netherlands",
     "starts_at_beijing": "2026-06-26T07:00:00",
     "venue": "Arrowhead Stadium",
     "city": "Kansas City",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
     "status": "completed",
     "home_score": 1,
     "away_score": 3,
@@ -2643,24 +2643,24 @@
         "player": "Pape Gueye",
         "minute": "59'",
         "note": "",
-        "player_zh": "帕普·盖伊",
-        "player_display": "帕普·盖伊（Pape Gueye）"
+        "player_zh": "",
+        "player_display": "Pape Gueye"
       },
       {
         "team": "Senegal",
         "player": "Pape Gueye",
         "minute": "71'",
         "note": "",
-        "player_zh": "帕普·盖伊",
-        "player_display": "帕普·盖伊（Pape Gueye）"
+        "player_zh": "",
+        "player_display": "Pape Gueye"
       },
       {
         "team": "Senegal",
         "player": "Iliman Ndiaye",
         "minute": "82'",
         "note": "",
-        "player_zh": "伊利曼·恩迪亚耶",
-        "player_display": "伊利曼·恩迪亚耶（Iliman Ndiaye）"
+        "player_zh": "",
+        "player_display": "Iliman Ndiaye"
       }
     ],
     "raw_title": "Senegal v Iraq",
@@ -2988,16 +2988,16 @@
         "player": "Riyad Mahrez",
         "minute": "60'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Riyad Mahrez"
+        "player_zh": "列恩·馬列斯",
+        "player_display": "列恩·馬列斯（Riyad Mahrez）"
       },
       {
         "team": "Algeria",
         "player": "Riyad Mahrez",
         "minute": "90+3'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Riyad Mahrez"
+        "player_zh": "列恩·馬列斯",
+        "player_display": "列恩·馬列斯（Riyad Mahrez）"
       },
       {
         "team": "Austria",
@@ -3063,16 +3063,16 @@
         "player": "Lautaro Martínez",
         "minute": "31' ( pen. )",
         "note": "",
-        "player_zh": "",
-        "player_display": "Lautaro Martínez"
+        "player_zh": "拿達路·馬天尼斯",
+        "player_display": "拿達路·馬天尼斯（Lautaro Martínez）"
       },
       {
         "team": "Argentina",
         "player": "Lionel Messi",
         "minute": "80'",
         "note": "",
-        "player_zh": "利昂内尔·梅西",
-        "player_display": "利昂内尔·梅西（Lionel Messi）"
+        "player_zh": "",
+        "player_display": "Lionel Messi"
       }
     ],
     "raw_title": "Jordan v Argentina",
