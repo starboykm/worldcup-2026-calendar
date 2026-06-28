@@ -798,24 +798,24 @@
         "player": "Lionel Messi",
         "minute": "17'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Lionel Messi"
+        "player_zh": "利昂内尔·梅西",
+        "player_display": "利昂内尔·梅西（Lionel Messi）"
       },
       {
         "team": "Argentina",
         "player": "Lionel Messi",
         "minute": "60'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Lionel Messi"
+        "player_zh": "利昂内尔·梅西",
+        "player_display": "利昂内尔·梅西（Lionel Messi）"
       },
       {
         "team": "Argentina",
         "player": "Lionel Messi",
         "minute": "76'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Lionel Messi"
+        "player_zh": "利昂内尔·梅西",
+        "player_display": "利昂内尔·梅西（Lionel Messi）"
       }
     ],
     "raw_title": "Argentina v Algeria",
@@ -841,8 +841,8 @@
         "player": "Romano Schmid",
         "minute": "20'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Romano Schmid"
+        "player_zh": "羅馬諾·施密德",
+        "player_display": "羅馬諾·施密德（Romano Schmid）"
       },
       {
         "team": "Austria",
@@ -857,8 +857,8 @@
         "player": "Marko Arnautović",
         "minute": "90+12' ( pen. )",
         "note": "",
-        "player_zh": "",
-        "player_display": "Marko Arnautović"
+        "player_zh": "马尔科·阿瑙托维奇",
+        "player_display": "马尔科·阿瑙托维奇（Marko Arnautović）"
       },
       {
         "team": "Jordan",
@@ -1742,16 +1742,16 @@
         "player": "Lionel Messi",
         "minute": "38'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Lionel Messi"
+        "player_zh": "利昂内尔·梅西",
+        "player_display": "利昂内尔·梅西（Lionel Messi）"
       },
       {
         "team": "Argentina",
         "player": "Lionel Messi",
         "minute": "90+5'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Lionel Messi"
+        "player_zh": "利昂内尔·梅西",
+        "player_display": "利昂内尔·梅西（Lionel Messi）"
       }
     ],
     "raw_title": "Argentina v Austria",
@@ -1895,8 +1895,8 @@
         "player": "Amine Gouiri",
         "minute": "82'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Amine Gouiri"
+        "player_zh": "阿明·古伊里",
+        "player_display": "阿明·古伊里（Amine Gouiri）"
       }
     ],
     "raw_title": "Jordan v Algeria",
@@ -2643,24 +2643,24 @@
         "player": "Pape Gueye",
         "minute": "59'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Pape Gueye"
+        "player_zh": "帕普·盖伊",
+        "player_display": "帕普·盖伊（Pape Gueye）"
       },
       {
         "team": "Senegal",
         "player": "Pape Gueye",
         "minute": "71'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Pape Gueye"
+        "player_zh": "帕普·盖伊",
+        "player_display": "帕普·盖伊（Pape Gueye）"
       },
       {
         "team": "Senegal",
         "player": "Iliman Ndiaye",
         "minute": "82'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Iliman Ndiaye"
+        "player_zh": "伊利曼·恩迪亚耶",
+        "player_display": "伊利曼·恩迪亚耶（Iliman Ndiaye）"
       }
     ],
     "raw_title": "Senegal v Iraq",
@@ -3004,8 +3004,8 @@
         "player": "Marko Arnautović",
         "minute": "28'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Marko Arnautović"
+        "player_zh": "马尔科·阿瑙托维奇",
+        "player_display": "马尔科·阿瑙托维奇（Marko Arnautović）"
       },
       {
         "team": "Austria",
@@ -3071,8 +3071,8 @@
         "player": "Lionel Messi",
         "minute": "80'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Lionel Messi"
+        "player_zh": "利昂内尔·梅西",
+        "player_display": "利昂内尔·梅西（Lionel Messi）"
       }
     ],
     "raw_title": "Jordan v Argentina",
