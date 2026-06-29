@@ -482,40 +482,40 @@
         "player": "Yasin Ayari",
         "minute": "7'",
         "note": "",
-        "player_zh": "亚辛·阿亚里",
-        "player_display": "亚辛·阿亚里（Yasin Ayari）"
+        "player_zh": "",
+        "player_display": "Yasin Ayari"
       },
       {
         "team": "Sweden",
         "player": "Yasin Ayari",
         "minute": "90+6'",
         "note": "",
-        "player_zh": "亚辛·阿亚里",
-        "player_display": "亚辛·阿亚里（Yasin Ayari）"
+        "player_zh": "",
+        "player_display": "Yasin Ayari"
       },
       {
         "team": "Sweden",
         "player": "Alexander Isak",
         "minute": "30'",
         "note": "",
-        "player_zh": "亞歷山大·伊沙克",
-        "player_display": "亞歷山大·伊沙克（Alexander Isak）"
+        "player_zh": "",
+        "player_display": "Alexander Isak"
       },
       {
         "team": "Sweden",
         "player": "Viktor Gyökeres",
         "minute": "59'",
         "note": "",
-        "player_zh": "維克托·哲凱賴什",
-        "player_display": "維克托·哲凱賴什（Viktor Gyökeres）"
+        "player_zh": "",
+        "player_display": "Viktor Gyökeres"
       },
       {
         "team": "Sweden",
         "player": "Mattias Svanberg",
         "minute": "84'",
         "note": "",
-        "player_zh": "马蒂亚斯·斯万贝里",
-        "player_display": "马蒂亚斯·斯万贝里（Mattias Svanberg）"
+        "player_zh": "",
+        "player_display": "Mattias Svanberg"
       },
       {
         "team": "Tunisia",
@@ -1392,32 +1392,32 @@
         "player": "Brian Brobbey",
         "minute": "5'",
         "note": "",
-        "player_zh": "布赖恩·布罗比",
-        "player_display": "布赖恩·布罗比（Brian Brobbey）"
+        "player_zh": "",
+        "player_display": "Brian Brobbey"
       },
       {
         "team": "Netherlands",
         "player": "Brian Brobbey",
         "minute": "17'",
         "note": "",
-        "player_zh": "布赖恩·布罗比",
-        "player_display": "布赖恩·布罗比（Brian Brobbey）"
+        "player_zh": "",
+        "player_display": "Brian Brobbey"
       },
       {
         "team": "Netherlands",
         "player": "Cody Gakpo",
         "minute": "47'",
         "note": "",
-        "player_zh": "科迪·加克波",
-        "player_display": "科迪·加克波（Cody Gakpo）"
+        "player_zh": "",
+        "player_display": "Cody Gakpo"
       },
       {
         "team": "Netherlands",
         "player": "Cody Gakpo",
         "minute": "54'",
         "note": "",
-        "player_zh": "科迪·加克波",
-        "player_display": "科迪·加克波（Cody Gakpo）"
+        "player_zh": "",
+        "player_display": "Cody Gakpo"
       },
       {
         "team": "Netherlands",
@@ -1432,8 +1432,8 @@
         "player": "Anthony Elanga",
         "minute": "59'",
         "note": "",
-        "player_zh": "安东尼·埃兰加",
-        "player_display": "安东尼·埃兰加（Anthony Elanga）"
+        "player_zh": "",
+        "player_display": "Anthony Elanga"
       }
     ],
     "raw_title": "Netherlands v Sweden",
@@ -1528,24 +1528,24 @@
         "player": "Ayase Ueda",
         "minute": "31'",
         "note": "",
-        "player_zh": "上田綺世",
-        "player_display": "上田綺世（Ayase Ueda）"
+        "player_zh": "",
+        "player_display": "Ayase Ueda"
       },
       {
         "team": "Japan",
         "player": "Ayase Ueda",
         "minute": "83'",
         "note": "",
-        "player_zh": "上田綺世",
-        "player_display": "上田綺世（Ayase Ueda）"
+        "player_zh": "",
+        "player_display": "Ayase Ueda"
       },
       {
         "team": "Japan",
         "player": "Junya Itō",
         "minute": "69'",
         "note": "",
-        "player_zh": "伊東純也",
-        "player_display": "伊東純也（Junya Itō）"
+        "player_zh": "",
+        "player_display": "Junya Itō"
       }
     ],
     "raw_title": "Tunisia v Japan",
@@ -2413,8 +2413,8 @@
         "player": "Anthony Elanga",
         "minute": "62'",
         "note": "",
-        "player_zh": "安东尼·埃兰加",
-        "player_display": "安东尼·埃兰加（Anthony Elanga）"
+        "player_zh": "",
+        "player_display": "Anthony Elanga"
       }
     ],
     "raw_title": "Japan v Sweden",
@@ -2456,8 +2456,8 @@
         "player": "Brian Brobbey",
         "minute": "7'",
         "note": "",
-        "player_zh": "布赖恩·布罗比",
-        "player_display": "布赖恩·布罗比（Brian Brobbey）"
+        "player_zh": "",
+        "player_display": "Brian Brobbey"
       },
       {
         "team": "Netherlands",
