@@ -1,13 +1,13 @@
 [
   {
     "match_id": "M001",
-    "stage": "Group A",
+    "stage": "Matches",
     "home": "Mexico",
     "away": "South Africa",
     "starts_at_beijing": "2026-06-12T03:00:00",
     "venue": "Estadio Azteca",
     "city": "Mexico City",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
     "status": "completed",
     "home_score": 2,
     "away_score": 0,
@@ -36,13 +36,13 @@
   },
   {
     "match_id": "M002",
-    "stage": "Group A",
+    "stage": "Matches",
     "home": "South Korea",
     "away": "Czech Republic",
     "starts_at_beijing": "2026-06-12T10:00:00",
     "venue": "Estadio Akron",
     "city": "Zapopan",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
     "status": "completed",
     "home_score": 2,
     "away_score": 1,
@@ -224,8 +224,8 @@
         "player": "Vinícius Júnior",
         "minute": "32'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Vinícius Júnior"
+        "player_zh": "维尼修斯·儒尼奥尔",
+        "player_display": "维尼修斯·儒尼奥尔（Vinícius Júnior）"
       },
       {
         "team": "Morocco",
@@ -1056,13 +1056,13 @@
   },
   {
     "match_id": "M025",
-    "stage": "Group A",
+    "stage": "Matches",
     "home": "Czech Republic",
     "away": "South Africa",
     "starts_at_beijing": "2026-06-19T00:00:00",
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
     "status": "completed",
     "home_score": 1,
     "away_score": 1,
@@ -1174,32 +1174,32 @@
         "player": "Jonathan David",
         "minute": "29'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Jonathan David"
+        "player_zh": "乔纳森·戴维",
+        "player_display": "乔纳森·戴维（Jonathan David）"
       },
       {
         "team": "Canada",
         "player": "Jonathan David",
         "minute": "45+3'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Jonathan David"
+        "player_zh": "乔纳森·戴维",
+        "player_display": "乔纳森·戴维（Jonathan David）"
       },
       {
         "team": "Canada",
         "player": "Jonathan David",
         "minute": "90+2'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Jonathan David"
+        "player_zh": "乔纳森·戴维",
+        "player_display": "乔纳森·戴维（Jonathan David）"
       },
       {
         "team": "Canada",
         "player": "Nathan Saliba",
         "minute": "64'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Nathan Saliba"
+        "player_zh": "內森·薩利巴",
+        "player_display": "內森·薩利巴（Nathan Saliba）"
       },
       {
         "team": "Canada",
@@ -1217,13 +1217,13 @@
   },
   {
     "match_id": "M028",
-    "stage": "Group A",
+    "stage": "Matches",
     "home": "Mexico",
     "away": "South Korea",
     "starts_at_beijing": "2026-06-19T09:00:00",
     "venue": "Estadio Akron",
     "city": "Zapopan",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
     "status": "completed",
     "home_score": 1,
     "away_score": 0,
@@ -1322,24 +1322,24 @@
         "player": "Matheus Cunha",
         "minute": "23'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Matheus Cunha"
+        "player_zh": "馬特烏斯·庫尼亞",
+        "player_display": "馬特烏斯·庫尼亞（Matheus Cunha）"
       },
       {
         "team": "Brazil",
         "player": "Matheus Cunha",
         "minute": "36'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Matheus Cunha"
+        "player_zh": "馬特烏斯·庫尼亞",
+        "player_display": "馬特烏斯·庫尼亞（Matheus Cunha）"
       },
       {
         "team": "Brazil",
         "player": "Vinícius Júnior",
         "minute": "45+3'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Vinícius Júnior"
+        "player_zh": "维尼修斯·儒尼奥尔",
+        "player_display": "维尼修斯·儒尼奥尔（Vinícius Júnior）"
       }
     ],
     "raw_title": "Brazil v Haiti",
@@ -2069,8 +2069,8 @@
         "player": "Promise David",
         "minute": "76'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Promise David"
+        "player_zh": "普羅米斯·大衛",
+        "player_display": "普羅米斯·大衛（Promise David）"
       }
     ],
     "raw_title": "Switzerland v Canada",
@@ -2120,8 +2120,8 @@
         "player": "Hassan Al-Haydos",
         "minute": "42'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Hassan Al-Haydos"
+        "player_zh": "哈桑·海多斯",
+        "player_display": "哈桑·海多斯（Hassan Al-Haydos）"
       }
     ],
     "raw_title": "Bosnia and Herzegovina v Qatar",
@@ -2147,24 +2147,24 @@
         "player": "Vinícius Júnior",
         "minute": "7'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Vinícius Júnior"
+        "player_zh": "维尼修斯·儒尼奥尔",
+        "player_display": "维尼修斯·儒尼奥尔（Vinícius Júnior）"
       },
       {
         "team": "Brazil",
         "player": "Vinícius Júnior",
         "minute": "45+3'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Vinícius Júnior"
+        "player_zh": "维尼修斯·儒尼奥尔",
+        "player_display": "维尼修斯·儒尼奥尔（Vinícius Júnior）"
       },
       {
         "team": "Brazil",
         "player": "Matheus Cunha",
         "minute": "60'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Matheus Cunha"
+        "player_zh": "馬特烏斯·庫尼亞",
+        "player_display": "馬特烏斯·庫尼亞（Matheus Cunha）"
       }
     ],
     "raw_title": "Scotland v Brazil",
@@ -2241,13 +2241,13 @@
   },
   {
     "match_id": "M053",
-    "stage": "Group A",
+    "stage": "Matches",
     "home": "Czech Republic",
     "away": "Mexico",
     "starts_at_beijing": "2026-06-25T09:00:00",
     "venue": "Estadio Azteca",
     "city": "Mexico City",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
     "status": "completed",
     "home_score": 0,
     "away_score": 3,
@@ -2284,13 +2284,13 @@
   },
   {
     "match_id": "M054",
-    "stage": "Group A",
+    "stage": "Matches",
     "home": "South Africa",
     "away": "South Korea",
     "starts_at_beijing": "2026-06-25T09:00:00",
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
     "status": "completed",
     "home_score": 1,
     "away_score": 0,
@@ -2876,8 +2876,8 @@
         "player": "Nikola Vlašić",
         "minute": "83'",
         "note": "",
-        "player_zh": "歷高拿·華拉錫",
-        "player_display": "歷高拿·華拉錫（Nikola Vlašić）"
+        "player_zh": "",
+        "player_display": "Nikola Vlašić"
       },
       {
         "team": "Ghana",
