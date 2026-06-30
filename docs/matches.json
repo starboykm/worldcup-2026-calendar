@@ -3159,14 +3159,31 @@
     "venue": "Gillette Stadium",
     "city": "Foxborough",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Germany",
+        "player": "Kai Havertz",
+        "minute": "54'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Kai Havertz"
+      },
+      {
+        "team": "Paraguay",
+        "player": "Julio Enciso",
+        "minute": "42'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Julio Enciso"
+      }
+    ],
     "raw_title": "Germany v Paraguay",
     "home_display": "德国（Germany，世界排名第10）",
     "away_display": "巴拉圭（Paraguay，世界排名第41）",
-    "title_display": "德国（Germany，世界排名第10） vs 巴拉圭（Paraguay，世界排名第41）"
+    "title_display": "德国（Germany，世界排名第10） 1-1 巴拉圭（Paraguay，世界排名第41）"
   },
   {
     "match_id": "M075",
@@ -3177,14 +3194,31 @@
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Netherlands",
+        "player": "Cody Gakpo",
+        "minute": "72'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Cody Gakpo"
+      },
+      {
+        "team": "Morocco",
+        "player": "Issa Diop",
+        "minute": "90+1'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Issa Diop"
+      }
+    ],
     "raw_title": "Netherlands v Morocco",
     "home_display": "荷兰（Netherlands，世界排名第8）",
     "away_display": "摩洛哥（Morocco，世界排名第7）",
-    "title_display": "荷兰（Netherlands，世界排名第8） vs 摩洛哥（Morocco，世界排名第7）"
+    "title_display": "荷兰（Netherlands，世界排名第8） 1-1 摩洛哥（Morocco，世界排名第7）"
   },
   {
     "match_id": "M078",
@@ -3406,7 +3440,7 @@
     "match_id": "M090",
     "stage": "Round of 16",
     "home": "Canada",
-    "away": "Winner",
+    "away": "Morocco",
     "starts_at_beijing": "2026-07-05T01:00:00",
     "venue": "NRG Stadium",
     "city": "Houston",
@@ -3415,15 +3449,15 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Canada v Winner",
+    "raw_title": "Canada v Morocco",
     "home_display": "加拿大（Canada，世界排名第30）",
-    "away_display": "胜者（Winner）",
-    "title_display": "加拿大（Canada，世界排名第30） vs 胜者（Winner）"
+    "away_display": "摩洛哥（Morocco，世界排名第7）",
+    "title_display": "加拿大（Canada，世界排名第30） vs 摩洛哥（Morocco，世界排名第7）"
   },
   {
     "match_id": "M089",
     "stage": "Round of 16",
-    "home": "Winner",
+    "home": "Paraguay",
     "away": "Winner",
     "starts_at_beijing": "2026-07-05T05:00:00",
     "venue": "Lincoln Financial Field",
@@ -3433,10 +3467,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner",
-    "home_display": "胜者（Winner）",
+    "raw_title": "Paraguay v Winner",
+    "home_display": "巴拉圭（Paraguay，世界排名第41）",
     "away_display": "胜者（Winner）",
-    "title_display": "胜者（Winner） vs 胜者（Winner）"
+    "title_display": "巴拉圭（Paraguay，世界排名第41） vs 胜者（Winner）"
   },
   {
     "match_id": "M091",
