@@ -925,7 +925,7 @@
       {
         "team": "England",
         "player": "Harry Kane",
-        "minute": "12' ( pen. )",
+        "minute": "12'",
         "note": "",
         "player_zh": "",
         "player_display": "Harry Kane"
@@ -3350,14 +3350,39 @@
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "England",
+        "player": "Harry Kane",
+        "minute": "75'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Harry Kane"
+      },
+      {
+        "team": "England",
+        "player": "Harry Kane",
+        "minute": "86'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Harry Kane"
+      },
+      {
+        "team": "DR Congo",
+        "player": "Brian Cipenga",
+        "minute": "7'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Brian Cipenga"
+      }
+    ],
     "raw_title": "England v DR Congo",
     "home_display": "英格兰（England，世界排名第4）",
     "away_display": "刚果民主共和国（DR Congo，世界排名第46）",
-    "title_display": "英格兰（England，世界排名第4） vs 刚果民主共和国（DR Congo，世界排名第46）"
+    "title_display": "英格兰（England，世界排名第4） 2-1 刚果民主共和国（DR Congo，世界排名第46）"
   },
   {
     "match_id": "M082",
@@ -3561,7 +3586,7 @@
     "match_id": "M092",
     "stage": "Round of 16",
     "home": "Mexico",
-    "away": "Winner",
+    "away": "England",
     "starts_at_beijing": "2026-07-06T08:00:00",
     "venue": "Estadio Azteca",
     "city": "Mexico City",
@@ -3570,10 +3595,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Mexico v Winner",
+    "raw_title": "Mexico v England",
     "home_display": "墨西哥（Mexico，世界排名第14）",
-    "away_display": "胜者（Winner）",
-    "title_display": "墨西哥（Mexico，世界排名第14） vs 胜者（Winner）"
+    "away_display": "英格兰（England，世界排名第4）",
+    "title_display": "墨西哥（Mexico，世界排名第14） vs 英格兰（England，世界排名第4）"
   },
   {
     "match_id": "M093",
