@@ -79,13 +79,13 @@
   },
   {
     "match_id": "M003",
-    "stage": "Group B",
+    "stage": "Matches",
     "home": "Canada",
     "away": "Bosnia and Herzegovina",
     "starts_at_beijing": "2026-06-13T03:00:00",
     "venue": "BMO Field",
     "city": "Toronto",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
     "status": "completed",
     "home_score": 1,
     "away_score": 1,
@@ -173,13 +173,13 @@
   },
   {
     "match_id": "M008",
-    "stage": "Group B",
+    "stage": "Matches",
     "home": "Qatar",
     "away": "Switzerland",
     "starts_at_beijing": "2026-06-14T03:00:00",
     "venue": "Levi's Stadium",
     "city": "Santa Clara",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
     "status": "completed",
     "home_score": 1,
     "away_score": 1,
@@ -187,7 +187,7 @@
       {
         "team": "Qatar",
         "player": "Miro Muheim",
-        "minute": "90+4' (o.g.)",
+        "minute": "90+4'",
         "note": "乌龙球",
         "player_zh": "米罗·穆海姆",
         "player_display": "米罗·穆海姆（Miro Muheim）"
@@ -195,7 +195,7 @@
       {
         "team": "Switzerland",
         "player": "Breel Embolo",
-        "minute": "17' ( pen. )",
+        "minute": "17'",
         "note": "",
         "player_zh": "布雷尔·恩博洛",
         "player_display": "布雷尔·恩博洛（Breel Embolo）"
@@ -208,13 +208,13 @@
   },
   {
     "match_id": "M007",
-    "stage": "Group C",
+    "stage": "Matches",
     "home": "Brazil",
     "away": "Morocco",
     "starts_at_beijing": "2026-06-14T06:00:00",
     "venue": "MetLife Stadium",
     "city": "East Rutherford",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
     "status": "completed",
     "home_score": 1,
     "away_score": 1,
@@ -243,13 +243,13 @@
   },
   {
     "match_id": "M005",
-    "stage": "Group C",
+    "stage": "Matches",
     "home": "Haiti",
     "away": "Scotland",
     "starts_at_beijing": "2026-06-14T09:00:00",
     "venue": "Gillette Stadium",
     "city": "Foxborough",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
     "status": "completed",
     "home_score": 0,
     "away_score": 1,
@@ -388,13 +388,13 @@
   },
   {
     "match_id": "M011",
-    "stage": "Group F",
+    "stage": "Matches",
     "home": "Netherlands",
     "away": "Japan",
     "starts_at_beijing": "2026-06-15T04:00:00",
     "venue": "AT&T Stadium",
     "city": "Arlington",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
     "status": "completed",
     "home_score": 2,
     "away_score": 2,
@@ -466,13 +466,13 @@
   },
   {
     "match_id": "M012",
-    "stage": "Group F",
+    "stage": "Matches",
     "home": "Sweden",
     "away": "Tunisia",
     "starts_at_beijing": "2026-06-15T10:00:00",
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
     "status": "completed",
     "home_score": 5,
     "away_score": 1,
@@ -533,13 +533,13 @@
   },
   {
     "match_id": "M014",
-    "stage": "Group H",
+    "stage": "Matches",
     "home": "Spain",
     "away": "Cape Verde",
     "starts_at_beijing": "2026-06-16T00:00:00",
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
     "status": "completed",
     "home_score": 0,
     "away_score": 0,
@@ -551,13 +551,13 @@
   },
   {
     "match_id": "M016",
-    "stage": "Group G",
+    "stage": "Matches",
     "home": "Belgium",
     "away": "Egypt",
     "starts_at_beijing": "2026-06-16T03:00:00",
     "venue": "Lumen Field",
     "city": "Seattle",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
     "status": "completed",
     "home_score": 1,
     "away_score": 1,
@@ -586,13 +586,13 @@
   },
   {
     "match_id": "M013",
-    "stage": "Group H",
+    "stage": "Matches",
     "home": "Saudi Arabia",
     "away": "Uruguay",
     "starts_at_beijing": "2026-06-16T06:00:00",
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
     "status": "completed",
     "home_score": 1,
     "away_score": 1,
@@ -621,13 +621,13 @@
   },
   {
     "match_id": "M015",
-    "stage": "Group G",
+    "stage": "Matches",
     "home": "Iran",
     "away": "New Zealand",
     "starts_at_beijing": "2026-06-16T09:00:00",
     "venue": "SoFi Stadium",
     "city": "Inglewood",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
     "status": "completed",
     "home_score": 2,
     "away_score": 2,
@@ -712,8 +712,8 @@
         "player": "Ibrahim Mbaye",
         "minute": "90+5'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ibrahim Mbaye"
+        "player_zh": "易卜拉欣·姆巴耶",
+        "player_display": "易卜拉欣·姆巴耶（Ibrahim Mbaye）"
       }
     ],
     "raw_title": "France v Senegal",
@@ -739,40 +739,40 @@
         "player": "Aymen Hussein",
         "minute": "39'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Aymen Hussein"
+        "player_zh": "艾曼·胡辛",
+        "player_display": "艾曼·胡辛（Aymen Hussein）"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "29'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Erling Haaland"
+        "player_zh": "埃尔林·哈兰德",
+        "player_display": "埃尔林·哈兰德（Erling Haaland）"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "43'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Erling Haaland"
+        "player_zh": "埃尔林·哈兰德",
+        "player_display": "埃尔林·哈兰德（Erling Haaland）"
       },
       {
         "team": "Norway",
         "player": "Leo Østigård",
         "minute": "76'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Leo Østigård"
+        "player_zh": "莱奥·厄斯蒂高",
+        "player_display": "莱奥·厄斯蒂高（Leo Østigård）"
       },
       {
         "team": "Norway",
         "player": "Aymen Hussein",
         "minute": "90+6'",
         "note": "乌龙球",
-        "player_zh": "",
-        "player_display": "Aymen Hussein"
+        "player_zh": "艾曼·胡辛",
+        "player_display": "艾曼·胡辛（Aymen Hussein）"
       }
     ],
     "raw_title": "Iraq v Norway",
@@ -782,13 +782,13 @@
   },
   {
     "match_id": "M019",
-    "stage": "Group J",
+    "stage": "Matches",
     "home": "Argentina",
     "away": "Algeria",
     "starts_at_beijing": "2026-06-17T09:00:00",
     "venue": "Arrowhead Stadium",
     "city": "Kansas City",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
     "status": "completed",
     "home_score": 3,
     "away_score": 0,
@@ -825,13 +825,13 @@
   },
   {
     "match_id": "M020",
-    "stage": "Group J",
+    "stage": "Matches",
     "home": "Austria",
     "away": "Jordan",
     "starts_at_beijing": "2026-06-17T12:00:00",
     "venue": "Levi's Stadium",
     "city": "Santa Clara",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
     "status": "completed",
     "home_score": 3,
     "away_score": 1,
@@ -847,7 +847,7 @@
       {
         "team": "Austria",
         "player": "Yazan Al-Arab",
-        "minute": "76' (o.g.)",
+        "minute": "76'",
         "note": "乌龙球",
         "player_zh": "",
         "player_display": "Yazan Al-Arab"
@@ -855,10 +855,10 @@
       {
         "team": "Austria",
         "player": "Marko Arnautović",
-        "minute": "90+12' ( pen. )",
+        "minute": "90+12'",
         "note": "",
-        "player_zh": "马尔科·阿瑙托维奇",
-        "player_display": "马尔科·阿瑙托维奇（Marko Arnautović）"
+        "player_zh": "",
+        "player_display": "Marko Arnautović"
       },
       {
         "team": "Jordan",
@@ -876,13 +876,13 @@
   },
   {
     "match_id": "M023",
-    "stage": "Group K",
+    "stage": "Matches",
     "home": "Portugal",
     "away": "DR Congo",
     "starts_at_beijing": "2026-06-18T01:00:00",
     "venue": "NRG Stadium",
     "city": "Houston",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
     "status": "completed",
     "home_score": 1,
     "away_score": 1,
@@ -1005,13 +1005,13 @@
   },
   {
     "match_id": "M024",
-    "stage": "Group K",
+    "stage": "Matches",
     "home": "Uzbekistan",
     "away": "Colombia",
     "starts_at_beijing": "2026-06-18T10:00:00",
     "venue": "Estadio Azteca",
     "city": "Mexico City",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
     "status": "completed",
     "home_score": 1,
     "away_score": 3,
@@ -1037,8 +1037,8 @@
         "player": "Luis Díaz",
         "minute": "65'",
         "note": "",
-        "player_zh": "路易斯·迪亚斯",
-        "player_display": "路易斯·迪亚斯（Luis Díaz）"
+        "player_zh": "",
+        "player_display": "Luis Díaz"
       },
       {
         "team": "Colombia",
@@ -1091,13 +1091,13 @@
   },
   {
     "match_id": "M026",
-    "stage": "Group B",
+    "stage": "Matches",
     "home": "Switzerland",
     "away": "Bosnia and Herzegovina",
     "starts_at_beijing": "2026-06-19T03:00:00",
     "venue": "SoFi Stadium",
     "city": "Inglewood",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
     "status": "completed",
     "home_score": 4,
     "away_score": 1,
@@ -1129,7 +1129,7 @@
       {
         "team": "Switzerland",
         "player": "Granit Xhaka",
-        "minute": "90+7' ( pen. )",
+        "minute": "90+7'",
         "note": "",
         "player_zh": "格拉尼特·扎卡",
         "player_display": "格拉尼特·扎卡（Granit Xhaka）"
@@ -1150,13 +1150,13 @@
   },
   {
     "match_id": "M027",
-    "stage": "Group B",
+    "stage": "Matches",
     "home": "Canada",
     "away": "Qatar",
     "starts_at_beijing": "2026-06-19T06:00:00",
     "venue": "BC Place",
     "city": "Vancouver",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
     "status": "completed",
     "home_score": 6,
     "away_score": 0,
@@ -1204,7 +1204,7 @@
       {
         "team": "Canada",
         "player": "Mohamed Manai",
-        "minute": "75' (o.g.)",
+        "minute": "75'",
         "note": "乌龙球",
         "player_zh": "",
         "player_display": "Mohamed Manai"
@@ -1279,13 +1279,13 @@
   },
   {
     "match_id": "M030",
-    "stage": "Group C",
+    "stage": "Matches",
     "home": "Scotland",
     "away": "Morocco",
     "starts_at_beijing": "2026-06-20T06:00:00",
     "venue": "Gillette Stadium",
     "city": "Foxborough",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
     "status": "completed",
     "home_score": 0,
     "away_score": 1,
@@ -1306,13 +1306,13 @@
   },
   {
     "match_id": "M029",
-    "stage": "Group C",
+    "stage": "Matches",
     "home": "Brazil",
     "away": "Haiti",
     "starts_at_beijing": "2026-06-20T08:30:00",
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
     "status": "completed",
     "home_score": 3,
     "away_score": 0,
@@ -1376,13 +1376,13 @@
   },
   {
     "match_id": "M035",
-    "stage": "Group F",
+    "stage": "Matches",
     "home": "Netherlands",
     "away": "Sweden",
     "starts_at_beijing": "2026-06-21T01:00:00",
     "venue": "NRG Stadium",
     "city": "Houston",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
     "status": "completed",
     "home_score": 5,
     "away_score": 1,
@@ -1504,13 +1504,13 @@
   },
   {
     "match_id": "M036",
-    "stage": "Group F",
+    "stage": "Matches",
     "home": "Tunisia",
     "away": "Japan",
     "starts_at_beijing": "2026-06-21T12:00:00",
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
     "status": "completed",
     "home_score": 0,
     "away_score": 4,
@@ -1555,13 +1555,13 @@
   },
   {
     "match_id": "M038",
-    "stage": "Group H",
+    "stage": "Matches",
     "home": "Spain",
     "away": "Saudi Arabia",
     "starts_at_beijing": "2026-06-22T00:00:00",
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
     "status": "completed",
     "home_score": 4,
     "away_score": 0,
@@ -1593,7 +1593,7 @@
       {
         "team": "Spain",
         "player": "Hassan Al-Tambakti",
-        "minute": "49' (o.g.)",
+        "minute": "49'",
         "note": "乌龙球",
         "player_zh": "",
         "player_display": "Hassan Al-Tambakti"
@@ -1606,13 +1606,13 @@
   },
   {
     "match_id": "M039",
-    "stage": "Group G",
+    "stage": "Matches",
     "home": "Belgium",
     "away": "Iran",
     "starts_at_beijing": "2026-06-22T03:00:00",
     "venue": "SoFi Stadium",
     "city": "Inglewood",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
     "status": "completed",
     "home_score": 0,
     "away_score": 0,
@@ -1624,13 +1624,13 @@
   },
   {
     "match_id": "M037",
-    "stage": "Group H",
+    "stage": "Matches",
     "home": "Uruguay",
     "away": "Cape Verde",
     "starts_at_beijing": "2026-06-22T06:00:00",
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
     "status": "completed",
     "home_score": 2,
     "away_score": 2,
@@ -1675,13 +1675,13 @@
   },
   {
     "match_id": "M040",
-    "stage": "Group G",
+    "stage": "Matches",
     "home": "New Zealand",
     "away": "Egypt",
     "starts_at_beijing": "2026-06-22T09:00:00",
     "venue": "BC Place",
     "city": "Vancouver",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
     "status": "completed",
     "home_score": 1,
     "away_score": 3,
@@ -1726,13 +1726,13 @@
   },
   {
     "match_id": "M043",
-    "stage": "Group J",
+    "stage": "Matches",
     "home": "Argentina",
     "away": "Austria",
     "starts_at_beijing": "2026-06-23T01:00:00",
     "venue": "AT&T Stadium",
     "city": "Arlington",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
     "status": "completed",
     "home_score": 2,
     "away_score": 0,
@@ -1793,8 +1793,8 @@
         "player": "Ousmane Dembélé",
         "minute": "66'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ousmane Dembélé"
+        "player_zh": "奥斯曼·登贝莱",
+        "player_display": "奥斯曼·登贝莱（Ousmane Dembélé）"
       }
     ],
     "raw_title": "France v Iraq",
@@ -1820,40 +1820,40 @@
         "player": "Marcus Holmgren Pedersen",
         "minute": "43'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Marcus Holmgren Pedersen"
+        "player_zh": "馬庫斯·霍姆格倫·佩德森",
+        "player_display": "馬庫斯·霍姆格倫·佩德森（Marcus Holmgren Pedersen）"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "48'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Erling Haaland"
+        "player_zh": "埃尔林·哈兰德",
+        "player_display": "埃尔林·哈兰德（Erling Haaland）"
       },
       {
         "team": "Norway",
         "player": "Erling Haaland",
         "minute": "58'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Erling Haaland"
+        "player_zh": "埃尔林·哈兰德",
+        "player_display": "埃尔林·哈兰德（Erling Haaland）"
       },
       {
         "team": "Senegal",
         "player": "Ismaïla Sarr",
         "minute": "53'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ismaïla Sarr"
+        "player_zh": "伊斯美拿·沙亞",
+        "player_display": "伊斯美拿·沙亞（Ismaïla Sarr）"
       },
       {
         "team": "Senegal",
         "player": "Ismaïla Sarr",
         "minute": "90+3'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ismaïla Sarr"
+        "player_zh": "伊斯美拿·沙亞",
+        "player_display": "伊斯美拿·沙亞（Ismaïla Sarr）"
       }
     ],
     "raw_title": "Norway v Senegal",
@@ -1863,13 +1863,13 @@
   },
   {
     "match_id": "M044",
-    "stage": "Group J",
+    "stage": "Matches",
     "home": "Jordan",
     "away": "Algeria",
     "starts_at_beijing": "2026-06-23T11:00:00",
     "venue": "Levi's Stadium",
     "city": "Santa Clara",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
     "status": "completed",
     "home_score": 1,
     "away_score": 2,
@@ -1895,8 +1895,8 @@
         "player": "Amine Gouiri",
         "minute": "82'",
         "note": "",
-        "player_zh": "阿明·古伊里",
-        "player_display": "阿明·古伊里（Amine Gouiri）"
+        "player_zh": "",
+        "player_display": "Amine Gouiri"
       }
     ],
     "raw_title": "Jordan v Algeria",
@@ -1906,13 +1906,13 @@
   },
   {
     "match_id": "M047",
-    "stage": "Group K",
+    "stage": "Matches",
     "home": "Portugal",
     "away": "Uzbekistan",
     "starts_at_beijing": "2026-06-24T01:00:00",
     "venue": "NRG Stadium",
     "city": "Houston",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
     "status": "completed",
     "home_score": 5,
     "away_score": 0,
@@ -1944,7 +1944,7 @@
       {
         "team": "Portugal",
         "player": "Abduvohid Nematov",
-        "minute": "60' (o.g.)",
+        "minute": "60'",
         "note": "乌龙球",
         "player_zh": "",
         "player_display": "Abduvohid Nematov"
@@ -2010,13 +2010,13 @@
   },
   {
     "match_id": "M048",
-    "stage": "Group K",
+    "stage": "Matches",
     "home": "Colombia",
     "away": "DR Congo",
     "starts_at_beijing": "2026-06-24T10:00:00",
     "venue": "Estadio Akron",
     "city": "Zapopan",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
     "status": "completed",
     "home_score": 1,
     "away_score": 0,
@@ -2037,13 +2037,13 @@
   },
   {
     "match_id": "M051",
-    "stage": "Group B",
+    "stage": "Matches",
     "home": "Switzerland",
     "away": "Canada",
     "starts_at_beijing": "2026-06-25T03:00:00",
     "venue": "BC Place",
     "city": "Vancouver",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
     "status": "completed",
     "home_score": 2,
     "away_score": 1,
@@ -2080,13 +2080,13 @@
   },
   {
     "match_id": "M052",
-    "stage": "Group B",
+    "stage": "Matches",
     "home": "Bosnia and Herzegovina",
     "away": "Qatar",
     "starts_at_beijing": "2026-06-25T03:00:00",
     "venue": "Lumen Field",
     "city": "Seattle",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
     "status": "completed",
     "home_score": 3,
     "away_score": 1,
@@ -2102,7 +2102,7 @@
       {
         "team": "Bosnia and Herzegovina",
         "player": "Mahmud Abunada",
-        "minute": "34' (o.g.)",
+        "minute": "34'",
         "note": "乌龙球",
         "player_zh": "",
         "player_display": "Mahmud Abunada"
@@ -2131,13 +2131,13 @@
   },
   {
     "match_id": "M049",
-    "stage": "Group C",
+    "stage": "Matches",
     "home": "Scotland",
     "away": "Brazil",
     "starts_at_beijing": "2026-06-25T06:00:00",
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
     "status": "completed",
     "home_score": 0,
     "away_score": 3,
@@ -2174,13 +2174,13 @@
   },
   {
     "match_id": "M050",
-    "stage": "Group C",
+    "stage": "Matches",
     "home": "Morocco",
     "away": "Haiti",
     "starts_at_beijing": "2026-06-25T06:00:00",
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
     "status": "completed",
     "home_score": 4,
     "away_score": 2,
@@ -2389,13 +2389,13 @@
   },
   {
     "match_id": "M057",
-    "stage": "Group F",
+    "stage": "Matches",
     "home": "Japan",
     "away": "Sweden",
     "starts_at_beijing": "2026-06-26T07:00:00",
     "venue": "AT&T Stadium",
     "city": "Arlington",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
     "status": "completed",
     "home_score": 1,
     "away_score": 1,
@@ -2424,13 +2424,13 @@
   },
   {
     "match_id": "M058",
-    "stage": "Group F",
+    "stage": "Matches",
     "home": "Tunisia",
     "away": "Netherlands",
     "starts_at_beijing": "2026-06-26T07:00:00",
     "venue": "Arrowhead Stadium",
     "city": "Kansas City",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
     "status": "completed",
     "home_score": 1,
     "away_score": 3,
@@ -2576,32 +2576,32 @@
         "player": "Ousmane Dembélé",
         "minute": "7'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ousmane Dembélé"
+        "player_zh": "奥斯曼·登贝莱",
+        "player_display": "奥斯曼·登贝莱（Ousmane Dembélé）"
       },
       {
         "team": "France",
         "player": "Ousmane Dembélé",
         "minute": "20'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ousmane Dembélé"
+        "player_zh": "奥斯曼·登贝莱",
+        "player_display": "奥斯曼·登贝莱（Ousmane Dembélé）"
       },
       {
         "team": "France",
         "player": "Ousmane Dembélé",
         "minute": "32'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ousmane Dembélé"
+        "player_zh": "奥斯曼·登贝莱",
+        "player_display": "奥斯曼·登贝莱（Ousmane Dembélé）"
       },
       {
         "team": "France",
         "player": "Ousmane Dembélé",
         "minute": "90+4'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ousmane Dembélé"
+        "player_zh": "奥斯曼·登贝莱",
+        "player_display": "奥斯曼·登贝莱（Ousmane Dembélé）"
       }
     ],
     "raw_title": "Norway v France",
@@ -2627,32 +2627,32 @@
         "player": "Habib Diarra",
         "minute": "4'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Habib Diarra"
+        "player_zh": "穆罕默杜·迪亞拉",
+        "player_display": "穆罕默杜·迪亞拉（Habib Diarra）"
       },
       {
         "team": "Senegal",
         "player": "Ismaïla Sarr",
         "minute": "56'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Ismaïla Sarr"
+        "player_zh": "伊斯美拿·沙亞",
+        "player_display": "伊斯美拿·沙亞（Ismaïla Sarr）"
       },
       {
         "team": "Senegal",
         "player": "Pape Gueye",
         "minute": "59'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Pape Gueye"
+        "player_zh": "帕普·盖伊",
+        "player_display": "帕普·盖伊（Pape Gueye）"
       },
       {
         "team": "Senegal",
         "player": "Pape Gueye",
         "minute": "71'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Pape Gueye"
+        "player_zh": "帕普·盖伊",
+        "player_display": "帕普·盖伊（Pape Gueye）"
       },
       {
         "team": "Senegal",
@@ -2670,13 +2670,13 @@
   },
   {
     "match_id": "M065",
-    "stage": "Group H",
+    "stage": "Matches",
     "home": "Cape Verde",
     "away": "Saudi Arabia",
     "starts_at_beijing": "2026-06-27T08:00:00",
     "venue": "NRG Stadium",
     "city": "Houston",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
     "status": "completed",
     "home_score": 0,
     "away_score": 0,
@@ -2688,13 +2688,13 @@
   },
   {
     "match_id": "M066",
-    "stage": "Group H",
+    "stage": "Matches",
     "home": "Uruguay",
     "away": "Spain",
     "starts_at_beijing": "2026-06-27T08:00:00",
     "venue": "Estadio Akron",
     "city": "Zapopan",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
     "status": "completed",
     "home_score": 0,
     "away_score": 1,
@@ -2715,13 +2715,13 @@
   },
   {
     "match_id": "M063",
-    "stage": "Group G",
+    "stage": "Matches",
     "home": "Egypt",
     "away": "Iran",
     "starts_at_beijing": "2026-06-27T11:00:00",
     "venue": "Lumen Field",
     "city": "Seattle",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
     "status": "completed",
     "home_score": 1,
     "away_score": 1,
@@ -2750,13 +2750,13 @@
   },
   {
     "match_id": "M064",
-    "stage": "Group G",
+    "stage": "Matches",
     "home": "New Zealand",
     "away": "Belgium",
     "starts_at_beijing": "2026-06-27T11:00:00",
     "venue": "BC Place",
     "city": "Vancouver",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
     "status": "completed",
     "home_score": 1,
     "away_score": 5,
@@ -2895,13 +2895,13 @@
   },
   {
     "match_id": "M071",
-    "stage": "Group K",
+    "stage": "Matches",
     "home": "Colombia",
     "away": "Portugal",
     "starts_at_beijing": "2026-06-28T07:30:00",
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
     "status": "completed",
     "home_score": 0,
     "away_score": 0,
@@ -2913,13 +2913,13 @@
   },
   {
     "match_id": "M072",
-    "stage": "Group K",
+    "stage": "Matches",
     "home": "DR Congo",
     "away": "Uzbekistan",
     "starts_at_beijing": "2026-06-28T07:30:00",
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
     "status": "completed",
     "home_score": 3,
     "away_score": 1,
@@ -2927,7 +2927,7 @@
       {
         "team": "DR Congo",
         "player": "Yoane Wissa",
-        "minute": "68' ( pen. )",
+        "minute": "68'",
         "note": "",
         "player_zh": "",
         "player_display": "Yoane Wissa"
@@ -2964,13 +2964,13 @@
   },
   {
     "match_id": "M069",
-    "stage": "Group J",
+    "stage": "Matches",
     "home": "Algeria",
     "away": "Austria",
     "starts_at_beijing": "2026-06-28T10:00:00",
     "venue": "Arrowhead Stadium",
     "city": "Kansas City",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
     "status": "completed",
     "home_score": 3,
     "away_score": 3,
@@ -2988,24 +2988,24 @@
         "player": "Riyad Mahrez",
         "minute": "60'",
         "note": "",
-        "player_zh": "列恩·馬列斯",
-        "player_display": "列恩·馬列斯（Riyad Mahrez）"
+        "player_zh": "",
+        "player_display": "Riyad Mahrez"
       },
       {
         "team": "Algeria",
         "player": "Riyad Mahrez",
         "minute": "90+3'",
         "note": "",
-        "player_zh": "列恩·馬列斯",
-        "player_display": "列恩·馬列斯（Riyad Mahrez）"
+        "player_zh": "",
+        "player_display": "Riyad Mahrez"
       },
       {
         "team": "Austria",
         "player": "Marko Arnautović",
         "minute": "28'",
         "note": "",
-        "player_zh": "马尔科·阿瑙托维奇",
-        "player_display": "马尔科·阿瑙托维奇（Marko Arnautović）"
+        "player_zh": "",
+        "player_display": "Marko Arnautović"
       },
       {
         "team": "Austria",
@@ -3031,13 +3031,13 @@
   },
   {
     "match_id": "M070",
-    "stage": "Group J",
+    "stage": "Matches",
     "home": "Jordan",
     "away": "Argentina",
     "starts_at_beijing": "2026-06-28T10:00:00",
     "venue": "AT&T Stadium",
     "city": "Arlington",
-    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J",
     "status": "completed",
     "home_score": 1,
     "away_score": 3,
@@ -3061,10 +3061,10 @@
       {
         "team": "Argentina",
         "player": "Lautaro Martínez",
-        "minute": "31' ( pen. )",
+        "minute": "31'",
         "note": "",
-        "player_zh": "拿達路·馬天尼斯",
-        "player_display": "拿達路·馬天尼斯（Lautaro Martínez）"
+        "player_zh": "",
+        "player_display": "Lautaro Martínez"
       },
       {
         "team": "Argentina",
@@ -3254,8 +3254,8 @@
         "player": "Erling Haaland",
         "minute": "86'",
         "note": "",
-        "player_zh": "",
-        "player_display": "Erling Haaland"
+        "player_zh": "埃尔林·哈兰德",
+        "player_display": "埃尔林·哈兰德（Erling Haaland）"
       }
     ],
     "raw_title": "Ivory Coast v Norway",
@@ -3311,18 +3311,35 @@
     "stage": "Round of 32",
     "home": "Mexico",
     "away": "Ecuador",
-    "starts_at_beijing": "2026-07-01T09:00:00",
+    "starts_at_beijing": "2026-07-01T10:00:00",
     "venue": "Estadio Azteca",
     "city": "Mexico City",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Mexico",
+        "player": "Julián Quiñones",
+        "minute": "22'",
+        "note": "",
+        "player_zh": "胡利安·基尼奥内斯",
+        "player_display": "胡利安·基尼奥内斯（Julián Quiñones）"
+      },
+      {
+        "team": "Mexico",
+        "player": "Raúl Jiménez",
+        "minute": "31'",
+        "note": "",
+        "player_zh": "劳尔·希门尼斯",
+        "player_display": "劳尔·希门尼斯（Raúl Jiménez）"
+      }
+    ],
     "raw_title": "Mexico v Ecuador",
     "home_display": "墨西哥（Mexico，世界排名第14）",
     "away_display": "厄瓜多尔（Ecuador，世界排名第23）",
-    "title_display": "墨西哥（Mexico，世界排名第14） vs 厄瓜多尔（Ecuador，世界排名第23）"
+    "title_display": "墨西哥（Mexico，世界排名第14） 2-0 厄瓜多尔（Ecuador，世界排名第23）"
   },
   {
     "match_id": "M080",
@@ -3543,7 +3560,7 @@
   {
     "match_id": "M092",
     "stage": "Round of 16",
-    "home": "Winner",
+    "home": "Mexico",
     "away": "Winner",
     "starts_at_beijing": "2026-07-06T08:00:00",
     "venue": "Estadio Azteca",
@@ -3553,10 +3570,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner",
-    "home_display": "胜者（Winner）",
+    "raw_title": "Mexico v Winner",
+    "home_display": "墨西哥（Mexico，世界排名第14）",
     "away_display": "胜者（Winner）",
-    "title_display": "胜者（Winner） vs 胜者（Winner）"
+    "title_display": "墨西哥（Mexico，世界排名第14） vs 胜者（Winner）"
   },
   {
     "match_id": "M093",
