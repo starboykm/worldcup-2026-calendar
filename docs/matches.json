@@ -3393,14 +3393,55 @@
     "venue": "Lumen Field",
     "city": "Seattle",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "Belgium",
+        "player": "Romelu Lukaku",
+        "minute": "86'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Romelu Lukaku"
+      },
+      {
+        "team": "Belgium",
+        "player": "Youri Tielemans",
+        "minute": "89'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Youri Tielemans"
+      },
+      {
+        "team": "Belgium",
+        "player": "Youri Tielemans",
+        "minute": "120+5'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Youri Tielemans"
+      },
+      {
+        "team": "Senegal",
+        "player": "Habib Diarra",
+        "minute": "25'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Habib Diarra"
+      },
+      {
+        "team": "Senegal",
+        "player": "Ismaïla Sarr",
+        "minute": "51'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ismaïla Sarr"
+      }
+    ],
     "raw_title": "Belgium v Senegal",
     "home_display": "比利时（Belgium，世界排名第9）",
     "away_display": "塞内加尔（Senegal，世界排名第15）",
-    "title_display": "比利时（Belgium，世界排名第9） vs 塞内加尔（Senegal，世界排名第15）"
+    "title_display": "比利时（Belgium，世界排名第9） 3-2 塞内加尔（Senegal，世界排名第15）"
   },
   {
     "match_id": "M081",
@@ -3622,7 +3663,7 @@
     "match_id": "M094",
     "stage": "Round of 16",
     "home": "Winner",
-    "away": "Winner",
+    "away": "Belgium",
     "starts_at_beijing": "2026-07-07T08:00:00",
     "venue": "Lumen Field",
     "city": "Seattle",
@@ -3631,10 +3672,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner",
+    "raw_title": "Winner v Belgium",
     "home_display": "胜者（Winner）",
-    "away_display": "胜者（Winner）",
-    "title_display": "胜者（Winner） vs 胜者（Winner）"
+    "away_display": "比利时（Belgium，世界排名第9）",
+    "title_display": "胜者（Winner） vs 比利时（Belgium，世界排名第9）"
   },
   {
     "match_id": "M095",
