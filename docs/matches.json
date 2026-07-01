@@ -197,8 +197,8 @@
         "player": "Breel Embolo",
         "minute": "17'",
         "note": "",
-        "player_zh": "布雷尔·恩博洛",
-        "player_display": "布雷尔·恩博洛（Breel Embolo）"
+        "player_zh": "",
+        "player_display": "Breel Embolo"
       }
     ],
     "raw_title": "Qatar v Switzerland",
@@ -1072,8 +1072,8 @@
         "player": "Michal Sadílek",
         "minute": "6'",
         "note": "",
-        "player_zh": "米哈爾·薩迪萊克",
-        "player_display": "米哈爾·薩迪萊克（Michal Sadílek）"
+        "player_zh": "",
+        "player_display": "Michal Sadílek"
       },
       {
         "team": "South Africa",
@@ -1107,32 +1107,32 @@
         "player": "Johan Manzambi",
         "minute": "74'",
         "note": "",
-        "player_zh": "约翰·曼赞比",
-        "player_display": "约翰·曼赞比（Johan Manzambi）"
+        "player_zh": "",
+        "player_display": "Johan Manzambi"
       },
       {
         "team": "Switzerland",
         "player": "Johan Manzambi",
         "minute": "90'",
         "note": "",
-        "player_zh": "约翰·曼赞比",
-        "player_display": "约翰·曼赞比（Johan Manzambi）"
+        "player_zh": "",
+        "player_display": "Johan Manzambi"
       },
       {
         "team": "Switzerland",
         "player": "Rubén Vargas",
         "minute": "84'",
         "note": "",
-        "player_zh": "鲁文·巴尔加斯",
-        "player_display": "鲁文·巴尔加斯（Rubén Vargas）"
+        "player_zh": "",
+        "player_display": "Rubén Vargas"
       },
       {
         "team": "Switzerland",
         "player": "Granit Xhaka",
         "minute": "90+7'",
         "note": "",
-        "player_zh": "格拉尼特·扎卡",
-        "player_display": "格拉尼特·扎卡（Granit Xhaka）"
+        "player_zh": "",
+        "player_display": "Granit Xhaka"
       },
       {
         "team": "Bosnia and Herzegovina",
@@ -1233,8 +1233,8 @@
         "player": "Luis Romo",
         "minute": "50'",
         "note": "",
-        "player_zh": "路易斯·罗莫",
-        "player_display": "路易斯·罗莫（Luis Romo）"
+        "player_zh": "",
+        "player_display": "Luis Romo"
       }
     ],
     "raw_title": "Mexico v South Korea",
@@ -2053,16 +2053,16 @@
         "player": "Rubén Vargas",
         "minute": "46'",
         "note": "",
-        "player_zh": "鲁文·巴尔加斯",
-        "player_display": "鲁文·巴尔加斯（Rubén Vargas）"
+        "player_zh": "",
+        "player_display": "Rubén Vargas"
       },
       {
         "team": "Switzerland",
         "player": "Johan Manzambi",
         "minute": "57'",
         "note": "",
-        "player_zh": "约翰·曼赞比",
-        "player_display": "约翰·曼赞比（Johan Manzambi）"
+        "player_zh": "",
+        "player_display": "Johan Manzambi"
       },
       {
         "team": "Canada",
