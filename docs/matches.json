@@ -3487,14 +3487,39 @@
     "venue": "SoFi Stadium",
     "city": "Inglewood",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Mikel Oyarzabal",
+        "minute": "36'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Mikel Oyarzabal"
+      },
+      {
+        "team": "Spain",
+        "player": "Mikel Oyarzabal",
+        "minute": "89'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Mikel Oyarzabal"
+      },
+      {
+        "team": "Spain",
+        "player": "Pedro Porro",
+        "minute": "66'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Pedro Porro"
+      }
+    ],
     "raw_title": "Spain v Austria",
     "home_display": "西班牙（Spain，世界排名第2）",
     "away_display": "奥地利（Austria，世界排名第24）",
-    "title_display": "西班牙（Spain，世界排名第2） vs 奥地利（Austria，世界排名第24）"
+    "title_display": "西班牙（Spain，世界排名第2） 3-0 奥地利（Austria，世界排名第24）"
   },
   {
     "match_id": "M083",
@@ -3662,7 +3687,7 @@
     "match_id": "M093",
     "stage": "Round of 16",
     "home": "Winner",
-    "away": "Winner",
+    "away": "Spain",
     "starts_at_beijing": "2026-07-07T03:00:00",
     "venue": "AT&T Stadium",
     "city": "Arlington",
@@ -3671,10 +3696,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner",
+    "raw_title": "Winner v Spain",
     "home_display": "胜者（Winner）",
-    "away_display": "胜者（Winner）",
-    "title_display": "胜者（Winner） vs 胜者（Winner）"
+    "away_display": "西班牙（Spain，世界排名第2）",
+    "title_display": "胜者（Winner） vs 西班牙（Spain，世界排名第2）"
   },
   {
     "match_id": "M094",
