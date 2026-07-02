@@ -3452,14 +3452,31 @@
     "venue": "Levi's Stadium",
     "city": "Santa Clara",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "United States",
+        "player": "Folarin Balogun",
+        "minute": "45'",
+        "note": "",
+        "player_zh": "福拉林·巴洛贡",
+        "player_display": "福拉林·巴洛贡（Folarin Balogun）"
+      },
+      {
+        "team": "United States",
+        "player": "Malik Tillman",
+        "minute": "82'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Malik Tillman"
+      }
+    ],
     "raw_title": "United States v Bosnia and Herzegovina",
     "home_display": "美国（United States，世界排名第17）",
     "away_display": "波黑（Bosnia and Herzegovina，世界排名第64）",
-    "title_display": "美国（United States，世界排名第17） vs 波黑（Bosnia and Herzegovina，世界排名第64）"
+    "title_display": "美国（United States，世界排名第17） 2-0 波黑（Bosnia and Herzegovina，世界排名第64）"
   },
   {
     "match_id": "M084",
@@ -3662,7 +3679,7 @@
   {
     "match_id": "M094",
     "stage": "Round of 16",
-    "home": "Winner",
+    "home": "United States",
     "away": "Belgium",
     "starts_at_beijing": "2026-07-07T08:00:00",
     "venue": "Lumen Field",
@@ -3672,10 +3689,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Belgium",
-    "home_display": "胜者（Winner）",
+    "raw_title": "United States v Belgium",
+    "home_display": "美国（United States，世界排名第17）",
     "away_display": "比利时（Belgium，世界排名第9）",
-    "title_display": "胜者（Winner） vs 比利时（Belgium，世界排名第9）"
+    "title_display": "美国（United States，世界排名第17） vs 比利时（Belgium，世界排名第9）"
   },
   {
     "match_id": "M095",
