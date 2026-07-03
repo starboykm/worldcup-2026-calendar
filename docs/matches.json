@@ -3530,14 +3530,39 @@
     "venue": "BMO Field",
     "city": "Toronto",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Portugal",
+        "player": "Cristiano Ronaldo",
+        "minute": "68'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Cristiano Ronaldo"
+      },
+      {
+        "team": "Portugal",
+        "player": "Gonçalo Ramos",
+        "minute": "90+4'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Gonçalo Ramos"
+      },
+      {
+        "team": "Croatia",
+        "player": "Ivan Perišić",
+        "minute": "53'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ivan Perišić"
+      }
+    ],
     "raw_title": "Portugal v Croatia",
     "home_display": "葡萄牙（Portugal，世界排名第5）",
     "away_display": "克罗地亚（Croatia，世界排名第11）",
-    "title_display": "葡萄牙（Portugal，世界排名第5） vs 克罗地亚（Croatia，世界排名第11）"
+    "title_display": "葡萄牙（Portugal，世界排名第5） 2-1 克罗地亚（Croatia，世界排名第11）"
   },
   {
     "match_id": "M085",
@@ -3686,7 +3711,7 @@
   {
     "match_id": "M093",
     "stage": "Round of 16",
-    "home": "Winner",
+    "home": "Portugal",
     "away": "Spain",
     "starts_at_beijing": "2026-07-07T03:00:00",
     "venue": "AT&T Stadium",
@@ -3696,10 +3721,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Spain",
-    "home_display": "胜者（Winner）",
+    "raw_title": "Portugal v Spain",
+    "home_display": "葡萄牙（Portugal，世界排名第5）",
     "away_display": "西班牙（Spain，世界排名第2）",
-    "title_display": "胜者（Winner） vs 西班牙（Spain，世界排名第2）"
+    "title_display": "葡萄牙（Portugal，世界排名第5） vs 西班牙（Spain，世界排名第2）"
   },
   {
     "match_id": "M094",
