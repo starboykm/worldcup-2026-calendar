@@ -3573,14 +3573,31 @@
     "venue": "BC Place",
     "city": "Vancouver",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Switzerland",
+        "player": "Breel Embolo",
+        "minute": "10'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Breel Embolo"
+      },
+      {
+        "team": "Switzerland",
+        "player": "Dan Ndoye",
+        "minute": "46'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Dan Ndoye"
+      }
+    ],
     "raw_title": "Switzerland v Algeria",
     "home_display": "瑞士（Switzerland，世界排名第19）",
     "away_display": "阿尔及利亚（Algeria，世界排名第28）",
-    "title_display": "瑞士（Switzerland，世界排名第19） vs 阿尔及利亚（Algeria，世界排名第28）"
+    "title_display": "瑞士（Switzerland，世界排名第19） 2-0 阿尔及利亚（Algeria，世界排名第28）"
   },
   {
     "match_id": "M088",
@@ -3765,7 +3782,7 @@
   {
     "match_id": "M096",
     "stage": "Round of 16",
-    "home": "Winner",
+    "home": "Switzerland",
     "away": "Winner",
     "starts_at_beijing": "2026-07-08T04:00:00",
     "venue": "BC Place",
@@ -3775,10 +3792,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner",
-    "home_display": "胜者（Winner）",
+    "raw_title": "Switzerland v Winner",
+    "home_display": "瑞士（Switzerland，世界排名第19）",
     "away_display": "胜者（Winner）",
-    "title_display": "胜者（Winner） vs 胜者（Winner）"
+    "title_display": "瑞士（Switzerland，世界排名第19） vs 胜者（Winner）"
   },
   {
     "match_id": "M097",
