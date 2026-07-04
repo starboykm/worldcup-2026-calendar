@@ -3643,14 +3643,55 @@
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "Argentina",
+        "player": "Lionel Messi",
+        "minute": "29'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Lionel Messi"
+      },
+      {
+        "team": "Argentina",
+        "player": "Lisandro Martínez",
+        "minute": "92'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Lisandro Martínez"
+      },
+      {
+        "team": "Argentina",
+        "player": "Diney",
+        "minute": "111'",
+        "note": "乌龙球",
+        "player_zh": "",
+        "player_display": "Diney"
+      },
+      {
+        "team": "Cape Verde",
+        "player": "Deroy Duarte",
+        "minute": "59'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Deroy Duarte"
+      },
+      {
+        "team": "Cape Verde",
+        "player": "Sidny Lopes Cabral",
+        "minute": "103'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Sidny Lopes Cabral"
+      }
+    ],
     "raw_title": "Argentina v Cape Verde",
     "home_display": "阿根廷（Argentina，世界排名第1）",
     "away_display": "佛得角（Cape Verde，世界排名第67）",
-    "title_display": "阿根廷（Argentina，世界排名第1） vs 佛得角（Cape Verde，世界排名第67）"
+    "title_display": "阿根廷（Argentina，世界排名第1） 3-2 佛得角（Cape Verde，世界排名第67）"
   },
   {
     "match_id": "M087",
@@ -3661,14 +3702,23 @@
     "venue": "Arrowhead Stadium",
     "city": "Kansas City",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Colombia",
+        "player": "Jhon Arias",
+        "minute": "14'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Jhon Arias"
+      }
+    ],
     "raw_title": "Colombia v Ghana",
     "home_display": "哥伦比亚（Colombia，世界排名第13）",
     "away_display": "加纳（Ghana，世界排名第73）",
-    "title_display": "哥伦比亚（Colombia，世界排名第13） vs 加纳（Ghana，世界排名第73）"
+    "title_display": "哥伦比亚（Colombia，世界排名第13） 1-0 加纳（Ghana，世界排名第73）"
   },
   {
     "match_id": "M090",
@@ -3781,7 +3831,7 @@
   {
     "match_id": "M095",
     "stage": "Round of 16",
-    "home": "Winner",
+    "home": "Argentina",
     "away": "Egypt",
     "starts_at_beijing": "2026-07-08T00:00:00",
     "venue": "Mercedes-Benz Stadium",
@@ -3791,16 +3841,16 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Egypt",
-    "home_display": "胜者（Winner）",
+    "raw_title": "Argentina v Egypt",
+    "home_display": "阿根廷（Argentina，世界排名第1）",
     "away_display": "埃及（Egypt，世界排名第29）",
-    "title_display": "胜者（Winner） vs 埃及（Egypt，世界排名第29）"
+    "title_display": "阿根廷（Argentina，世界排名第1） vs 埃及（Egypt，世界排名第29）"
   },
   {
     "match_id": "M096",
     "stage": "Round of 16",
     "home": "Switzerland",
-    "away": "Winner",
+    "away": "Colombia",
     "starts_at_beijing": "2026-07-08T04:00:00",
     "venue": "BC Place",
     "city": "Vancouver",
@@ -3809,10 +3859,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Switzerland v Winner",
+    "raw_title": "Switzerland v Colombia",
     "home_display": "瑞士（Switzerland，世界排名第19）",
-    "away_display": "胜者（Winner）",
-    "title_display": "瑞士（Switzerland，世界排名第19） vs 胜者（Winner）"
+    "away_display": "哥伦比亚（Colombia，世界排名第13）",
+    "title_display": "瑞士（Switzerland，世界排名第19） vs 哥伦比亚（Colombia，世界排名第13）"
   },
   {
     "match_id": "M097",
