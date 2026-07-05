@@ -3772,14 +3772,23 @@
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "France",
+        "player": "Kylian Mbappé",
+        "minute": "70'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
+      }
+    ],
     "raw_title": "Paraguay v France",
     "home_display": "巴拉圭（Paraguay，世界排名第41）",
     "away_display": "法国（France，世界排名第3）",
-    "title_display": "巴拉圭（Paraguay，世界排名第41） vs 法国（France，世界排名第3）"
+    "title_display": "巴拉圭（Paraguay，世界排名第41） 0-1 法国（France，世界排名第3）"
   },
   {
     "match_id": "M091",
@@ -3892,7 +3901,7 @@
   {
     "match_id": "M097",
     "stage": "Quarterfinals",
-    "home": "Winner",
+    "home": "France",
     "away": "Morocco",
     "starts_at_beijing": "2026-07-10T04:00:00",
     "venue": "Gillette Stadium",
@@ -3902,10 +3911,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Morocco",
-    "home_display": "胜者（Winner）",
+    "raw_title": "France v Morocco",
+    "home_display": "法国（France，世界排名第3）",
     "away_display": "摩洛哥（Morocco，世界排名第7）",
-    "title_display": "胜者（Winner） vs 摩洛哥（Morocco，世界排名第7）"
+    "title_display": "法国（France，世界排名第3） vs 摩洛哥（Morocco，世界排名第7）"
   },
   {
     "match_id": "M098",
