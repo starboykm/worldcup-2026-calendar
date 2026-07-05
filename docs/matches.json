@@ -3799,14 +3799,39 @@
     "venue": "MetLife Stadium",
     "city": "East Rutherford",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "Brazil",
+        "player": "Neymar",
+        "minute": "90+10'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Neymar"
+      },
+      {
+        "team": "Norway",
+        "player": "Erling Haaland",
+        "minute": "79'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Erling Haaland"
+      },
+      {
+        "team": "Norway",
+        "player": "Erling Haaland",
+        "minute": "90'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Erling Haaland"
+      }
+    ],
     "raw_title": "Brazil v Norway",
     "home_display": "巴西（Brazil，世界排名第6）",
     "away_display": "挪威（Norway，世界排名第31）",
-    "title_display": "巴西（Brazil，世界排名第6） vs 挪威（Norway，世界排名第31）"
+    "title_display": "巴西（Brazil，世界排名第6） 1-2 挪威（Norway，世界排名第31）"
   },
   {
     "match_id": "M092",
@@ -3937,7 +3962,7 @@
   {
     "match_id": "M099",
     "stage": "Quarterfinals",
-    "home": "Winner",
+    "home": "Norway",
     "away": "Winner",
     "starts_at_beijing": "2026-07-12T05:00:00",
     "venue": "Hard Rock Stadium",
@@ -3947,10 +3972,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner",
-    "home_display": "胜者（Winner）",
+    "raw_title": "Norway v Winner",
+    "home_display": "挪威（Norway，世界排名第31）",
     "away_display": "胜者（Winner）",
-    "title_display": "胜者（Winner） vs 胜者（Winner）"
+    "title_display": "挪威（Norway，世界排名第31） vs 胜者（Winner）"
   },
   {
     "match_id": "M100",
