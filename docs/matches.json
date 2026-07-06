@@ -3838,18 +3838,59 @@
     "stage": "Round of 16",
     "home": "Mexico",
     "away": "England",
-    "starts_at_beijing": "2026-07-06T08:00:00",
+    "starts_at_beijing": "2026-07-06T09:00:00",
     "venue": "Estadio Azteca",
     "city": "Mexico City",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 3,
+    "goals": [
+      {
+        "team": "Mexico",
+        "player": "Julián Quiñones",
+        "minute": "42'",
+        "note": "",
+        "player_zh": "胡利安·基尼奥内斯",
+        "player_display": "胡利安·基尼奥内斯（Julián Quiñones）"
+      },
+      {
+        "team": "Mexico",
+        "player": "Raúl Jiménez",
+        "minute": "69'",
+        "note": "",
+        "player_zh": "劳尔·希门尼斯",
+        "player_display": "劳尔·希门尼斯（Raúl Jiménez）"
+      },
+      {
+        "team": "England",
+        "player": "Jude Bellingham",
+        "minute": "36'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Jude Bellingham"
+      },
+      {
+        "team": "England",
+        "player": "Jude Bellingham",
+        "minute": "38'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Jude Bellingham"
+      },
+      {
+        "team": "England",
+        "player": "Harry Kane",
+        "minute": "60'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Harry Kane"
+      }
+    ],
     "raw_title": "Mexico v England",
     "home_display": "墨西哥（Mexico，世界排名第14）",
     "away_display": "英格兰（England，世界排名第4）",
-    "title_display": "墨西哥（Mexico，世界排名第14） vs 英格兰（England，世界排名第4）"
+    "title_display": "墨西哥（Mexico，世界排名第14） 2-3 英格兰（England，世界排名第4）"
   },
   {
     "match_id": "M093",
@@ -3963,7 +4004,7 @@
     "match_id": "M099",
     "stage": "Quarterfinals",
     "home": "Norway",
-    "away": "Winner",
+    "away": "England",
     "starts_at_beijing": "2026-07-12T05:00:00",
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
@@ -3972,10 +4013,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Norway v Winner",
+    "raw_title": "Norway v England",
     "home_display": "挪威（Norway，世界排名第31）",
-    "away_display": "胜者（Winner）",
-    "title_display": "挪威（Norway，世界排名第31） vs 胜者（Winner）"
+    "away_display": "英格兰（England，世界排名第4）",
+    "title_display": "挪威（Norway，世界排名第31） vs 英格兰（England，世界排名第4）"
   },
   {
     "match_id": "M100",
