@@ -3928,14 +3928,55 @@
     "venue": "Lumen Field",
     "city": "Seattle",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 4,
+    "goals": [
+      {
+        "team": "United States",
+        "player": "Malik Tillman",
+        "minute": "31'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Malik Tillman"
+      },
+      {
+        "team": "Belgium",
+        "player": "Charles De Ketelaere",
+        "minute": "9'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Charles De Ketelaere"
+      },
+      {
+        "team": "Belgium",
+        "player": "Charles De Ketelaere",
+        "minute": "33'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Charles De Ketelaere"
+      },
+      {
+        "team": "Belgium",
+        "player": "Hans Vanaken",
+        "minute": "57'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Hans Vanaken"
+      },
+      {
+        "team": "Belgium",
+        "player": "Romelu Lukaku",
+        "minute": "90+3'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Romelu Lukaku"
+      }
+    ],
     "raw_title": "United States v Belgium",
     "home_display": "美国（United States，世界排名第17）",
     "away_display": "比利时（Belgium，世界排名第9）",
-    "title_display": "美国（United States，世界排名第17） vs 比利时（Belgium，世界排名第9）"
+    "title_display": "美国（United States，世界排名第17） 1-4 比利时（Belgium，世界排名第9）"
   },
   {
     "match_id": "M095",
@@ -3995,7 +4036,7 @@
     "match_id": "M098",
     "stage": "Quarterfinals",
     "home": "Spain",
-    "away": "Winner",
+    "away": "Belgium",
     "starts_at_beijing": "2026-07-11T03:00:00",
     "venue": "SoFi Stadium",
     "city": "Inglewood",
@@ -4004,10 +4045,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Spain v Winner",
+    "raw_title": "Spain v Belgium",
     "home_display": "西班牙（Spain，世界排名第2）",
-    "away_display": "胜者（Winner）",
-    "title_display": "西班牙（Spain，世界排名第2） vs 胜者（Winner）"
+    "away_display": "比利时（Belgium，世界排名第9）",
+    "title_display": "西班牙（Spain，世界排名第2） vs 比利时（Belgium，世界排名第9）"
   },
   {
     "match_id": "M099",
