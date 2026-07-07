@@ -3987,14 +3987,55 @@
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "Argentina",
+        "player": "Cristian Romero",
+        "minute": "79'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Cristian Romero"
+      },
+      {
+        "team": "Argentina",
+        "player": "Lionel Messi",
+        "minute": "83'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Lionel Messi"
+      },
+      {
+        "team": "Argentina",
+        "player": "Enzo Fernández",
+        "minute": "90+2'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Enzo Fernández"
+      },
+      {
+        "team": "Egypt",
+        "player": "Yasser Ibrahim",
+        "minute": "15'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Yasser Ibrahim"
+      },
+      {
+        "team": "Egypt",
+        "player": "Mostafa Ziko",
+        "minute": "67'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Mostafa Ziko"
+      }
+    ],
     "raw_title": "Argentina v Egypt",
     "home_display": "阿根廷（Argentina，世界排名第1）",
     "away_display": "埃及（Egypt，世界排名第29）",
-    "title_display": "阿根廷（Argentina，世界排名第1） vs 埃及（Egypt，世界排名第29）"
+    "title_display": "阿根廷（Argentina，世界排名第1） 3-2 埃及（Egypt，世界排名第29）"
   },
   {
     "match_id": "M096",
@@ -4071,7 +4112,7 @@
   {
     "match_id": "M100",
     "stage": "Quarterfinals",
-    "home": "Winner",
+    "home": "Argentina",
     "away": "Winner",
     "starts_at_beijing": "2026-07-12T09:00:00",
     "venue": "Arrowhead Stadium",
@@ -4081,10 +4122,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner",
-    "home_display": "胜者（Winner）",
+    "raw_title": "Argentina v Winner",
+    "home_display": "阿根廷（Argentina，世界排名第1）",
     "away_display": "胜者（Winner）",
-    "title_display": "胜者（Winner） vs 胜者（Winner）"
+    "title_display": "阿根廷（Argentina，世界排名第1） vs 胜者（Winner）"
   },
   {
     "match_id": "M101",
