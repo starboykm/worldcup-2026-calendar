@@ -4064,14 +4064,31 @@
     "venue": "Gillette Stadium",
     "city": "Foxborough",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "France",
+        "player": "Kylian Mbappé",
+        "minute": "60'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "66'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ousmane Dembélé"
+      }
+    ],
     "raw_title": "France v Morocco",
     "home_display": "法国（France，世界排名第3）",
     "away_display": "摩洛哥（Morocco，世界排名第7）",
-    "title_display": "法国（France，世界排名第3） vs 摩洛哥（Morocco，世界排名第7）"
+    "title_display": "法国（France，世界排名第3） 2-0 摩洛哥（Morocco，世界排名第7）"
   },
   {
     "match_id": "M098",
@@ -4130,7 +4147,7 @@
   {
     "match_id": "M101",
     "stage": "Semifinals",
-    "home": "Winner",
+    "home": "France",
     "away": "Winner",
     "starts_at_beijing": "2026-07-15T03:00:00",
     "venue": "AT&T Stadium",
@@ -4140,10 +4157,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner",
-    "home_display": "胜者（Winner）",
+    "raw_title": "France v Winner",
+    "home_display": "法国（France，世界排名第3）",
     "away_display": "胜者（Winner）",
-    "title_display": "胜者（Winner） vs 胜者（Winner）"
+    "title_display": "法国（France，世界排名第3） vs 胜者（Winner）"
   },
   {
     "match_id": "M102",
