@@ -4099,14 +4099,39 @@
     "venue": "SoFi Stadium",
     "city": "Inglewood",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Fabián Ruiz",
+        "minute": "30'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Fabián Ruiz"
+      },
+      {
+        "team": "Spain",
+        "player": "Mikel Merino",
+        "minute": "88'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Mikel Merino"
+      },
+      {
+        "team": "Belgium",
+        "player": "Charles De Ketelaere",
+        "minute": "41'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Charles De Ketelaere"
+      }
+    ],
     "raw_title": "Spain v Belgium",
     "home_display": "西班牙（Spain，世界排名第2）",
     "away_display": "比利时（Belgium，世界排名第9）",
-    "title_display": "西班牙（Spain，世界排名第2） vs 比利时（Belgium，世界排名第9）"
+    "title_display": "西班牙（Spain，世界排名第2） 2-1 比利时（Belgium，世界排名第9）"
   },
   {
     "match_id": "M099",
@@ -4148,7 +4173,7 @@
     "match_id": "M101",
     "stage": "Semifinals",
     "home": "France",
-    "away": "Winner",
+    "away": "Spain",
     "starts_at_beijing": "2026-07-15T03:00:00",
     "venue": "AT&T Stadium",
     "city": "Arlington",
@@ -4157,10 +4182,10 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "France v Winner",
+    "raw_title": "France v Spain",
     "home_display": "法国（France，世界排名第3）",
-    "away_display": "胜者（Winner）",
-    "title_display": "法国（France，世界排名第3） vs 胜者（Winner）"
+    "away_display": "西班牙（Spain，世界排名第2）",
+    "title_display": "法国（France，世界排名第3） vs 西班牙（Spain，世界排名第2）"
   },
   {
     "match_id": "M102",
