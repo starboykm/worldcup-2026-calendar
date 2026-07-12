@@ -4142,14 +4142,39 @@
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "Norway",
+        "player": "Andreas Schjelderup",
+        "minute": "36'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Andreas Schjelderup"
+      },
+      {
+        "team": "England",
+        "player": "Jude Bellingham",
+        "minute": "45+2'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Jude Bellingham"
+      },
+      {
+        "team": "England",
+        "player": "Jude Bellingham",
+        "minute": "93'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Jude Bellingham"
+      }
+    ],
     "raw_title": "Norway v England",
     "home_display": "挪威（Norway，世界排名第31）",
     "away_display": "英格兰（England，世界排名第4）",
-    "title_display": "挪威（Norway，世界排名第31） vs 英格兰（England，世界排名第4）"
+    "title_display": "挪威（Norway，世界排名第31） 1-2 英格兰（England，世界排名第4）"
   },
   {
     "match_id": "M100",
@@ -4160,14 +4185,47 @@
     "venue": "Arrowhead Stadium",
     "city": "Kansas City",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 1,
+    "goals": [
+      {
+        "team": "Argentina",
+        "player": "Alexis Mac Allister",
+        "minute": "10'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Alexis Mac Allister"
+      },
+      {
+        "team": "Argentina",
+        "player": "Julián Alvarez",
+        "minute": "112'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Julián Alvarez"
+      },
+      {
+        "team": "Argentina",
+        "player": "Lautaro Martínez",
+        "minute": "120+1'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Lautaro Martínez"
+      },
+      {
+        "team": "Switzerland",
+        "player": "Dan Ndoye",
+        "minute": "67'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Dan Ndoye"
+      }
+    ],
     "raw_title": "Argentina v Switzerland",
     "home_display": "阿根廷（Argentina，世界排名第1）",
     "away_display": "瑞士（Switzerland，世界排名第19）",
-    "title_display": "阿根廷（Argentina，世界排名第1） vs 瑞士（Switzerland，世界排名第19）"
+    "title_display": "阿根廷（Argentina，世界排名第1） 3-1 瑞士（Switzerland，世界排名第19）"
   },
   {
     "match_id": "M101",
@@ -4190,8 +4248,8 @@
   {
     "match_id": "M102",
     "stage": "Semifinals",
-    "home": "Winner",
-    "away": "Winner",
+    "home": "England",
+    "away": "Argentina",
     "starts_at_beijing": "2026-07-16T03:00:00",
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
@@ -4200,14 +4258,14 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Winner v Winner",
-    "home_display": "胜者（Winner）",
-    "away_display": "胜者（Winner）",
-    "title_display": "胜者（Winner） vs 胜者（Winner）"
+    "raw_title": "England v Argentina",
+    "home_display": "英格兰（England，世界排名第4）",
+    "away_display": "阿根廷（Argentina，世界排名第1）",
+    "title_display": "英格兰（England，世界排名第4） vs 阿根廷（Argentina，世界排名第1）"
   },
   {
     "match_id": "M103",
-    "stage": "Bronze final",
+    "stage": "Match for third place",
     "home": "Loser",
     "away": "Loser",
     "starts_at_beijing": "2026-07-19T05:00:00",
