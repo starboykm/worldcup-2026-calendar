@@ -4271,20 +4271,45 @@
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 2,
+    "goals": [
+      {
+        "team": "England",
+        "player": "Anthony Gordon",
+        "minute": "55'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Anthony Gordon"
+      },
+      {
+        "team": "Argentina",
+        "player": "Enzo Fernández",
+        "minute": "85'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Enzo Fernández"
+      },
+      {
+        "team": "Argentina",
+        "player": "Lautaro Martínez",
+        "minute": "90+2'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Lautaro Martínez"
+      }
+    ],
     "raw_title": "England v Argentina",
     "home_display": "英格兰（England，世界排名第4）",
     "away_display": "阿根廷（Argentina，世界排名第1）",
-    "title_display": "英格兰（England，世界排名第4） vs 阿根廷（Argentina，世界排名第1）"
+    "title_display": "英格兰（England，世界排名第4） 1-2 阿根廷（Argentina，世界排名第1）"
   },
   {
     "match_id": "M103",
     "stage": "Match for third place",
     "home": "France",
-    "away": "Loser",
+    "away": "England",
     "starts_at_beijing": "2026-07-19T05:00:00",
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
@@ -4293,16 +4318,16 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "France v Loser",
+    "raw_title": "France v England",
     "home_display": "法国（France，世界排名第3）",
-    "away_display": "负者（Loser）",
-    "title_display": "法国（France，世界排名第3） vs 负者（Loser）"
+    "away_display": "英格兰（England，世界排名第4）",
+    "title_display": "法国（France，世界排名第3） vs 英格兰（England，世界排名第4）"
   },
   {
     "match_id": "M104",
     "stage": "Final",
     "home": "Spain",
-    "away": "Winner",
+    "away": "Argentina",
     "starts_at_beijing": "2026-07-20T03:00:00",
     "venue": "MetLife Stadium",
     "city": "East Rutherford",
@@ -4311,9 +4336,9 @@
     "home_score": null,
     "away_score": null,
     "goals": [],
-    "raw_title": "Spain v Winner",
+    "raw_title": "Spain v Argentina",
     "home_display": "西班牙（Spain，世界排名第2）",
-    "away_display": "胜者（Winner）",
-    "title_display": "西班牙（Spain，世界排名第2） vs 胜者（Winner）"
+    "away_display": "阿根廷（Argentina，世界排名第1）",
+    "title_display": "西班牙（Spain，世界排名第2） vs 阿根廷（Argentina，世界排名第1）"
   }
 ]
