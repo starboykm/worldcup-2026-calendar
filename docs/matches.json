@@ -4314,14 +4314,95 @@
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 4,
+    "away_score": 6,
+    "goals": [
+      {
+        "team": "France",
+        "player": "Kylian Mbappé",
+        "minute": "48'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
+      },
+      {
+        "team": "France",
+        "player": "Kylian Mbappé",
+        "minute": "66'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Kylian Mbappé"
+      },
+      {
+        "team": "France",
+        "player": "Bradley Barcola",
+        "minute": "54'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Bradley Barcola"
+      },
+      {
+        "team": "France",
+        "player": "Ousmane Dembélé",
+        "minute": "90+6'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ousmane Dembélé"
+      },
+      {
+        "team": "England",
+        "player": "Declan Rice",
+        "minute": "3'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Declan Rice"
+      },
+      {
+        "team": "England",
+        "player": "Ezri Konsa",
+        "minute": "18'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ezri Konsa"
+      },
+      {
+        "team": "England",
+        "player": "Bukayo Saka",
+        "minute": "37'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Bukayo Saka"
+      },
+      {
+        "team": "England",
+        "player": "Bukayo Saka",
+        "minute": "45+1'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Bukayo Saka"
+      },
+      {
+        "team": "England",
+        "player": "Bukayo Saka",
+        "minute": "87'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Bukayo Saka"
+      },
+      {
+        "team": "England",
+        "player": "Jude Bellingham",
+        "minute": "90+8'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Jude Bellingham"
+      }
+    ],
     "raw_title": "France v England",
     "home_display": "法国（France，世界排名第3）",
     "away_display": "英格兰（England，世界排名第4）",
-    "title_display": "法国（France，世界排名第3） vs 英格兰（England，世界排名第4）"
+    "title_display": "法国（France，世界排名第3） 4-6 英格兰（England，世界排名第4）"
   },
   {
     "match_id": "M104",
