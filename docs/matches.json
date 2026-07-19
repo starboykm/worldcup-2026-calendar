@@ -4413,13 +4413,22 @@
     "venue": "MetLife Stadium",
     "city": "East Rutherford",
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "goals": [],
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 0,
+    "goals": [
+      {
+        "team": "Spain",
+        "player": "Ferran Torres",
+        "minute": "106'",
+        "note": "",
+        "player_zh": "",
+        "player_display": "Ferran Torres"
+      }
+    ],
     "raw_title": "Spain v Argentina",
     "home_display": "西班牙（Spain，世界排名第2）",
     "away_display": "阿根廷（Argentina，世界排名第1）",
-    "title_display": "西班牙（Spain，世界排名第2） vs 阿根廷（Argentina，世界排名第1）"
+    "title_display": "西班牙（Spain，世界排名第2） 1-0 阿根廷（Argentina，世界排名第1）"
   }
 ]
